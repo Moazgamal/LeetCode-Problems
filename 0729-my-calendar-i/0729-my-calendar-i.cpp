@@ -4,7 +4,7 @@ vector<pair<int,int>> v;
     MyCalendar() {
         
     }
-    int BS(int value, vector<pair<int,int>> &v)
+    int BS(int value)
     {
         int start = 0; int end= v.size()-1;
         int pos = -1;int mid = -1;
@@ -23,13 +23,25 @@ vector<pair<int,int>> v;
         }
         return pos;
     }
+    void shift_right(int indx)
+    {
+        pair<int,int> temp = v[indx];
+        for(int i=indx+1; i<= v.size()-1; i++)
+        {
+            pair<int,int> temp2= v[i];
+            v[i]=temp;
+            temp=temp2;
+            
+        }
+        v.push_back(temp);
+    }
     bool book(int start, int end) {
         if(v.size()==0)
         {
             v.push_back({start,end});
             return true;
         }
-        int indx = BS(start, v);
+        int indx = BS(start);
         if(indx == -1)
         {
             int sz = v.size()-1;
@@ -49,8 +61,8 @@ vector<pair<int,int>> v;
                 return false;
             }
         }
-        v.push_back({start,end});
-        sort(v.begin(), v.end());
+        shift_right(indx);
+        v[indx]={start,end};
         return true;
         
 
