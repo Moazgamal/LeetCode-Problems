@@ -5,6 +5,33 @@ class Solution {
             return true;
         return false;
     }
+    void no_of_validations(int &ans,unordered_map<char,int>&mp, int &j,int &k,
+     int &vows, int &cons, string &word)
+    {
+       
+                unordered_map<char,int> mp2 = mp;
+                int _j=j;
+                cons =k;
+                vows = 5;
+                while(cons ==k && vows==5)
+                {
+                    ans++;
+                    if(isvowel(word[j]))
+                    {
+                        mp[word[j]]--;
+                        if(mp[word[j]] ==0)
+                            vows--;
+                    }
+                    else
+                        cons--;
+                    j++;
+                }
+                vows=5;
+                cons = k;
+                mp=mp2;
+                j=_j;
+            
+    }
 public:
     int countOfSubstrings(string word, int k) {
         int cons= 0;
@@ -26,30 +53,7 @@ public:
                 continue;
             
             if(cons == k && vows==5)
-            {
-                unordered_map<char,int> mp2 = mp;
-                int _vows =5;
-                int _cons=k;
-                int _j=j;
-                while(cons ==k && vows==5)
-                {
-                    ans++;
-                    cout<<j<<"xxxxxxj\n";
-                    if(isvowel(word[j]))
-                    {
-                        mp[word[j]]--;
-                        if(mp[word[j]] ==0)
-                            vows--;
-                    }
-                    else
-                        cons--;
-                    j++;
-                }
-                vows=5;
-                cons = k;
-                mp=mp2;
-                j=_j;
-            }
+                no_of_validations(ans, mp, j, k, vows, cons, word);
             else
             {
                 while( cons >k)
@@ -67,33 +71,9 @@ public:
                     
                     j++;
                 }
-                if(cons == k && vows==5)
-            {
-                unordered_map<char,int> mp2 = mp;
-                int _vows =5;
-                int _cons=k;
-                int _j=j;
-                while(cons ==k && vows==5)
-                {
-                    ans++;
-                    cout<<j<<"xxxxxxj\n";
-                    if(isvowel(word[j]))
-                    {
-                        mp[word[j]]--;
-                        if(mp[word[j]] ==0)
-                            vows--;
-                    }
-                    else
-                        cons--;
-                    j++;
-                }
-                vows=5;
-                cons = k;
-                mp=mp2;
-                j=_j;
-            }
-               
-               
+                if(vows==5)
+                    no_of_validations(ans,mp,j, k, vows, cons, word);
+            
             }
         }return ans;
         
