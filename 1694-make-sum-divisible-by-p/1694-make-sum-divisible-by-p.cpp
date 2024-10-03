@@ -1,37 +1,38 @@
 class Solution {
 public:
     int minSubarray(vector<int>& nums, int p) {
-        long long sum=0; 
-        for(long long i = 0; i< nums.size(); i++)
-        {
-            sum+= nums[i];
+        long long totalSum = 0;  // Use long long to avoid overflow
+        for (int num : nums) {
+            totalSum += num;
         }
-        long long f = sum%p;
-        
+        int remainder = totalSum % p;
 
-        if(f==0)
+        // If the total sum is already divisible by p, return 0
+        if (remainder == 0) {
             return 0;
-        long long ans = INT_MAX;
-        long long prefix = 0;
-        unordered_map<long long,long long> mp;
-        for(long long i = 0; i< nums.size(); i++)
-        {
-            prefix+=nums[i];
-            prefix%=p;
-            if(prefix==f)
-            {
-                ans = min(ans, i+1);
-            }
-            long long no= (prefix -f+p)%p;
-            if(mp.count(no)>0)
-            {
-                ans= min(ans, i-mp[no]);
-            }
-            mp[prefix] = i ;
         }
-        if(ans >= INT_MAX || ans == nums.size())
-            return -1;
-        return ans;
-        
+
+        return findSmallestSubarray(nums, p, remainder);
+    }
+
+private:
+    int findSmallestSubarray(vector<int>& nums, int p, int remainder) {
+        long long prefixSum = 0;  // Use long long to avoid overflow
+        int minLength = nums.size();
+        unordered_map<int, int> prefixMap;
+        prefixMap[0] = -1;  // Initial condition for no subarray
+
+        for (int i = 0; i < nums.size(); i++) {
+            prefixSum += nums[i];
+            int targetRemainder = (prefixSum % p - remainder + p) % p;
+
+            if (prefixMap.find(targetRemainder) != prefixMap.end()) {
+                minLength = min(minLength, i - prefixMap[targetRemainder]);
+            }
+
+            prefixMap[prefixSum % p] = i;
+        }
+
+        return minLength < nums.size() ? minLength : -1;
     }
 };
