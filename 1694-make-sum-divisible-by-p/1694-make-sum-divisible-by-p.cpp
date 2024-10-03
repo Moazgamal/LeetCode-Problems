@@ -24,13 +24,13 @@ private:
 
         for (int i = 0; i < nums.size(); i++) {
             prefixSum += nums[i];
-            int targetRemainder = (prefixSum % p - remainder + p) % p;
+            int targetRemainder = (prefixSum % p - remainder+p )%p ;
 
             if (prefixMap.find(targetRemainder) != prefixMap.end()) {
                 minLength = min(minLength, i - prefixMap[targetRemainder]);
             }
 
-            prefixMap[prefixSum % p] = i;
+            prefixMap[prefixSum%p ] = i;
         }
 
         return minLength < nums.size() ? minLength : -1;
