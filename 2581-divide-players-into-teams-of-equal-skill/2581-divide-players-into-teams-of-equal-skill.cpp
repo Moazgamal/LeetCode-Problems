@@ -4,16 +4,15 @@ public:
         sort(skill.begin(), skill.end());
         int sum=skill[0]+skill[skill.size()-1];
         int sz = skill.size()-1;
+        long long ans = skill[0]*skill[skill.size()-1];
         for(int i = 1; i< skill.size()/2; i++)
         {
             if(skill[i] + skill[sz-i] != sum)
                 return -1;
+            else
+                ans+=(skill[i]*skill[sz-i]);
         }
-        long long ans =0;
-        for(int i  =0; i< skill.size()/2; i++)
-        {
-            ans+=(skill[i]*skill[sz-i]);
-        }return ans;
+        return ans;
         
     }
 };
