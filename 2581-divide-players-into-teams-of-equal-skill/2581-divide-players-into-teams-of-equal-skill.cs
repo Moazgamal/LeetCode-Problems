@@ -4,17 +4,15 @@ public class Solution {
         Array.Sort(skill);
         int sz = skill.Length-1;
         int sum=skill[0]+skill[sz];
-        
+        long ans =skill[0]*skill[sz];
         for(int i = 1; i< skill.Length/2; i++)
         {
             if(skill[i] + skill[sz-i] != sum)
                 return -1;
+            else
+                ans+=(skill[i]*skill[sz-i]);
         }
-        long ans =0;
-        for(int i  =0; i< skill.Length/2; i++)
-        {
-            ans+=(skill[i]*skill[sz-i]);
-        }return ans;
+        return ans;
         
     }
 }
