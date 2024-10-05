@@ -42,8 +42,7 @@ public class Solution {
                             mp2.Add(s2[j],1);
                         j++;
                     }
-                    if(mp2.ContainsKey(s2[j]))
-                        mp2.Remove(s2[j]);
+                    
                     
                     j++;
                 }
