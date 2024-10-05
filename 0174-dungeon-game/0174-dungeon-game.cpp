@@ -27,10 +27,8 @@ class Solution {
 public:
     int calculateMinimumHP(vector<vector<int>>& dungeon) {
         vector<vector<int>> dp(dungeon.size(), vector<int>(dungeon[0].size(), -1));
-        fn(0,0, dungeon, dp);
-        if(dp[0][0]<=0)
-            return 1;
-        return dp[0][0]+1;
+        return fn(0,0, dungeon, dp)<=0 ? 1:dp[0][0]+1;
+        
         
     }
 };
