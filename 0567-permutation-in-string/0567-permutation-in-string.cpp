@@ -34,8 +34,8 @@ public:
                         j++;
                     }
 
-                    if(++mp2[s2[j]]==0)
-                        mp2.erase(s2[j]);
+                    
+                    mp2.erase(s2[j]);
                     j++;
                 }
 
