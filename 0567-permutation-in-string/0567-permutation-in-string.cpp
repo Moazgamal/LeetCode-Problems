@@ -27,7 +27,7 @@ public:
                 }
                 else
                 {
-                    mp2[s2[i]]--;
+                    
                     while(j<i && s2[j]!=s2[i])
                     {
                         ++mp2[s2[j]];
