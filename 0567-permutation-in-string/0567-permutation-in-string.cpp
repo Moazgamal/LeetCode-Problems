@@ -27,14 +27,11 @@ public:
                 }
                 else
                 {
-                    
                     while(j<i && s2[j]!=s2[i])
                     {
                         ++mp2[s2[j]];
                         j++;
                     }
-
-                    
                     mp2.erase(s2[j]);
                     j++;
                 }
