@@ -13,7 +13,6 @@ class Solution {
 public:
     vector<int> remainingMethods(int n, int k, vector<vector<int>>& invocations) {
         vector<vector<int>> graph1(n);        
-        vector<vector<int>> graph2(n);
 
         for(int i = 0; i< invocations.size(); i++)
         {
@@ -21,7 +20,6 @@ public:
             int to = invocations[i][1];
             graph1[from].push_back(to);
 
-            graph2[to].push_back(from);            
 
         }
         unordered_map<int,int>mp;
