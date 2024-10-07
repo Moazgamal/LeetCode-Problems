@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0567-permutation-in-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0567-permutation-in-string) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii) |
 | [3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1497-design-a-stack-with-increment-operation) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Math
 |  |
 | ------- |
@@ -120,4 +122,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0174-dungeon-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0174-dungeon-game) |
+## Simulation
+|  |
+| ------- |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2800-minimum-string-length-after-removing-substrings) |
 <!---LeetCode Topics End-->
