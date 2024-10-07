@@ -5,10 +5,10 @@ public:
         for(int op = ceil(log2(k)); op>=1; op--)
         {
             cout<<op<<" ";
-            if(k > ((1LL << op)/2))
+            if(k > ((1ll << op)/2))
             {
                 conv+= (operations[op-1]);
-                k -= ((1LL << op)/2);
+                k -= ((1ll<< op)/2);
             }
         }
         conv=conv%26;
