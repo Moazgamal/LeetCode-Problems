@@ -6,7 +6,6 @@ public:
         int prevno=0;
         for(int i = 0; i< s.size(); i++)
         {
-            
             if(s[i]==']')
             {
                 if(prevno==0)
