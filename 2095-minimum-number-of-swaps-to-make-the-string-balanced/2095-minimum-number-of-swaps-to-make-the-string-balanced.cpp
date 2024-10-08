@@ -30,7 +30,7 @@ public:
                 if(i<=j)
                     prevno++;
                 else
-                    prevno--;
+                    break;
             }
         }
         return swaps;
