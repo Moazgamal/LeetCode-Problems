@@ -1,6 +1,6 @@
 public class Solution {
     public int MinSwaps(string s) {
-        int m = s.Count();
+        int m = s.Length;
         int  j = m-1;
         int swaps= 0;
         int prevno=0;
