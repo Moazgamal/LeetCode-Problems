@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0214-shortest-palindrome) |
 | [0567-permutation-in-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0567-permutation-in-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
@@ -145,4 +146,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+## Rolling Hash
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0214-shortest-palindrome) |
+## String Matching
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0214-shortest-palindrome) |
+## Hash Function
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0214-shortest-palindrome) |
 <!---LeetCode Topics End-->
