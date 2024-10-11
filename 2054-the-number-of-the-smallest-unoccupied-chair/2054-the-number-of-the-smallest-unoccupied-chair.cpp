@@ -11,7 +11,7 @@ public:
            mp[times[i][0]]= times[i][1];
            
         }
-        int curavball = 0;
+        int curavchair = 0;
         priority_queue<int, vector<int>, greater<int>> pq;
         for(int i = 1; i<= targetindex; i++)
         {
@@ -35,16 +35,16 @@ public:
                 }
                 else
                 {
-                     int end = mp[i];
-                    mp2[end].push_back(curavball);
-                    curavball++;
                     if(i== targetindex)
-                        return curavball-1;
+                        return curavchair;
+                    int end = mp[i];
+                    mp2[end].push_back(curavchair);
+                    curavchair++;
+                    
                 }
             }
             
         }
-        cout<<"**********"<<"\n";
         return 0;
         
 
