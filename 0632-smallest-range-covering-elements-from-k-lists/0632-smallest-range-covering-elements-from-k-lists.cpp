@@ -22,17 +22,6 @@ public:
                 count++;
             if(count == nums.size())
             {
-                if(ans == v[end].first - v[j].first)
-                {
-                    if(minval > v[j].first)
-                        minval  = v[j].first;
-                }
-                else if(ans > v[end].first - v[j].first)
-                {
-                    maxval = v[end].first;
-                    minval = v[j].first;
-                    ans = maxval-minval;
-                }
                 while(j<=end && count == nums.size())
                 {
                     if(ans == v[end].first - v[j].first)
