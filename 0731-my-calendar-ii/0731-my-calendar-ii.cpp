@@ -19,10 +19,7 @@ public:
             {
                 v[start]--;
                 v[end]++;
-                if(v[start]==0)
-                    v.erase(start);
-                if(v[end]==0)
-                    v.erase(end);
+                
                 return false;
             }
             
