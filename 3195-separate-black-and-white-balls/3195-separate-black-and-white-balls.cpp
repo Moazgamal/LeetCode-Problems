@@ -13,8 +13,7 @@ public:
             {
                 if(prevchar == '0')
                     ans+=(sum);
-                else
-                    prevchar= '1';
+                
             }
             else
             {
