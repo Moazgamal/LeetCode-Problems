@@ -1,8 +1,6 @@
 class Solution {
 public:
     int maximumSwap(int num) {
-
-
         string s = to_string(num);
         vector<int>v (s.size(),-1);
         int maxi=s.size()-1;
