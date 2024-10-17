@@ -4,7 +4,7 @@ public:
 
 
         string s = to_string(num);
-        vector<int>v (s.size(),0);
+        vector<int>v (s.size(),-1);
         int maxi=s.size()-1;
         for(int i = s.size()-2; i>=0; i--)
         {
@@ -19,7 +19,7 @@ public:
         }
         for(int i = 0; i< v.size(); i++)
         {
-            if(v[i] !=0)
+            if(v[i] !=-1)
             {
                 swap(s[i], s[v[i]]);
                 break;
