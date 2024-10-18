@@ -8,16 +8,10 @@ class Solution {
             return ;
         }
         
-        if(prev == 0)
-        {
-            fn(idx+1, nums[idx], nums,  maxi,ans);
-           fn(idx+1, prev, nums,maxi,ans);
-        }
-        else
-        {
+        
            fn(idx+1, prev, nums, maxi,ans);
           fn(idx+1, prev|nums[idx],nums, maxi,ans);
-        }
+        
         
     }
 public:
