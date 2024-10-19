@@ -32,7 +32,7 @@ public:
                     ans = max(ans, prefixsum[i]-prefixsum[mp[no2]-1]);
                 
             }
-            if(mp.count(nums[i])==0 )
+            if(mp.count(nums[i])==0  )
             {
                 mp[nums[i]]=i;
             }
