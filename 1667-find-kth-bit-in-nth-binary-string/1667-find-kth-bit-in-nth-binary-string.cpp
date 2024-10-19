@@ -9,7 +9,7 @@ public:
             if(k> m/2+1)
             {
                 inversions++;
-                k = m+1-k;
+                k = m-k+1;
             }
             n--;
         }
