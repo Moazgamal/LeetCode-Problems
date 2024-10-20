@@ -20,21 +20,12 @@ public:
             if(nums[i] > mini)
             {
                 int x = divisor(nums[i]);
-                if(x == nums[i] || x==1)
-                    {
-                        return -1;
-                    }
-                else if(nums[i]/x > nums[i+1])
+                if(x == nums[i] || x==1 || nums[i]/x > nums[i+1])
                     return -1;
-                nums[i] = nums[i]/x;
-                if(nums[i] < mini)
-                    mini = nums[i];
+                nums[i] /= x;
                 ans++;
             }
-            else if(nums[i] < mini)
-            {
-                mini = nums[i];
-            }
+            mini = min(mini, nums[i]);
         }
         
         return  ans;
