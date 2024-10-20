@@ -45,8 +45,7 @@ public:
                 }
                 if(c == '!')
                     ans = !ans;
-                if(st2.top() == '(')
-                    st2.pop();
+                st2.pop();
                 if(ans == false)
                     st2.push('f');
                 else
