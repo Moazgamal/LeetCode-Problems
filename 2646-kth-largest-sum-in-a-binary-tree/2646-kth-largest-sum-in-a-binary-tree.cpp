@@ -17,9 +17,9 @@ public:
         queue<TreeNode*> q;
         q.push(root);
         vector<long long>sums;
-        for(int level =1, sz= q.size(); !q.empty(); sz = q.size(), level++)
+        long long sum = 0;
+        for(int sz= q.size(); !q.empty(); sz = q.size())
         {
-            long long sum = 0;
             while(sz--)
             {
                 TreeNode* cur = q.front();
@@ -31,6 +31,7 @@ public:
                 sum+=cur->val;
             }
             sums.push_back(sum);
+            sum=0;
         }
         if(sums.size()<k)
             return -1;
