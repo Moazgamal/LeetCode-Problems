@@ -25,31 +25,22 @@ public:
                 if(level == 1)
                 {
                     p.first->val = 0;
+                    int x = p.first->right ? p.first->right->val   :0;
+                    int y = p.first->left ? p.first->left->val  :0;
                     if(p.first->right)
-                        q.push({p.first->right,0});
-                    if(p.first->left)
-                        q.push({p.first->left,0});
-                    continue;
-                }
-                else if(level == 2)
-                {
-                    p.first->val = 0; 
-                    if(p.first->right)
-                    {
-                        int x = p.first->left ? p.first->left->val : 0;
-                        q.push({p.first->right,x});
-                        sum2+=p.first->right->val;
-                    }
+                        {
+                            q.push({p.first->right,y});
+                            sum2+=p.first->right->val;
+                        }
                     if(p.first->left)
                         {
-                            int x = p.first->right ? p.first->right->val : 0;
-                            q.push({p.first->left,x} );
+                            q.push({p.first->left,x});
                             sum2+=p.first->left->val;
                         }
                 }
                 else
                 {
-                    p.first->val = abs(sum1-p.first->val-p.second);
+                    p.first->val = sum1-p.first->val-p.second;
                     if(p.first->right)
                     {
                         int x = p.first->left ? p.first->left->val : 0;
