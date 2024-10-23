@@ -16,23 +16,15 @@ class Node
 };
 Node* head = new Node(-1);
 Node* tail = new Node(INT_MAX);
-        
-
 unordered_map<string,Node*>mp;
     AllOne() {
         
-        head->val = -1; tail->val = INT_MAX;
-        cout<<head<<" "<<tail<<" \n";
-        cout<<head->val<<" "<<tail->val<<" \n";
         head->next =tail;
         tail->prev = head;
-        
     }
     
-          
     void add_node(Node* &prev, string key, int freq)
     {
-        
        if(freq > prev->val)
        {
             if(freq == prev->next->val)
@@ -53,13 +45,9 @@ unordered_map<string,Node*>mp;
        }
        else
        {
-            
-                prev->st.insert(key);
-                mp[key]=prev;
-            
+            prev->st.insert(key);
+            mp[key]=prev;
        }
-                
-       
     }       
     void delete_next(Node* &prev)
     {
@@ -122,19 +110,13 @@ unordered_map<string,Node*>mp;
         if(tail->prev == head)
             return "";
         return *(tail->prev->st.begin());
-        
-        
     }
     
     string getMinKey() {
         if(head->next == tail)
-            {
-                
-                return "";
-            }
+            return "";
+            
         return *(head->next->st.begin());
-        
-        
     }
 };
 
