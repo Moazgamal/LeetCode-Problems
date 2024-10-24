@@ -10,7 +10,7 @@
  * };
  */
 class Solution {
-    bool fn(TreeNode* root1, TreeNode* root2)
+    bool fn(TreeNode* &root1, TreeNode* &root2)
     {
         if(!root1 && !root2)
             return true;
