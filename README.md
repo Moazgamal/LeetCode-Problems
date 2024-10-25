@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1080-camelcase-matching](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1080-camelcase-matching) |
 | [1197-parsing-a-boolean-expression](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1197-parsing-a-boolean-expression) |
 | [1304-longest-happy-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1304-longest-happy-string) |
+| [1508-longest-happy-prefix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1508-longest-happy-prefix) |
 | [1524-string-matching-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1524-string-matching-in-an-array) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1667-find-kth-bit-in-nth-binary-string) |
@@ -229,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0214-shortest-palindrome) |
+| [1508-longest-happy-prefix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1508-longest-happy-prefix) |
 | [3290-number-of-subarrays-that-match-a-pattern-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3290-number-of-subarrays-that-match-a-pattern-ii) |
 ## String Matching
 |  |
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0686-repeated-string-match](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0686-repeated-string-match) |
 | [0812-rotate-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0812-rotate-string) |
 | [1080-camelcase-matching](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1080-camelcase-matching) |
+| [1508-longest-happy-prefix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1508-longest-happy-prefix) |
 | [1524-string-matching-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1524-string-matching-in-an-array) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1764-maximum-repeating-substring](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1764-maximum-repeating-substring) |
@@ -247,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0214-shortest-palindrome) |
+| [1508-longest-happy-prefix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1508-longest-happy-prefix) |
 | [3290-number-of-subarrays-that-match-a-pattern-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3290-number-of-subarrays-that-match-a-pattern-ii) |
 ## Monotonic Stack
 |  |
