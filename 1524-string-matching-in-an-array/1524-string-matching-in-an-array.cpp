@@ -30,13 +30,7 @@ class Solution {
             if(k==pat.size())
                 return true;
         }
-        if(k == pat.size())
-        {
-            cout<<pat<<" \n";
-            return true;
-        }
-            
-
+        
         return false;
     }
 public:
