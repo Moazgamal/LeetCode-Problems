@@ -45,7 +45,7 @@ public:
     // Iterate over each element in array a
     for (int i = 0; i < aa.size(); ++i) {
         // Binary search to find the range of elements in array b satisfying the condition
-        int low = lower_bound(bb.begin(), bb.end(), aa[i] - k) - bb.begin();
+        int low = upper_bound(bb.begin(), bb.end(), aa[i] - k-1) - bb.begin();
         int high = upper_bound(bb.begin(), bb.end(), aa[i] + k) - bb.begin();
 
         if(low != bb.size() && abs(bb[low]-aa[i])<=k)
