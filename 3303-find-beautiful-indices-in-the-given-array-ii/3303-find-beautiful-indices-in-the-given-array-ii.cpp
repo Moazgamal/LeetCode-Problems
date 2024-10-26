@@ -48,11 +48,19 @@ public:
         int low = lower_bound(bb.begin(), bb.end(), aa[i] - k) - bb.begin();
         int high = upper_bound(bb.begin(), bb.end(), aa[i] + k) - bb.begin();
 
-        // Check if there are elements in the range
-        if (low < high) {
+        if(low != bb.size() && abs(bb[low]-aa[i])<=k)
+        {
             result.push_back(aa[i]);
+            continue;
         }
-    }
+        if(high!= bb.size() && abs(bb[high]-aa[i])<=k)
+        {
+            result.push_back(aa[i]);
+            continue;
+        }
+       
+        }
+    
 
     return result;
         
