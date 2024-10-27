@@ -32,7 +32,6 @@ public:
 		{
 			if(matrix[r][c] == 1)
 			{
-                
 				if(dp[r][c] != -1)
 					ans+=dp[r][c];
                 else
