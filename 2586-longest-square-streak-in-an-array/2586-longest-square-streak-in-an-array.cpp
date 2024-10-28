@@ -14,10 +14,11 @@ public:
         {
             long long first = x.first;
             int cnt = 1;
-            while(mp.count(first*first) >0)
+            mp[first]=-1;
+            while(mp.count(first*first) >0 && mp[first*first]!=-1)
             {
                 cnt++;
-                mp.erase(first*first);
+                mp[first*first]=-1;
                 first = first*first;
             }
             ans = max(ans, cnt);
