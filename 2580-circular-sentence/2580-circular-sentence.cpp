@@ -1,10 +1,9 @@
 class Solution {
 public:
     bool isCircularSentence(string sentence) {
-
+        int j =0; 
         for(int i = 0; i< sentence.size() ; i++)
         {
-            int j = i;
             while(j< sentence.size() && sentence[j] != ' ')
             {
                 j++;
@@ -16,7 +15,7 @@ public:
             }
             else if(sentence[j-1] != sentence[j+1])
                 return false;
-            i=j;
+            i=j; j++;
 
         }
         return true;
