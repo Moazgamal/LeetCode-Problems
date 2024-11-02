@@ -9,7 +9,8 @@ class Solution {
         if(target<0)
             return 0;
         
-        
+        if(idx>=types.size())
+            return 0;
         auto &ret = dp[idx][target];
         if(ret != -1)   
             return ret;
