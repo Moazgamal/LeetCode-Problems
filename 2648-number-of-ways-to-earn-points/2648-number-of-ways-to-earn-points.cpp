@@ -20,20 +20,20 @@ class Solution {
         
         long long ans = 0; 
         int cnt =0;
-        for(int i = idx; i< types.size(); i++)
-        {
+       
             
-            int x = types[i][0];
+            int x = types[idx][0];
             while(x--)
             {
                 cnt++;
-                if(target-types[i][1]*cnt<0)
+                if(target-types[idx][1]*cnt<0)
                     break;
-                long long temp =  fn(i+1, types, target-types[i][1]*cnt, dp);
+                long long temp =  fn(idx+1, types, target-types[idx][1]*cnt, dp);
                 ans =  (ans+temp)%MOD;
             }
             cnt=0;
-        }
+        long long temp2 = fn(idx+1, types, target, dp);
+        ans = (ans+temp2)%MOD;
         return ret = (int)ans;
 
         
