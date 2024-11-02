@@ -21,6 +21,7 @@ class Solution {
         int cnt =0;
         for(int i = idx; i< types.size(); i++)
         {
+            
             int x = types[i][0];
             while(x--)
             {
