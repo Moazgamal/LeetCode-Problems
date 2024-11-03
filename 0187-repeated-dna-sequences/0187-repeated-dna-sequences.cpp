@@ -40,19 +40,18 @@ public:
 		}
 		subCode = shiftLeft(subCode);
 		subCode = addAt(subCode, 0, s[i]);
-		if(i>=9)
-        {
+		
             if(mp.count(subCode)>0)
         {
             if(mp[subCode]!=-1)
             {
-                result.push_back(s.substr(i-10+1,10));
+                result.push_back(s.substr(i-9,10));
                 mp[subCode]=-1;
             }
         }
         else
             mp[subCode]++;
-        }
+        
     }
     return result;
     }
