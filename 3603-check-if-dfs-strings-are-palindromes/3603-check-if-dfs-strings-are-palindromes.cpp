@@ -43,7 +43,7 @@ public:
         for(int i=0;i<n;i++) sort(g[i].begin(),g[i].end());
         vector<long long> pow(n+1,1);
         for(int i=1;i<=n;i++){
-            pow[i] = (pow[i-1]*53)%1000000009;
+            pow[i] = (pow[i-1]*11)%1000000009;
         }
         vector<bool> ans(n,1);
         dfs(hash,1000000009, g, 0, s,pow);
