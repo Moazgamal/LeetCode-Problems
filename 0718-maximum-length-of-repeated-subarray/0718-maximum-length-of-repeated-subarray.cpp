@@ -1,6 +1,6 @@
 #define ll long long
 #define MOD 1000000007ll
-#define BASE1 257ll
+#define BASE1 13ll
 #define BASE2 31ll
 
 ll fastpow(ll num, ll p)
