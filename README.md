@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
 | [3265-maximum-good-subarray-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3265-maximum-good-subarray-sum) |
 | [3290-number-of-subarrays-that-match-a-pattern-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3290-number-of-subarrays-that-match-a-pattern-ii) |
+| [3291-find-if-array-can-be-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3291-find-if-array-can-be-sorted) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2586-longest-square-streak-in-an-array) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
+| [3291-find-if-array-can-be-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3291-find-if-array-can-be-sorted) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 ## Heap (Priority Queue)
 |  |
@@ -251,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0187-repeated-dna-sequences) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [3291-find-if-array-can-be-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3291-find-if-array-can-be-sorted) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Recursion
 |  |
