@@ -7,7 +7,7 @@ public:
             int cnt = 0; 
             for(int j =0; j< candidates.size(); j++)
             {
-                if(((candidates[j])&(1<<i)) !=0)
+                if(((candidates[j])&(1<<i)) >0)
                     cnt++;
             }
             maxi = max(cnt, maxi);
