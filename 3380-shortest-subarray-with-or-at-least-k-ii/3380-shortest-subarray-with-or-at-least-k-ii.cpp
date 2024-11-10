@@ -7,7 +7,7 @@ public:
         int s = 0;
         for(int i=0; i< nums.size(); i++)
         {
-            if(nums[i] >=k)
+            if(nums[i] >=k || ans==1)
                 return 1;
 
             for(int j = 0; j<32; j++)
@@ -25,7 +25,7 @@ public:
             }
             if(prefixsum >=k)
             {
-                while(prefixsum>=k && s<=i)
+                while(prefixsum>=k && s<=i &&ans>1)
                 {
                     ans= min(ans, i-s+1);
                     for(int j = 0; j<32; j++)
