@@ -33,10 +33,9 @@ public:
             cout<<v<<" \n";
             if(v>=k)
                 return true;
-            if(l1>l2)
+            
                 i=m-1;
-            else
-                i = j-1;
+            
             
         }return false;
     }
