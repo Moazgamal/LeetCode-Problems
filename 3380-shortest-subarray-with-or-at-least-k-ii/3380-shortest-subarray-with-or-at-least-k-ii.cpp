@@ -25,9 +25,6 @@ public:
             }
             if(prefixsum >=k)
             {
-                
-                if(ans==1) 
-                    return 1;
                 while(prefixsum>=k && s<=i)
                 {
                     ans= min(ans, i-s+1);
@@ -38,7 +35,6 @@ public:
                             if(mp[(1<<j)]-1==0)
                             {
                                 prefixsum-=(1<<j);
-                                cout<<"iiiii"<<prefixsum;
                                 mp[(1<<j)]--;
                             }
                             else
