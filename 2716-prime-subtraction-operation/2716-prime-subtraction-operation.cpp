@@ -18,7 +18,7 @@ class Solution {
     int fn(int no1, int no2, int maxiv, vector<int>& x)
     {
         if(x[no2]==-1)
-            return INT_MIN;
+            return -1;
         if(no1 - x[no2] > maxiv)
             {
                 return x[no2];
@@ -39,14 +39,13 @@ public:
                 curprime= i;
             }
         }
-        int maxiv = INT_MIN;
+        int maxiv = -1;
         for(int i = 0; i< nums.size(); i++)
         {
             int val = fn(nums[i], nums[i], maxiv, x);
-            cout<<val<<" \n";
-            if(val == INT_MIN)
+            if(val == -1)
             {
-                if(maxiv == INT_MIN)
+                if(maxiv == -1)
                     maxiv = nums[i];
                 else
                 {
@@ -58,10 +57,6 @@ public:
             }
             else
             {
-                if(nums[i]-val <= maxiv)
-                {
-                    return false;  
-                } 
                 maxiv = nums[i] -val;
             }
         }return true;
