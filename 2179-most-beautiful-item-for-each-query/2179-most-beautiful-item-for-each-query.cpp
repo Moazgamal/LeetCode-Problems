@@ -16,8 +16,6 @@ int bs(int target, int start, int end, vector<vector<int>>&items)
             start = mid+1;
         }
     }
-    if(pos ==0)
-        return 0;
     return items[pos-1][1];
 }
 public:
