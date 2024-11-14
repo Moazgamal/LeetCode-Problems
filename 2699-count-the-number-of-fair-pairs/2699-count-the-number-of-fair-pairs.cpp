@@ -1,5 +1,5 @@
 class Solution {
-    int binarySearch(int start, int end, int target, vector<int>&nums)
+    int lowerBound(int start, int end, int target, vector<int>&nums)
     {
         int mid = -1; int pos = -1;
         while(start<=end)
@@ -14,9 +14,10 @@ class Solution {
             {
                 start = mid+1;
             }
-        }return pos;
+        }
+        return pos;
     }
-    int binarySearch2(int start, int end, int target, vector<int>&nums)
+    int upperBound(int start, int end, int target, vector<int>&nums)
     {
         int mid = -1; int pos = -1;
         while(start<=end)
@@ -31,7 +32,8 @@ class Solution {
             {
                 start = mid+1;
             }
-        }return pos;
+        }
+        return pos;
     }
 public:
     long long countFairPairs(vector<int>& nums, int lower, int upper) {
@@ -39,25 +41,18 @@ public:
         sort(nums.begin(), nums.end());
         for(int i = 0; i< nums.size()-1; i++)
         {
-            int lo = binarySearch(i+1, nums.size()-1, lower-nums[i], nums);
+            int lo = lowerBound(i+1, nums.size()-1, lower-nums[i], nums);
             if(lo==-1)
                 continue;
-            int hi = binarySearch2(i+1, nums.size()-1, upper-nums[i], nums);
+            int hi = upperBound(i+1, nums.size()-1, upper-nums[i], nums);
             if(hi==-1)
-            {
                 sum += (nums.size()- lo);
-            }
+            else if(nums[hi] == upper-nums[i])
+                sum += (hi-lo+1);
             else
-            {
-                if(nums[hi] == upper-nums[i])
-                {
-                    sum += (hi-lo+1);
-                }
-                else
-                    sum += (hi-lo);
-            }
-            
-        }return sum; 
+                sum += (hi-lo);
+        }
+        return sum; 
         
     }
 };
