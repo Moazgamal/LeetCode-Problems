@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3558-find-a-safe-walk-through-a-grid) |
 | [3603-check-if-dfs-strings-are-palindromes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3603-check-if-dfs-strings-are-palindromes) |
 | [3646-sum-of-good-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3646-sum-of-good-subsequences) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii) |
 | [3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i) |
