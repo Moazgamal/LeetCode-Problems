@@ -16,7 +16,7 @@ public:
             }
             else
             {
-                while(start<=nums.size()-k&&start<=end)
+                while(start<=nums.size()-k && start<=end)
                 {
                     result[start]= -1;
                     start++;
