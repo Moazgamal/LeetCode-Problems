@@ -6,7 +6,7 @@ public class Solution {
         while(start<=end)
         {
             mid = start + (end-start)/2;
-            if(fn(mid,  nums,  queries))
+            if(fn(mid,  ref nums,  ref queries))
             {
                 pos= mid;
                 end =mid-1;
@@ -19,7 +19,7 @@ public class Solution {
 
 
 
-        bool fn(int mid,  int[]nums,  int[][]queries)
+        bool fn(int mid,  ref int[]nums,  ref int[][]queries)
     {
         int[]x = new int[nums.Length+1];
 
