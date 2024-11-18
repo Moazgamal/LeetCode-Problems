@@ -1,65 +1,51 @@
 class Solution {
-    class trie
+    class Trie
     {
-        public:
-        static const int m=26;
-        trie* child[m];
-        int cnt=0;
-       
-        trie(){
-            memset(child, 0, sizeof(child));
-        }
-        
+        public :
+        const static int MAXCHAR  = 26;
+        Trie* arr[MAXCHAR]{};
+        int cnt{}; 
         
         
     };
-    void insert(trie* Trie, string str, int indx=0)
+    void add_word(Trie* &trie,string &str, int idx=0)
         {
-            
-            while(indx<str.size())
-            {
-                int cur = str[indx]-'a';
-                if(Trie->child[cur] == 0)
-                    Trie->child[cur] = new trie();
-                Trie->child[cur]->cnt++;
-                Trie= Trie->child[cur];
-                indx++;
-            }
-                
+            if(idx>=str.size())
+                return ;
+            int i = str[idx]-'a';
+            if(trie->arr[i] == nullptr)
+                trie->arr[i] = new Trie();
+            trie->arr[i]->cnt++;
+            add_word(trie->arr[i],str, idx+1);
         }
-    int word_exist(trie* &Trie,string str, int indx=0)
+    int is_prefix(Trie* &trie,string &str, int idx= 0)
         {
-            if(indx == str.size())
+            int sum = 0; 
+            if(idx>=str.size())
                 return 0;
+            int i = str[idx]-'a';
             
-            int x = 0; 
-           
-            trie* f = Trie;
-           
-            while(indx<str.size())
-            {
-                
-                x+= f->child[str[indx]-'a']->cnt;
-                f=f->child[str[indx]-'a'];
-                indx++;
-            }
-            return x;
+            if(!trie->arr[i])
+                return 0;
+            sum += trie->arr[i]->cnt;
+            return sum+is_prefix(trie->arr[i],str, idx+1);
         }
 public:
     vector<int> sumPrefixScores(vector<string>& words) {
-        trie* Trie  = new trie();
+        Trie* trie = new Trie();
         for(int i = 0; i< words.size(); i++)
         {
-            insert(Trie, words[i]);
+            add_word(trie,words[i]);
         }
-        vector<int> ans;
+        vector<int>result(words.size(),0);
         for(int i = 0; i< words.size(); i++)
         {
-             
-            ans.push_back(word_exist(Trie,words[i],0));
-
-        }
-        return ans;
-
+            int cnt = 0; 
+            
+                cnt += is_prefix(trie,words[i]);
+            
+            result[i]= cnt;
+        }return result;
+        
     }
 };
