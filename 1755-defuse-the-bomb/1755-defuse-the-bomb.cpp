@@ -2,13 +2,7 @@ class Solution {
 public:
     vector<int> decrypt(vector<int>& code, int k) {
         vector<int>res(code.size(),0);
-        if(k==0)
-        {
-            for(int i = 0; i<code.size(); i++)
-            {
-                code[i]=0;
-            }
-        }
+        
         if(k>0)
         {
             int i = 1; int j = k;
@@ -56,7 +50,7 @@ public:
                     t=code.size()-1;
                 if(j<0)
                     j=code.size()-1;
-                cout<<j;
+               
                 sum+=code[j];
                 res[idx--] = sum;
             }
