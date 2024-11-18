@@ -23,15 +23,10 @@ public:
                 if(level%2!=0 )
                     v.push_back(cur);
                 if(cur->left)
-                {
                     q.push(cur->left);
-                    
-                }
+                
                 if(cur->right)
-                {
                     q.push(cur->right);
-                    
-                }
             }
             for(int i = 0; i< v.size()/2; i++)
             {
