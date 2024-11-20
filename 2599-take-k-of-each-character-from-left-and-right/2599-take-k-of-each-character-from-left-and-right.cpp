@@ -13,6 +13,10 @@ public:
         for(int i= 0; i< s.size(); i++)
         {
             mp1[s[i]]++; mp2[s[j-i]]++;
+            if(mp1['a']>=k && mp1['b']>=k && mp1['c'] >=k)
+                ans = min(ans, i+1);
+            if(mp2['a']>=k && mp2['b']>=k && mp2['c'] >=k)
+                ans = min(ans, i+1);
         }
         if(mp1['a']>=k && mp1['b']>=k && mp1['c'] >=k)
             ans = s.size();
