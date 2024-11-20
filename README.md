@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3195-separate-black-and-white-balls](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3195-separate-black-and-white-balls) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3303-find-beautiful-indices-in-the-given-array-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3303-find-beautiful-indices-in-the-given-array-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3451-string-compression-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3451-string-compression-iii) |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 | [2491-smallest-even-multiple](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2491-smallest-even-multiple) |
 | [2716-prime-subtraction-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2716-prime-subtraction-operation) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3626-smallest-divisible-digit-product-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3626-smallest-divisible-digit-product-i) |
@@ -286,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2648-number-of-ways-to-earn-points](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2648-number-of-ways-to-earn-points) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3646-sum-of-good-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3646-sum-of-good-subsequences) |
 ## Matrix
 |  |
