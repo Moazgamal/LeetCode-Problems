@@ -36,7 +36,7 @@ class Solution {
         }
         else
         {
-            int ub= tight?end[end.size()-n]-'0':limit;
+            int ub= end[end.size()-n]-'0';
             if(tight ==1)
             {
                 for(int i = 0; i<=min(ub,limit); i++)
@@ -48,7 +48,7 @@ class Solution {
             {
                 for(int i = 0; i<=limit; i++)
                 {
-                    ret += solve(end, tight&(i==limit), limit,s,n-1);
+                    ret += solve(end, 0, limit,s,n-1);
                 }
             }
                 
