@@ -1,42 +1,62 @@
 class Solution {
-    bool fn(int mid, string &s, int k)
-    {
-        unordered_map<char,int>mp;
-        int i = 0;
-        for( ;i<mid; i++)
-        {
-            mp[s[i]]++;
-        }
-        i--;
-        if(mp['a']>=k && mp['b'] >=k && mp['c'] >=k)
-            return true;
-        for(int j = s.size()-1; i>=0; j--, i--)
-        {
-            mp[s[i]]--; mp[s[j]]++;
-            if(mp['a']>=k && mp['b'] >=k && mp['c'] >=k)
-                return true;
-        }
-        return false;
-    }
+    
 public:
     int takeCharacters(string s, int k) {
         if(k==0)
             return 0; 
-        int start = 3; int end = s.size();
-        int pos = -1; int mid = -1;
-        while(start<=end)
+        if(s.size()<3)
+            return -1;
+        unordered_map<char,int>mp1;
+        unordered_map<char,int>mp2;
+        int j = s.size()-1;
+        int ans = INT_MAX;
+        for(int i= 0; i< s.size(); i++)
         {
-            mid= start+(end-start)/2;
-            if(fn(mid,s,k))
+            mp1[s[i]]++; mp2[s[j-i]]++;
+            if(mp1['a']>=k && mp1['b']>=k && mp1['c'] >=k)
+                ans = min(ans, i+1);
+            if(mp2['a']>=k && mp2['b']>=k && mp2['c'] >=k)
+                ans = min(ans, i+1);
+        }
+        if(ans==INT_MAX)
+            return -1;
+        int i =0; j =1;
+        while(i<s.size())
+        {
+            while(j<s.size() && mp1[s[j]]>k)
             {
-                pos = mid;
-                end=mid-1;
+                mp1[s[j]]--; j++;
+                ans = min(ans, i+1+(int)s.size()-j);
             }
-            else
+            if(j==s.size())
+                break;
+            char c = s[j]; mp1[s[j]]--; j++;
+            while(mp1[c] <k)
             {
-                cout<<mid<<" \n";
-                start =mid+1;
+                i++;
+                mp1[s[i]]++; 
             }
-        }return pos;
+            ans = min(ans, i+1+(int)s.size()-j);
+        }
+         i =s.size()-1;  j =s.size()-2;
+        while(i>=0)
+        {
+            while(j>=0 && mp2[s[j]]>k)
+            {
+                mp2[s[j]]--; j--;
+                ans = min(ans, j+1+(int)s.size()-i);
+            }
+            if(j<0)
+                break;
+            char c = s[j]; mp2[s[j]]--; j--;
+            while(mp2[c] <k)
+            {
+                i--;
+                mp2[s[i]]++; 
+            }
+            ans = min(ans, j+1+(int)s.size()-i);
+        }
+        return ans;
+
     }
 };
