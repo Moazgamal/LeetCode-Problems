@@ -1,31 +1,62 @@
 class Solution {
     int dr[4] = {0,0,-1,1};
     int dc[4]= {-1,1,0,0};
+    char dir[4]={'u','d','l','r'};
     bool isvalid(int r, int c, vector<vector<int>>&mat)
     {
         if(r<0 || c<0 || r>= mat.size() || c>= mat[0].size())
             return false;
         return true;
     }
-    void dfs(int r, int c, vector<vector<int>>&matrix, int fr, int fc)
+    
+    void dfs(int r, int c, vector<vector<int>>&matrix, unordered_map<int, unordered_set<char>>&mp, int cnt)
     {
-        matrix[r][c]= 2;
+        matrix[r][c]= cnt;
         for(int d =0; d<4 ; d++)
         {
-            if(dr[d]==fr && dc[d]==fc)
-                continue;
             int row = r+dr[d];
             int col = c+dc[d];
-            
-            while(isvalid(row, col, matrix))
+            int pos = c + (r*matrix[0].size());
+            if(mp.count(pos)>0)
+                {
+                    if(mp[pos].find(dir[d]) != mp[pos].end())
+                        continue;
+                }
+            while(isvalid(row, col, matrix) && matrix[row][col]!=2)
             {
                 if(matrix[row][col]==0)
                     matrix[row][col]=3;
                 else if(matrix[row][col]==1)
                 {
-                    dfs(row,col, matrix, -dr[d],-dc[d]);
+                    int pox = col + (row*matrix[0].size());
+                    char di= 'x';
+                    if(dir[d]=='u')
+                        di= 'd';
+                    else if(dir[d] == 'd')
+                        di = 'u';
+                    else if(dir[d]=='l')
+                        di= 'r';
+                    else if(dir[d]=='r')
+                        di = 'l';
+                    mp[pox].insert(di);
+                    dfs(row,col, matrix, mp, cnt);
                 }
-                else if(matrix[row][col]==2)
+                else if(matrix[row][col] == cnt)
+                {
+                    int pos2 = col + (row*matrix[0].size());
+                    char di= 'x';
+                    if(dir[d]=='u')
+                        di= 'd';
+                    else if(dir[d] == 'd')
+                        di = 'u';
+                    else if(dir[d]=='l')
+                        di= 'r';
+                    else if(dir[d]=='r')
+                        di = 'l';
+                    mp[pos2].insert(di);
+                    break;
+                }
+                else if(matrix[row][col]<cnt && matrix[row][col] != 3)
                     break;
                 row += dr[d]; col += dc[d];
             }
@@ -46,24 +77,29 @@ public:
             int col = guards[i][1];
             matrix[row][col] = 1;
         }
+        unordered_map<int,unordered_set<char>>mp;
+        int cnt = 4;
         for(int r= 0; r< m; r++)
         {
             for(int c= 0; c< n; c++)
             {
                 if(matrix[r][c]==1)
-                    dfs(r,c,matrix,-1,-1);
+                   {
+                        dfs(r,c,matrix,mp,cnt);
+                        cnt++;
+                   }
+                    
             }
         }
         int ans =0 ;
+        
         for(int r = 0; r<m; r++)
         {
             for(int c= 0 ; c< n; c++)
             {
-                cout<<matrix[r][c]<<" ";
                 if(matrix[r][c] ==0)
                     ans++;
             }
-            cout<<"\n";
         }
         return ans;
         
