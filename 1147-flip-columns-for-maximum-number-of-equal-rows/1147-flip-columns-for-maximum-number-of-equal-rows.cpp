@@ -10,9 +10,15 @@ public:
             for(int c = 0; c< matrix[0].size(); c++)
             {
                 if(matrix[r][c] == 0)
-                    s1+= (c+'0');
+                    {
+                        s1+= '0';
+                        s2+= '1';
+                    }
                 else
-                    s2+=(c+'0');
+                {
+                    s1+='1'; s2+='0';
+                }
+                    
             }
             ans = max(ans, ++mp[s1]);
             ans = max(ans, ++mp[s2]);
