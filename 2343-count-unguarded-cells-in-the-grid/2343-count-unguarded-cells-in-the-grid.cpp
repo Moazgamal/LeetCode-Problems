@@ -56,8 +56,6 @@ class Solution {
                     mp[pos2].insert(di);
                     break;
                 }
-                else if(matrix[row][col]<cnt && matrix[row][col] != 3)
-                    break;
                 row += dr[d]; col += dc[d];
             }
         }
