@@ -1,7 +1,7 @@
 class Solution {
     vector<int> dr {0,0,-1,1};
     vector<int> dc {-1,1,0,0};
-    char dir[4]={'u','d','l','r'};
+    vector<int> dir{'u','d','l','r'};
     bool isvalid(int r, int c, vector<vector<int>>&mat)
     {
         if(r<0 || c<0 || r>= mat.size() || c>= mat[0].size())
