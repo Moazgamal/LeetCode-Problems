@@ -1,6 +1,6 @@
 class Solution {
-    int dr[4] = {0,0,-1,1};
-    int dc[4]= {-1,1,0,0};
+    vector<int> dr {0,0,-1,1};
+    vector<int> dc {-1,1,0,0};
     char dir[4]={'u','d','l','r'};
     bool isvalid(int r, int c, vector<vector<int>>&mat)
     {
