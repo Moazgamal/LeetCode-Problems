@@ -11,7 +11,7 @@ public:
             {
                 if(box[r][c]=='#')
                     cnt++;
-                if(box[r][c] == '*')
+                else if(box[r][c] == '*')
                 {
                     result[c][cols-r-1]='*';
                     int j = 1;
