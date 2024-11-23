@@ -1,6 +1,6 @@
 class Solution {
     const int MOD = 1000000007;
-    int dp[801][2][801];
+    int dp[801][801][2];
     int cnt[801];
     int solve(int idx, string &s, int &k , int tight, int setbits)
     {
@@ -16,21 +16,21 @@ class Solution {
         
         if(s[idx]=='1')
             setbits++;
-        auto &ret = dp[idx][tight][setbits];
-        if(dp[idx][tight][setbits] != -1)
-            return dp[idx][tight][setbits];
-        if(cnt[setbits]>k+3)
-            return ret =0;
+        auto &ret = dp[idx][setbits][tight];
+        if(dp[idx][setbits][tight] != -1)
+            return dp[idx][setbits][tight];
         ret = 0;
         if(tight ==1)
         {
             if(s[idx]=='1')
                 {
                     ret = (ret+ solve(idx+1, s, k, 0, setbits-1))%MOD;
+                    
                     ret = (ret+solve(idx+1, s, k, 1, setbits))%MOD;
                 }
             else
                 {
+                    
                     ret = (ret+solve(idx+1, s, k, 1, setbits))%MOD;
                 }
         }
@@ -47,7 +47,7 @@ class Solution {
                 ret  = (ret +solve(idx+1, s, k, 0, setbits+1))%MOD;
             }
         }
-        return dp[idx][tight][setbits] = ret;
+        return dp[idx][setbits][tight] = ret;
     }
 public:
     int countKReducibleNumbers(string s, int k) {
