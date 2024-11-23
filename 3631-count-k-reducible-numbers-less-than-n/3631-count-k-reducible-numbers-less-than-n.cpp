@@ -6,9 +6,9 @@ class Solution {
     {
         if(idx== s.size())
         {
-            if(tight==1)
+            if(tight==1 || setbits==0)
                 return 0;
-            if(cnt[setbits] <k)
+            if(cnt[setbits] <=k)
                 return 1;
             return 0;
         }
@@ -19,6 +19,8 @@ class Solution {
         auto &ret = dp[idx][tight][setbits];
         if(dp[idx][tight][setbits] != -1)
             return dp[idx][tight][setbits];
+        if(cnt[setbits]>k+3)
+            return ret =0;
         ret = 0;
         if(tight ==1)
         {
@@ -50,7 +52,7 @@ class Solution {
 public:
     int countKReducibleNumbers(string s, int k) {
         
-        cnt[1]=0
+        cnt[1]=1
         ;
         for(int i = 2; i<=800; i++)
         {
@@ -61,7 +63,7 @@ public:
         int tight = 1; 
         int setbits = 0;
         int ans = solve(0, s, k, tight, setbits);
-        return ans-1;
+        return ans;
         
         
         
