@@ -14,11 +14,11 @@ public:
                     cnt++;
                 if(box[r][c] == '*')
                 {
-                    result[c][(cols-r)-1]='*';
+                    result[c][cols-r-1]='*';
                     int j = 1;
                     while(cnt>0)
                     {
-                        result[c-j][(cols-r)-1]= '#';
+                        result[c-j][cols-r-1]= '#';
                         j++; cnt--;
                     }
                 }
@@ -26,7 +26,7 @@ public:
             int j =1;
             while(cnt >0)
             {
-                result[rows-j][(cols-r)-1]= '#';
+                result[rows-j][cols-r-1]= '#';
                 j++; cnt--;
             }
         }return result;
