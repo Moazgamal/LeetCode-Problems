@@ -1,14 +1,13 @@
 class Solution {
 public:
     vector<vector<char>> rotateTheBox(vector<vector<char>>& box) {
-
-        vector<vector<char>> result(box[0].size(), vector<char>(box.size(),'.'));
         int rows = box[0].size();
         int cols = box.size();
-        for(int r=0; r< box.size(); r++)
+        vector<vector<char>> result(rows, vector<char>(cols,'.'));
+        for(int r=0; r< cols; r++)
         {
             int cnt = 0; 
-            for(int c = 0; c<box[0].size(); c++)
+            for(int c = 0; c<rows; c++)
             {
                 if(box[r][c]=='#')
                     cnt++;
