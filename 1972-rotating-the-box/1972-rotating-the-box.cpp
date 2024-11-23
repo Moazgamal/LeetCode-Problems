@@ -18,18 +18,16 @@ public:
                     int j = 1;
                     while(cnt>0)
                     {
-                        cout<<cnt<<"\n";
                         result[c-j][(cols-r)-1]= '#';
                         j++; cnt--;
                     }
                 }
             }
             int j =1;
-            while(cnt-- >0)
+            while(cnt >0)
             {
-                cout<<cnt<<"\n";
                 result[rows-j][(cols-r)-1]= '#';
-                j++;
+                j++; cnt--;
             }
         }return result;
         
