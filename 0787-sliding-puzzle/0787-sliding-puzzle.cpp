@@ -27,9 +27,9 @@ public:
             while(sz--)
             {
                 string ss = q.front(); q.pop();
-                cout<<ss;
                 if(ss==finalState)
                     return level;
+                mp[ss]++;
                 int i = 0;
                 for(; i< ss.size(); i++)
                 {
@@ -41,8 +41,6 @@ public:
                     swap(ss[v[i][j]],ss[i]);
                     if(mp.count(ss)==0)
                         q.push(ss);
-                    mp[ss]++;
-                    cout<<ss<<" \n";
                     swap(ss[v[i][j]],ss[i]);
                 }
             }
