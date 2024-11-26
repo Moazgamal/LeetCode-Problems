@@ -3,7 +3,7 @@ public:
     int minimumObstacles(vector<vector<int>>& grid) {
 
         // let's go with Dijkstra Alogorithm to find the shortest Path 
-        priority_queue<pair<int,pair<int,int>>, vector<pair<int,pair<int,int>>>, greater<pair<int,pair<int,int>>> > q;
+        queue<pair<int,pair<int,int>>>q;
         int dr[4]={-1,1,0,0};
         int dc[4]= {0,0,-1,1};
         q.push({0,{0,0}});
@@ -14,7 +14,7 @@ public:
         {
             while(sz--)
             {
-                pair<int,pair<int,int>> p = q.top(); q.pop();
+                pair<int,pair<int,int>> p = q.front(); q.pop();
                 for(int d =0; d<4; d++)
                 {
                     
