@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3558-find-a-safe-walk-through-a-grid) |
 | [3603-check-if-dfs-strings-are-palindromes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3603-check-if-dfs-strings-are-palindromes) |
@@ -410,12 +411,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2677-cousins-in-binary-tree-ii) |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3558-find-a-safe-walk-through-a-grid) |
 ## Graph
 |  |
 | ------- |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [3189-find-champion-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3189-find-champion-ii) |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3558-find-a-safe-walk-through-a-grid) |
 ## Shortest Path
 |  |
