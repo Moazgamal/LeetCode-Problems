@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0174-dungeon-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0174-dungeon-game) |
+| [0215-kth-largest-element-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0496-next-greater-element-i) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1256-rank-transform-of-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1256-rank-transform-of-an-array) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -264,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1304-longest-happy-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1304-longest-happy-string) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
@@ -484,4 +487,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3631-count-k-reducible-numbers-less-than-n](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3631-count-k-reducible-numbers-less-than-n) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
