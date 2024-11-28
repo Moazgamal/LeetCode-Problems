@@ -1,7 +1,6 @@
 class Solution {
 public:
     vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
-        int sz = sqrt(10001*10001+10001*10001);
         map<double,vector<int>>mp;
         for(int i = 0; i< points.size(); i++)
         {
