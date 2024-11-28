@@ -13,7 +13,6 @@ public:
 
         if(!head || !head->next)
             return false;
-        head->val = 100001; head = head->next;
         while(head)
         {
             if(head->val == 100001)
