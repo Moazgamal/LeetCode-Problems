@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0174-dungeon-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0174-dungeon-game) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0496-next-greater-element-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0496-next-greater-element-i) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2494-sum-of-prefix-scores-of-strings) |
@@ -129,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0141-linked-list-cycle) |
 | [0187-repeated-dna-sequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0187-repeated-dna-sequences) |
+| [0347-top-k-frequent-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0432-all-oone-data-structure](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0432-all-oone-data-structure) |
 | [0496-next-greater-element-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0496-next-greater-element-i) |
 | [0567-permutation-in-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0567-permutation-in-string) |
@@ -251,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1014-k-closest-points-to-origin](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1014-k-closest-points-to-origin) |
 | [1256-rank-transform-of-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1256-rank-transform-of-an-array) |
@@ -270,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1014-k-closest-points-to-origin](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1014-k-closest-points-to-origin) |
 | [1304-longest-happy-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1304-longest-happy-string) |
@@ -495,14 +500,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1014-k-closest-points-to-origin) |
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1014-k-closest-points-to-origin) |
 ## Geometry
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1014-k-closest-points-to-origin) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
