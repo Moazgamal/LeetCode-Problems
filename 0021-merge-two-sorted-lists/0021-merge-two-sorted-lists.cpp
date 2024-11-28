@@ -30,6 +30,8 @@ public:
             }
             else
             {
+                bool equal = h1->val == h2->val;
+                
                 ListNode* afterh1 = h1->next;
                 ListNode* afterh2 = h2->next;
                 prev1->next = h2;
@@ -37,6 +39,11 @@ public:
                 h2->next = h1;
                 prev2->next = afterh2;
                 h2 = afterh2;
+                if(equal)
+                {
+                    prev1 = h1;
+                    h1= afterh1;
+                }
             }
         }
         if(h2)
