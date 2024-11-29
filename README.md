@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0049-group-anagrams) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0174-dungeon-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0174-dungeon-game) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0125-valid-palindrome) |
 | [0187-repeated-dna-sequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0187-repeated-dna-sequences) |
 | [0214-shortest-palindrome](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0214-shortest-palindrome) |
@@ -133,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0049-group-anagrams) |
 | [0141-linked-list-cycle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0141-linked-list-cycle) |
 | [0187-repeated-dna-sequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0187-repeated-dna-sequences) |
 | [0242-valid-anagram](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0242-valid-anagram) |
@@ -259,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0049-group-anagrams) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0347-top-k-frequent-elements) |
