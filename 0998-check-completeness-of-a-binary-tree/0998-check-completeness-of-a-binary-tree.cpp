@@ -23,7 +23,7 @@ public:
 
         int height = calcHeight(root);
         queue<TreeNode*> q; q.push(root);
-        bool s = false;
+        bool NoMoreNodes = false;
         for(int level = 1, sz = q.size(); !q.empty(); sz = q.size(), level++)
         {
             while(sz--)
@@ -37,15 +37,12 @@ public:
                 }
                 else if(level == height-1)
                 {
-                    if(s == false)
+                    if(NoMoreNodes == false)
                     {
-                        if(!cur->right && !cur->left)
-                            s =true;
+                        if((!cur->right && !cur->left) || (cur->left && !cur->right))
+                            NoMoreNodes =true;
                         else if(cur->right && !cur->left)
                             return false;
-                        else if(cur->left && !cur->right)
-                            s=true;
-                        
                     }
                     else
                     {
