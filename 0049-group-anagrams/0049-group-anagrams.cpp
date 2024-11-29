@@ -13,12 +13,7 @@ public:
         }
         for(auto it : mp)
         {
-            vector<string> anagrams;
-            for(auto it2 : it.second)
-            {
-                anagrams.push_back(it2);
-            }
-            ans.push_back(anagrams);
+            ans.push_back(it.second);
         }
         return ans;
         
