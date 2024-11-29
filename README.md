@@ -480,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0787-sliding-puzzle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0787-sliding-puzzle) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -502,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0988-flip-equivalent-binary-trees) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -511,6 +513,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0988-flip-equivalent-binary-trees) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -519,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0988-flip-equivalent-binary-trees) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2493-reverse-odd-levels-of-binary-tree) |
