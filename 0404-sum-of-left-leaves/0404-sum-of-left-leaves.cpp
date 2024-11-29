@@ -10,24 +10,23 @@
  * };
  */
 class Solution {
-    int dfs(TreeNode* root, TreeNode* parent)
+    int dfs(TreeNode* root)
     {
-       if(!root)
-            return 0; 
-        if(!root->right && !root->left)
-        {
-            if(parent && parent->left == root)
-                return root->val;
-            return 0 ;
-        }
-        return dfs(root->right, root) + dfs(root->left, root);
+        if(!root)
+            return 0;
+        int sum = 0; 
+        if(root->left && (!root->left->left && !root->left->right))
+            sum+=root->left->val;
+        else
+            sum+=dfs(root->left);
+        sum += dfs(root->right);
+        return sum; 
     }
 public:
     int sumOfLeftLeaves(TreeNode* root) {
         if(!root)
             return 0;
-        TreeNode* parent = nullptr;
-        return dfs(root,parent);
+        return dfs(root);
         
         
     }
