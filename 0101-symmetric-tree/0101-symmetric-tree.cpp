@@ -14,10 +14,9 @@ class Solution {
     {
         if(!root1 && !root2)
             return true;
-        if((root1 && !root2) || (root2 && !root1))
+        if((root1 && !root2) || (root2 && !root1) || (root1->val != root2->val))
             return false;
-        if(root1->val != root2->val)
-            return false;
+        
         return isMirror(root1->left, root2->right) && isMirror(root2->left, root1->right);
     }
 public:
