@@ -8,24 +8,24 @@
  * };
  */
 class Solution {
-    TreeNode* dfs(TreeNode* root, TreeNode* p, TreeNode* q)
+    TreeNode* LCA(TreeNode* root, TreeNode* &p, TreeNode* &q)
     {
         if(!root)
             return nullptr;
-        if(root== p || root==q)
+        if(root == p || root == q)
             return root;
-        TreeNode* righta = dfs(root->right, p, q);
-        TreeNode* lefta = dfs(root->left, p, q);
-        if(righta && lefta)
+        TreeNode* leftSearch = LCA(root->left, p,q);
+        TreeNode* rightSearch = LCA(root->right, p, q);
+        if(leftSearch && rightSearch)
             return root;
-        if(righta)
-            return righta;
-        return lefta;
-        
-
+        if(leftSearch)
+            return leftSearch;
+        return rightSearch;
     }
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        return dfs(root, p,q);
+
+        return LCA(root, p, q);
+        
     }
 };
