@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0876-hand-of-straights) |
 | [0990-verifying-an-alien-dictionary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0990-verifying-an-alien-dictionary) |
 | [1010-powerful-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1010-powerful-integers) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1256-rank-transform-of-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1256-rank-transform-of-an-array) |
 | [1319-unique-number-of-occurrences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1319-unique-number-of-occurrences) |
@@ -300,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0692-top-k-frequent-words) |
 | [0876-hand-of-straights](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0876-hand-of-straights) |
 | [1014-k-closest-points-to-origin](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1014-k-closest-points-to-origin) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1256-rank-transform-of-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1256-rank-transform-of-an-array) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2423-minimum-deletions-to-make-array-divisible) |
@@ -501,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0787-sliding-puzzle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0787-sliding-puzzle) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -537,6 +540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0988-flip-equivalent-binary-trees) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -559,6 +563,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0988-flip-equivalent-binary-trees) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -578,6 +583,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0988-flip-equivalent-binary-trees) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2677-cousins-in-binary-tree-ii) |
 | [3603-check-if-dfs-strings-are-palindromes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3603-check-if-dfs-strings-are-palindromes) |
