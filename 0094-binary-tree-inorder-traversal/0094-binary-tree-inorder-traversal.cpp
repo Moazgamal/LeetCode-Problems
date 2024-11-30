@@ -14,11 +14,6 @@ class Solution {
     {
         if(!root)
             return ;
-        if(!root->left && !root->right)
-        {
-            result.push_back(root->val);
-            return ;
-        }
         dfs(root->left,result);
         result.push_back(root->val);
         dfs(root->right,result);
