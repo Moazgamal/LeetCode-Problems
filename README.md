@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1319-unique-number-of-occurrences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1319-unique-number-of-occurrences) |
 | [1393-maximum-value-of-k-coins-from-piles](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1393-maximum-value-of-k-coins-from-piles) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1524-string-matching-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1524-string-matching-in-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1256-rank-transform-of-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1256-rank-transform-of-an-array) |
 | [1319-unique-number-of-occurrences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1319-unique-number-of-occurrences) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1694-make-sum-divisible-by-p) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -213,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0731-my-calendar-ii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -303,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1014-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1256-rank-transform-of-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1256-rank-transform-of-an-array) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -357,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0567-permutation-in-string) |
 | [1080-camelcase-matching](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1080-camelcase-matching) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1972-rotating-the-box](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1972-rotating-the-box) |
