@@ -1,20 +1,19 @@
 class Solution {
-    int BFS(int node, vector<vector<int>> &graph, vector<bool> &vis, int k)
+    int BFS(int node, vector<vector<int>> &graph, int k)
     {
-        queue<int> q; q.push(node);
+        queue<pair<int,int>> q; q.push({node,-1});
         int ans = 0; 
         for(int level = k, sz = q.size(); level>0 && !q.empty() ; level--,sz = q.size())
         {
             while(sz--)
             {
-                int cur = q.front(); q.pop();
-                vis[cur] = true;
-                for(int i = 0; i< graph[cur].size(); i++)
+                auto cur = q.front(); q.pop();
+                for(int i = 0; i< graph[cur.first].size(); i++)
                 {
-                    if(vis[graph[cur][i]] == false)
-                    {
-                        ans++; q.push(graph[cur][i]);
-                    }
+                    if(graph[cur.first][i] != cur.second)
+                        {
+                            ans++; q.push({graph[cur.first][i],cur.first});
+                        }
                 }
             }
         }
@@ -45,8 +44,7 @@ public:
         
         for(int i = 0; i< graph1.size(); i++)
         {
-            vector<bool>vis(graph1.size(),false);
-            ans[i] += BFS(i, graph1, vis, k);
+            ans[i] += BFS(i, graph1, k);
         }
         int maxi = 1;
         
@@ -54,14 +52,11 @@ public:
         { 
             for(int i = 0; i< graph2.size(); i++)
             {
-                vector<bool>vis2(graph2.size(),false);
-                maxi = max(maxi, 1+BFS(i, graph2, vis2, k-1));
+                maxi = max(maxi, 1+BFS(i, graph2, k-1));
             }
         }
-        cout<<maxi<<"\n";
         for(int i = 0; i< ans.size(); i++)
         {
-            cout<<ans[i]<<"\n";
             ans[i] += maxi;
         }
         return ans;
