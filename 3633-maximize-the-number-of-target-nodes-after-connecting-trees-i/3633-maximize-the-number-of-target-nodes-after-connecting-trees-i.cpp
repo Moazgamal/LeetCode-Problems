@@ -42,12 +42,14 @@ public:
         vector<int> ans(edges1.size()+1, 1);
         if(k == 0)
             return ans;
+        
         for(int i = 0; i< graph1.size(); i++)
         {
             vector<bool>vis(graph1.size(),false);
             ans[i] += BFS(i, graph1, vis, k);
         }
         int maxi = 1;
+        
         if(k>1)
         { 
             for(int i = 0; i< graph2.size(); i++)
