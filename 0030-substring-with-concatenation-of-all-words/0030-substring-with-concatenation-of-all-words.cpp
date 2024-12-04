@@ -5,12 +5,13 @@ class Solution {
 	int i = idx;
 	trav[s.substr(idx, sz)]++;
 	int j = idx;
-	while(j< v.size())
+	while(j<=s.size()+sz)
 	{
 		if(j-i+sz == ws)
 		{
 			st.insert(i);
-			trav[s.substr(i,sz)]--; i+=sz;
+			trav[s.substr(i,sz)]--; 
+            i+=sz;
 			if(j+sz >= s.size())
 				return ;
 		}
@@ -33,6 +34,7 @@ class Solution {
 						v[i]=false;
 						i+=sz;
 					}
+                   
 				}
 			}
 			else
@@ -60,11 +62,9 @@ public:
 		int i = words[0].size();
 		int sz = words[0].size();
 		string cur = s.substr(0,sz);
-
 		vector<bool> v (s.size(), false);
 		if(mp.count(cur)>0)
 			v[0]=true;
-
 		int j = 0;
 		while(i<s.size())
 		{
@@ -75,18 +75,13 @@ public:
 			i++;
 			j++;
 		}
-		
-
 		int ws = sz*words.size();
-		
         unordered_set<int> st;
 		for(int i = 0; i< v.size(); i++)
 		{
-			if(v[i] == true && st.find(i) == st.end())
+			if(v[i] == true && st.find(i) == st.end() )
 			{
-				cout<<i<<"\n";
 				dfs(i, mp,v,sz,ws  ,s, st);
-				
 			}
 		}
         vector<int> ans;
