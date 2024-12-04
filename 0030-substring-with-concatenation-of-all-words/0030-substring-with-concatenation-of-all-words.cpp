@@ -22,11 +22,7 @@ class Solution {
 			{
 				trav[s.substr(j,sz)]++;
 				if(mp[s.substr(j,sz)] >= trav[s.substr(j,sz)])
-				{
-
 					continue;
-
-				}
 				else
 				{
 					string str = s.substr(j,sz);
@@ -34,7 +30,6 @@ class Solution {
 					{
 						string str2 = s.substr(i,sz);
 						trav[str2]--;
-
 						v[i]=false;
 						i+=sz;
 					}
@@ -43,10 +38,8 @@ class Solution {
 			else
 			{
 				j-=sz;
-
 				for(int m = i; m<=j; )
 				{
-
 					v[m]=false;
 					m+=sz;
 				}
@@ -89,9 +82,9 @@ public:
         unordered_set<int> st;
 		for(int i = 0; i< v.size(); i++)
 		{
-			if(v[i] == true && st.find(i)== st.end())
+			if(v[i] == true && st.find(i) == st.end())
 			{
-				
+				cout<<i<<"\n";
 				dfs(i, mp,v,sz,ws  ,s, st);
 				
 			}
