@@ -3,14 +3,11 @@ class Solution {
     {
         int no_of_words= end-start+1;
         int places = no_of_words - 1; 
-        
         string s  = words[start++];
         if(places == 0)
         {
             while(spaces--)
-            {
                 s.push_back(' ');
-            }
             return s;
         }
         int normalspace = spaces/places;
@@ -23,9 +20,7 @@ class Solution {
             {
                 int ns = normalspace+1;
                 while(ns--)
-                {
                     s.push_back(' ');
-                }
                 s+=words[start++];
             }
             
@@ -33,9 +28,7 @@ class Solution {
             {
                 int ns = normalspace;
                 while(ns--)
-                {
                     s.push_back(' ');
-                }
                 s+=words[start++];
             }
         }
@@ -49,9 +42,7 @@ class Solution {
            }
            spaces -= p;
            while(spaces--)
-           {
                 s.push_back(' ');
-           }
         }
         return s;
     }
@@ -66,19 +57,17 @@ public:
             int j = i+1;
             int depth = maxWidth-cur.size();
             while(j< (int)words.size())
+	        {
+	            int diff = words[j].size() +1;
+	            if(depth-diff >= 0)
 	            {
-	            	int diff = words[j].size() +1;
-	            	if(depth-diff >= 0)
-	            	{
-	            		j++; depth-=diff;
-	            	}
-	            	else
-	            		break;
-
+	            	j++; depth-=diff;
 	            }
+	            else
+	            	break;
+	        }
             if(j== words.size())
                 lastline = true;
-            
             int spaces = depth + (j-i-1);
             string k = distribute(i, j-1, spaces, words, lastline);
             ans.push_back(k);
