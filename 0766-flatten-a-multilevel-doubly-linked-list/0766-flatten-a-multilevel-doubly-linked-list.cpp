@@ -16,22 +16,26 @@ class Solution {
             return nullptr;
         if(!cur->child && !cur->next)
             return cur;
-      
-       
-        Node* flatchild = flattenn(cur->child);
-        Node* after = cur->next;
-        if(flatchild)
+        if(!cur->child)
         {
-            cur->next = cur->child;
-            cur->child->prev = cur;
-            cur->child= nullptr;
-            flatchild->next = after;
-            if(after)
-                after->prev = flatchild;
-            else
-                return flatchild;
+            return flattenn(cur->next);
         }
-       return flattenn(after);
+        Node* ch = cur->child;
+        Node* after = cur->next;
+        ch->prev = cur;
+        cur->next = ch;
+        Node* flattchild = flattenn(cur->next);
+        if(flattchild)
+         {  
+            
+                flattchild->next = after;
+            if(after)
+                after->prev = flattchild;
+         }
+        cur->child = nullptr;
+        if(after)
+            return flattenn(after);
+        return flattchild;
         
     }
 public:
