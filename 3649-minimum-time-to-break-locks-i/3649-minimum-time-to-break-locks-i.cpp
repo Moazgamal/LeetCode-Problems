@@ -17,8 +17,8 @@ class Solution {
     }
 public:
     int findMinimumTime(vector<int>& strength, int K) {
-        BackTracking(0, K, strength, 1, 1);
-        return ans-1;
+        BackTracking(0, K, strength, 0, 1);
+        return ans;
         
 
     }
