@@ -46,6 +46,8 @@ public:
         vector<bool> answer(queries.size(),false);
         int j = 0; 
         vector<pair<int,int>>v;
+        if(nums.size()==1)
+            v.push_back({0,0});
         for(int i = 1; i< nums.size(); i++)
         {
             if(nums[i]%2 ==0 && nums[i-1]%2 != 0 || (nums[i-1]%2==0 && nums[i]%2!=0))
@@ -59,6 +61,8 @@ public:
             else
             {
                 v.push_back({j,i-1});
+                if(i== nums.size()-1)
+                    v.push_back({i,i});
                 j=i; continue;
             }
         }
@@ -66,12 +70,6 @@ public:
         {
             int start = queries[i][0];
             int end = queries[i][1];
-            if(start == end)
-            {
-                answer[i] = true;
-                continue;
-                
-            }
             answer[i] = fn(start, end, v);
         }return answer;
 
