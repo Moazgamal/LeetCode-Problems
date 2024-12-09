@@ -7,16 +7,12 @@ class Solution {
             ans = min(ans, totaltime);
             return ; 
         }
-        int t = totaltime;
         for(int i = idx; i< s.size(); i++)
         {
             swap(s[i], s[idx]);
             int needtime = ceil(s[idx]/(double)x);
-           
-           
             BackTracking(idx+1, k, s, totaltime+needtime, x+k);
             swap(s[i], s[idx]);
-            
         }
     }
 public:
