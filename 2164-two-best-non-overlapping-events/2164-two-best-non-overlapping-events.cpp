@@ -36,13 +36,10 @@ public:
         int ans = 0; 
         for(int i = 0; i< events.size(); i++)
         {
-            int idx = BS(i, events, events[i][1]);
-           
-                ans = max(ans, events[i][2]);
-            
+            int idx = BS(i+1, events, events[i][1]);
+            ans = max(ans, events[i][2]);
             if(idx != -1)
             {
-                
                 ans = max(ans, events[i][2] + maxis[idx]);
             }
 
