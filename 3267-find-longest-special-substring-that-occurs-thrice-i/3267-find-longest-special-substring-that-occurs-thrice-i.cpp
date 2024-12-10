@@ -14,17 +14,18 @@ public:
             int cnt = j-i;
             int freq = v[idx].first;
             ans = max(ans, freq-2);
-            if(cnt < freq )
+            if(cnt < freq && cnt == freq-1  )
             {
-                ans = max(ans, cnt);
+                ans = max(ans, freq-1);
             }
             else if(cnt > freq)
             {
                 ans = max(ans, max(freq, cnt-2));
+                cout<<ans<<"second"<<s[i]<<"\n";
                 v[idx].first = cnt;
                 v[idx].second = 1;
             }
-            else
+            else if(cnt== freq)
             {
                 if(++v[idx].second >= 3)
                     ans = max(ans, cnt);
