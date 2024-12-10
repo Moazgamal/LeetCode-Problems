@@ -21,7 +21,6 @@ public:
             else if(cnt > freq)
             {
                 ans = max(ans, max(freq, cnt-2));
-                cout<<ans<<"second"<<s[i]<<"\n";
                 v[idx].first = cnt;
                 v[idx].second = 1;
             }
@@ -29,10 +28,9 @@ public:
             {
                 if(++v[idx].second >= 3)
                     ans = max(ans, cnt);
-                if(v[idx].second>=2)
+                else if(v[idx].second>=2)
                     ans = max(ans, cnt-1);
             }
-            
             i = j;
             
             
