@@ -9,9 +9,12 @@ public:
         }
         while(!pq.empty() && k-- > 0)
         {
-            long long cur = pq.top(); pq.pop();
+            long long cur = pq.top();
+            pq.pop();
             if(cur>0)
                 pq.push(floor(sqrt(cur)));
+            else
+                break;
         }
         while(!pq.empty())
         {
