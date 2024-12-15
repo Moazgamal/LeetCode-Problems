@@ -1,16 +1,16 @@
 class Solution {
-void dfs(string currency , unordered_map<string,vector<pair<string,double>>>&mp1,
-        unordered_map<string,double>&mp, unordered_set<string> &st, double c)
+void dfs(string currency , unordered_map<string,vector<pair<string,double>>> &mp,
+        unordered_map<string,double> &Day, unordered_set<string> &st, double c)
 {
     st.insert(currency);
-    for(int j = 0; j< mp1[currency].size(); j++)
+    for(int j = 0; j< mp[currency].size(); j++)
         {
-            string s = mp1[currency][j].first;
-            double cost = mp1[currency][j].second;
+            string s = mp[currency][j].first;
+            double cost = mp[currency][j].second;
             if(st.find(s) == st.end())
             {
-                mp[s] = c*cost;
-                dfs(s, mp1, mp, st, c*cost);
+                Day[s] = c*cost;
+                dfs(s, mp, Day, st, c*cost);
             }
         }
 }
