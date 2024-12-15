@@ -17,13 +17,13 @@ void dfs(string currency , unordered_map<string,vector<pair<string,double>>> &mp
 public:
     double maxAmount(string initialCurrency, vector<vector<string>>& pairs1, vector<double>& rates1, vector<vector<string>>& pairs2, vector<double>& rates2) {
 
-        unordered_map< string, vector<pair<string, double>> > mp1;
+        unordered_map<string, vector<pair<string,double>> > mp1;
         
-        unordered_map<string ,vector<pair<string, double>> > mp2;
+        unordered_map<string, vector<pair<string,double>> > mp2;
         
         unordered_map<string, double> Day1;
         
-        unordered_map<string,double> Day2;
+        unordered_map<string, double> Day2;
         
         double initialCost = 1; 
         
