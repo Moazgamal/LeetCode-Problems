@@ -27,14 +27,10 @@ public:
                 continue;
             if(cur.second > x)
             {
-                while(x--)
-                    ans.push_back(cur.first);
-                
+                ans += string(x,cur.first);
                 cur.second -= repeatLimit;
-
                 if(st.empty())
                     return ans;
-                    
                 auto cur2 = st.top();
                 ans.push_back(cur2.first);
                 if(--st.top().second == 0)
@@ -42,15 +38,9 @@ public:
                 st.push(cur);
             }
             else if(cur.second == x)
-            {
-                while(x--)
-                    ans.push_back(cur.first);
-            }
-            else if(cur.second < x)
-            {
-                while(cur.second-- > 0)
-                    ans.push_back(cur.first);
-            }
+                ans += string(x, cur.first);
+            else
+                ans += string(cur.second, cur.first);
         }
         return ans;
         
