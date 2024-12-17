@@ -14,7 +14,6 @@ public:
             if(v[i] >0)
             {
                 char c = 'a'+i;
-                
                 st.push({c,v[i]});
             }
         }
@@ -24,24 +23,21 @@ public:
             int x = repeatLimit;
             auto cur = st.top();
              st.pop();
-            if(cur.second <=0)
+            if(cur.second ==0)
                 continue;
             if(cur.second > x)
             {
-                while(x-- >0)
+                while(x--)
                 {
                     ans.push_back(cur.first);
                 }
                 cur.second -= repeatLimit;
-                while(!st.empty() && st.top().second==0)
-                {
-                    st.pop();
-                }
                 if(st.empty())
                     return ans;
                 auto cur2 = st.top();
                 ans.push_back(cur2.first);
-                st.top().second--;
+                if(--st.top().second == 0)
+                    st.pop();
                 st.push(cur);
             }
             else if(cur.second == x)
