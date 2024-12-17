@@ -22,18 +22,19 @@ public:
         {
             int x = repeatLimit;
             auto cur = st.top();
-             st.pop();
+            st.pop();
             if(cur.second ==0)
                 continue;
             if(cur.second > x)
             {
                 while(x--)
-                {
                     ans.push_back(cur.first);
-                }
+                
                 cur.second -= repeatLimit;
+
                 if(st.empty())
                     return ans;
+                    
                 auto cur2 = st.top();
                 ans.push_back(cur2.first);
                 if(--st.top().second == 0)
@@ -42,20 +43,16 @@ public:
             }
             else if(cur.second == x)
             {
-                while(x-- > 0)
-                {
+                while(x--)
                     ans.push_back(cur.first);
-                }
             }
             else if(cur.second < x)
             {
                 while(cur.second-- > 0)
-                {
                     ans.push_back(cur.first);
-                }
             }
-            
-        }return ans;
+        }
+        return ans;
         
     }
 };
