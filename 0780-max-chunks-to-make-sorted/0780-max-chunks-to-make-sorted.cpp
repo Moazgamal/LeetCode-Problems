@@ -1,0 +1,46 @@
+class Solution {
+public:
+    int maxChunksToSorted(vector<int>& arr) {
+
+        int l = -1; 
+        int r = -1;
+        int cnt = 0;
+        unordered_map<int,int>mp;
+        for(int i = 0; i< arr.size(); i++)
+        {
+            mp[arr[i]] = i; 
+        }
+        for(int i = 0; i< arr.size(); i++)
+        {
+            if(arr[i] == i)
+            {
+                if(l!=-1 && r != -1 && i >= l && i <= r)
+                {
+                    continue;
+                }
+                else
+                {
+                    l = -1; r = -1;
+                    cnt++;
+                }
+            }
+            else
+            {
+                if(l == -1 && r == -1)
+                {
+                    l = i; r = max(mp[i], arr[i]);
+                    cnt++;
+                }
+                else if(i >= l && i <= r)
+                {
+                    r = max(r, max(mp[i], arr[i]));
+                }
+                else
+                {
+                    l = i ; r = max(mp[i], arr[i]); cnt++;
+                }
+            }
+        }return cnt;
+        
+    }
+};
