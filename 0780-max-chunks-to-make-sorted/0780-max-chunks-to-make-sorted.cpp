@@ -15,9 +15,8 @@ public:
                     continue;
                 }
                 else
-                {
                     cnt++;
-                }
+                
             }
             else
             {
