@@ -20,7 +20,6 @@ public:
                 }
                 else
                 {
-                    l = -1; r = -1;
                     cnt++;
                 }
             }
@@ -28,16 +27,20 @@ public:
             {
                 if(l == -1 && r == -1)
                 {
-                    l = i; r = max(mp[i], arr[i]);
+                    l = i;
+                    r =  arr[i];
                     cnt++;
                 }
                 else if(i >= l && i <= r)
                 {
-                    r = max(r, max(mp[i], arr[i]));
+                    l = i ;
+                    r = max(r,  arr[i]);
                 }
                 else
                 {
-                    l = i ; r = max(mp[i], arr[i]); cnt++;
+                    l = i ;
+                    r = arr[i];
+                    cnt++;
                 }
             }
         }return cnt;
