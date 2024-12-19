@@ -5,11 +5,7 @@ public:
         int l = -1; 
         int r = -1;
         int cnt = 0;
-        unordered_map<int,int>mp;
-        for(int i = 0; i< arr.size(); i++)
-        {
-            mp[arr[i]] = i; 
-        }
+        
         for(int i = 0; i< arr.size(); i++)
         {
             if(arr[i] == i)
