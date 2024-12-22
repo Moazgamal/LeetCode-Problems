@@ -25,6 +25,7 @@ public:
                             {
                                 cnt++;
                                 mp[x]++;
+                                mini = x+1;
                                 break;
                             }
                             x++;
