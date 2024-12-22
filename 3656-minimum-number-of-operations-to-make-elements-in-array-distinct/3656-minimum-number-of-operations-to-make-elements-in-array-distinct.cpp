@@ -11,17 +11,18 @@ public:
         int j = 0; 
         for(int i = 0; i< nums.size(); i++)
             {
-                if(mp[nums[i]]>1)
+                while(j< nums.size() && mp[nums[i]]>1)
                 {
                     cnt++;
                     int s = j+2;
-                    while(j< nums.size() && j<=s)
+                    int d = 3;
+                    while(j< nums.size() && d-- > 0)
                         {
                             mp[nums[j]]--;
                             j++;
                         }
                     
-                    i=j-1;
+                    i=max(i,j-1);
                 }
             }
         return cnt;
