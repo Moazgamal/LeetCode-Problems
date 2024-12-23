@@ -8,12 +8,10 @@ class Solution {
             if(v[mid].first > target)
             {
                 pos = mid;
-                end = mid+1;
+                end = mid + 1;
             }
             else
-            {
                 start = mid-1;
-            }
         }
         return pos ;
     }
@@ -46,30 +44,36 @@ public:
        {
             if(mp.count(i) > 0)
             {
-                int end = 0; 
+                int start = st.size()-1; 
                 for(auto x: mp[i])
                 {
-                    
-                    int idx = BS(st.size()-1, end, st, x.first);
+                    if(start == -1)
+                    {
+                        result[x.second] =-1; continue;
+                    }
+                    int idx = BS(start, 0, st, x.first);
                     if(idx == -1)
-                        result[x.second] =-1;
+                        {
+                            result[x.second] = -1;
+                            start = -1;
+                        }
                     else
-                        result[x.second] = st[idx].second;
-                    
+                        {
+                            result[x.second] = st[idx].second;
+                            start = idx;
+                        }
                 }
+
                 while(st.size() >0 && st.back().first < heights[i])
-                {
                     st.pop_back();
-                }
-                st.push_back({heights[i],i});
                 
+                st.push_back({heights[i],i});
             }
             else
             {
                 while(st.size() >0 && st.back().first < heights[i])
-                {
                     st.pop_back();
-                }
+                
                 st.push_back({heights[i],i});
             }
        }
