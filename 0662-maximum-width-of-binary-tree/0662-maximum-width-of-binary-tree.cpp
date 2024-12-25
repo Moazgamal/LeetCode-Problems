@@ -30,7 +30,6 @@ public:
                 q.pop();
                     if(prev2!=-1)
                         {
-                            cout<<cur->val<<" "<<prev2-1<<"\n";
                             cnt = cnt+ (cur->val - prev2-1)*2;
                         }
                if(cur->left)
