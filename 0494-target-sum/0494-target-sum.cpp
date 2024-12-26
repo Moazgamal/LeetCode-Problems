@@ -21,7 +21,7 @@ class Solution {
 public:
     int findTargetSumWays(vector<int>& nums, int target) {
 
-        vector<vector<int>> dp(nums.size()+1, vector<int>(4002, INT_MIN/2));
+        vector<vector<int>> dp(nums.size()+1, vector<int>(2000, INT_MIN/2));
         return fn(0, nums ,dp, 0, target+1000);
         
     }
