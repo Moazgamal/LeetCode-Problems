@@ -13,9 +13,6 @@ class Solution {
     }
 public:
     int countGoodStrings(int low, int high, int zero, int one) {
-
-        
-       
         int ans = 0; 
         vector<int>dp(high+1,-1);
         ans += fn(zero, low, high, dp,one,zero);   
