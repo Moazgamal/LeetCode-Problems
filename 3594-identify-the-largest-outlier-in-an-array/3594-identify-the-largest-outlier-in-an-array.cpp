@@ -12,7 +12,6 @@ public:
         for(int i = 0; i< nums.size(); i++)
             {
                 int x = sum -nums[i];
-                cout<<x<<"\n";
                 if(x%2==0)
                 {
                     if(mp.count(x/2)>0 && mp[x/2] != i)
