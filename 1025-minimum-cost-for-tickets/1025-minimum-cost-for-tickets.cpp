@@ -5,9 +5,9 @@ class Solution {
         auto &ret = dp[idx];
         if(ret != INT_MAX)
             return ret;
-        auto it1 = upper_bound(days.begin() + idx, days.end(), days[idx]+1-1);
-        auto it2 = upper_bound(days.begin()+idx, days.end(), days[idx]+7-1);
-        auto it3 = upper_bound(days.begin()+idx, days.end(), days[idx]+30-1);
+        auto it1 = upper_bound(days.begin() + idx, days.end(), days[idx]);
+        auto it2 = upper_bound(days.begin()+idx, days.end(), days[idx]+6);
+        auto it3 = upper_bound(days.begin()+idx, days.end(), days[idx]+29);
         int cost1= costs[0];
         if(it1 != days.end())
             cost1 += fn(it1-days.begin(), days, costs, dp);
