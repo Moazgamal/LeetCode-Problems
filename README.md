@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0287-find-the-duplicate-number) |
+| [0289-game-of-life](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0289-game-of-life) |
 | [0347-top-k-frequent-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0494-target-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0496-next-greater-element-i) |
@@ -497,6 +498,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0174-dungeon-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0174-dungeon-game) |
+| [0289-game-of-life](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0289-game-of-life) |
 | [0787-sliding-puzzle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0787-sliding-puzzle) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -511,6 +513,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0068-text-justification](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0068-text-justification) |
+| [0289-game-of-life](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0289-game-of-life) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2232-adding-spaces-to-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2232-adding-spaces-to-a-string) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2343-count-unguarded-cells-in-the-grid) |
