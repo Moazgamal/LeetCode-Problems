@@ -22,14 +22,11 @@ public:
             int start = queries[i][0];
             int end = queries[i][1];
             if(start ==0)
-            {
                 result[i] = prefixSum[end];
-            }
             else
-            {
                 result[i] = prefixSum[end] -prefixSum[start-1];
-            }
-        }return result;
+        }
+        return result;
         
     }
 };
