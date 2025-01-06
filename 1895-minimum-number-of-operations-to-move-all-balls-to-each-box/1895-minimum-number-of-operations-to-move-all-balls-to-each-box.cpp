@@ -4,19 +4,19 @@ public:
 
         vector<int> prefixSums(boxes.size(),0);
         vector<int> suffixSums(boxes.size(), 0);
-        int prefix = 0; int ones = 0; 
+        int sum = 0; int ones = 0; 
         for(int i =0; i< boxes.size(); i++)
         {
-            prefix += ones;
-            prefixSums[i] = prefix;
+            sum += ones;
+            prefixSums[i] = sum;
             if(boxes[i] == '1')
                 ones++;
         }
-        ones = 0; int suffix = 0; 
+        ones = 0; sum = 0; 
         for(int i = boxes.size()-1; i >= 0; i--)
         {
-            suffix += ones;
-            suffixSums[i] = suffix;
+            sum += ones;
+            suffixSums[i] = sum;
             if(boxes[i] == '1')
                 ones++;
         }
