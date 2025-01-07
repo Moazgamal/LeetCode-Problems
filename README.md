@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3591-shift-distance-between-two-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3591-shift-distance-between-two-strings) |
 | [3603-check-if-dfs-strings-are-palindromes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3603-check-if-dfs-strings-are-palindromes) |
 | [3631-count-k-reducible-numbers-less-than-n](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3631-count-k-reducible-numbers-less-than-n) |
+| [3634-find-mirror-score-of-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3634-find-mirror-score-of-a-string) |
 ## Trie
 |  |
 | ------- |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3603-check-if-dfs-strings-are-palindromes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3603-check-if-dfs-strings-are-palindromes) |
+| [3634-find-mirror-score-of-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3634-find-mirror-score-of-a-string) |
 | [3646-sum-of-good-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3646-sum-of-good-subsequences) |
 | [3678-design-task-manager](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3678-design-task-manager) |
 ## Sliding Window
@@ -354,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3634-find-mirror-score-of-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3634-find-mirror-score-of-a-string) |
 ## Math
 |  |
 | ------- |
@@ -539,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3634-find-mirror-score-of-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3634-find-mirror-score-of-a-string) |
 ## Bit Manipulation
 |  |
 | ------- |
