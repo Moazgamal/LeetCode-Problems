@@ -2,12 +2,9 @@
 
 class TaskManager {
 public:
-    vector<vector<int>> t;
     unordered_map<int,pair<int,int>>mp;
     priority_queue<pair<int,int>> pq;
     TaskManager(vector<vector<int>>& tasks) {
-        t.resize(tasks.size());
-        t= tasks;
         for(int i = 0; i< tasks.size(); i++)
         {
             pq.push({tasks[i][2], tasks[i][1]});
