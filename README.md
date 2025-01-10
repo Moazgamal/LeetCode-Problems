@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-sliding-puzzle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0787-sliding-puzzle) |
 | [0859-design-circular-deque](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0859-design-circular-deque) |
 | [0876-hand-of-straights](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0876-hand-of-straights) |
+| [0952-word-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0952-word-subsets) |
 | [0990-verifying-an-alien-dictionary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0990-verifying-an-alien-dictionary) |
 | [1002-maximum-width-ramp](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1002-maximum-width-ramp) |
 | [1014-k-closest-points-to-origin](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1014-k-closest-points-to-origin) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0686-repeated-string-match](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0686-repeated-string-match) |
 | [0692-top-k-frequent-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0692-top-k-frequent-words) |
 | [0812-rotate-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0812-rotate-string) |
+| [0952-word-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [0990-verifying-an-alien-dictionary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0990-verifying-an-alien-dictionary) |
 | [1080-camelcase-matching](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1080-camelcase-matching) |
@@ -220,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0692-top-k-frequent-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0692-top-k-frequent-words) |
 | [0876-hand-of-straights](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0876-hand-of-straights) |
+| [0952-word-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0952-word-subsets) |
 | [0990-verifying-an-alien-dictionary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0990-verifying-an-alien-dictionary) |
 | [1010-powerful-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1010-powerful-integers) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
