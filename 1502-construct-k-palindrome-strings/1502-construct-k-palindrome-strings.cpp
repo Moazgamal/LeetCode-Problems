@@ -5,14 +5,12 @@ public:
         unordered_map<char,int>mp;
         for(auto c : s)
             mp[c]++;
-        int oddFreqs = 0;  int evenFreqs = 0; 
+            
+        int oddFreqs = 0;
         for(auto freq: mp)
-        {
-            if(freq.second %2 ==0)
-                evenFreqs++;
-            else
+            if(freq.second %2 !=0)
                 oddFreqs++;
-        }
+
         if(k< oddFreqs || k> s.size())
             return false;
         return true;
