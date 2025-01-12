@@ -11,14 +11,8 @@ public:
                     for(int c  =0; c<grid[0].size(); c++)
                     {
                         if(take)
-                        {
                             ans.push_back(grid[r][c]);
-                            take = !take;
-                        }
-                        else
-                        {
-                            take=!take; continue;
-                        }
+                        take=!take; 
                     }
                     s=!s;
                 }
@@ -27,14 +21,8 @@ public:
                     for(int c  =grid[0].size()-1; c>=0; c--)
                     {
                         if(take)
-                        {
                             ans.push_back(grid[r][c]);
-                            take = !take;
-                        }
-                        else
-                        {
-                            take=!take; continue;
-                        }
+                        take=!take; 
                     }
                     s=!s;
                 }
