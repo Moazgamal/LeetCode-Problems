@@ -8,7 +8,6 @@ class Solution {
                 if(skippedCells<2)
                     return 0;
             return coins[r][c];
-
         }
         auto &ret = dp[r][c][skippedCells];
         if(ret != INT_MIN)
@@ -21,9 +20,9 @@ class Solution {
             c2 = coins[r][c]+fn(r+1,c,coins,dp,skippedCells);
         if(skippedCells<2)
         {
-            if(c+1< coins[0].size())
+            if(c+1< coins[0].size() && coins[r][c] <0)
                 c1 = max(c1,fn(r,c+1,coins,dp,skippedCells+1));
-            if(r+1<coins.size())
+            if(r+1<coins.size() && coins[r][c]<0)
                 c2 = max(c2, fn(r+1,c,coins,dp,skippedCells+1));
         }
         return ret = max(c1,c2);
