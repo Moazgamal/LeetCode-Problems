@@ -40,6 +40,7 @@ public:
             }
             if(f[f.size()-1] ==0 && f[0]==1)
                 return true;
+            return false;
             f[f.size()-1] = 1; f[0]=0;
             for(int i = 0; i< f.size()-1; i++)
             {
@@ -103,7 +104,7 @@ public:
             }
             if(f[f.size()-1] ==0 && f[0]==0)
                 return true;
-            
+            return false;
             f[f.size()-1] = 1; f[0]=1;
             for(int i = 0; i< f.size()-1; i++)
             {
