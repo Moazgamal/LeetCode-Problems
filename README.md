@@ -317,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Design
 |  |
 | ------- |
@@ -693,6 +694,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3558-find-a-safe-walk-through-a-grid) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Graph
 |  |
 | ------- |
@@ -704,6 +706,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3558-find-a-safe-walk-through-a-grid) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Shortest Path
 |  |
 | ------- |
@@ -712,6 +715,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3558-find-a-safe-walk-through-a-grid) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Tree
 |  |
 | ------- |
@@ -788,6 +792,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2677-cousins-in-binary-tree-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2677-cousins-in-binary-tree-ii) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3603-check-if-dfs-strings-are-palindromes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3603-check-if-dfs-strings-are-palindromes) |
+| [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Doubly-Linked List
 |  |
 | ------- |
