@@ -1,6 +1,6 @@
 class Solution {
     void fn(int node,int maxi, vector<vector<pair<int,int>>>&graph, int &cnt,vector<bool>&vis,
-    vector<int>&outdegree, bool &status, int &th)
+    vector<int>&outdegree)
     {
         vis[node]= true;
         for(int i = graph[node].size()-1; i>=0 ; i--)
@@ -12,19 +12,13 @@ class Solution {
                 if(w <= maxi)
                 {
                     cnt++;
-                    fn(newNode, maxi,graph,cnt,vis,outdegree,status,th);
+                    fn(newNode, maxi,graph,cnt,vis,outdegree);
                 }
                 else
-                {
                     outdegree[newNode]--;
-                }
             }
             else
-            {
-                
-                    outdegree[newNode]--;
-                
-            }
+                outdegree[newNode]--;
         }
     }
 public:
@@ -50,20 +44,16 @@ public:
         {
             int maxi = v[i];
             int cnt = 0; 
-            bool status = true;
             vector<bool>vis(n,false);
-            fn(0,maxi,graph,cnt,vis,outdegree, status, threshold);
+            fn(0,maxi,graph,cnt,vis,outdegree);
             bool m = true;
             for(int i = 0; i<outdegree.size(); i++)
             {
                 if(outdegree[i] > threshold)
                 {
-                   cout<<i<<" iiiiiiiiiiiii\n";
-                    m = false;
+                    m = false; break;
                 }
             }
-            cout<<cnt<<" cnttttttttttttt\n";
-            cout<<v[i]<<" vvvvvvvvvvvv\n";
             if(cnt == n-1)
                 {
                     if(m == true)
