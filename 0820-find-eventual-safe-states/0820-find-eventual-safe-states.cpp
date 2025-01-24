@@ -6,7 +6,7 @@ class Solution {
             return dp[node]=true;
         auto ret = dp[node];
         if(ret == true)
-            return dp[node]=true;
+            return true;
         for(int i = 0; i< v[node].size(); i++)
         {
             if(!vis[v[node][i]])
