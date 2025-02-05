@@ -19,7 +19,7 @@ public:
             if(diff > 2)
                 return false;
         }
-        return diff != 1;
+        return true;
         
     }
 };
