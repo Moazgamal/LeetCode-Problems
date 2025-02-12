@@ -8,30 +8,20 @@ public:
             string s = to_string(nums[i]);
             int sum = 0; 
             for(int j = 0; j< s.size(); j++)
-            {
                 sum += (s[j]-'0');
-            }
-            cout<<sum<<"ss\n";
+            
             if(mp.count(sum)==0)
-            {
                 mp[sum].first= nums[i];
-                cout<<mp[sum].first<<" "<<mp[sum].second<<"\n";
-            }
             else
             {
-                
-                    if(nums[i] >= mp[sum].first)
-                    {
-                        mp[sum].second= mp[sum].first;
-                        mp[sum].first = nums[i];
-                        cout<<mp[sum].first<<" "<<mp[sum].second<<"\n";
-                    }
-                    else if(nums[i]>mp[sum].second)
-                    {
-                        mp[sum].second = nums[i];
-                        cout<<mp[sum].first<<" "<<mp[sum].second<<"\n";
-                    }
-                cout<<mp[sum].first<<" "<<mp[sum].second<<"\n";
+                if(nums[i] >= mp[sum].first)
+                {
+                    mp[sum].second= mp[sum].first;
+                    mp[sum].first = nums[i];
+                }
+                else if(nums[i]>mp[sum].second)
+                    mp[sum].second = nums[i];
+                    
                 ans = max(ans,mp[sum].first + mp[sum].second);
             }
         }
