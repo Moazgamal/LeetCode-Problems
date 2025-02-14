@@ -22,18 +22,12 @@ vector<long long>v;
     int getProduct(int k) {
         if(v.size()<k)
             return 0; 
-            
+
         if(v.size()==k)
             {
-                cout<<"less "<<v[v.size()-1]<<"\n";
                 return (int)v[v.size()-1];
             }
-        if(v[v.size()-k-1] >0)
-            {
-                cout<<"big "<<v[v.size()-1]<<"\n";
-                return (int)v[v.size()-1]/(int)v[v.size()-k-1];
-            }
-            cout<<"last "<<v[v.size()-1]<<"\n";
+            return (int)v[v.size()-1]/(int)v[v.size()-k-1];
         return (int)v[v.size()-1];
     }
 };
