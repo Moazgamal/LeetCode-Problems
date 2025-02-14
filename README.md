@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3649-minimum-time-to-break-locks-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3649-minimum-time-to-break-locks-i) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 | [3686-count-beautiful-splits-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3686-count-beautiful-splits-in-an-array) |
+| [3760-assign-elements-to-groups-with-constraints](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3760-assign-elements-to-groups-with-constraints) |
 ## String
 |  |
 | ------- |
@@ -287,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3634-find-mirror-score-of-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3634-find-mirror-score-of-a-string) |
 | [3646-sum-of-good-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3646-sum-of-good-subsequences) |
 | [3678-design-task-manager](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3678-design-task-manager) |
+| [3760-assign-elements-to-groups-with-constraints](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3760-assign-elements-to-groups-with-constraints) |
 ## Sliding Window
 |  |
 | ------- |
