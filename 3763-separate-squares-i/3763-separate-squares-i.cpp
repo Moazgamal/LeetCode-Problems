@@ -45,7 +45,7 @@ public:
                 mini= mid;
             }
         }
-        return pos;
+        return maxi;
         
     }
 };
