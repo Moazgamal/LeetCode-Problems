@@ -1,5 +1,5 @@
 class Solution {
-    bool fn(int idx , int cursum, string &s, int target)
+    bool fn(int idx , int cursum, string &s, int &target, int &limit)
     {
         if(cursum== target && idx >= s.size())
             return true;
@@ -7,10 +7,12 @@ class Solution {
         if(cursum > target)
             return false;
         string str = "";
-        for(int i = idx; i< s.size(); i++)
+        int i = idx;
+        int j = i+limit;
+        for( ;i< j && i< s.size(); i++)
         {
             str.push_back(s[i]);
-            if(fn(i+1, cursum+stoi(str) , s, target))
+            if(fn(i+1, cursum+stoi(str) , s, target, limit))
                 return true;
         }
         return false;
@@ -23,7 +25,7 @@ public:
             int dup = i*i;
             string s = to_string(dup);
             int limit = to_string(i).size();
-            bool f = fn(0,0,s,i);
+            bool f = fn(0,0,s,i, limit);
             if(f==true)
                 ans+=dup;
         }return ans;
