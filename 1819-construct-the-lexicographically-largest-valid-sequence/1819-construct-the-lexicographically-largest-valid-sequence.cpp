@@ -11,19 +11,14 @@ class Solution {
                     x=false; break;
                 }
             }
-            if(x==true)
+            if(x)
             {
                 for(int i =0; i< v.size(); i++)
                 {
                     if(res[i] > v[i])
-                    {
                         break;
-                    }
                     else
-                    {
                         res = v; break;
-                    }
-                    
                 }
             }
             return x;
@@ -50,7 +45,6 @@ class Solution {
                 mp.erase(i);
             }
         }
-        
         return false;
     }
 public:
