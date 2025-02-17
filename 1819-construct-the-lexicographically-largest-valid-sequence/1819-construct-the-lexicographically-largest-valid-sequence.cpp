@@ -34,10 +34,8 @@ class Solution {
         {
             if(mp.count(i)==0)
             {
-
                 if(idx+ i>=v.size() && i != 1)
                     continue ;
-                
                 if(i != 1 && v[idx+i] != -1)
                     continue;
                 v[idx]= i;
@@ -52,6 +50,7 @@ class Solution {
                 mp.erase(i);
             }
         }
+        
         return false;
     }
 public:
