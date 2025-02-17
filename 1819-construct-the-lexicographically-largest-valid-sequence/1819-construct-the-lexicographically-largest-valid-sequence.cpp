@@ -38,7 +38,7 @@ class Solution {
                 if(idx+ i>=v.size() && i != 1)
                     continue ;
                 if(v[idx] != -1)
-                    return fn(idx+1, start, n, v, res, mp);
+                    return false;
                 if(i != 1 && v[idx+i] != -1)
                     continue;
                 v[idx]= i;
