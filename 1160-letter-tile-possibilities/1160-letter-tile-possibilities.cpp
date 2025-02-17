@@ -1,8 +1,6 @@
 class Solution {
     void backtracking(int idx,int &sz, int &ans, unordered_map<char,int>&mp)
     {
-        if(idx >= sz)
-            return ;
         for(auto x: mp)
         {
             if(x.second ==0)
