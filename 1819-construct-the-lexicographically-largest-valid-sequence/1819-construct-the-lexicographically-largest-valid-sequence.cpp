@@ -3,25 +3,8 @@ class Solution {
     {
         if(idx == v.size())
         {
-            bool x = true;
-            for(int i = 0; i< v.size(); i++)
-            {
-                if(v[i] == -1)
-                {
-                    x=false; break;
-                }
-            }
-            if(x)
-            {
-                for(int i =0; i< v.size(); i++)
-                {
-                    if(res[i] > v[i])
-                        break;
-                    else
-                        res = v; break;
-                }
-            }
-            return x;
+            res = v; 
+            return true;
         }
         if(v[idx] != -1)
                 return fn(idx+1, start, n, v, res, mp);
