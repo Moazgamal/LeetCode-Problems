@@ -1,5 +1,5 @@
 class Solution {
-    bool backtracking(int idx, int num, vector<bool>&v, vector<int> &res, string &pattern)
+    bool backtracking(int idx, int num, vector<bool>&v, string &res, string &pattern)
     {
         if(idx > pattern.size())
         {
@@ -13,7 +13,7 @@ class Solution {
                 continue;
             if(idx == 0)
             {
-                res.push_back(i);
+                res.push_back(i+'0');
                 v[i]=true;
                 if(backtracking(idx+1, 1,v,res,pattern))
                     return true;
@@ -24,9 +24,9 @@ class Solution {
             {
                 if(pattern[idx-1] == 'I')
                 {
-                    if(i > res[res.size()-1])
+                    if(i > res[res.size()-1]-'0')
                     {
-                        res.push_back(i);
+                        res.push_back(i+'0');
                         v[i] = true;
                         if(backtracking(idx+1, 1,v,res,pattern))
                             return true;
@@ -36,10 +36,10 @@ class Solution {
                 }
                 else
                 {
-                    if(i< res[res.size()-1])
+                    if(i< res[res.size()-1]-'0')
                     {
                         v[i] = true;
-                        res.push_back(i);
+                        res.push_back(i+'0');
                         if(backtracking(idx+1, 1,v,res,pattern))
                             return true;
                         res.pop_back();
@@ -54,14 +54,9 @@ public:
     string smallestNumber(string pattern) {
         
         vector<bool> v(10,false);
-        vector<int> res;
+        string res ="";
         backtracking(0, 1, v, res, pattern);
-        string x = "";
-        for(int i = 0; i< res.size(); i++)
-        {
-            x.push_back(res[i]+'0');
-        }
-        return x;
+        return res;
         
     }
 };
