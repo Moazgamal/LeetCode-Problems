@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0068-text-justification](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0068-text-justification) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0174-dungeon-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0174-dungeon-game) |
+| [0204-count-primes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0219-contains-duplicate-ii) |
@@ -414,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0268-missing-number) |
 | [0670-maximum-swap](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0670-maximum-swap) |
@@ -504,6 +506,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0204-count-primes) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 | [2491-smallest-even-multiple](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2491-smallest-even-multiple) |
 | [2716-prime-subtraction-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2716-prime-subtraction-operation) |
@@ -726,6 +729,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0204-count-primes) |
 | [1010-powerful-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1010-powerful-integers) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3594-identify-the-largest-outlier-in-an-array) |
