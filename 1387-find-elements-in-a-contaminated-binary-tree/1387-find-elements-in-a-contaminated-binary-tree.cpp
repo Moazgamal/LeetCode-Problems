@@ -11,7 +11,6 @@
  */
 class FindElements {
 public:
-TreeNode* root1;
 unordered_set<int> st;
     FindElements(TreeNode* root) {
         stack<TreeNode*> Stack;
@@ -35,7 +34,6 @@ unordered_set<int> st;
                 Stack.push(cur->left);
             }
         }
-        root1 = root;
     }
     
     bool find(int target) {
