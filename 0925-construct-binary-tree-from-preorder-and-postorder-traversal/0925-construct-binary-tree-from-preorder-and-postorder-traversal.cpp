@@ -19,10 +19,6 @@ class Solution {
         TreeNode* root = new TreeNode(pre[idx1]);
         int leftval = pre[idx1+1];
         int rightval = post[idx2-1];
-        if(leftval == rightval)
-        {
-            root->left = new TreeNode(leftval);
-        }
         int j = idx1+1;
         for(int i = idx1+1; i<=end; i++)
         {
