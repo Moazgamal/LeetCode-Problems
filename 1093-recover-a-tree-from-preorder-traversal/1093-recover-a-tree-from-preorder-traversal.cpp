@@ -26,9 +26,7 @@ class Solution {
                 if(cnt == d+1)
                 {
                     if(idx1 == -1)
-                    {
                         idx1 = i;
-                    }
                     else
                     {
                         idx2 = i;
@@ -74,7 +72,6 @@ class Solution {
                 j++;
             }
             val = stoi(s);
-
             root->right = new TreeNode(val);
             fn(root->right, j, end, traversal, d+1);
         }
