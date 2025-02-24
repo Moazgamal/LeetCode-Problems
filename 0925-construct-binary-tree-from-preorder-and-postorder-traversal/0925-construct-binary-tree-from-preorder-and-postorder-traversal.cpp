@@ -36,7 +36,7 @@ class Solution {
             }
         }
         root->left = fn(pre, post, idx1+1, k, j-1);
-        root->right = fn(pre, post, j,idx2-1,end);
+        root->right = fn(pre, post, j, idx2-1, end);
         return root;
     }
 public:
