@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2554-minimum-total-distance-traveled](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2554-minimum-total-distance-traveled) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2586-longest-square-streak-in-an-array) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2616-maximal-score-after-applying-k-operations) |
@@ -767,6 +768,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2677-cousins-in-binary-tree-ii) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
@@ -779,6 +781,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0820-find-eventual-safe-states) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2564-most-profitable-path-in-a-tree) |
 | [3189-find-champion-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3189-find-champion-ii) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
@@ -821,6 +824,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2677-cousins-in-binary-tree-ii) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
@@ -878,6 +882,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1396-count-servers-that-communicate) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2677-cousins-in-binary-tree-ii) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3603-check-if-dfs-strings-are-palindromes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3603-check-if-dfs-strings-are-palindromes) |
