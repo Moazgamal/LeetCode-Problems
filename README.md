@@ -213,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3631-count-k-reducible-numbers-less-than-n](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3631-count-k-reducible-numbers-less-than-n) |
 | [3634-find-mirror-score-of-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3634-find-mirror-score-of-a-string) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Trie
 |  |
 | ------- |
@@ -447,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3626-smallest-divisible-digit-product-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3626-smallest-divisible-digit-product-i) |
 | [3631-count-k-reducible-numbers-less-than-n](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3631-count-k-reducible-numbers-less-than-n) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Sorting
 |  |
 | ------- |
@@ -521,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 | [2491-smallest-even-multiple](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2491-smallest-even-multiple) |
 | [2716-prime-subtraction-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2716-prime-subtraction-operation) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -628,6 +631,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3634-find-mirror-score-of-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3634-find-mirror-score-of-a-string) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -900,6 +904,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3631-count-k-reducible-numbers-less-than-n](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3631-count-k-reducible-numbers-less-than-n) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Divide and Conquer
 |  |
 | ------- |
