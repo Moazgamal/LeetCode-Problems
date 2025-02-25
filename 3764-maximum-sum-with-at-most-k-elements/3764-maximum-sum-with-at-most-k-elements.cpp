@@ -6,12 +6,10 @@ public:
             return 0; 
         priority_queue<pair<int,int>>pq;
         for(int r = 0; r< grid.size(); r++)
-            {
                 for(int c = 0; c< grid[0].size(); c++)
-                    {
-                        pq.push({grid[r][c], r});
-                    }
-            }
+                    pq.push({grid[r][c], r});
+                    
+            
         while(!pq.empty())
             {
                 auto p = pq.top();
