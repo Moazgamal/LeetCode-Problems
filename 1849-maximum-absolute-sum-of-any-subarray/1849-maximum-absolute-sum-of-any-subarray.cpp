@@ -5,6 +5,7 @@ public:
         int ans = 0; 
         int maxPos = 0;
         int maxNeg = 0;
+        unordered_map<int,int> mp;
         for(int i = 0; i < nums.size(); i++)
         {
             PrefixSum += nums[i];
