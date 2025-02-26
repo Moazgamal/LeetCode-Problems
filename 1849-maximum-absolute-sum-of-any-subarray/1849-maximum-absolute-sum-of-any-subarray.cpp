@@ -2,7 +2,7 @@ class Solution {
 public:
     int maxAbsoluteSum(vector<int>& nums) {
         int PrefixSum = 0 ;
-        int ans = INT_MIN; 
+        int ans = 0; 
         int posidx=0;
         int negidx=0;
         unordered_map<int,int>mp;
