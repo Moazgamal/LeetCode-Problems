@@ -3,42 +3,42 @@ public:
     int maxAbsoluteSum(vector<int>& nums) {
         int PrefixSum = 0 ;
         int ans = 0; 
-        int posidx=0;
-        int negidx=0;
-        unordered_map<int,int>mp;
-        for(int i =0; i< nums.size();i++)
+        int maxPos = 0;
+        int maxNeg = 0;
+        unordered_map<int,int> mp;
+        for(int i = 0; i < nums.size(); i++)
         {
-            PrefixSum+=nums[i];
+            PrefixSum += nums[i];
             ans = max(ans, abs(PrefixSum));
             if(PrefixSum >= 0)
             {
-                if(negidx !=0)
-                    ans = max(ans, PrefixSum-negidx);
+                if(maxNeg !=0)
+                    ans = max(ans, PrefixSum-maxNeg);
             }
             else
             {
-                if(posidx !=0)
-                    ans = max(ans, abs(PrefixSum-posidx));
+                if(maxPos != 0)
+                    ans = max(ans, abs(PrefixSum-maxPos));
             }
-            if( PrefixSum>0 )
+            if(PrefixSum > 0)
             {
-                if(posidx != 0)
+                if(maxPos != 0)
                 {
-                    if(posidx<PrefixSum)
-                        posidx = PrefixSum;
+                    if(maxPos < PrefixSum)
+                        maxPos = PrefixSum;
                 }
                 else
-                    posidx = PrefixSum;
+                    maxPos = PrefixSum;
             }
             else
             {
-                if(negidx != 0)
+                if(maxNeg != 0)
                 {
-                    if(negidx>PrefixSum)
-                        negidx = PrefixSum;
+                    if(maxNeg > PrefixSum)
+                        maxNeg = PrefixSum;
                 }
                 else
-                    negidx = PrefixSum;
+                    maxNeg = PrefixSum;
             }
             
         }
