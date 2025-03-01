@@ -14,26 +14,17 @@ public:
         {
             if(nums[i] != 0)
             {
-                if(j ==-1)
-                    continue;
-                else
+                if(j !=-1)
                 {
                     nums[j] = nums[i];
                     nums[i] = 0; 
                     j++;
                     while(j< nums.size() && nums[j] != 0)
-                    {
                         j++;
-                    }
                 }
             }
-            else if(j != -1)
-            {
-                continue;
-            }
-            else
-                j= i ; 
-            
+            else if(j == -1)
+                j= i;
         }return nums;
     }
 };
