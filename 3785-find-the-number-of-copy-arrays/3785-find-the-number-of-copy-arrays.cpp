@@ -5,14 +5,14 @@ public:
         {
             return bounds[0][1]-bounds[0][0]+1;
         }
-        long long ans = INT_MAX; 
-        long long mini = -1;
-        long long maxi = -1;
+        int ans = INT_MAX; 
+        int mini = -1;
+        int maxi = -1;
         for(int i = 1; i< original.size(); i++)
         {
             int diff = original[i]-original[i-1];
-            long long x = bounds[i][0];
-            long long y = bounds[i][1];
+            int x = bounds[i][0];
+            int y = bounds[i][1];
             if(mini == -1 && maxi == -1)
             {
                 mini =  bounds[i-1][0]+diff;
