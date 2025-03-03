@@ -19,8 +19,6 @@ public:
                 ids3.push_back(i);
             }
         }
-        sort(ids.begin(), ids.end());
-        sort(ids2.begin(), ids2.end());
         vector<int> res;
         for(int i = 0; i< ids.size(); i++)
         {
