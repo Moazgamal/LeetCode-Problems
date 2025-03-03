@@ -18,8 +18,7 @@ public:
     }
     int longestPalindromicSubsequence(string s, int k) {
         int n=s.size();
-       
-        dp.resize(n,vector<vector<int>>(n+1,vector<int>(k+1,-1)));
+        dp.resize(n,vector<vector<int>>(n,vector<int>(k+1,-1)));
         return solve(0,s.size()-1,s,k);
     }
 };
