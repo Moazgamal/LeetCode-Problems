@@ -21,16 +21,14 @@ public:
             else
             {
                 mini= mini+diff;
-            maxi = maxi+diff;
+                maxi = maxi+diff;
             }
-            long long w = abs(x-mini) + abs(y-maxi);
-            long long sum = ((y-x+1) + (maxi-mini+1));
-            sum-= w; sum/=2;
-            ans = min(ans, sum);
-            
-                mini = max(mini, x);
+            // long long w = abs(x-mini) + abs(y-maxi);
+            // long long sum = ((y-x+1) + (maxi-mini+1));
+            // sum-= w; sum/=2;
+            mini = max(mini, x);
             maxi = min(maxi, y);
-            
+            ans = min(ans, maxi-mini+1);
         }
         return ans <= 0 ? 0 : ans; 
         
