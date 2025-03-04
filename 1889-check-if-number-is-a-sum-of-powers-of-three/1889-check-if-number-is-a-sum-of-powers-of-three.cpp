@@ -10,7 +10,7 @@ class Solution {
         bool leave = fn(power+1, number, maxipower, accsum);
         if(leave)
             return true;
-        bool pick = fn(power+1, number, maxipower, pow(3,power)+accsum);
+        bool pick = fn(power+1, number, maxipower,pow(3,power)+accsum);
         return pick ;
     }
 public:
