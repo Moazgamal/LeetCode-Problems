@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3227-find-missing-and-repeated-values](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3227-find-missing-and-repeated-values) |
 | [3265-maximum-good-subarray-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3265-maximum-good-subarray-sum) |
 | [3290-number-of-subarrays-that-match-a-pattern-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3290-number-of-subarrays-that-match-a-pattern-ii) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3291-find-if-array-can-be-sorted) |
@@ -300,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [3227-find-missing-and-repeated-values](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3227-find-missing-and-repeated-values) |
 | [3265-maximum-good-subarray-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3265-maximum-good-subarray-sum) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3308-apply-operations-to-make-string-empty](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3308-apply-operations-to-make-string-empty) |
@@ -449,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2649-count-total-number-of-colored-cells](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2649-count-total-number-of-colored-cells) |
 | [2716-prime-subtraction-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2716-prime-subtraction-operation) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2802-find-the-punishment-number-of-an-integer) |
+| [3227-find-missing-and-repeated-values](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3227-find-missing-and-repeated-values) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -626,6 +629,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3227-find-missing-and-repeated-values](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3227-find-missing-and-repeated-values) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3558-find-a-safe-walk-through-a-grid) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
