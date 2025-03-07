@@ -5,7 +5,7 @@ public:
         vector<bool> v(right+1,true);
         v[1] = false;
         int ans = -1; 
-        long long f = ceil(sqrt(right));
+        long long f = (sqrt(right));
         int lastprime = -1; 
         for(long long i = 2; i<= f; i++)
         {
