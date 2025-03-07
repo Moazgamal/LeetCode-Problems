@@ -5,19 +5,19 @@ public:
         vector<bool> v(right+1,true);
         v[1] = false;
         int ans = -1; 
-        int f = ceil(sqrt(right));
+        long long f = ceil(sqrt(right));
         int lastprime = -1; 
-        for(int i = 2; i<= right; i++)
+        for(long long i = 2; i<= f; i++)
         {
             if(v[i] == true)
             {
-                for(int j = i+i; j<= right; j+=i)
+                for(long long j = i+i; j<= right; j+=i)
                 {
                     v[j] = false;
                 }
             }
         }
-        for(int i = left ; i<= right; i++)
+        for(long long i = left ; i<= right; i++)
         {
             if(v[i] == true)
             {
