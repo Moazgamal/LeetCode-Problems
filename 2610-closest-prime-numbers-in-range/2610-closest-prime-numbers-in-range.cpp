@@ -21,7 +21,6 @@ public:
         {
             if(v[i] == true)
             {
-                cout<<i<<" fawzy"<<" "<<lastprime<<"\n";
                 if(ans == -1)
                 {
                     if(res[0] == -1)
@@ -43,7 +42,7 @@ public:
                         res[1] = i;
                         res[0] = lastprime;
                     }
-                        lastprime = i ;
+                    lastprime = i ;
                     
                 }
             }
