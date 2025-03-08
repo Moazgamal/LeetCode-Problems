@@ -22,22 +22,17 @@ public:
         if(indicies.size() == 1)
         {
             int value = indicies[0].second - indicies[0].first +1;
-            if(value >=k)
-                return 0; 
             k-=value;
             return k; 
         }
-        for(int i = 0; i< indicies.size(); i++)
+        for(int i = 0; i < indicies.size(); i++)
         {
             int totalOperations = 0; 
             int start  = indicies[i].first;
             int end  = indicies[i].second;
-            int sum = end-start+1;
-            if(sum >=k)
-                return 0; 
             int rest = k; 
-            rest -= sum;
-            for(int j = i+1; j< indicies.size(); j++)
+            rest -= (end-start+1);
+            for(int j = i+1; j < indicies.size(); j++)
             {
                 int start2  = indicies[j].first;
                 int end2  = indicies[j].second;
@@ -54,27 +49,24 @@ public:
                 }
                 else if(rest - currentOperation <0)
                 {
-                    ans = min(ans, totalOperations+rest);
+                    ans = min(ans, totalOperations + rest);
                     break;
                 }
                 else
                 {
-                    rest -=currentOperation;
-                    rest = rest - (end2-start2+1);
+                    rest -= currentOperation;
+                    rest -= (end2-start2+1);
                     totalOperations += currentOperation;
                     if(rest<=0)
-                    {
                         ans = min(ans, totalOperations);
-                    }
                 }
                 end = end2; 
                 start = start2;
             }
             if(rest >0)
-            {
                 ans = min(ans, totalOperations+rest);
-            }
-        }return ans;
+        }
+        return ans;
 
 
     }
