@@ -15,8 +15,8 @@ public:
                     ans++; i++;
                 }
             }
-            i = j+1;
-            j=j+1;
+            j++;
+            i = j;
         }return ans; 
     }
 };
