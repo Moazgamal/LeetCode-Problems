@@ -12,7 +12,6 @@ public:
                 j++;
                 if(j-i+1 == k)
                 {
-                    cout<<j<<" j "<<i<<"\n";
                     ans++; i++;
                 }
             }
