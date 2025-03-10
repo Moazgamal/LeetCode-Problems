@@ -1,10 +1,10 @@
 class Solution {
 public:
     int numOfUnplacedFruits(vector<int>& fruits, vector<int>& baskets) {
-       multiset<pair<int,int>> ums;
+       multiset<pair<int,int>> ms;
         for(int i = 0; i< baskets.size(); i++)
         {
-            ums.insert({i,baskets[i]});
+            ms.insert({i,baskets[i]});
         }
         int ans = 0; 
         int limit = INT_MAX;
@@ -16,12 +16,12 @@ public:
                 ans++; continue;
             }
             bool s = false;
-            for(auto x: ums)
+            for(auto x: ms)
             {
                 // cout<<x<<" \n";
                 if(x.second >= fruits[i])
                 {
-                    ums.erase(ums.find(x));
+                    ms.erase(ms.find(x));
                     s = true;
                     break;
                 }
