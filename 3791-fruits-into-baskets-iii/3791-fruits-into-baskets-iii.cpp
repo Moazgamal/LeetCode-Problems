@@ -18,7 +18,6 @@ public:
             bool s = false;
             for(auto x: ms)
             {
-                // cout<<x<<" \n";
                 if(x.second >= fruits[i])
                 {
                     ms.erase(ms.find(x));
