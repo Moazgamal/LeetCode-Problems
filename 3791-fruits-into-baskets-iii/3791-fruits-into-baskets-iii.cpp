@@ -31,8 +31,6 @@ public:
                 ans++;
                 limit = min(limit, fruits[i]);
             }
-            
-
         }return ans;
     }
 };
