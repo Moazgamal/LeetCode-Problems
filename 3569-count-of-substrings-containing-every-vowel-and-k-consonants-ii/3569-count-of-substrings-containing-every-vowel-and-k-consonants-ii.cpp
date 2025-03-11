@@ -34,7 +34,6 @@ public:
                 if(cons==k)
                 {
                     int idx = consInd[j];
-                    cout<<idx<<"  \n";
                     while(mp.size()==5 && cons == k)
                     {
                         ans += (idx-j);
@@ -45,9 +44,8 @@ public:
                                 mp.erase(word[i]);
                         }
                         else
-                        {
                             cons--; 
-                        }
+                        
                         i++;
                     }
                 }
@@ -62,9 +60,8 @@ public:
                                 mp.erase(word[i]);
                         }
                         else
-                        {
                             cons--; 
-                        }
+                        
                         i++;
                     }
                 }
