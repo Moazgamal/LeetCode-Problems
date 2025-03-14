@@ -25,10 +25,7 @@ public:
                 start = mid+1;
             }
             else
-            {
                 end= mid-1; 
-            }
-
         }
         return pos>0?pos:0;
         
