@@ -17,8 +17,6 @@ vector<vector<int>>v;
             }
         row--;
         v[row][col] = value;
-        
-        
     }
     
     void resetCell(string cell) {
@@ -34,58 +32,38 @@ vector<vector<int>>v;
         while(formula[i] != '+')
             {
                 if(!isdigit(formula[i]))
-                {
                     col1 = formula[i]-'A';
-                }
                 else
-                {
-                    
                     acc.push_back(formula[i]);
-                }
                 i++;
             }
         int idx = stoi(acc);
         int x1 = 0; 
         if(col1 != -1)
-        {
             x1 = v[idx-1][col1];
-        }
         else
-        {
             x1 = idx;
-        }
         acc="";
         col1 = -1; 
         row1 = 0; 
         num = 0;
         i++;
-        // f=1;
         while(i<formula.size())
             {
                 if(!isdigit(formula[i]))
-                {
                     col1 = formula[i]-'A';
-                }
                 else
-                {
                     acc.push_back(formula[i]);
-                }
                 i++;
             }
         idx = stoi(acc);
         int x2 = 0; 
         if(col1 != -1)
-        {
             x2 = v[idx-1][col1];
-        }
         else
-        {
             x2 = idx;
-        }
-        // cout<<x1<<" "<<x2;
+        
         return x1 + x2; 
-        
-        
     }
 };
 
