@@ -2,8 +2,7 @@ class Spreadsheet {
 public:
 vector<vector<int>>v;
     Spreadsheet(int rows) {
-        vector<vector<int>> x (rows, vector<int>(26,0));
-        v=x;
+        v.resize(rows, vector<int>(26,0));
     }
     
     void setCell(string cell, int value) {
