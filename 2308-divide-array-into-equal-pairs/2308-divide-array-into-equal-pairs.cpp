@@ -6,9 +6,8 @@ public:
         sz = sz/2;
         unordered_map<int,int> freq;
         for(int i = 0; i< nums.size(); i++)
-        {
             ++freq[nums[i]];
-        }
+        
         for(auto x: freq)
         {
             if(x.second>= 2)
