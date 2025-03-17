@@ -12,12 +12,8 @@ public:
         for(auto x: freq)
         {
             if(x.second>= 2)
-            {
                 if(x.second%2==0)
                     continue;
-                else
-                    return false;
-            }
             return false;
         }return true;
     }
