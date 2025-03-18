@@ -7,7 +7,7 @@ public:
 
         for(int i =1; i< nums.size(); i++)
         {
-            while((acc & nums[i])!=0 && j<i)
+            while((acc & nums[i])!=0 )
             {
                 acc = acc ^ nums[j];
                 j++;
