@@ -7,20 +7,12 @@ public:
 
         for(int i =1; i< nums.size(); i++)
         {
-            if(acc & nums[i]==0)
+            while((acc & nums[i])!=0 && j<i)
             {
-                acc = acc | nums[i];
-                ans = max(ans, i-j+1);
+                acc = acc ^ nums[j];
+                j++;
             }
-            else
-            {
-                while((acc & nums[i])!=0 && j<i)
-                {
-                    acc = acc ^ nums[j];
-                    j++;
-                }
-                acc = acc | nums[i];
-            }
+            acc = acc | nums[i];
             ans = max(ans, i-j+1);
         }return ans;
         
