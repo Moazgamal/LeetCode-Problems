@@ -34,7 +34,6 @@ public:
                 bool y = true;
                 for(auto x : nodes)
                 {
-                    int cnt = 0; 
                     if(graph[x].size() != nodes.size()-1)
                     {
                         y = false;
