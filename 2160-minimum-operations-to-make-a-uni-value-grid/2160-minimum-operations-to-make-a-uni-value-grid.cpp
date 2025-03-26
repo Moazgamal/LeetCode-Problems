@@ -15,13 +15,10 @@ public:
         int sz= v.size()/2 ;
         int ans = 0; 
         int num = v[sz];
-        cout<<num<<"\n";
         for(int i =0; i<v.size(); i++)
         {
             if(abs(num-v[i])%x !=0)
                 return -1;
-            
-
             ans+= abs(num-v[i])/x; 
         }
         return ans;
