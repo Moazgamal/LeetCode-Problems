@@ -45,10 +45,8 @@ public:
                 
                 if(*(mp3.begin()->second.begin()) == *(mp4.begin()->second.begin()))
                 {
-                    cout<<i<<"iiiii\n";
                     int f1= mp3.begin()->first;
                     int f2 = mp4.begin()->first;
-                    cout<<f1<<" "<<f2<<"\n";
                     int no1 = i+1;
                     int no2 = nums.size()-1 - i; 
                     no1 = no1/2+1;
