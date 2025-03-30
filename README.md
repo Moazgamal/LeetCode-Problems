@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0567-permutation-in-string) |
 | [0686-repeated-string-match](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0686-repeated-string-match) |
 | [0692-top-k-frequent-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0692-top-k-frequent-words) |
+| [0768-partition-labels](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0768-partition-labels) |
 | [0812-rotate-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0812-rotate-string) |
 | [0952-word-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0692-top-k-frequent-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0692-top-k-frequent-words) |
+| [0768-partition-labels](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0876-hand-of-straights) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0952-word-subsets) |
@@ -606,6 +608,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0143-reorder-list) |
 | [0287-find-the-duplicate-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0567-permutation-in-string) |
+| [0768-partition-labels](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0768-partition-labels) |
 | [1080-camelcase-matching](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1080-camelcase-matching) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
@@ -730,6 +733,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0670-maximum-swap](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0670-maximum-swap) |
+| [0768-partition-labels](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0768-partition-labels) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0780-max-chunks-to-make-sorted) |
 | [0876-hand-of-straights](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0876-hand-of-straights) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
