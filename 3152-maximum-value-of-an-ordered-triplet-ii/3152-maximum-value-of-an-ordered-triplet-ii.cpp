@@ -13,7 +13,7 @@ public:
             if(nums[i] > nums[maxi])
                 maxi = i ;
         }
-        for(int i = 1; i< nums.size(); i++)
+        for(int i = 1; i< nums.size()-1; i++)
         {
             minis[i] = mini;
             if(nums[i]> nums[mini])
@@ -27,16 +27,7 @@ public:
                 continue;
             ans = max(ans , (long long)(nums[n2]-nums[i])*nums[n1]);
         }
-        for(int i = 0; i<=0; i++)
-        {
-            for(int j  = i+1; j< nums.size()-1; j++)
-            {
-                int idx = maxis[j];
-                if(idx ==-1)
-                    continue;
-                ans = max(ans, (long long)(nums[0]-nums[j])*nums[idx]);
-            }
-        }
+        
         
         return ans; 
 
