@@ -28,12 +28,16 @@ class Solution {
     {
         if(!root)
             return nullptr;
+            
         if(st.find(root->val) != st.end())
             return root;
+
         TreeNode* t1 = lca(root->left, st);
         TreeNode* t2 = lca(root->right, st);
+
         if(t1 && t2)
             return root;
+
         if(t1)
             return t1;
         return t2;
@@ -51,12 +55,11 @@ public:
             {
                 auto cur = q.front(); q.pop();
                 if(level == height)
-                {
                     st.insert(cur->val);
-                    cout<<cur->val<<"\n";
-                }
+
                 if(cur->left)
                     q.push(cur->left);
+
                 if(cur->right)
                     q.push(cur->right);
             }
