@@ -36,9 +36,8 @@ class Solution {
             return root;
         if(t1)
             return t1;
-       if(t2)
         return t2;
-        return nullptr;
+       
     }
 public:
     TreeNode* lcaDeepestLeaves(TreeNode* root) {
