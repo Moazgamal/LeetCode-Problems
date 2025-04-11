@@ -19,7 +19,7 @@ class Solution {
             }
             if(sum1 == sum2 &&  sum1+sum2 !=0)
             {
-            cout<<sum1<<" "<<sum2<<" "<<z<<"\n";
+            // cout<<sum1<<" "<<sum2<<" "<<z<<"\n";
                 ans++;
 
             }
@@ -52,7 +52,7 @@ public:
         {
             if(i%2!=0)
                 continue;
-            cout<<i<<"\n";
+            // cout<<i<<"\n";
             backtracking(i, low, high, ans, acc, cnt);
         }
        
