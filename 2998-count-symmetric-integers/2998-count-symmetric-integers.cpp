@@ -29,6 +29,13 @@ class Solution {
         {
            acc.push_back(char(j+'0'));
             backtracking(i, low, high,ans, acc);
+            int z= stoi(acc);
+
+            if(z>high)
+            {
+                acc.pop_back();
+                return ;
+            }
             acc.pop_back();
         }
     }
