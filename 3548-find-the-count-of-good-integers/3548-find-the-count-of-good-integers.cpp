@@ -8,7 +8,7 @@ class Solution {
         }return ans;
     }
     
-     void backtracking(int n,int k, long long &ans, string &acc, int start, vector<string>& pals)
+     void backtracking(int n,int k, string &acc, vector<string>& pals)
     {
         if((int)acc.size() == n/2)
         {
@@ -29,7 +29,7 @@ class Solution {
             else
             {
                 int u = 0; 
-                if(start == 0)
+                if((int)acc.size() == 0)
                     u=1;
                 for(;u<10; u++)
                 {
@@ -49,33 +49,24 @@ class Solution {
             return ;
         }
         int j = 0; 
-        if(start == 0)
+        if((int)acc.size() == 0)
             j++;
         
         for(; j<10; j++)
         {
            acc.push_back(char(j+'0'));
-            backtracking(n,k, ans,acc,start+1,pals);
+            backtracking(n,k,acc,pals);
             acc.pop_back();
         }
     }
 public:
     long long countGoodIntegers(int n, int k) {
-        if(n==1)
-        {
-            long long ans = 0; 
-            for(int i = 1; i<10;i++)
-            {
-                if(i%k==0 )
-                    ans++;
-            }
-            return ans;
-        }
+    
         long long ans = 0; 
 
         string acc ="";
         vector<string> pals;
-        backtracking(n,k, ans, acc,0, pals);
+        backtracking(n,k, acc, pals);
         // unique pals
         set<string>st;
         for(int i = 0; i< pals.size(); i++)
