@@ -169,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0030-substring-with-concatenation-of-all-words) |
+| [0038-count-and-say](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0049-group-anagrams) |
 | [0068-text-justification](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0068-text-justification) |
 | [0125-valid-palindrome](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0125-valid-palindrome) |
