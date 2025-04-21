@@ -19,14 +19,8 @@ public:
                 continue;
             }
            int q = ceil((float)x.second/(x.first+1));
-           int rem = (x.second%(x.first+1));
-           
            ans+= (q*(x.first+1));
-        //    if(rem > 0)
-        //    {
-        //     ans += (rem*(x.first+1));
-        //    }
-
+        
         }
         return ans; 
 
