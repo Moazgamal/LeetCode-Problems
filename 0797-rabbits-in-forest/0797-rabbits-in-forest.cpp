@@ -9,7 +9,7 @@ public:
         }
         for(auto x: mp)
         {
-           float q = ceil((float)x.second/(x.first+1));
+           int q = ceil((float)x.second/(x.first+1));
            ans+= (x.first+1)*q;
         }
         return ans; 
