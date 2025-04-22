@@ -24,7 +24,6 @@ class Solution {
         if(root->right)
             p2.first++;
 
-        int height = max(p1.first, p2.first);
         return {max(p1.first,p2.first), max((p1.first+p2.first),max(p1.second,p2.second))};
     
     }
