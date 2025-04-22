@@ -21,7 +21,7 @@ class Solution {
         if((prevProduct*nums[idx])%k == x)
             cnt++;
         ll take = cnt + fn(idx+1, k, dp, (prevProduct*nums[idx])%k, x, answer,nums);
-        // ll leave = fn(idx+1, k, dp, nums[idx], x, answer,nums);
+        
         return ret = take;
         
     }
