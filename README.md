@@ -247,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3805-maximize-active-section-with-trade-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3805-maximize-active-section-with-trade-i) |
+| [3810-count-numbers-with-non-decreasing-digits](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3810-count-numbers-with-non-decreasing-digits) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 ## Trie
 |  |
@@ -520,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3631-count-k-reducible-numbers-less-than-n](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3631-count-k-reducible-numbers-less-than-n) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
+| [3810-count-numbers-with-non-decreasing-digits](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3810-count-numbers-with-non-decreasing-digits) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 ## Sorting
 |  |
@@ -685,6 +687,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3646-sum-of-good-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3646-sum-of-good-subsequences) |
 | [3649-minimum-time-to-break-locks-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3649-minimum-time-to-break-locks-i) |
 | [3686-count-beautiful-splits-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3686-count-beautiful-splits-in-an-array) |
+| [3810-count-numbers-with-non-decreasing-digits](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3810-count-numbers-with-non-decreasing-digits) |
 ## Matrix
 |  |
 | ------- |
