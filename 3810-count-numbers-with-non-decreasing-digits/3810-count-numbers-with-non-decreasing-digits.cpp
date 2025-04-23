@@ -36,7 +36,7 @@ class Solution {
         return res;
     }
 
-    string divmodString(const string num, int base, int &rem_out) {
+    string divmodString(const string &num, int base, int &rem_out) {
         string quotient;
         quotient.reserve(num.size());
         int carry = 0;
@@ -52,7 +52,7 @@ class Solution {
         return quotient.empty() ? "0" : quotient;
     }
 
-    string convertToBaseX(const string decimalStr, int base) {
+    string convertToBaseX(const string &decimalStr, int base) {
         if (decimalStr == "0") return "0";
         static const char *digits = "0123456789";
         string n = decimalStr;
