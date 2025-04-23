@@ -6,8 +6,8 @@ class Solution {
     {
         if(freq> len)
             return 0;
-        if(freq > len-freq)
-            freq = len-freq;
+        
+        freq= min(freq, len-freq);
         ll ans = 1; 
         for(int i = 1; i<= freq; i++)
         {
