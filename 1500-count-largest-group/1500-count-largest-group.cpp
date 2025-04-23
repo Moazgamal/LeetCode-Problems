@@ -6,10 +6,11 @@ public:
         for(int i = 1; i<= n; i++)
         {
             int sum  = 0; 
-            string s = to_string(i);
-            for(int j = 0; j< s.size(); j++)
+            int j = i;
+            while(j > 0)
             {
-                sum += (s[j]-'0');
+                sum += (j%10);
+                j /= 10;
             }
             mp[sum]++; ans = max(ans, mp[sum]);
         }
