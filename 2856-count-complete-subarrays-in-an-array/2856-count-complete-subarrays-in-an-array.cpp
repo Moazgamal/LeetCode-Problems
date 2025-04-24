@@ -17,7 +17,7 @@ public:
         int dis2 = 0; 
         for(int i =0; i< nums.size(); i++)
         {
-            if(mp2.count(nums[i]) ==0)
+            if(mp2[nums[i]] ==0)
             {
                 dis2++;
                 mp2[nums[i]]++;
@@ -34,7 +34,6 @@ public:
                 {
                     if(--mp2[nums[j]] ==0)
                     {
-                        mp2.erase(nums[j]);
                         dis2--;
                     }
                     else
