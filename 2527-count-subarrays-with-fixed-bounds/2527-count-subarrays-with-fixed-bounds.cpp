@@ -17,11 +17,10 @@ public:
             if(nums[i] == minK && nums[i] == maxK)
             {
                 if(j == -1)
-                {
                     ans+= (i+1);
-                }
                 else
                     ans+= (i-j);
+
                 lastmin= i;
                 lastmax=i;
                 continue;
@@ -33,27 +32,19 @@ public:
                 {
                     int idx = min(lastmin, lastmax);
                     if(j == -1)
-                    {
                         ans+= (idx+1);
-                    }
                     else
-                    {
                         ans+=(idx-j);
-                    }
                 }
             }
             else if(nums[i] == minK  )
             {
                 if(lastmax != -1)
                 {
-                        if(j == -1)
-                    {
+                    if(j == -1)
                         ans+= (lastmax+1);
-                    }
                     else
-                    {
                         ans+=(lastmax-j);
-                    }
                 }
                 lastmin = i;
             }
@@ -61,18 +52,15 @@ public:
             {
                 if(lastmin != -1 )
                 {
-                        if(j == -1)
-                    {
+                    if(j == -1)
                         ans+= (lastmin+1);
-                    }
                     else
-                    {
                         ans+=(lastmin-j);
-                    }
                 }
                 lastmax = i;
             }
-        }return ans;
+        }
+        return ans;
         
     }
 };
