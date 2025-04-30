@@ -4,13 +4,13 @@ public:
         int ans = 0; 
         for(int i = 0; i< nums.size(); i++)
         {
-            string str = to_string(nums[i]);
-            
-                if(str.size()%2 ==0)
-                {
-                    ans++;
-                    
-                }
+            int cnt = 0; 
+            while(nums[i])
+            {
+                nums[i]/=10;cnt++;
+            }
+            if(cnt %2 ==0)
+                ans++;
         }return ans;
         
     }
