@@ -30,7 +30,6 @@ public:
                     }
                     else
                         ans.append(cnt, '.');
-                    
                 }
                 else
                 {
@@ -75,9 +74,7 @@ public:
                                 if(dominoes[i] == 'L')
                                     ans.append(cnt, 'L');
                                 else
-                                {
                                     ans.append(cnt, '.');
-                                }
                             }
                         }
                     }
