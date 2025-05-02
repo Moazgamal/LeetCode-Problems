@@ -27,11 +27,7 @@ class Solution {
                 }
                 else if(i-1>=0)
                 {
-                    if(dom[i-1] == 'L')
-                    {
-                        ans.push_back('.');
-                    }
-                    else if(dom[i-1] == 'R')
+                    if(dom[i-1] == 'R')
                     {
                         ans.push_back('R');
                     }
