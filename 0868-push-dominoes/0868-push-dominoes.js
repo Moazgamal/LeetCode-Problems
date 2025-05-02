@@ -3,7 +3,7 @@
  * @return {string}
  */
 var pushDominoes = function(dominoes) {
-    let ans = [];
+    let ans = "";
         let prev = '$';
         for(let i = 0; i< dominoes.length; )
         {
