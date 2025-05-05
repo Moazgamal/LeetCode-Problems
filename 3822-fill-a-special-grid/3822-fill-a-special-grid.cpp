@@ -10,7 +10,6 @@ class Solution {
             return ;
         }
         long long x = N/2;
-        // x = sqrt(x);
         for(int i = 0; i< 4; i++)
         {
             build(r, cmax, x, cnt, ans);
@@ -20,7 +19,6 @@ class Solution {
                 cmax -= x;
             if(i==2)
                 r -= x;
-            
         }
     }
 public:
