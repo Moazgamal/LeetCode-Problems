@@ -25,7 +25,7 @@ public:
     vector<vector<int>> specialGrid(int N) {
         if(N ==0)
             return {{0}};
-        long long sz = pow(2, N);
+        long long sz = 1<<N;
         vector<vector<int>> ans(sz, vector<int>(sz,0));
         int cnt = 0; 
         build(0, sz-1, sz, cnt, ans);
