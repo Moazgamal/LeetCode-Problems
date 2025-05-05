@@ -1,5 +1,5 @@
 class Solution {
-    void build(int r, int cmax, long long N, int &cnt, vector<vector<int>> &ans)
+    void build(int r, int cmax, int N, int &cnt, vector<vector<int>> &ans)
     {
         if(N == 2)
         {
@@ -9,7 +9,7 @@ class Solution {
             ans[r][cmax-1] = cnt++;
             return ;
         }
-        long long x = N/2;
+        int x = N/2;
         for(int i = 0; i< 4; i++)
         {
             build(r, cmax, x, cnt, ans);
@@ -25,7 +25,7 @@ public:
     vector<vector<int>> specialGrid(int N) {
         if(N ==0)
             return {{0}};
-        long long sz = 1<<N;
+        int sz = 1<<N;
         vector<vector<int>> ans(sz, vector<int>(sz,0));
         int cnt = 0; 
         build(0, sz-1, sz, cnt, ans);
