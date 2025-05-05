@@ -1,5 +1,7 @@
+using g  = vector<vector<int>>;
+using v  = vector<int>;
 class Solution {
-    void build(int r, int cmax, int N, int &cnt, vector<vector<int>> &ans)
+    void build(int r, int cmax, int N, int &cnt, g &ans)
     {
         if(N == 2)
         {
@@ -26,7 +28,7 @@ public:
         if(N ==0)
             return {{0}};
         int sz = 1<<N;
-        vector<vector<int>> ans(sz, vector<int>(sz,0));
+        g ans(sz, v(sz,0));
         int cnt = 0; 
         build(0, sz-1, sz, cnt, ans);
         return ans;
