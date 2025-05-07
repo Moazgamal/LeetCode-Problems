@@ -14,7 +14,6 @@ class Solution {
             return ret; 
         if(idx!=0)
             {
-                
                 ret = cur*(pos[idx+1]-pos[idx])+fn(idx+1, pos, time, l, k, p, dp, time[idx+1]);
             }
         else
@@ -22,6 +21,8 @@ class Solution {
         for(int j = 1; k-- >0 ; j++)
         {
             if(idx+j+1>time.size()-1)
+                break;
+            if(k>= time.size()-(idx+j+1))
                 break;
             int x = cur*(pos[idx+j+1]-pos[idx])+fn(idx+j+1, pos, time, l, k, p, dp, time[idx+j+1]+
             p[idx+j+1]-p[idx]-time[idx]);
