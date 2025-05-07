@@ -5,10 +5,12 @@ class Solution {
     {
         if(idx == time.size()-1)
         {
-            if(k>0)
-                return INT_MAX/2;
+            // if(k>0)
+            //     return INT_MAX/2;
             return 0; 
         }
+        if(k >= time.size()-1 -(idx))
+            return INT_MAX/2;
         auto &ret  = dp[idx][k][cur];
         if(ret != INT_MAX/2)
             return ret; 
@@ -22,8 +24,8 @@ class Solution {
         {
             if(idx+j+1>time.size()-1)
                 break;
-            if(k >= time.size()-(idx+j+1))
-                break;
+            // if(k >= time.size()-(idx+j+1))
+            //     break;
             int x = cur*(pos[idx+j+1]-pos[idx])+fn(idx+j+1, pos, time, l, k, p, dp, time[idx+j+1]+
             p[idx+j+1]-p[idx]-time[idx]);
             ret = min(ret,x );
