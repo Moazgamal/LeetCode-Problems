@@ -15,9 +15,7 @@ public:
                 maxi1 = LLONG_MAX;
             }
             else
-            {
                 mini1 += nums1[i];
-            }
         }
         for(int i = 0; i< nums2.size(); i++)
         {
@@ -27,9 +25,7 @@ public:
                 maxi2 = LLONG_MAX;
             }
             else
-            {
                 mini2 += nums2[i];
-            }
         }
         if(maxi1 != LLONG_MAX)
             maxi1 = mini1;
