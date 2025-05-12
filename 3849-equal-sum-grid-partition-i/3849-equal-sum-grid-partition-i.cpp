@@ -32,13 +32,13 @@ public:
                 if(tot-sum1 == sum1)
                     return true;
             }
-        sum1 = 0; 
-        for(int i = rows.size()-1; i>0; i--)
-            {
-                sum1 += rows[i];
-                if(tot-sum1 == sum1)
-                    return true;
-            }
+        // sum1 = 0; 
+        // for(int i = rows.size()-1; i>0; i--)
+        //     {
+        //         sum1 += rows[i];
+        //         if(tot-sum1 == sum1)
+        //             return true;
+        //     }
         sum1 = 0; 
         for(int i = 0; i< cols.size()-1; i++)
             {
@@ -46,13 +46,13 @@ public:
                 if(tot-sum1 == sum1)
                     return true;
             }
-        sum1 = 0; 
-        for(int i = cols.size()-1; i>0; i--)
-            {
-                sum1 += cols[i];
-                if(tot-sum1 == sum1)
-                    return true;
-            }
+        // sum1 = 0; 
+        // for(int i = cols.size()-1; i>0; i--)
+        //     {
+        //         sum1 += cols[i];
+        //         if(tot-sum1 == sum1)
+        //             return true;
+        //     }
         return false;
         
         
