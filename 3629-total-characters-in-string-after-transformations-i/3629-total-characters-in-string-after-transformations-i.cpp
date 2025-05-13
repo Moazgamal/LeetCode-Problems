@@ -1,6 +1,7 @@
 class Solution {
 public:
     int lengthAfterTransformations(string s, int t) {
+
         int MOD = 1000000007;
         vector<int>v(26,0);
         for(int i = 0; i< s.size(); i++)
@@ -23,7 +24,6 @@ public:
             {
                 ans = ans%MOD + (v[i]%MOD)%MOD;
             }return ans%MOD;
-        
         
     }
 };
