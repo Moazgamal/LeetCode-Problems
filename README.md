@@ -252,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i) |
 | [3591-shift-distance-between-two-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3591-shift-distance-between-two-strings) |
 | [3603-check-if-dfs-strings-are-palindromes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3603-check-if-dfs-strings-are-palindromes) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3631-count-k-reducible-numbers-less-than-n](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3631-count-k-reducible-numbers-less-than-n) |
 | [3634-find-mirror-score-of-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3634-find-mirror-score-of-a-string) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3308-apply-operations-to-make-string-empty](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3308-apply-operations-to-make-string-empty) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 ## Hash Table
 |  |
@@ -365,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3603-check-if-dfs-strings-are-palindromes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3603-check-if-dfs-strings-are-palindromes) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3634-find-mirror-score-of-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3634-find-mirror-score-of-a-string) |
 | [3646-sum-of-good-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3646-sum-of-good-subsequences) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
@@ -538,6 +541,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3626-smallest-divisible-digit-product-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3626-smallest-divisible-digit-product-i) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3631-count-k-reducible-numbers-less-than-n](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3631-count-k-reducible-numbers-less-than-n) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
@@ -707,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3629-total-characters-in-string-after-transformations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3631-count-k-reducible-numbers-less-than-n](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3631-count-k-reducible-numbers-less-than-n) |
 | [3646-sum-of-good-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3646-sum-of-good-subsequences) |
 | [3649-minimum-time-to-break-locks-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3649-minimum-time-to-break-locks-i) |
