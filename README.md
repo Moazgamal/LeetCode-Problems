@@ -176,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3779-eat-pizzas](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3779-eat-pizzas) |
 | [3791-fruits-into-baskets-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3791-fruits-into-baskets-iii) |
 | [3833-merge-operations-for-minimum-travel-time](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3833-merge-operations-for-minimum-travel-time) |
+| [3849-equal-sum-grid-partition-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3849-equal-sum-grid-partition-i) |
 ## String
 |  |
 | ------- |
@@ -661,6 +662,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3833-merge-operations-for-minimum-travel-time](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3833-merge-operations-for-minimum-travel-time) |
+| [3849-equal-sum-grid-partition-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3849-equal-sum-grid-partition-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -745,6 +747,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3764-maximum-sum-with-at-most-k-elements) |
+| [3849-equal-sum-grid-partition-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3849-equal-sum-grid-partition-i) |
 ## Simulation
 |  |
 | ------- |
@@ -901,6 +904,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3805-maximize-active-section-with-trade-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3805-maximize-active-section-with-trade-i) |
+| [3849-equal-sum-grid-partition-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3849-equal-sum-grid-partition-i) |
 ## Breadth-First Search
 |  |
 | ------- |
