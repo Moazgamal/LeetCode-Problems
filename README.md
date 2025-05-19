@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3791-fruits-into-baskets-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3791-fruits-into-baskets-iii) |
 | [3833-merge-operations-for-minimum-travel-time](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3833-merge-operations-for-minimum-travel-time) |
 | [3849-equal-sum-grid-partition-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3849-equal-sum-grid-partition-i) |
+| [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
 ## String
 |  |
 | ------- |
@@ -559,6 +560,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3810-count-numbers-with-non-decreasing-digits](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3810-count-numbers-with-non-decreasing-digits) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3813-smallest-palindromic-rearrangement-ii) |
+| [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
 ## Sorting
 |  |
 | ------- |
