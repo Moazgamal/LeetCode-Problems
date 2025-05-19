@@ -719,6 +719,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1764-maximum-repeating-substring](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1764-maximum-repeating-substring) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [2061-painting-a-grid-with-three-different-colors](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2164-two-best-non-overlapping-events](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2164-two-best-non-overlapping-events) |
 | [2262-solving-questions-with-brainpower](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2262-solving-questions-with-brainpower) |
 | [2554-minimum-total-distance-traveled](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2554-minimum-total-distance-traveled) |
