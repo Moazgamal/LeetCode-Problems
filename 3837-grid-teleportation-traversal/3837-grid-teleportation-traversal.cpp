@@ -71,9 +71,8 @@ int ans = INT_MAX/2;
                 }
             }
         }
-        if(ans == INT_MAX/2)
+        
             return -1;
-        return ans; 
         
     }
 };
