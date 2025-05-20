@@ -179,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3779-eat-pizzas](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3779-eat-pizzas) |
 | [3791-fruits-into-baskets-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3791-fruits-into-baskets-iii) |
 | [3833-merge-operations-for-minimum-travel-time](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3833-merge-operations-for-minimum-travel-time) |
+| [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 | [3849-equal-sum-grid-partition-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3849-equal-sum-grid-partition-i) |
 | [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
 ## String
@@ -384,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3678-design-task-manager](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3678-design-task-manager) |
 | [3760-assign-elements-to-groups-with-constraints](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3760-assign-elements-to-groups-with-constraints) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3813-smallest-palindromic-rearrangement-ii) |
+| [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Sliding Window
@@ -605,6 +607,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3764-maximum-sum-with-at-most-k-elements) |
 | [3779-eat-pizzas](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3779-eat-pizzas) |
+| [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 ## Heap (Priority Queue)
 |  |
