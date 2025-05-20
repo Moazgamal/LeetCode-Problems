@@ -42,7 +42,7 @@ int ans = INT_MAX/2;
                     continue;
                 string s = "";
                 s.push_back(matrix[cur.second.first][cur.second.second]);
-                if(s>="A" && s<="Z" && mp.count(s) !=0 && s!="." && s!="#")
+                if(mp.count(s) !=0 && s!="." && s!="#")
                 {
                     for(auto x: mp[s])
                     {
