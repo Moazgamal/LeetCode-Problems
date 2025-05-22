@@ -12,14 +12,15 @@ public:
         for(int i=0;i<n;++i)
         {
             //Push all queries starting at i
-            while(query_pos<queries.size() and queries[query_pos][0]<=i)
+            while(query_pos<queries.size() && (queries[query_pos][0]<=i&& queries[query_pos][1]>=i))
             {
                 available_query.push(queries[query_pos][1]);
                 query_pos++;
             }
             //Previously used_query overlapping with i must be adjusted
             nums[i] -= used_query.size();
-
+            if(nums[i]>0 && available_query.size()< nums[i])
+                return -1; 
             //Apply query if needed
             while(nums[i]>0 and !available_query.empty() and available_query.top()>=i)
             {
@@ -32,7 +33,7 @@ public:
             if(nums[i]>0)   return -1;
 
             //Remove all queries used and ending at i
-            while(!used_query.empty() and used_query.top()==i)
+            while(!used_query.empty() and used_query.top()<=i)
                 used_query.pop();
         }
         return queries.size() - applied_count;
