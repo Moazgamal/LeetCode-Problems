@@ -16,9 +16,6 @@ public:
     long long sumOfLargestPrimes(string s) {
 
         long long ans = 0; 
-        long long x1 = 0; 
-        long long x2 = 0; 
-        long long x3 = 0; 
         unordered_map<string,bool>mp;
         set<long long, greater<long long>> st;
         for(int i = 0; i< s.size(); i++)
