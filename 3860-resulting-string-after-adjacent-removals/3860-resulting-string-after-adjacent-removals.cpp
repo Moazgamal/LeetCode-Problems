@@ -9,7 +9,7 @@ public:
             {
                 st.push(s[i]); continue;
             }
-            else if(abs((st.top()-'0')-(s[i]-'0')) == 1 || s[i] == 'a' && st.top()=='z' || s[i] == 'z' && st.top()=='a')
+            else if(abs((st.top()-'a')-(s[i]-'a')) == 1 || s[i] == 'a' && st.top()=='z' || s[i] == 'z' && st.top()=='a')
             {
                 st.pop();
             }
