@@ -17,7 +17,6 @@ public:
             {
                 int f = mp[str];
                 f = min(f, x.second);
-                
                 evens += (4*f);
                 mp[str]=0;
             }
