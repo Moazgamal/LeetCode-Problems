@@ -2,8 +2,8 @@ class Solution {
     
 public:
     int largestPathValue(string colors, vector<vector<int>>& edges) {
-if(edges.size()==0)
-    return 1; 
+        if(edges.size()==0)
+            return 1; 
         int ans = 1;
         vector<vector<int>>graph(colors.size());
         vector<int> indegree(colors.size(),0);
@@ -31,12 +31,11 @@ if(edges.size()==0)
         vector<vector<int>> y(colors.size(), vector<int>(26,0));
         queue<int>q;
         vector<int> v(26,0);
+        vector<bool> vis(colors.size(),false);
         for(int i = 0; i< indegree.size(); i++)
         {
             if(indegree[i] == 0)
-            {
                 q.push(i);
-            }
         }
         for(int sz = q.size(); !q.empty(); sz = q.size())
         {
@@ -46,8 +45,12 @@ if(edges.size()==0)
                 q.pop();
                 y[cur][colors[cur]-'a']++;
                 ans = max(ans, y[cur][colors[cur]-'a']);
+            
                 for(int i = 0; i< graph[cur].size(); i++)
                 {
+                    if(vis[graph[cur][i]] == true)
+                        return -1; 
+
                     --indegree[graph[cur][i]];
                     for(int j = 0; j< 26; j++)
                     {
@@ -55,24 +58,20 @@ if(edges.size()==0)
                         y[cur][j]);
                         ans = max(ans,y[graph[cur][i]][j] );
                     }
+
                     if(indegree[graph[cur][i]] == 0)
-                    {
                         q.push(graph[cur][i]);
-                    }
+                        
                 }
-                
-               
             }
         }
         for(int i = 0; i< indegree.size(); i++)
         {
             if(indegree[i] != 0)
-                return -1;;; 
+                return -1;
         }
         
         return ans; 
-
-        
         
     }
 };
