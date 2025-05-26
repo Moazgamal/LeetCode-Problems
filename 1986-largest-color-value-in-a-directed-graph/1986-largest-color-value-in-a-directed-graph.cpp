@@ -61,7 +61,6 @@ public:
 
                     if(indegree[graph[cur][i]] == 0)
                         q.push(graph[cur][i]);
-                        
                 }
             }
         }
