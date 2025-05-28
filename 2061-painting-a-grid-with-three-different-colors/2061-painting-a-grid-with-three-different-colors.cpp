@@ -42,7 +42,7 @@ class Solution {
         for(int color=1;color<=3;++color)
         {
             if(color!=up_color and color!=left_color)
-                ways_to_color = (ways_to_color + countWays(m,n,r+1,c,(curr_state<<2) + color,prev_state))%MOD;
+                ways_to_color = (ways_to_color + countWays(m,n,r+1,c,(curr_state<<2) | color, prev_state))%MOD;
         }
         if(r==0)
             state_mem[c][prev_state] = ways_to_color;
@@ -51,7 +51,8 @@ class Solution {
 public:
     int colorTheGrid(int m, int n) {
         memset(state_mem,-1,sizeof(state_mem));
-        return countWays(m,n,0,0,0,0);
+         countWays(m,n,0,0,0,0);
+         return state_mem[0][0];
     }
 };
 
