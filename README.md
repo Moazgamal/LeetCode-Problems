@@ -975,6 +975,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3558-find-a-safe-walk-through-a-grid) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
+| [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3837-grid-teleportation-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3837-grid-teleportation-traversal) |
 ## Graph
@@ -1035,6 +1036,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3603-check-if-dfs-strings-are-palindromes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3603-check-if-dfs-strings-are-palindromes) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
+| [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 ## Binary Tree
 |  |
 | ------- |
@@ -1096,6 +1098,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3603-check-if-dfs-strings-are-palindromes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3603-check-if-dfs-strings-are-palindromes) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
+| [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 ## Doubly-Linked List
 |  |
