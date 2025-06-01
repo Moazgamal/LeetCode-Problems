@@ -1,21 +1,5 @@
 class Solution {
-    long long fn(int idx, int candies, int limit)
-    {
-        if(idx == 2)
-        {
-            return 1; 
-        }
-        long long cnt = 0; 
-        for(int i = 0; i<= limit; i++)
-        {
-            int num= (3-idx)-1;
-            if(num*limit < candies-i || candies-i<0)
-                continue;
-            // cout<<candies-i<<"fasdf\n";
-            cnt += fn(idx+1, candies-i, limit);
-        }
-        return cnt ;
-    }
+    
 public:
     long long distributeCandies(int n, int limit) {
 
