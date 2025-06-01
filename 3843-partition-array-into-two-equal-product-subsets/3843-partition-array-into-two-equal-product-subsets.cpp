@@ -28,10 +28,6 @@ class Solution {
     }
 public:
     bool checkEqualPartitions(vector<int>& nums, long long target) {
-
-        
-       vector<int> v1;
-        vector<int>v2;
         long long p1= 1; 
         long long p2 = 1; 
         bool i1 = false;
