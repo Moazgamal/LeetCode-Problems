@@ -10,7 +10,7 @@ class Solution {
         ret = INT_MAX;
         for(int i = 0; i <=9; i++)
         {
-            if(i == forb )
+            if(i == forb)
                 continue;
             int freq = freqs[idx][i];
             ret = min(ret, (rows-freq) + fn(idx+1, dp, freqs, rows, i,cols));
