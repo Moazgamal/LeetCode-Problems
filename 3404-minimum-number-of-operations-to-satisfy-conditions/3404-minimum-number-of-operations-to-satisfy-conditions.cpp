@@ -20,7 +20,7 @@ class Solution {
 public:
     int minimumOperations(vector<vector<int>>& grid) {
 
-        vector<vector<int>>dp(grid[0].size(), vector<int>(11,-1));
+        vector<vector<int>> dp(grid[0].size(), vector<int>(11,-1));
 
         vector<vector<int>> v(grid[0].size(), vector<int>(11,0));
         
@@ -31,7 +31,7 @@ public:
                 v[c][grid[r][c]]++;
             }
         }
-        return fn(0,dp,v,grid.size(),10,grid[0].size());
+        return fn(0, dp, v, grid.size(), 10, grid[0].size());
 
 
 
