@@ -19,42 +19,40 @@ public:
         unordered_set<int> k;
         for(int sz = q.size(); !q.empty(); sz= q.size())
         {
-            
-                auto cur = q.front(); q.pop();
-                ans+= candies[cur];
-                for(int j = 0; j< keys[cur].size(); j++)
+            auto cur = q.front(); q.pop();
+            ans+= candies[cur];
+            for(int j = 0; j< keys[cur].size(); j++)
+            {
+                int box = keys[cur][j];
+                if(!vis[box])
                 {
-                    int box = keys[cur][j];
-                    if(!vis[box])
+                    if(reachable[box])
                     {
-                        if(reachable[box])
-                        {
-                            q.push(box); vis[box]= true;
-                        }
-                        else
-                            k.insert(box);
+                        q.push(box); vis[box]= true;
                     }
+                    else
+                        k.insert(box);
                 }
-                for(int i = 0; i< containedBoxes[cur].size(); i++)
+            }
+            for(int i = 0; i< containedBoxes[cur].size(); i++)
+            {
+                int box = containedBoxes[cur][i];
+                
+                if(!vis[box])
                 {
-                    int box = containedBoxes[cur][i];
-                    
-                    if(!vis[box])
+                    if(status[box] == 1)
                     {
-                        if(status[box] == 1)
-                        {
-                            q.push(box);
-                            vis[box] = true;
-                        }
-                        else if(k.find(box) != k.end())
-                        {
-                            q.push(box); vis[box]= true;
-                        }
-                        else
-                            reachable[box] = true;
+                        q.push(box);
+                        vis[box] = true;
                     }
+                    else if(k.find(box) != k.end())
+                    {
+                        q.push(box); vis[box]= true;
+                    }
+                    else
+                        reachable[box] = true;
                 }
-            
+            }
         }
         return ans; 
         
