@@ -55,7 +55,6 @@ public:
                             reachable[box] = true;
                     }
                 }
-                
             }
         }
         return ans; 
