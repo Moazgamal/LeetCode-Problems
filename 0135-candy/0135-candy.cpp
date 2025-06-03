@@ -5,17 +5,17 @@ public:
             return 1; 
         vector<int> ans(ratings.size(),-1);
 
-        priority_queue<pair<int,int>, vector<pair<int,int>> , greater<pair<int,int>>>pq;
+        vector<pair<int,int>>pq;
 
         for(int i = 0; i< ratings.size(); i++)
         {
-            pq.push({ratings[i],i});
+            pq.push_back({ratings[i],i});
         }
-
-        while(!pq.empty())
+        sort(pq.begin(), pq.end());
+        int h = 0; 
+        while(h< pq.size())
         {
-            auto cur = pq.top(); 
-            pq.pop();
+            auto cur = pq[h++];
             if(ans[cur.second] != -1)
                 continue;
             int before = cur.second-1;
