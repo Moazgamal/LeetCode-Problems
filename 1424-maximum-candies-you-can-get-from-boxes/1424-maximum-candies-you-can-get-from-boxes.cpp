@@ -16,7 +16,6 @@ public:
             else
                 reachable[initialBoxes[i]]= true;
         }
-        unordered_set<int> k;
         for(int sz = q.size(); !q.empty(); sz= q.size())
         {
             auto cur = q.front(); q.pop();
@@ -31,7 +30,7 @@ public:
                         q.push(box); vis[box]= true;
                     }
                     else
-                        k.insert(box);
+                        status[box]=1;
                 }
             }
             for(int i = 0; i< containedBoxes[cur].size(); i++)
@@ -44,10 +43,6 @@ public:
                     {
                         q.push(box);
                         vis[box] = true;
-                    }
-                    else if(k.find(box) != k.end())
-                    {
-                        q.push(box); vis[box]= true;
                     }
                     else
                         reachable[box] = true;
