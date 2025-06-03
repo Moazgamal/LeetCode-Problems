@@ -19,8 +19,7 @@ public:
         unordered_set<int> k;
         for(int sz = q.size(); !q.empty(); sz= q.size())
         {
-            while(sz--)
-            {
+            
                 auto cur = q.front(); q.pop();
                 ans+= candies[cur];
                 for(int j = 0; j< keys[cur].size(); j++)
@@ -55,7 +54,7 @@ public:
                             reachable[box] = true;
                     }
                 }
-            }
+            
         }
         return ans; 
         
