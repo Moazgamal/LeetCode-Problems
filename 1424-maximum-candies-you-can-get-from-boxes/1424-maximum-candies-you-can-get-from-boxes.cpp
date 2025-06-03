@@ -23,6 +23,19 @@ public:
             {
                 auto cur = q.front(); q.pop();
                 ans+= candies[cur];
+                for(int j = 0; j< keys[cur].size(); j++)
+                {
+                    int box = keys[cur][j];
+                    if(!vis[box])
+                    {
+                        if(reachable[box])
+                        {
+                            q.push(box); vis[box]= true;
+                        }
+                        else
+                            k.insert(box);
+                    }
+                }
                 for(int i = 0; i< containedBoxes[cur].size(); i++)
                 {
                     int box = containedBoxes[cur][i];
@@ -42,19 +55,7 @@ public:
                             reachable[box] = true;
                     }
                 }
-                for(int j = 0; j< keys[cur].size(); j++)
-                {
-                    int box = keys[cur][j];
-                    if(!vis[box])
-                    {
-                        if(reachable[box])
-                        {
-                            q.push(box); vis[box]= true;
-                        }
-                        else
-                            k.insert(box);
-                    }
-                }
+                
             }
         }
         return ans; 
