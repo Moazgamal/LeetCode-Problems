@@ -31,8 +31,7 @@ public:
                     sort(v.begin(), v.end());
                     for(int i = 0; i< v.size()-1; i++)
                     {
-                        
-                        if(v[i] != v[i+1])
+                        if(v[i] == v[i+1])
                         {
                             int j = i+1;
                             while(j< v.size() && v[i] == v[j])
@@ -46,7 +45,10 @@ public:
                             ans1 = min(ans1, abs(v[i]-v[j]));
                             i=j-1;
                         }
-                        
+                        else
+                        {
+                            ans1 = min(ans1, abs(v[i]-v[i+1]));
+                        }
                     }
                     if(ans1==INT_MAX)
                     {
@@ -69,41 +71,26 @@ public:
                         y.push_back(grid[row][c+k-1]);
                     }
                     sort(v.begin(), v.end());
-                    bool f = true; 
                     for(int i = 0; i< v.size()-1; i++)
                     {
-                        if(f)
-                        {
-                            if(v[i] != v[i+1])
-                            {
-                                int j = i+1;
-                                while(j< v.size() && v[i] == v[j])
-                                {
-                                    j++;
-                                }
-                                if(j== v.size())
-                                {
-                                    break;
-                                }
-                                ans1 = abs(v[i]-v[j]);
-                                i=j-1;
-                                f= false;
-                            }
-                        }
-                        else
+                        
+                        if(v[i] == v[i+1])
                         {
                             int j = i+1;
                             while(j< v.size() && v[i] == v[j])
                             {
                                 j++;
                             }
-                            if(j == v.size())
+                            if(j== v.size())
                             {
                                 break;
                             }
-                            
-                            i=j-1;
                             ans1 = min(ans1, abs(v[i]-v[j]));
+                            i=j-1;
+                        }
+                        else
+                        {
+                            ans1 = min(ans1, abs(v[i]-v[i+1]));
                         }
                     }
                     if(ans1==INT_MAX)
@@ -112,7 +99,6 @@ public:
                     }
                     else
                         ans[r][c] = ans1;
-
                 }
 
             }
