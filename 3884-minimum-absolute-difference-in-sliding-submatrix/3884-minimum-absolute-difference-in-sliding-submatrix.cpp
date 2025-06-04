@@ -16,7 +16,7 @@ public:
             for(int c = 0; c< cols; c++)
             {
                 int ans1 = INT_MAX;
-                if(r+k-1== rows || c+k-1 == cols)
+                if(c+k-1 == cols)
                     break;
                 if(v.size()==0)
                 {
