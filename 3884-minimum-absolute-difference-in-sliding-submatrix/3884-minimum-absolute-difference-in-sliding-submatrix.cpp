@@ -70,6 +70,7 @@ public:
                         y.push_back(grid[row][c+k-1]);
                     }
                     sort(v.begin(), v.end());
+                    bool f = true; 
                     for(int i = 0; i< v.size()-1; i++)
                     {
                         if(f)
