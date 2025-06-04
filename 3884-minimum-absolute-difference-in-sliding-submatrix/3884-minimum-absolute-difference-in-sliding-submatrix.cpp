@@ -43,7 +43,7 @@ public:
                                 }
                                 if(j== v.size())
                                 {
-                                    i= j; break;
+                                   break;
                                 }
                                 ans1 = abs(v[i]-v[j]);
                                 i=j-1;
@@ -59,7 +59,6 @@ public:
                             }
                             if(j == v.size())
                             {
-                                i = j; 
                                 break;
                             }
                             
@@ -102,7 +101,7 @@ public:
                                 }
                                 if(j== v.size())
                                 {
-                                    i= j; break;
+                                    break;
                                 }
                                 ans1 = abs(v[i]-v[j]);
                                 i=j-1;
@@ -118,7 +117,6 @@ public:
                             }
                             if(j == v.size())
                             {
-                                i = j; 
                                 break;
                             }
                             
