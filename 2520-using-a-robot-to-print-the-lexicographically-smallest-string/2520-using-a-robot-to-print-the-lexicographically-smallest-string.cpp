@@ -21,7 +21,6 @@ public:
 
         string ans = "";
         stack<char> t;
-        string p = "";
         for(int i = 0; i< s.size(); i++)
         {
             int j = i;
@@ -33,7 +32,7 @@ public:
             }
             if(t.empty())
             {
-                ans+= s[_j];
+                ans.push_back(s[_j]);
                 while(i<_j)
                 {
                     t.push(s[i]);
@@ -44,21 +43,21 @@ public:
             {
                 while(!t.empty() && s[_j]>= t.top())
                 {
-                    ans+=t.top(); t.pop();
+                    ans.push_back(t.top());
+                    t.pop();
                 }
-                ans+=s[_j];
+                ans.push_back(s[_j]);
                 while(i<_j)
                 {
                     t.push(s[i]);
                     i++;
                 }
             }
-
-
         }
         while(!t.empty())
         {
-            ans+= t.top();t.pop();
+            ans.push_back(t.top());
+            t.pop();
         }
         return ans;
         
