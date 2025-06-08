@@ -20,7 +20,6 @@ public:
                     {
                         st.insert(mp[x][mp[x].size()-1]);
                         mp[x].pop_back();
-                        
                         break;
                     }
                 }
