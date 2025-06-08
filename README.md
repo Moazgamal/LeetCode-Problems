@@ -266,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3303-find-beautiful-indices-in-the-given-array-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3303-find-beautiful-indices-in-the-given-array-ii) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3451-string-compression-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -390,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3308-apply-operations-to-make-string-empty](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3308-apply-operations-to-make-string-empty) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3548-find-the-count-of-good-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3548-find-the-count-of-good-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -543,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3634-find-mirror-score-of-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3634-find-mirror-score-of-a-string) |
 ## Math
 |  |
@@ -659,6 +662,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2868-continuous-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2868-continuous-subarrays) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3558-find-a-safe-walk-through-a-grid) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -881,6 +885,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2716-prime-subtraction-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2716-prime-subtraction-operation) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3195-separate-black-and-white-balls](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3195-separate-black-and-white-balls) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3647-zero-array-transformation-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3647-zero-array-transformation-iii) |
