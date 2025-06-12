@@ -181,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3686-count-beautiful-splits-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3686-count-beautiful-splits-in-an-array) |
+| [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3760-assign-elements-to-groups-with-constraints](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3760-assign-elements-to-groups-with-constraints) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3764-maximum-sum-with-at-most-k-elements) |
 | [3779-eat-pizzas](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3779-eat-pizzas) |
