@@ -11,7 +11,6 @@ public:
                     continue;
                 char c1 = i+'0';
                 char c2 = j +'0';
-                cout<<c1<<" "<<c2<<"\n";
                 vector<int> prefixA(s.size(),0);
                 vector<int> prefixB(s.size(),0);
                 int p1 = 0; int p2 = 0;
