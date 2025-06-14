@@ -24,28 +24,33 @@ public:
         }
         int f = (1 << k) - 1;
         queue<tuple<int, int, int, int, int>> q;
-        q.push(make_tuple(si, sj, energy, 0, 0));
+        q.emplace(si, sj, energy, 0, 0);
         static bool vis[20][20][1 << 10][51] = {};
         memset(vis, 0, sizeof(vis));
         vis[si][sj][0][energy] = true;
         vector<int> dx = {0, 0, 1, -1}, dy = {1, -1, 0, 0};
-        while (!q.empty()) {
+        while (!q.empty()) 
+        {
             auto [x, y, en, msk, step] = q.front();
             q.pop();
             if (msk == f) return step;
             if (en == 0 && c[x][y] != 'R') continue;
-            for (int i = 0; i < 4; i++) {
+            for (int i = 0; i < 4; i++) 
+            {
                 int nx = x + dx[i], ny = y + dy[i];
                 int ne = en - 1;
                 if (nx < 0 || ny < 0 || nx >= n || ny >= m || c[nx][ny] == 'X')
                     continue;
-                if (c[nx][ny] == 'R') ne = energy;
+                if (c[nx][ny] == 'R') 
+                    ne = energy;
                 int id = nx * m + ny;
                 int nmsk = msk;
-                if (litmap.count(id)) {
+                if (litmap.count(id)) 
+                {
                     nmsk |= (1 << litmap[id]);
                 }
-                if (!vis[nx][ny][nmsk][ne]) {
+                if (!vis[nx][ny][nmsk][ne]) 
+                {
                     vis[nx][ny][nmsk][ne] = true;
                     q.emplace(nx, ny, ne, nmsk, step + 1);
                 }
