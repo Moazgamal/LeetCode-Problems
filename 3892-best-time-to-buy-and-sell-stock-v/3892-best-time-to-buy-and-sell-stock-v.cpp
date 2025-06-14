@@ -5,7 +5,7 @@ class Solution {
             return 0; 
         if(idx == prices.size())
         {
-            if(k>=0 && s ==0)
+            if(s ==0)
                 return 0; 
             return LONG_MIN/2;
         }
