@@ -22,7 +22,6 @@ public:
                 long long f1 = v1[i];
                 long long f2 = v2[i];
                 ans += (f1%MOD*f2%MOD);
-                
                 ans %= MOD;
             }
         return ans; 
