@@ -19,9 +19,9 @@ public:
             }
         for(int i = 0; i< v1.size(); i++)
             {
-                long long f1 = v1[i]%MOD;
-                long long f2 = v2[i]%MOD;
-                ans += (f1%MOD*f2%MOD)%MOD;
+                long long f1 = v1[i];
+                long long f2 = v2[i];
+                ans += (f1%MOD*f2%MOD);
                 
                 ans %= MOD;
             }
