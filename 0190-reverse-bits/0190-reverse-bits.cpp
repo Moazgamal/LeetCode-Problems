@@ -1,5 +1,5 @@
 class Solution {
-    string BS(uint32_t n)
+    string BS(uint32_t &n)
     {
         int rem = 0; 
         string str = "";
@@ -8,10 +8,9 @@ class Solution {
             str.push_back((n%2)+'0');
             n = n/2;
         }
-        reverse(str.begin(), str.end());
         return str; 
     }
-    int fn(string str)
+    int fn(string &str)
     {
         long long x = 1;
         int ans = 0; 
@@ -25,8 +24,6 @@ class Solution {
 public:
     uint32_t reverseBits(uint32_t n) {
         string str  = BS(n);
-        
-        reverse(str.begin(), str.end());
         int sz = 0; 
         if(str.size()<32)
         {
