@@ -36,7 +36,6 @@ public:
         {
             str.push_back('0');
         }
-        cout<<str<<"\n";
         return fn(str);
         
     }
