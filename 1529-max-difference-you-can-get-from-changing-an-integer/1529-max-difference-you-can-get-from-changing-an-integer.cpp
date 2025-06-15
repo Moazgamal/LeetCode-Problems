@@ -18,7 +18,6 @@ public:
                 if(i< str.size())
                 {
                     c1 = str[i];
-                    str1[i] = '9';
                 }
             }
             if(str[i] == c1)
