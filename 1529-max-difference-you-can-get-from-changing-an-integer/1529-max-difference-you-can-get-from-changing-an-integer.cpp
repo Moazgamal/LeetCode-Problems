@@ -58,7 +58,6 @@ public:
                 str2[i] = '0';
             }
         }
-        cout<<stoi(str1)<<" "<<stoi(str2)<<"\n";
         return stoi(str1)-stoi(str2);
 
         
