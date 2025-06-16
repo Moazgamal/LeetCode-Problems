@@ -12,7 +12,7 @@ public:
                 acc = acc ^ nums[j];
                 j++;
             }
-            acc = acc | nums[i];
+            acc = acc ^ nums[i];
             ans = max(ans, i-j+1);
         }return ans;
         
