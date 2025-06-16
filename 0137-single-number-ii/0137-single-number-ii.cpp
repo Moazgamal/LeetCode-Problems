@@ -7,7 +7,7 @@ public:
             int cnt = 0; 
             for(int j = 0; j< nums.size(); j++)
             {
-                if(((1<<i) & nums[j]) == (1<<i))
+                if(((1<<i) & nums[j]) != 0)
                 {
                     cnt++;
                 }
