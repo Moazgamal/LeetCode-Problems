@@ -17,7 +17,7 @@ class Solution {
         
         dfs(root->left, ans, prev);
         if(prev)
-            ans =min(ans, abs(prev->val - root->val));
+            ans = min(ans, abs(prev->val - root->val));
         prev=root;
         dfs(root->right, ans, prev);
         
