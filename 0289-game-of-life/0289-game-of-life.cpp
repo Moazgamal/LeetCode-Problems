@@ -50,9 +50,8 @@ public:
             for(int c = 0; c< board[0].size(); c++)
             {
                 if(board[r][c] == 3)
-                {
                     board[r][c] = 0; 
-                }
+                
                 if(board[r][c] == 2)
                     board[r][c] = 1;
             }
