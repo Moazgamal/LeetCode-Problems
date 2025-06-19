@@ -3,8 +3,8 @@ public:
     int partitionArray(vector<int>& nums, int k) {
 
         sort(nums.begin(), nums.end());
-        int ans = 0; 
-        for(int i = 0; i< nums.size(); )
+        int ans = 0; int i = 0; 
+        while(i < nums.size())
         {
             int num = nums[i];
             int j = i+1;
