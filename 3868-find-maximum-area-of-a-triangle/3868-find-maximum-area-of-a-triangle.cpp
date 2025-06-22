@@ -24,16 +24,11 @@ public:
                 if(n<2)
                     continue;
                 sort(h.second.begin(), h.second.end());
-                for(int i = 0; i< n; i++)
-                {
-                    for(int j = i+1; j< n; j++)
-                    {
-                        long long b = abs(h.second[i]-h.second[j]);
-                        long long he = max(abs(h.first-minx), abs(h.first-maxx));
-                        if(b!=0 && he!=0)
-                            maxi= max(maxi, b*he);
-                    }
-                }
+                long long b = abs(h.second[0]-h.second[h.second.size()-1]);
+                long long he = max(abs(h.first-minx), abs(h.first-maxx));
+                if(b!=0 && he!=0)
+                    maxi= max(maxi, b*he);
+                    
             }
         for(auto h: y)
             {
@@ -41,16 +36,11 @@ public:
                 if(n<2)
                     continue;
                 sort(h.second.begin(), h.second.end());
-                for(int i = 0; i< n; i++)
-                {
-                    for(int j =i+1; j< n; j++)
-                    {
-                        long long b = abs(h.second[i]-h.second[j]);
-                        long long he = max(abs(h.first-miny),abs(h.first-maxy));
-                        if(b !=0 && he !=0)
-                            maxi = max(maxi, b*he);
-                    }
-                }
+                long long b = abs(h.second[0]-h.second[h.second.size()-1]);
+                long long he = max(abs(h.first-miny),abs(h.first-maxy));
+                if(b !=0 && he !=0)
+                    maxi = max(maxi, b*he);
+                   
             }
         if(maxi>0)
             return maxi;
