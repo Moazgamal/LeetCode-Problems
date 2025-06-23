@@ -206,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3884-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3884-minimum-absolute-difference-in-sliding-submatrix) |
 | [3892-best-time-to-buy-and-sell-stock-v](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3892-best-time-to-buy-and-sell-stock-v) |
 | [3903-inverse-coin-change](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3903-inverse-coin-change) |
+| [3904-minimum-adjacent-swaps-to-alternate-parity](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3904-minimum-adjacent-swaps-to-alternate-parity) |
 ## String
 |  |
 | ------- |
@@ -957,6 +958,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3779-eat-pizzas](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3779-eat-pizzas) |
 | [3868-find-maximum-area-of-a-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3868-find-maximum-area-of-a-triangle) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
+| [3904-minimum-adjacent-swaps-to-alternate-parity](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3904-minimum-adjacent-swaps-to-alternate-parity) |
 ## Rolling Hash
 |  |
 | ------- |
