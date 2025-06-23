@@ -200,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3843-partition-array-into-two-equal-product-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3843-partition-array-into-two-equal-product-subsets) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 | [3849-equal-sum-grid-partition-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3849-equal-sum-grid-partition-i) |
+| [3868-find-maximum-area-of-a-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3868-find-maximum-area-of-a-triangle) |
 | [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
 | [3870-minimum-moves-to-clean-the-classroom](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3870-minimum-moves-to-clean-the-classroom) |
 | [3884-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3884-minimum-absolute-difference-in-sliding-submatrix) |
@@ -435,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 | [3837-grid-teleportation-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3837-grid-teleportation-traversal) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
+| [3868-find-maximum-area-of-a-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3868-find-maximum-area-of-a-triangle) |
 | [3870-minimum-moves-to-clean-the-classroom](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3870-minimum-moves-to-clean-the-classroom) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -622,6 +624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3810-count-numbers-with-non-decreasing-digits](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3810-count-numbers-with-non-decreasing-digits) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3813-smallest-palindromic-rearrangement-ii) |
+| [3868-find-maximum-area-of-a-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3868-find-maximum-area-of-a-triangle) |
 | [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
 ## Sorting
 |  |
@@ -952,6 +955,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3647-zero-array-transformation-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3647-zero-array-transformation-iii) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3764-maximum-sum-with-at-most-k-elements) |
 | [3779-eat-pizzas](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3779-eat-pizzas) |
+| [3868-find-maximum-area-of-a-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3868-find-maximum-area-of-a-triangle) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 ## Rolling Hash
 |  |
@@ -1032,6 +1036,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3805-maximize-active-section-with-trade-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3805-maximize-active-section-with-trade-i) |
 | [3843-partition-array-into-two-equal-product-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3843-partition-array-into-two-equal-product-subsets) |
 | [3849-equal-sum-grid-partition-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3849-equal-sum-grid-partition-i) |
+| [3868-find-maximum-area-of-a-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3868-find-maximum-area-of-a-triangle) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -1229,6 +1234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1014-k-closest-points-to-origin) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
+| [3868-find-maximum-area-of-a-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3868-find-maximum-area-of-a-triangle) |
 ## Bucket Sort
 |  |
 | ------- |
