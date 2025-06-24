@@ -9,7 +9,7 @@ public:
             if(nums[i] == key)
             {
                 int val1 = max(0,i-k);
-                int val2 = i+k;
+                int val2 = min((int)nums.size()-1, i+k);
                 if(lastidx >= val2)
                     continue;
                 if(lastidx < i)
@@ -18,28 +18,22 @@ public:
                         lastidx++;
                     else
                         lastidx= val1;
-                    while(lastidx < val2 && lastidx < nums.size())
+                    while(lastidx < val2)
                     {
                         ans.push_back(lastidx); lastidx++;
                     }
 
-                    if(lastidx< nums.size())
-                        ans.push_back(lastidx);
-                    else
-                        return ans; 
+                    ans.push_back(lastidx);
                 }
                 else
                 {
                    lastidx++;
-                   while(lastidx < val2 && lastidx<nums.size())
+                   while(lastidx < val2)
                    {
                         ans.push_back(lastidx);
                         lastidx++;
                    }
-                   if(lastidx < nums.size())
-                        ans.push_back(lastidx);
-                    else
-                        return ans; 
+                    ans.push_back(lastidx);
 
                 }
             }
