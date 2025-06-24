@@ -6,6 +6,8 @@ public:
         vector<int> ans;
         for(int i = 0; i< nums.size(); i++)
         {
+            if(lastidx == nums.size()-1)
+                return ans; 
             if(nums[i] == key)
             {
                 int val1 = max(0,i-k);
