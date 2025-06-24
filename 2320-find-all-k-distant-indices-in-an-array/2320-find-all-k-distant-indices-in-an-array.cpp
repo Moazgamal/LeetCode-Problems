@@ -4,14 +4,15 @@ public:
 
         int lastidx = -1; 
         vector<int> ans;
-        for(int i = 0; i< nums.size(); i++)
+        int sz = (int)nums.size()-1;
+        for(int i = 0; i<= sz; i++)
         {
-            if(lastidx == nums.size()-1)
+            if(lastidx == sz)
                 return ans; 
             if(nums[i] == key)
             {
                 int val1 = max(0,i-k);
-                int val2 = min((int)nums.size()-1, i+k);
+                int val2 = min(sz, i+k);
                 if(lastidx >= val2)
                     continue;
                 if(lastidx < i)
@@ -24,7 +25,6 @@ public:
                     {
                         ans.push_back(lastidx); lastidx++;
                     }
-
                     ans.push_back(lastidx);
                 }
                 else
@@ -36,7 +36,6 @@ public:
                         lastidx++;
                    }
                     ans.push_back(lastidx);
-
                 }
             }
         }
