@@ -38,7 +38,6 @@ public:
             {
                 if(i>=n)
                 {
-                    cout<<"fdasfasdfa\n";
                     return i; 
                 }
             }
