@@ -1,12 +1,13 @@
 class Solution {
 public:
     vector<int> longestCommonPrefix(vector<string>& words) {
-        if((int)words.size()==1)
-            return {0}; 
+        // if((int)words.size()==1)
+        //     return {0}; 
 
         vector<int>v(words.size(),0);
         vector<int>answer(words.size(),0);
         multiset<int, greater<int>>mst;
+        mst.insert(0);
         for(int i = 0; i< (int)words.size()-1; i++)
         {
             int j =0; int k = 0; 
