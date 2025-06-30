@@ -62,14 +62,17 @@ public:
                     i2++;
                 }
             }
+            
             if (count < k) 
             {
                 left = mid + 1;
             } 
-            else 
+            else
             {
                 right = mid - 1;
             }
+           
+           
         }
         return left;
     }
