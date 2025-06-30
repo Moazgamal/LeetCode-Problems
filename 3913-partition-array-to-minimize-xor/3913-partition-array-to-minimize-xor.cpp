@@ -10,27 +10,25 @@ class Solution {
         }
         if(k==0 && idx<(int)nums.size())
             return INT_MAX;
+
        if(k==1)
-       {
             return v[idx];
-       }
+
         auto &ret = dp[idx][k];
         if(ret != -1)
             return ret; 
+            
         int acc = 0; 
         ret = INT_MAX;
         for(int i = idx; i< (int)nums.size(); i++)
         {
             acc ^= nums[i];
             int val = INT_MAX;
-            
             val = fn(i+1, nums, k-1, v, dp);
             val = max(val, acc);
             ret = min(ret, val);
-            
         }
         return ret; 
-        
     }
 public:
     int minXor(vector<int>& nums, int k) {
