@@ -212,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3903-inverse-coin-change](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3903-inverse-coin-change) |
 | [3904-minimum-adjacent-swaps-to-alternate-parity](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3904-minimum-adjacent-swaps-to-alternate-parity) |
 | [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
+| [3913-partition-array-to-minimize-xor](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3913-partition-array-to-minimize-xor) |
 ## String
 |  |
 | ------- |
@@ -765,6 +766,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3833-merge-operations-for-minimum-travel-time](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3833-merge-operations-for-minimum-travel-time) |
 | [3849-equal-sum-grid-partition-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3849-equal-sum-grid-partition-i) |
+| [3913-partition-array-to-minimize-xor](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3913-partition-array-to-minimize-xor) |
 ## Two Pointers
 |  |
 | ------- |
@@ -843,6 +845,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3892-best-time-to-buy-and-sell-stock-v](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3892-best-time-to-buy-and-sell-stock-v) |
 | [3903-inverse-coin-change](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3903-inverse-coin-change) |
 | [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
+| [3913-partition-array-to-minimize-xor](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3913-partition-array-to-minimize-xor) |
 ## Matrix
 |  |
 | ------- |
@@ -925,6 +928,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3649-minimum-time-to-break-locks-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3649-minimum-time-to-break-locks-i) |
 | [3843-partition-array-into-two-equal-product-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3843-partition-array-into-two-equal-product-subsets) |
 | [3870-minimum-moves-to-clean-the-classroom](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3870-minimum-moves-to-clean-the-classroom) |
+| [3913-partition-array-to-minimize-xor](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3913-partition-array-to-minimize-xor) |
 ## Recursion
 |  |
 | ------- |
