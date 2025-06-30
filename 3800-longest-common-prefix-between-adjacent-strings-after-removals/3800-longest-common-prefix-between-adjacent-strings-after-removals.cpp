@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> longestCommonPrefix(vector<string>& words) {
-        if(words.size()==1)
+        if((int)words.size()==1)
             return {0}; 
 
         vector<int>v(words.size(),0);
