@@ -1,14 +1,14 @@
 class Solution {
     
-    int fn(int idx, vector<int>&nums, int k, vector<long long>&v, vector<vector<long long>>&dp)
+    int fn(int idx, vector<int>&nums, int k, vector<int>&v, vector<vector<int>>&dp)
     {
-        if(idx == nums.size())
+        if(idx == (int)nums.size())
         {
             if(k ==0)
                 return 0 ; 
             return INT_MAX;
         }
-        if(k==0 && idx<nums.size())
+        if(k==0 && idx<(int)nums.size())
             return INT_MAX;
        if(k==1)
        {
@@ -17,16 +17,16 @@ class Solution {
         auto &ret = dp[idx][k];
         if(ret != -1)
             return ret; 
-        long long acc = 0; 
+        int acc = 0; 
         ret = INT_MAX;
-        for(int i = idx; i< nums.size(); i++)
+        for(int i = idx; i< (int)nums.size(); i++)
         {
             acc ^= nums[i];
-            long long val = INT_MAX;
+            int val = INT_MAX;
             
-                val = fn(i+1, nums, k-1, v, dp);
-                val = max(val, acc);
-                ret = min(ret, val);
+            val = fn(i+1, nums, k-1, v, dp);
+            val = max(val, acc);
+            ret = min(ret, val);
             
         }
         return ret; 
@@ -38,7 +38,7 @@ public:
         int total = 0;
         for(auto x: nums)
             total ^= x;
-        vector<long long> v(nums.size(),0);
+        vector<int> v((int)nums.size(),0);
         for(int i = 0; i<nums.size();i++)
         {
             if(i==0)
@@ -49,9 +49,9 @@ public:
                 total ^= nums[i-1];
             }
         }
-        if(nums.size()==1)
+        if((int)nums.size()==1)
             return nums[0];
-        vector<vector<long long>>dp(nums.size()+1, vector<long long>(k+1,-1));
+        vector<vector<int>>dp((int)nums.size()+1, vector<int>(k+1,-1));
         
          return fn(0, nums, k, v, dp);
         
