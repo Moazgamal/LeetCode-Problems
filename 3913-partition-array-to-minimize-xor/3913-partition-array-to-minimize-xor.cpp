@@ -1,7 +1,6 @@
 class Solution {
     
-    int fn(int idx, vector<int>&nums, int k, vector<long long>&v, vector<vector<long long>>&dp,
-    int &ans)
+    int fn(int idx, vector<int>&nums, int k, vector<long long>&v, vector<vector<long long>>&dp)
     {
         if(idx == nums.size())
         {
@@ -25,7 +24,7 @@ class Solution {
             acc ^= nums[i];
             long long val = INT_MAX;
             
-                val = fn(i+1, nums, k-1, v, dp, ans);
+                val = fn(i+1, nums, k-1, v, dp);
                 val = max(val, acc);
                 ret = min(ret, val);
             
@@ -53,9 +52,9 @@ public:
         if(nums.size()==1)
             return nums[0];
         vector<vector<long long>>dp(nums.size()+1, vector<long long>(k+1,-1));
-        int ans = INT_MAX; 
-         return fn(0, nums, k, v, dp, ans);
-         return ans; 
+        
+         return fn(0, nums, k, v, dp);
+        
         
     }
 };
