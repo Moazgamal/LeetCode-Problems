@@ -45,7 +45,6 @@ public:
                     if(lastinvalid !=-1)
                     {
                         bool t = true;
-                        bool q = false;
                         vector<int>r (26,0);
                         for(int e = lastidx[lastinvalid]+1; e<=i; e++)
                         {
@@ -57,7 +56,6 @@ public:
                                 continue;
                             if(r[h] > 0 && r[h] >=k)
                             {
-                                q = true;
                                 continue;
                             }
                             else
@@ -66,7 +64,7 @@ public:
                                 break;
                             }
                         }
-                        if(t && q)
+                        if(t)
                             ans = max(ans, i-lastidx[lastinvalid]);
                     }
                     i++;
