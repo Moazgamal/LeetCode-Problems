@@ -226,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0208-implement-trie-prefix-tree) |
 | [0214-shortest-palindrome](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0214-shortest-palindrome) |
 | [0242-valid-anagram](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0242-valid-anagram) |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0459-repeated-substring-pattern](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0459-repeated-substring-pattern) |
 | [0567-permutation-in-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0567-permutation-in-string) |
 | [0686-repeated-string-match](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0686-repeated-string-match) |
@@ -371,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0347-top-k-frequent-elements) |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0432-all-oone-data-structure](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0432-all-oone-data-structure) |
 | [0496-next-greater-element-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0496-next-greater-element-i) |
 | [0567-permutation-in-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0567-permutation-in-string) |
@@ -462,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0187-repeated-dna-sequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0187-repeated-dna-sequences) |
 | [0219-contains-duplicate-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0219-contains-duplicate-ii) |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0567-permutation-in-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0594-longest-harmonious-subsequence) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -1258,6 +1261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0191-number-of-1-bits](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0347-top-k-frequent-elements) |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1014-k-closest-points-to-origin](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1014-k-closest-points-to-origin) |
 ## Quickselect
