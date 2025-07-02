@@ -69,34 +69,6 @@ public:
                     }
                     i++;
                 }
-                while(j<i-1)
-                    {
-                        cur[s[j]-'a']--;
-                        bool u = true;
-                        for(int m = 0; m < 26; m++)
-                        {
-                           
-                            if(cur[m] ==0)
-                                continue;
-                            if(cur[m] > 0 && cur[m] >=k)
-                            {
-                                continue;
-                            }
-                            else
-                            {
-                                u = false;
-                                break;
-                            }
-                        }
-                        if(u)
-                        {
-                            cout<<"fffffffffffffff\n";
-                            cout<<i<<" "<<j<<"\n";
-                            ans = max(ans, i-j-1);
-                            break;
-                        }
-                        j++;
-                    }
                 
             }
         }
