@@ -35,18 +35,18 @@ public:
                         else
                         {
                             u = false;
-                            lastinvalid = h;
+                            lastinvalid = max(lastinvalid, lastidx[h]);
                         }
                     }
                     if(u)
                     {
                         ans = max(ans,(i-j)+1);
                     }
-                    if(lastinvalid !=-1)
+                    else if(lastinvalid !=-1)
                     {
                         bool t = true;
                         vector<int>r (26,0);
-                        for(int e = lastidx[lastinvalid]+1; e<=i; e++)
+                        for(int e = lastinvalid+1; e<=i; e++)
                         {
                             r[s[e]-'a']++;
                         }
@@ -65,11 +65,10 @@ public:
                             }
                         }
                         if(t)
-                            ans = max(ans, i-lastidx[lastinvalid]);
+                            ans = max(ans, i-lastinvalid);
                     }
                     i++;
                 }
-                
             }
         }
         return ans; 
