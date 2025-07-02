@@ -5,8 +5,6 @@ public:
         unordered_map<char,int>mp;
         for(auto x: s)
             mp[x]++;
-        int len = 0;
-        
         for(int i = 0; i< s.size(); )
         {
             if(mp[s[i]]<k)
@@ -26,38 +24,28 @@ public:
                     int lastinvalid = -1;
                     for(int h = 0; h< 26 ; h++)
                     {
-                        if(cur[h] ==0)
+                        if(cur[h] ==0 || (cur[h] > 0 && cur[h] >=k))
                             continue;
-                        if(cur[h] > 0 && cur[h] >=k)
-                        {
-                            continue;
-                        }
                         else
                         {
                             u = false;
                             lastinvalid = max(lastinvalid, lastidx[h]);
                         }
                     }
+
                     if(u)
-                    {
                         ans = max(ans,(i-j)+1);
-                    }
                     else if(lastinvalid !=-1)
                     {
                         bool t = true;
                         vector<int>r (26,0);
                         for(int e = lastinvalid+1; e<=i; e++)
-                        {
                             r[s[e]-'a']++;
-                        }
+
                         for(int h = 0; h< 26 ; h++)
                         {
-                            if(r[h] ==0)
+                            if(r[h] ==0 || (r[h] > 0 && r[h] >=k))
                                 continue;
-                            if(r[h] > 0 && r[h] >=k)
-                            {
-                                continue;
-                            }
                             else
                             {
                                 t = false;
