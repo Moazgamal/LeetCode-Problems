@@ -6,10 +6,12 @@ public:
         string x = "a";
         if(k<=x.size())
             return x[k-1];
-        for(int i=0; k>x.size(); i++)
+        
+        while( k>(int)x.size())
         {
-            int sz = x.size();
-            for(int j=0; j<sz; j++)
+            int sz = (int)x.size();
+            int j = 0; 
+            while(j<sz)
             {
                 if(x[j]=='z')
                 {
@@ -20,7 +22,7 @@ public:
                 m++;
                 
                 x.push_back(m+'a');
-                cout<<m+'a'<<"\n";
+                j++;
             }
         }
         return x[k-1];
