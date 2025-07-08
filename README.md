@@ -214,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3904-minimum-adjacent-swaps-to-alternate-parity](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3904-minimum-adjacent-swaps-to-alternate-parity) |
 | [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 | [3913-partition-array-to-minimize-xor](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3913-partition-array-to-minimize-xor) |
+| [3934-coupon-code-validator](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3934-coupon-code-validator) |
 ## String
 |  |
 | ------- |
@@ -315,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [3905-partition-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3905-partition-string) |
+| [3934-coupon-code-validator](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3934-coupon-code-validator) |
 ## Trie
 |  |
 | ------- |
@@ -461,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [3905-partition-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3905-partition-string) |
+| [3934-coupon-code-validator](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3934-coupon-code-validator) |
 ## Sliding Window
 |  |
 | ------- |
@@ -706,6 +709,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 | [3884-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3884-minimum-absolute-difference-in-sliding-submatrix) |
+| [3934-coupon-code-validator](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3934-coupon-code-validator) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
