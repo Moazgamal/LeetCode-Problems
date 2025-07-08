@@ -32,7 +32,7 @@ public:
                 }
             }
         }
-        for(auto x: mp)
+        for(auto &x: mp)
         {
             sort(x.second.begin(), x.second.end());
             for(int i= 0; i< x.second.size(); i++)
