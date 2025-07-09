@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3843-partition-array-into-two-equal-product-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3843-partition-array-into-two-equal-product-subsets) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 | [3849-equal-sum-grid-partition-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3849-equal-sum-grid-partition-i) |
+| [3863-power-grid-maintenance](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3863-power-grid-maintenance) |
 | [3868-find-maximum-area-of-a-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3868-find-maximum-area-of-a-triangle) |
 | [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
 | [3870-minimum-moves-to-clean-the-classroom](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3870-minimum-moves-to-clean-the-classroom) |
@@ -458,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 | [3837-grid-teleportation-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3837-grid-teleportation-traversal) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
+| [3863-power-grid-maintenance](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3863-power-grid-maintenance) |
 | [3868-find-maximum-area-of-a-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3868-find-maximum-area-of-a-triangle) |
 | [3870-minimum-moves-to-clean-the-classroom](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3870-minimum-moves-to-clean-the-classroom) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
@@ -565,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2868-continuous-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2868-continuous-subarrays) |
 | [3678-design-task-manager](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3678-design-task-manager) |
 | [3791-fruits-into-baskets-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3791-fruits-into-baskets-iii) |
+| [3863-power-grid-maintenance](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3863-power-grid-maintenance) |
 ## Linked List
 |  |
 | ------- |
@@ -743,6 +746,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3647-zero-array-transformation-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3647-zero-array-transformation-iii) |
 | [3678-design-task-manager](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3678-design-task-manager) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3764-maximum-sum-with-at-most-k-elements) |
+| [3863-power-grid-maintenance](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3863-power-grid-maintenance) |
 | [3916-minimum-time-to-reach-destination-in-directed-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3916-minimum-time-to-reach-destination-in-directed-graph) |
 ## Number Theory
 |  |
@@ -1123,6 +1127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3837-grid-teleportation-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3837-grid-teleportation-traversal) |
+| [3863-power-grid-maintenance](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3863-power-grid-maintenance) |
 | [3870-minimum-moves-to-clean-the-classroom](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3870-minimum-moves-to-clean-the-classroom) |
 ## Graph
 |  |
@@ -1142,6 +1147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
+| [3863-power-grid-maintenance](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3863-power-grid-maintenance) |
 | [3916-minimum-time-to-reach-destination-in-directed-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3916-minimum-time-to-reach-destination-in-directed-graph) |
 ## Shortest Path
 |  |
@@ -1253,6 +1259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
+| [3863-power-grid-maintenance](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3863-power-grid-maintenance) |
 | [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 ## Doubly-Linked List
 |  |
@@ -1327,6 +1334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1396-count-servers-that-communicate](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1396-count-servers-that-communicate) |
 | [2793-count-the-number-of-complete-components](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2793-count-the-number-of-complete-components) |
+| [3863-power-grid-maintenance](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3863-power-grid-maintenance) |
 ## Topological Sort
 |  |
 | ------- |
