@@ -1,5 +1,5 @@
 class Solution {
-    void dfs(int node, vector<vector<pair<int,int>>>&g, vector<bool> &vis, int mid)
+    void dfs(int node, vector<vector<pair<int,int>>>&g, vector<bool> &vis, int &mid)
     {
         vis[node] = true;
         for(int i = 0; i< g[node].size(); i++)
