@@ -320,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [3905-partition-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3905-partition-string) |
+| [3931-process-string-with-special-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3931-process-string-with-special-operations-i) |
 | [3934-coupon-code-validator](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3934-coupon-code-validator) |
 ## Trie
 |  |
@@ -932,6 +933,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3634-find-mirror-score-of-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3634-find-mirror-score-of-a-string) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3905-partition-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3905-partition-string) |
+| [3931-process-string-with-special-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3931-process-string-with-special-operations-i) |
 ## Bit Manipulation
 |  |
 | ------- |
