@@ -45,12 +45,12 @@ public:
                 if(!vis[i])
                 {
                     comp++;
+                    if(comp>k)
+                    {
+                        z = false;
+                        break;
+                    }
                     dfs(i, graph,vis, v[mid].first);
-                }
-                if(comp>k)
-                {
-                    z = false;
-                    break;
                 }
             }
             if(z)
