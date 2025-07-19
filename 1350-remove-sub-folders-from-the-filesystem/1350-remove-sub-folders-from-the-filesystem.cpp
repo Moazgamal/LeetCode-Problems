@@ -1,13 +1,6 @@
 class Solution {
 public:
     vector<string> removeSubfolders(vector<string>& folder) {
-        if(folder.size()==2)
-        {
-            if(folder[0] == "/a/b/c" && folder[1]== "/abc/d")
-            {
-                return {"/a/b/c","/abc/d"};
-            }
-        }
         unordered_map<string, int> mp;
         vector<string> result;
         for(int i = 0;i < folder.size(); i++)
@@ -21,9 +14,9 @@ public:
                 {
                     str.push_back(folder[i][j]); j++;
                 }
+                str.push_back('/');
                 
             }
-           
             mp[str]++;
         }
         for(int i = 0; i< folder.size(); i++)
@@ -37,25 +30,24 @@ public:
                     continue;
                 while(j<folder[i].size() && folder[i][j] != '/')
                 {
-                    str.push_back(folder[i][j]); j++;
+                    str.push_back(folder[i][j]);
+                     j++;
                 }
-            
+                str.push_back('/');
                 if(mp.count(str)!=0 )
                 {
                     x=false; 
-                    if(str2 == "")
-                        str2 = str;
+                    str2 = str;
+                    break;
                 }
             }
-            cout<<str<<" "<<str2<<"\n";
+            str2.pop_back();
             if(x)
                 result.push_back(folder[i]);
             else
             {
-                if(str2 == str)
-                {
+                if(str2 == folder[i].substr(1,folder[i].size()))
                     result.push_back(folder[i]);
-                }
             }
         }
         return result;
