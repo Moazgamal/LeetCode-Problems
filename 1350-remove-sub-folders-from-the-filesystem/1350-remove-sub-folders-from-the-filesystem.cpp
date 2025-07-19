@@ -22,7 +22,7 @@ public:
         for(int i = 0; i< folder.size(); i++)
         {
             string str ="";
-            string str2 = "";
+            string str2 = "/";
             bool x = true;
             for(int j = 0; j< folder[i].size(); j++)
             {
@@ -37,7 +37,7 @@ public:
                 if(mp.count(str)!=0 )
                 {
                     x=false; 
-                    str2 = str;
+                    str2 += str;
                     break;
                 }
             }
@@ -46,7 +46,7 @@ public:
                 result.push_back(folder[i]);
             else
             {
-                if(str2 == folder[i].substr(1,folder[i].size()))
+                if(str2 == folder[i])
                     result.push_back(folder[i]);
             }
         }
