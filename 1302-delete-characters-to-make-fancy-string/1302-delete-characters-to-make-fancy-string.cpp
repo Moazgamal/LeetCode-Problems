@@ -1,14 +1,27 @@
 class Solution {
 public:
     string makeFancyString(string s) {
-        string x ="";
-        int j =0;
-        for(int i = 0; i< s.size(); i++)
+        int i = 0; 
+        string str ="";
+        while(i<s.size())
         {
-            if(j-2>=0 && s[i] == x[j-1] && s[i] == x[j-2])
-                continue;
-            x += s[i]; j++;
-        }return x;
+            int j = i+1;
+            while(j<s.size() && s[i] == s[j])
+            {
+                j++;
+            }
+            if(j-i>=3)
+            {
+                str.push_back(s[i]);
+                str.push_back(s[i]);
+                i=j;
+            }
+            else
+            {
+                str.push_back(s[i]);
+                i++;
+            }
+        }return str; 
         
     }
 };
