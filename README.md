@@ -266,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1764-maximum-repeating-substring](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1764-maximum-repeating-substring) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
@@ -610,6 +611,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1497-design-a-stack-with-increment-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -1001,6 +1003,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1502-construct-k-palindrome-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1917-maximum-average-pass-ratio](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1917-maximum-average-pass-ratio) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2140-longest-subsequence-repeated-k-times) |
