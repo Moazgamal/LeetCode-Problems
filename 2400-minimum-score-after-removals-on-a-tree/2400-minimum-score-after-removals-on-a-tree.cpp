@@ -49,28 +49,32 @@ public:
                 int thirdXor = xors[to2];
                 string ss2 = newEdges[j].second;
                 
-                if (ss2.size() <= ss.size() && ss.substr(0, ss2.size()) == ss2) {
+                if (ss2.size() <= ss.size() && ss.substr(0, ss2.size()) == ss2) 
+                {
                     // Edge2 is ancestor of Edge1
                     int part1 = thirdXor;
                     int part2 = firstXor ^ thirdXor;
-                    int part3 = totalXor ^ firstXor;
+                    int part3 = secondXor;
                     int maxi = max({part1, part2, part3});
                     int mini = min({part1, part2, part3});
                     ans = min(ans, maxi - mini);
                 }
-                else if (ss.size() <= ss2.size() && ss2.substr(0, ss.size()) == ss) {
+                else if (ss.size() <= ss2.size() && ss2.substr(0, ss.size()) == ss) 
+                {
                     // Edge1 is ancestor of Edge2
                     int part1 = firstXor ^ thirdXor;
-                    int part2 = thirdXor;
-                    int part3 = totalXor ^ firstXor;
+                    int part2 = secondXor;
+                    int part3 = thirdXor;
                     int maxi = max({part1, part2, part3});
                     int mini = min({part1, part2, part3});
                     ans = min(ans, maxi - mini);
-                } else {
+                } 
+                else 
+                {
                     // Completely separate subtrees
                     int part1 = firstXor;
                     int part2 = thirdXor;
-                    int part3 = totalXor ^ firstXor ^ thirdXor;
+                    int part3 = secondXor ^ thirdXor;
                     int maxi = max({part1, part2, part3});
                     int mini = min({part1, part2, part3});
                     ans = min(ans, maxi - mini);
