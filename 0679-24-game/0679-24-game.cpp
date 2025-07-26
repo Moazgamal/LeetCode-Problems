@@ -1,9 +1,9 @@
 class Solution {
-    static constexpr double EPS = 1e-6;
+    const double EPS = 1e-6;
 
-    bool tryCalc(vector<int>& v) 
+    bool tryCalc(vector<double>& v) 
     {
-        vector<double> nums(v.begin(), v.end());
+        vector<double> nums=v;
         return eval(nums);
     }
 
@@ -11,7 +11,7 @@ class Solution {
     {
         if (nums.size() == 1)
             return fabs(nums[0] - 24.0) < EPS;
-
+                                            
         for (int i = 0; i < nums.size(); ++i) 
         {
             for (int j = 0; j < nums.size(); ++j) 
@@ -48,7 +48,7 @@ class Solution {
         return false;
     }
 
-    bool fn(vector<int>& cards, vector<bool>& vis, vector<int>& v) {
+    bool fn(vector<int>& cards, vector<bool>& vis, vector<double>& v) {
         if (v.size() == 4) 
         {
             return tryCalc(v);
@@ -71,7 +71,7 @@ class Solution {
 public:
     bool judgePoint24(vector<int>& cards) {
         vector<bool> vis(4, false);
-        vector<int> v;
+        vector<double> v;
         return fn(cards, vis, v);
     }
 };
