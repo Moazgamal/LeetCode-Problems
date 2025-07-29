@@ -22,7 +22,7 @@ public:
         {
             if(s[i] == 'T')
             {
-                totalT++; continue;
+                totalT++; 
             }
             else if(s[i] == 'C')
             {
@@ -33,12 +33,12 @@ public:
             {
                 val += totalC;
                 ans += totalSum;
-                Extra = max(Extra, max(totalT*v[i], totalC*v[i]));
+                Extra = max(Extra, totalT*v[i]);
             }
         }
         Extra = max(Extra, totalSum);
         Extra= max(Extra, val);
-        
+
         return ans + Extra;
 
         
