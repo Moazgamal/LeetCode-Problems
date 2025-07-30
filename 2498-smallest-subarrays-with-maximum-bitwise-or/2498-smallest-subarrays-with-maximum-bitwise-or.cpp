@@ -7,7 +7,6 @@ class Solution {
             int rem = num % 2;
             if(rem ==1)
             {
-                
                 v[cnt].push_back(idx);
             }
             num /= 2;
