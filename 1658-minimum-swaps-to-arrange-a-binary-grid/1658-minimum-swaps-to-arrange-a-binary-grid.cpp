@@ -1,6 +1,5 @@
 class Solution {
-    int fn(int row, vector<vector<int>>&v, set<int>&st, int cur, int real,
-    int n)
+    int fn(int row, vector<vector<int>>&v, set<int>&st, int n)
     {
         if(row == n-1)
             return 0 ;
@@ -13,28 +12,13 @@ class Solution {
                 auto it = st.find(srow);
                 int index = std::distance(st.begin(), it);
                 st.erase(srow);
-                int steps2 = fn(row+1, v, st, cur, real+1, n);
+                int steps2 = fn(row+1, v, st, n);
                 if(steps2 != INT_MAX/2)
                 {
                     return index +steps2;
                 }
                 st.insert(srow);
             }
-            // else if(srow == row || cur == srow)
-            // {
-            //     vis[srow] = true;
-            //     for(int i = 0; i< vis.size(); i++)
-            //     {
-            //         if(!vis[i])
-            //         {
-            //             int steps2 = fn(row+1, v, vis, i, real+1,n);
-            //             if(steps2 != INT_MAX/2)
-            //                 return steps2;
-            //             break;
-            //         }
-            //     }
-            //     vis[srow]= false;
-            // }
         }
         return steps; 
     }
@@ -70,7 +54,7 @@ public:
         {
             st.insert(i);
         }
-        int ans =  fn(0, v, st, 0, 0,n);
+        int ans =  fn(0, v, st,n);
         if(ans>=INT_MAX/2)
             return -1;
         return ans; 
