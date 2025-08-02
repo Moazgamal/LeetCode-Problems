@@ -21,8 +21,7 @@ public:
         {
             sum2 += nums[k];
             pq2.push(nums[k]);
-
-             k--;
+            k--;
         }
         vector<long long> dp1(block+1);
         vector<long long> dp2(block+1);
@@ -33,9 +32,8 @@ public:
             {
                 sum1 -= pq1.top(); pq1.pop(); pq1.push(nums[i]);
                 sum1 += nums[i];
-                cout<<nums[i]<<" iiiii\n";
             }
-                i++;
+            i++;
         }
         for(int j = 0; j< dp2.size(); j++)
         {
@@ -45,19 +43,18 @@ public:
             {
                 sum2 -= pq2.top(); pq2.pop(); pq2.push(nums[k]);
                 sum2 += nums[k];
-                cout<<nums[k]<<" kkkkkkkk\n";
             }
-                k--;
+            k--;
         }
-        int ss = dp2.size()-1;
-        int f = 0; 
+        k = dp2.size()-1;
+        i = 0; 
         int u = block+1 ;
         while(u--)
         {
-            long long val1 = dp1[f];
-            f++;
-            long long val2 = dp2[ss];
-            ss--;
+            long long val1 = dp1[i];
+            i++;
+            long long val2 = dp2[k];
+            k--;
             ans = min(ans, val1-val2);
         }
         return ans; 
