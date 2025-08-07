@@ -49,18 +49,20 @@ public:
         int cnt = 1;
         vector<int> v;
         TreeNode* root = nullptr;
-        for(int i = 0; i< data.size(); i++)
+        int k = 0; 
+        while(k< data.size())
         {
             string cur = ""; 
-            if(data[i] == 'n')
+            if(data[k] == 'n')
             {
-                v.push_back(-2000); i+=1; continue;
+                v.push_back(-2000); k+=2; continue;
             }
-            while(i< data.size() && data[i] != ' ')
+            while(k< data.size() && data[k] != ' ')
             {
-                cur.push_back(data[i]); i++;
+                cur.push_back(data[i]); k++;
             }
             v.push_back(stoi(cur));
+            k++;
         }
         root = new TreeNode(v[0]);
         vector<TreeNode*>vv(v.size());
