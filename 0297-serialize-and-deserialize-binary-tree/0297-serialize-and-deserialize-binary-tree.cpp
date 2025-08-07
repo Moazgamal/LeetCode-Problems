@@ -67,23 +67,20 @@ public:
         root = new TreeNode(v[0]);
         vector<TreeNode*>vv(v.size());
         int i = 0; 
+        if(i+cnt< data.size() && v[cnt+i] != -2000)
+        {
+            root->left = new TreeNode(v[cnt+i]);
+            vv[cnt+i] = root->left;
+        }
+        if(i+cnt+1 < data.size() && v[cnt+i+1] != -2000)
+        {
+            root->right = new TreeNode(v[cnt+i+1]);
+            vv[cnt+i+1]= root->right;
+        }
+        cnt++; i++;
         while( i< (int)v.size() )
         {
-            if(i==0)
-            {
-                if(i+cnt< data.size() && v[cnt+i] != -2000)
-                {
-                    root->left = new TreeNode(v[cnt+i]);
-                    vv[cnt+i] = root->left;
-                }
-                if(i+cnt+1 < data.size() && v[cnt+i+1] != -2000)
-                {
-                    root->right = new TreeNode(v[cnt+i+1]);
-                    vv[cnt+i+1]= root->right;
-                }
-                cnt++; i++;
-            }
-            else if(v[i] == -2000)
+            if(v[i] == -2000)
             {
                 cnt--; 
                 i++; continue;
