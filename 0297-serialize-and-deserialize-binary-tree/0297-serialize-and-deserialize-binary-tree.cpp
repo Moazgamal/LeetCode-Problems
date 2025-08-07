@@ -38,7 +38,6 @@ public:
             else
                 q.push(nullptr);
         }
-        cout<<ans<<"\n";
         return ans; 
         
     }
@@ -50,25 +49,20 @@ public:
         int cnt = 1;
         vector<int> v;
         TreeNode* root = nullptr;
-        for(int i = 0; i< data.size(); )
+        for(int i = 0; i< data.size(); i++)
         {
-            int j = i ; 
             string cur = ""; 
-            if(data[j] == 'n')
+            if(data[i] == 'n')
             {
-                v.push_back(-2000); i+=2; continue;
+                v.push_back(-2000); i+=1; continue;
             }
-            while(j< data.size() && data[j] != ' ')
+            while(i< data.size() && data[i] != ' ')
             {
-                cur.push_back(data[j]); j++;
+                cur.push_back(data[i]); i++;
             }
             v.push_back(stoi(cur));
-            if(i == 0)
-            {
-                root = new TreeNode(v[0]);
-            }
-            i = j+1;
         }
+        root = new TreeNode(v[0]);
         vector<TreeNode*>vv(v.size());
         for(int i = 0; i< v.size(); )
         {
