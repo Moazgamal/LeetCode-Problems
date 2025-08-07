@@ -50,7 +50,7 @@ public:
         vector<int> v;
         TreeNode* root = nullptr;
         int k = 0; 
-        while(k< data.size())
+        while(k< (int)data.size())
         {
             string cur = ""; 
             if(data[k] == 'n')
@@ -59,14 +59,15 @@ public:
             }
             while(k< data.size() && data[k] != ' ')
             {
-                cur.push_back(data[i]); k++;
+                cur.push_back(data[k]); k++;
             }
             v.push_back(stoi(cur));
             k++;
         }
         root = new TreeNode(v[0]);
         vector<TreeNode*>vv(v.size());
-        for(int i = 0; i< v.size(); )
+        int i = 0; 
+        while( i< (int)v.size() )
         {
             if(i==0)
             {
@@ -85,7 +86,7 @@ public:
             else if(v[i] == -2000)
             {
                 cnt--; 
-                i++;
+                i++; continue;
             }
             else
             {
