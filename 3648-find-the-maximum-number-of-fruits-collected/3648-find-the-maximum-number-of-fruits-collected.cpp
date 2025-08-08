@@ -12,17 +12,17 @@ class Solution {
             return ret; 
         ret = f[r][c];
         int row= r+1; int col = c-1;
-        if(isvalid(row,col,f) && col>=row)
+        if(isvalid(row,col,f) && col>row)
         {
             ret =max(ret , f[r][c]+fn1(row, col, f, dp));
         }
         row = r+1; col = c;
-        if(isvalid(row, col, f) && col>=row)
+        if(isvalid(row, col, f) && col>row)
         {
             ret = max(ret, f[r][c]+fn1(row, col, f,dp));
         }
         row = r+1; col=c+1;
-         if(isvalid(row, col, f) && col>=row)
+         if(isvalid(row, col, f) && col>row)
         {
             ret = max(ret, f[r][c]+fn1(row, col, f,dp));
         }
@@ -35,17 +35,17 @@ class Solution {
             return ret; 
         ret = f[r][c];
         int row= r-1; int col = c+1;
-        if(isvalid(row,col,f) && row>=col)
+        if(isvalid(row,col,f) && row>col)
         {
             ret =max(ret , f[r][c]+fn2(row, col, f, dp));
         }
         row = r; col = c+1;
-        if(isvalid(row, col, f) && row>=col)
+        if(isvalid(row, col, f) && row>col)
         {
             ret = max(ret, f[r][c]+fn2(row, col, f,dp));
         }
         row = r+1; col = c+1;
-        if(isvalid(row, col, f) && row>=col)
+        if(isvalid(row, col, f) && row>col)
         {
             ret = max(ret, f[r][c]+fn2(row, col, f,dp));
         }
@@ -57,20 +57,15 @@ public:
         int ans  = 0; 
         while(r< fruits.size() && c < fruits.size())
         {
-            cout<<fruits[r][c]<<" ";
             ans += fruits[r][c];
             fruits[r][c] = 0; 
              r++; c++;
         }
-        cout<<"\n";
         r = 0; c = fruits.size()-1;
         vector<vector<int>>dp(fruits.size(), vector<int>(fruits.size(),-1));
         ans += fn1(r, c, fruits, dp);
         r = fruits.size()-1; c = 0; 
-        vector<vector<int>>dp2(fruits.size(), vector<int>(fruits.size(),-1));
-
-        ans+= fn2(r, c, fruits, dp2);
-        cout<<dp[0][fruits.size()-1]<<" "<<dp2[fruits.size()-1][0]<<"\n";
+        ans+= fn2(r, c, fruits, dp);
 
         return ans; 
     }
