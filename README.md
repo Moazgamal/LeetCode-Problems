@@ -201,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3646-sum-of-good-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3646-sum-of-good-subsequences) |
 | [3647-zero-array-transformation-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3647-zero-array-transformation-iii) |
+| [3648-find-the-maximum-number-of-fruits-collected](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3649-minimum-time-to-break-locks-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3649-minimum-time-to-break-locks-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
@@ -904,6 +905,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3631-count-k-reducible-numbers-less-than-n](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3631-count-k-reducible-numbers-less-than-n) |
 | [3646-sum-of-good-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3646-sum-of-good-subsequences) |
+| [3648-find-the-maximum-number-of-fruits-collected](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3649-minimum-time-to-break-locks-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3649-minimum-time-to-break-locks-i) |
 | [3686-count-beautiful-splits-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3686-count-beautiful-splits-in-an-array) |
 | [3795-zero-array-transformation-iv](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3795-zero-array-transformation-iv) |
@@ -937,6 +939,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3558-find-a-safe-walk-through-a-grid) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3648-find-the-maximum-number-of-fruits-collected](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3764-maximum-sum-with-at-most-k-elements) |
 | [3837-grid-teleportation-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3837-grid-teleportation-traversal) |
 | [3849-equal-sum-grid-partition-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3849-equal-sum-grid-partition-i) |
