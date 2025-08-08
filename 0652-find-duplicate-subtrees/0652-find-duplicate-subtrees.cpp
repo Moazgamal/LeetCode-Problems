@@ -48,7 +48,6 @@ public:
         unordered_map<string, bool>mp1;
         unordered_map<string, bool>mp2;
         vector<TreeNode*>ans;
-        string acc = "";
         dfs(root, mp1, mp2, ans);
         return ans; 
         
