@@ -28,7 +28,6 @@ public:
                     continue;
                 double dis1 = v[i][j];
                 int num1 = vv[j][dis1]-1;
-                if(num1>0)
                     ans+= num1;
             }
             
