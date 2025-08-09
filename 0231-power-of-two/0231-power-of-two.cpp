@@ -1,10 +1,19 @@
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
-        if(n==0 || n<0)
-            return false;
-        double no1 = log2(n);
-        return (long long)no1 == no1;
+        int x = 0; 
+        if(n<0)
+            return false; 
+        if(n ==0)
+            return false; 
+        for(int i = 0; i< 32; i++)
+        {
+            if((n&(1<<i)) >0)
+            {
+                x++; if(x>1) return false;
+            }
+        }
+        return true;
         
     }
 };
