@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0289-game-of-life](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0289-game-of-life) |
 | [0347-top-k-frequent-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0416-partition-equal-subset-sum) |
+| [0447-number-of-boomerangs](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0447-number-of-boomerangs) |
 | [0494-target-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0496-next-greater-element-i) |
 | [0594-longest-harmonious-subsequence](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0594-longest-harmonious-subsequence) |
@@ -401,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0432-all-oone-data-structure](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0432-all-oone-data-structure) |
+| [0447-number-of-boomerangs](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0447-number-of-boomerangs) |
 | [0496-next-greater-element-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0496-next-greater-element-i) |
 | [0567-permutation-in-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0594-longest-harmonious-subsequence) |
@@ -651,6 +653,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0342-power-of-four) |
+| [0447-number-of-boomerangs](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0447-number-of-boomerangs) |
 | [0670-maximum-swap](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0670-maximum-swap) |
 | [0679-24-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0679-24-game) |
 | [0797-rabbits-in-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0797-rabbits-in-forest) |
