@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2792-neighboring-bitwise-xor) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [2808-painting-the-walls](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2808-painting-the-walls) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2868-continuous-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2868-continuous-subarrays) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -908,6 +909,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2586-longest-square-streak-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2586-longest-square-streak-in-an-array) |
 | [2648-number-of-ways-to-earn-points](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2648-number-of-ways-to-earn-points) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [2808-painting-the-walls](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2808-painting-the-walls) |
 | [2850-construct-the-longest-new-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2850-construct-the-longest-new-string) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
