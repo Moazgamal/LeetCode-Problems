@@ -12,7 +12,7 @@ class Solution {
             
             auto &ret = dp[idx][cur];
             
-            if(ret != 0)
+            if(ret != -1)
                 return ret;
         long long pick = cost[idx]+fn(idx+1, cost, time, dp, cur-time[idx]-1);
         
@@ -23,7 +23,7 @@ class Solution {
     }
 public:
     int paintWalls(vector<int>& cost, vector<int>& time) {
-        vector<vector<int>>dp(501, vector<int>(501,0));
+        vector<vector<int>>dp(501, vector<int>(501,-1));
         int collectedE =0; 
         int collectedT = 0;  int TT = 0 ;
         return fn(0, cost, time, dp, cost.size());
