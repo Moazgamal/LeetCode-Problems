@@ -26,7 +26,7 @@ class Solution {
                 ans %= MOD;
             }
         }
-        return dp[i][last][cnt] = ans;
+        return dp[i][last][cnt]=ans;
 
     }
 
