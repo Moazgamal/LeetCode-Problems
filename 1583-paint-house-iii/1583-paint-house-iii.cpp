@@ -2,14 +2,14 @@ class Solution {
     int fn(int idx, vector<int>&houses, vector<vector<vector<int>>>&dp, vector<vector<int>>&cost
     , int m, int n, int target, int prevcolor)
     {
+        if(target<0)
+            return INT_MAX/2;
         if(idx >= houses.size())
         {
             if(target == 0)
                 return 0; 
             return INT_MAX/2;
         }
-        if(target<0)
-            return INT_MAX/2;
         auto &ret = dp[idx][prevcolor][target];
         if(ret != INT_MAX)
             return ret; 
