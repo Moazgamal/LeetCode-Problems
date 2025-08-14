@@ -25,6 +25,7 @@ class Solution {
     {
         if(noc > noo)
             return ; 
+        
         if(idx>=s.size())
         {
             if(mp2.count(str) !=0)
@@ -45,15 +46,15 @@ class Solution {
             noc++;
         str.push_back(s[idx]);
         
-            fn(idx+1, s, str, mp,mp2,noc, noo);
-            str.pop_back();
-            if(s[idx] == '(')
+        fn(idx+1, s, str, mp,mp2,noc, noo);
+        str.pop_back();
+        if(s[idx] == '(')
         {
             noo--;
         }
         else if(s[idx] == ')')
             noc--;
-            fn(idx+1, s, str, mp,mp2, noc, noo);
+        fn(idx+1, s, str, mp,mp2, noc, noo);
     }
 public:
     vector<string> removeInvalidParentheses(string s) {
