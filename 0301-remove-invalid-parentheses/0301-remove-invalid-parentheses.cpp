@@ -4,7 +4,6 @@ class Solution {
         stack<char>st;
         for(int i = 0; i< str.size() ; i++)
         {
-            
             if(str[i] == '(')
             {
                 st.push(str[i]); continue;
@@ -16,10 +15,8 @@ class Solution {
                 st.pop();
                 continue;
             }
-            
         }
         return st.empty();
-
     }
     void fn(int idx, string &s, string &str, vector<vector<string>>&mp, unordered_map<string, bool>&mp2, int noc, int noo)
     {
@@ -32,28 +29,28 @@ class Solution {
                 return ;
             else
                 mp2[str]= true;
+
             if(check(str))
-            {
                 mp[(int)str.size()].push_back(str);
-            }
+
             return ; 
         }
+
         if(s[idx] == '(')
-        {
             noo++;
-        }
         else if(s[idx] == ')')
             noc++;
+
         str.push_back(s[idx]);
         
         fn(idx+1, s, str, mp,mp2,noc, noo);
         str.pop_back();
+
         if(s[idx] == '(')
-        {
             noo--;
-        }
         else if(s[idx] == ')')
             noc--;
+
         fn(idx+1, s, str, mp,mp2, noc, noo);
     }
 public:
