@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0447-number-of-boomerangs](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0447-number-of-boomerangs) |
 | [0494-target-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0496-next-greater-element-i) |
+| [0546-remove-boxes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0546-remove-boxes) |
 | [0594-longest-harmonious-subsequence](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0594-longest-harmonious-subsequence) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0679-24-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0679-24-game) |
@@ -884,6 +885,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0174-dungeon-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0174-dungeon-game) |
 | [0416-partition-equal-subset-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0494-target-sum) |
+| [0546-remove-boxes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0546-remove-boxes) |
 | [0664-strange-printer](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0664-strange-printer) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -1454,6 +1456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0546-remove-boxes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0546-remove-boxes) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2404-number-of-distinct-roll-sequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2404-number-of-distinct-roll-sequences) |
 <!---LeetCode Topics End-->
