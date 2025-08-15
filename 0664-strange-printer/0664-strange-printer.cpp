@@ -26,11 +26,11 @@ private:
         int minTurns = 1 + minimumTurns(start + 1, end, s, memo);
 
         // Try to optimize by finding matching characters
-        for (int k = end; k >start; k--) {
+        for (int k = start+1; k <=end; k++) {
             if (s[k] == s[start]) {
                 // If match found, try splitting the problem
                 int turnsWithMatch = minimumTurns(start, k - 1, s, memo) +
-                                     minimumTurns(k + 1, end, s, memo);
+                                     minimumTurns(k+1, end, s, memo);
                 minTurns = min(minTurns, turnsWithMatch);
             }
         }
