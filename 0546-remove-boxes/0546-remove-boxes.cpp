@@ -45,9 +45,9 @@ public:
             v.push_back({boxes[i], j-i});
             i=j;
         }
-        int n = v.size();
-vector<vector<vector<int>>> memo(101, vector<vector<int>>(101, vector<int>(101,-1)));
-        return maxN(0, n - 1, v, memo,0); 
+        int n = (int)boxes.size();
+vector<vector<vector<int>>> memo(n+1, vector<vector<int>>(n+1, vector<int>(n+1,-1)));
+        return maxN(0, (int)v.size()-1, v, memo,0); 
         
     }
 };
