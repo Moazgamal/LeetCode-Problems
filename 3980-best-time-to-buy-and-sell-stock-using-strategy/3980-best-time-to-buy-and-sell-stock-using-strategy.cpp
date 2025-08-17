@@ -4,15 +4,14 @@ public:
         
         long long ans = 0;
         for(int i = 0; i< strategy.size(); i++)
-        {
             ans += (strategy[i]*prices[i]);
-        } 
+
         long long acc = 0; 
         int i = 0; int j = (i+k)-1;
+
         for(int u = j+1; u < strategy.size(); u++)
-        {
             acc += strategy[u]* prices[u];
-        }
+        
        int m1 = i + (k/2); int m2 = j;
         while(m1 <= m2)
         {
@@ -26,21 +25,18 @@ public:
         while(j+1 < strategy.size())
         {
             int left = strategy[i]; 
+
             acc += (left*prices[i]);
-            if(strategy[j+1] == -1 || strategy[j+1] == 0)
-            {
-                if(strategy[j+1]== -1)
-                {
-                    acc += (2*prices[j+1]);
-                }
-                else
-                    acc += prices[j+1];
-            }
+            
+            if(strategy[j+1]== -1)
+                acc += (2*prices[j+1]);
+            
+            else if(strategy[j+1]==0)
+                acc += prices[j+1];
+
             acc -= (prices[f]);
             ans = max(ans, acc); 
-            f++;
-            j++;
-            i++;
+            f++; j++; i++;
         }
         return ans; 
         
