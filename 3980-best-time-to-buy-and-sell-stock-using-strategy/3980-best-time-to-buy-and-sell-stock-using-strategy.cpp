@@ -19,7 +19,6 @@ public:
             acc += prices[m1];
             m1++;
         }
-        cout<<acc<<"\n";
         ans = max(ans, acc);
         
         j = k-1; i = 0;
@@ -42,7 +41,6 @@ public:
             f++;
             j++;
             i++;
-            
         }
         return ans; 
         
