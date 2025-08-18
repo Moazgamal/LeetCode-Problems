@@ -14,12 +14,8 @@ public:
                 left += k;
             }
             if(i == queries.size()-1)
-            {
                 for(int j = 0; j< nums.size(); j++)
-                {
                     ans ^= nums[j];
-                }
-            }
         }
         return ans; 
         
