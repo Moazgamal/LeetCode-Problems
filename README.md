@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1503-reducing-dishes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1503-reducing-dishes) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1524-string-matching-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1524-string-matching-in-an-array) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -732,6 +733,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1256-rank-transform-of-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1256-rank-transform-of-an-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1503-reducing-dishes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1503-reducing-dishes) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2164-two-best-non-overlapping-events](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2164-two-best-non-overlapping-events) |
@@ -903,6 +905,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1393-maximum-value-of-k-coins-from-piles](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1393-maximum-value-of-k-coins-from-piles) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1503-reducing-dishes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1503-reducing-dishes) |
 | [1527-number-of-ways-to-paint-n-3-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1527-number-of-ways-to-paint-n-3-grid) |
 | [1583-paint-house-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1583-paint-house-iii) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -1065,6 +1068,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1304-longest-happy-string) |
 | [1502-construct-k-palindrome-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1502-construct-k-palindrome-strings) |
+| [1503-reducing-dishes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1503-reducing-dishes) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1658-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1658-minimum-swaps-to-arrange-a-binary-grid) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
