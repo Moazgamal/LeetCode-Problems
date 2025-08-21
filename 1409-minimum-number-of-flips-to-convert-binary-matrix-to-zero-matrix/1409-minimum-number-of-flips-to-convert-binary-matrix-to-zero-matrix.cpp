@@ -32,7 +32,15 @@ public:
                 for(int i = 0; i< (int)cur.size(); i++)
                 {
                     if(cur[i] == '1')
+                    {
                         ones2++;
+                        break;
+                    }
+                }
+                if(ones2 == 0)
+                    return level; 
+                for(int i = 0; i< (int)cur.size(); i++)
+                {
                     cur[i]= cur[i] == '1'?'0':'1';
                     if(((i+1)%cols) != 0)
                         cur[i+1] = cur[i+1] == '1'?'0':'1';
