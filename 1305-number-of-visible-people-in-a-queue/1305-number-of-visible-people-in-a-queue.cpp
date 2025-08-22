@@ -36,7 +36,8 @@ public:
                 idx2 = v[idx2];
             }
             ans[i] = acc+1;
-        }return ans; 
+        }
+        return ans; 
         
     }
 };
