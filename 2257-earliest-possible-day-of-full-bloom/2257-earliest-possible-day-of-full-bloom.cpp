@@ -31,8 +31,6 @@ public:
                 extra = max(diff, extra);
             }
         }
-        cout<<curDay<<"\n";
-        cout<<extra<<"\n";
         return extra + curDay ;
         
     }
