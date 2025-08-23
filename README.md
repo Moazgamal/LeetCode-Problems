@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2232-adding-spaces-to-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2232-adding-spaces-to-a-string) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2249-count-the-hidden-sequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2249-count-the-hidden-sequences) |
+| [2257-earliest-possible-day-of-full-bloom](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2257-earliest-possible-day-of-full-bloom) |
 | [2262-solving-questions-with-brainpower](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
@@ -743,6 +744,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2164-two-best-non-overlapping-events](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
+| [2257-earliest-possible-day-of-full-bloom](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2257-earliest-possible-day-of-full-bloom) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -1083,6 +1085,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2257-earliest-possible-day-of-full-bloom](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2257-earliest-possible-day-of-full-bloom) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2300-construct-string-with-repeat-limit) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
