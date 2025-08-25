@@ -47,8 +47,11 @@ public:
     int minPushBox(vector<vector<char>>& grid) {
         
         int x = grid.size()*grid[0].size();
+        vector<vector<int>> dist(x+1, vector<int>(x+1,INT_MAX));
         int rows = grid.size();
-        queue<pair<int,int>>pq;
+        priority_queue<pair<int, pair<int,int>>, 
+               vector<pair<int, pair<int,int>>>, 
+               greater<pair<int, pair<int,int>>>> pq;
         bool s1 = false; bool s2 = false;
         int val1 = 0; int val2 = 0; 
         int cols = grid[0].size();
@@ -74,23 +77,19 @@ public:
             if(s1 && s2)
                 break;
         }
-        pq.push({val1, val2});
-        vector<vector<bool>> visited(x+1, vector<bool>(x+1,false)); // visited[person][box]
-        visited[val1][val2] = true;
-        int p = 0; 
+        pq.push({0, {val1, val2}});
+        dist[val1][val2] = 0; 
         while(!pq.empty())
         {
-            int sz = pq.size(); 
-            while(sz--)
-            {
-                auto cur = pq.front(); pq.pop();
-            int box = cur.second;
-            int person = cur.first;
+            auto cur = pq.top(); pq.pop();
+            int box = cur.second.second;
+            int person = cur.second.first;
+            int distance = cur.first;
             int r = box/cols; int c = box%cols;
             int rp = person/cols; int cp = person%cols;
             if(grid[r][c] == 'T')
             {
-                return p;
+                return distance;
             }
             for(int d = 0; d< 4; d++)
             {
@@ -118,25 +117,21 @@ public:
                         tr = r+1; tc = c;
                     }
                 }
-                int bo = row*cols+ col;
-                int per = r*cols + c;
                 if(isvalid(row, col, rows, cols) && grid[row][col]!='#'
-                && isvalid(tr, tc, rows, cols) && grid[tr][tc] != '#' )
+                && isvalid(tr, tc, rows, cols) && grid[tr][tc] != '#')
                 {
                     if(canreach(r, c, rp, cp, grid, tr, tc))
                     {
-                        
-                        if(!visited[per][bo])
+                        int g = row*cols+ col;
+                        int gg = r*cols + c;
+                        if(1+distance < dist[gg][g])
                         {
-                            visited[per][bo] = true;
-                            pq.push({per,bo});
+                            dist[gg][g] = 1+distance;
+                            pq.push({dist[gg][g], {gg, g}});
                         }
                     }
                 }
             }
-            }
-            p++;
-            
         }
 
         return -1; 
