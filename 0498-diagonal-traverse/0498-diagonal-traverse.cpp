@@ -3,7 +3,9 @@ public:
     vector<int> findDiagonalOrder(vector<vector<int>>& mat) {
         if(mat.size()==1)
             return mat[0];
-        // traverse first column
+        // once go right ,,, if not right go down,  
+        // second once go down ,,, if no down go right,
+        // done    
         bool Flip = false;
         vector<int> res;
         int rows = mat.size(); int cols = mat[0].size();
