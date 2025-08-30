@@ -4,7 +4,7 @@ public:
         int maxi = -1;
         int maxidx = 0;
         vector<pair<int,int>>v;
-        vector<int>ans(nums.size());
+        vector<int>ans(nums.size(), -1);
         vector<pair<int,int>>vv(nums.size());
         for(int i = 0; i< nums.size(); i++)
         {
@@ -62,6 +62,10 @@ public:
             {
                 ans[i] = max(ans[i], vv[idx2].first);
                 idx = vv[idx2].second;
+                if(ans[idx] != -1)
+                {
+                    ans[i] = ans[idx]; break;
+                }
                 if(idx != -1 && farLeast[idx] == idx2)
                     break;
                 idx2 = farLeast[idx];
