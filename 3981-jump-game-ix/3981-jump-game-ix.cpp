@@ -40,9 +40,15 @@ public:
             int far = farLeast[i];
             if(far != -1)
                 ans[i] = max(ans[i], vv[far].first);
-            int idx = -1; int idx2 = -1; 
+            int idx = -1; int idx2 = -1;
+            if(far == -1 && vv[i].first==nums[i])
+            {
+                continue;
+            }
             if(far == -1)
             {
+                ans[i] = ans[vv[i].second];
+                continue;
                 idx = vv[i].second;
                 idx2 = farLeast[idx];
             }
