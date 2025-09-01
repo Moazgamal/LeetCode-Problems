@@ -11,11 +11,11 @@ public:
 
     void backtrack(int n, int k, int start, vector<int>& curr) {
         if (k == 1) {
-            if (n >= start) {
+            // if (n >= start) {
                 curr.push_back(n);
                 check(curr);
                 curr.pop_back();
-            }
+            // }
             return;
         }
 
