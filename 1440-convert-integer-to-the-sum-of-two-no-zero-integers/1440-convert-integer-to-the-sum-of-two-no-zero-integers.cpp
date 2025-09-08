@@ -63,7 +63,6 @@ class Solution {
 public:
     vector<int> getNoZeroIntegers(int n) {
 
-        unordered_map<int,bool>mp;
         if(n<=10)
         {
             return {1, n-1};
