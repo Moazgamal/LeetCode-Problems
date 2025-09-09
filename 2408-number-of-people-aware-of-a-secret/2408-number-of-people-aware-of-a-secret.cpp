@@ -10,9 +10,9 @@ class Solution {
         long long ways = 0;
         if (end > n) ways = 1;
 
-        int f = std::min(end - 1, n);
+        int f = min(end, n+1);
 
-        for (int t = start; t <= f; ++t) 
+        for (int t = start; t < f; ++t) 
         {
             ways = (ways + fn(t + delay, t + forget, n, delay, forget)) % MOD;
         }
