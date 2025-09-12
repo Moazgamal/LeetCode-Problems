@@ -1,20 +1,11 @@
 class Solution {
-    bool isvowel(char c)
-    {
-        if(c == 'a' || c == 'e' || c== 'i' || c == 'o' || c== 'u')
-            return true;
-        return false; 
-    }
 public:
     bool doesAliceWin(string s) {
-        int vowels = 0; 
-        for(int i = 0; i< s.size(); i++)
-        {
-            if(isvowel(s[i]))
-            {
+        int vowels = 0; int sz = (int)s.size();
+        for(int i = 0; i< sz; i++)
+            if(s[i] == 'a' || s[i] == 'e' || s[i]== 'i' || s[i]== 'o' || s[i]== 'u')
                 vowels++;
-            }
-        }
+
         if(vowels == 0)
             return false; 
         return true; 
