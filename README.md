@@ -344,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3451-string-compression-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3462-vowels-game-in-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3462-vowels-game-in-a-string) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3572-count-substrings-that-can-be-rearranged-to-contain-a-string-ii) |
 | [3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3573-count-substrings-that-can-be-rearranged-to-contain-a-string-i) |
@@ -728,6 +729,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3321-type-of-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3321-type-of-triangle) |
+| [3462-vowels-game-in-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3462-vowels-game-in-a-string) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3548-find-the-count-of-good-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3548-find-the-count-of-good-integers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -1510,6 +1512,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1103-moving-stones-until-consecutive](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1103-moving-stones-until-consecutive) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2850-construct-the-longest-new-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2850-construct-the-longest-new-string) |
+| [3462-vowels-game-in-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3462-vowels-game-in-a-string) |
 ## Union Find
 |  |
 | ------- |
@@ -1535,4 +1538,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2404-number-of-distinct-roll-sequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2404-number-of-distinct-roll-sequences) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+## Game Theory
+|  |
+| ------- |
+| [3462-vowels-game-in-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3462-vowels-game-in-a-string) |
 <!---LeetCode Topics End-->
