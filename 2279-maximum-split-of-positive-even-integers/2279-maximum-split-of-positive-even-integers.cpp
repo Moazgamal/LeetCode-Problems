@@ -1,22 +1,20 @@
 class Solution {
-    long long fn(int start, long long final, vector<long long>&v, vector<long long>&ans)
+    bool fn(int start, long long final, vector<long long>&v, vector<long long>&ans)
     {
-        if(final %2 != 0)
-            return LONG_MIN; 
         if(final == 0)
         {       
             ans = v;
-            return 0; 
+            return true; 
         }
         for(long long  i = start; final - i >= 0; i += 2)
         {
             v.push_back(i);
-            long long x = fn(i+2, final-i, v, ans);
-            if(x == 0)
-                return 0;
+            bool x = fn(i+2, final-i, v, ans);
+            if(x)
+                return true;
             v.pop_back();
         }
-        return LONG_MIN;
+        return false;
     }
 public:
     vector<long long> maximumEvenSplit(long long finalSum) {
