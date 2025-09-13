@@ -1,8 +1,6 @@
 class Solution {
     long long fn(int start, long long final, vector<long long>&v, vector<long long>&ans)
     {
-        if(final < 0)
-            return LONG_MIN; 
         if(final %2 != 0)
             return LONG_MIN; 
         if(final == 0)
@@ -10,7 +8,7 @@ class Solution {
             ans = v;
             return 0; 
         }
-        for(long long  i = start; i <= final; i += 2)
+        for(long long  i = start; final - i >= 0; i += 2)
         {
             v.push_back(i);
             long long x = fn(i+2, final-i, v, ans);
