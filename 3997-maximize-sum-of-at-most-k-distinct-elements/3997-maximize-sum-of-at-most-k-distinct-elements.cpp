@@ -7,8 +7,7 @@ public:
         {   
             if(i==0)
             {
-
-            ans.push_back(nums[i]); k--; continue;
+                ans.push_back(nums[i]); k--; continue;
             }
             if(nums[i] == nums[i-1])
                 continue;
