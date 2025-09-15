@@ -288,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1160-letter-tile-possibilities](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1197-parsing-a-boolean-expression](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1197-parsing-a-boolean-expression) |
 | [1260-day-of-the-year](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1260-day-of-the-year) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1274-number-of-days-between-two-dates](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1274-number-of-days-between-two-dates) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1304-longest-happy-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1304-longest-happy-string) |
@@ -451,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1160-letter-tile-possibilities](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1256-rank-transform-of-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1256-rank-transform-of-an-array) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1319-unique-number-of-occurrences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1319-unique-number-of-occurrences) |
 | [1364-tuple-with-same-product](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
