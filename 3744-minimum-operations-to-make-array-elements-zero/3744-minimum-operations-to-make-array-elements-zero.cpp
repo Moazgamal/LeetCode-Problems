@@ -2,14 +2,14 @@ class Solution {
 public:
     long long minOperations(vector<vector<int>>& queries) {
         vector<long long> v;
-        const int MAXI = 1e9;
+        const int MAXI = 1e9+1;
         long long i = 1;
         for(; i< MAXI; )
         {
             v.push_back(i);
             i*=4;
         }
-        v.push_back(i);
+        v.push_back(MAXI);
         unordered_map<long long ,int> mp;
         int counter = 1; 
         for(int i = 0; i< v.size(); i++)
