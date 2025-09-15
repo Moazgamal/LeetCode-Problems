@@ -2,7 +2,7 @@ class Solution {
 public:
     long long minOperations(vector<vector<int>>& queries) {
         vector<long long> v;
-        const int MAXI = 1e9+1;
+        const int MAXI = 1e9;
         long long i = 1;
         for(; i< MAXI; )
         {
@@ -17,6 +17,7 @@ public:
             mp[v[i]]=counter;
             counter++;
         }
+        mp[MAXI]--;
         long long ans = 0; 
         for(int i = 0; i< queries.size(); i++)
         {
@@ -61,7 +62,10 @@ public:
                 diff--;
                 cnt -= (diff*mp[v[second-1]]);
             }
-            ans += (cnt+1)/2;
+            if(cnt%2 != 0)
+                ans+= (cnt/2)+1;
+            else
+                ans += (cnt/2);
         }
         return ans; 
         
