@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3227-find-missing-and-repeated-values](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3227-find-missing-and-repeated-values) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3241-divide-array-into-arrays-with-max-difference) |
+| [3249-minimum-number-of-operations-to-make-array-xor-equal-to-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3265-maximum-good-subarray-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3265-maximum-good-subarray-sum) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
@@ -1105,6 +1106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2792-neighboring-bitwise-xor) |
+| [3249-minimum-number-of-operations-to-make-array-xor-equal-to-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3291-find-if-array-can-be-sorted) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3394-minimum-array-end](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3394-minimum-array-end) |
