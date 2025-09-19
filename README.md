@@ -413,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2427-first-letter-to-appear-twice](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2427-first-letter-to-appear-twice) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2620-find-consecutive-integers-from-a-data-stream](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2620-find-consecutive-integers-from-a-data-stream) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3308-apply-operations-to-make-string-empty](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3308-apply-operations-to-make-string-empty) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3360-minimum-deletions-to-make-string-k-special) |
@@ -498,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2586-longest-square-streak-in-an-array) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2599-take-k-of-each-character-from-left-and-right) |
+| [2620-find-consecutive-integers-from-a-data-stream](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2620-find-consecutive-integers-from-a-data-stream) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
@@ -635,6 +637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1497-design-a-stack-with-increment-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1497-design-a-stack-with-increment-operation) |
 | [2429-design-a-food-rating-system](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2434-design-a-number-container-system) |
+| [2620-find-consecutive-integers-from-a-data-stream](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2620-find-consecutive-integers-from-a-data-stream) |
 | [3678-design-task-manager](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3797-design-spreadsheet) |
 ## Segment Tree
@@ -672,6 +675,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0859-design-circular-deque](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0859-design-circular-deque) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2527-count-subarrays-with-fixed-bounds) |
+| [2620-find-consecutive-integers-from-a-data-stream](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2620-find-consecutive-integers-from-a-data-stream) |
 | [2868-continuous-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2868-continuous-subarrays) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Stack
@@ -1563,6 +1567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1477-product-of-the-last-k-numbers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1477-product-of-the-last-k-numbers) |
+| [2620-find-consecutive-integers-from-a-data-stream](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2620-find-consecutive-integers-from-a-data-stream) |
 ## Memoization
 |  |
 | ------- |
