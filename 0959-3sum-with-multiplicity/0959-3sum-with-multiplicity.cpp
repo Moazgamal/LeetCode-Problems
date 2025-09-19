@@ -4,7 +4,6 @@ class Solution {
     {
         if(target <0 || rest < 0)
             return 0;
-       
         if(target == 0 && rest < 0)
             return 0 ;
         if(target == 0 && rest == 0)
@@ -14,9 +13,11 @@ class Solution {
             return ret;
         if(idx >= arr.size())
             return 0; 
-        int c1 = fn(idx+1, arr, target-arr[idx], dp, rest-1)%MOD;
+        int c1 = 0; 
+        if(rest-1 >= 0)
+            c1 = fn(idx+1, arr, target-arr[idx], dp, rest-1)%MOD;
         int c2 = fn(idx+1, arr, target, dp, rest)%MOD;
-        return ret = (c1+c2)%MOD;
+        return ret = (c1+c2);
     }
 public:
     int threeSumMulti(vector<int>& arr, int target) {
