@@ -30,10 +30,7 @@ public:
         for(int i = 0; i< str1.size(); i++)
         {
             if(str1[i] != str2[i])
-            {
                 ans++;
-           
-            }
         }
         return ans; 
 
