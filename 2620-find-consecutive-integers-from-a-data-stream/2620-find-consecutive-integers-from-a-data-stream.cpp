@@ -1,6 +1,6 @@
 class DataStream {
 public:
-int last = 0; int cnt = 0; 
+int cnt = 0; 
 int val = 0; int _k = 0; 
     DataStream(int value, int k) {
         val = value; _k = k;
