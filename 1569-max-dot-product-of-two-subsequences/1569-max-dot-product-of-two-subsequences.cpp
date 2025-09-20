@@ -12,7 +12,7 @@ class Solution {
         int c3 = fn(idx1+1, idx2+1, nums1, nums2, dp);
         int c4 = fn(idx1, idx2+1, nums1, nums2, dp);
         c1 = max(c1, c1+c3);
-        return ret = max(c1, max(c2, max(c3, c4)));
+        return ret = max(c1, max(c2, c4));
     }
 public:
     int maxDotProduct(vector<int>& nums1, vector<int>& nums2) {
