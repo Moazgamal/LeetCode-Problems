@@ -244,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3791-fruits-into-baskets-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3791-fruits-into-baskets-iii) |
 | [3795-zero-array-transformation-iv](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3795-zero-array-transformation-iv) |
 | [3797-design-spreadsheet](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3797-design-spreadsheet) |
+| [3827-implement-router](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3827-implement-router) |
 | [3833-merge-operations-for-minimum-travel-time](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3833-merge-operations-for-minimum-travel-time) |
 | [3837-grid-teleportation-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3837-grid-teleportation-traversal) |
 | [3843-partition-array-into-two-equal-product-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3843-partition-array-into-two-equal-product-subsets) |
@@ -534,6 +535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3760-assign-elements-to-groups-with-constraints](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3760-assign-elements-to-groups-with-constraints) |
 | [3797-design-spreadsheet](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3797-design-spreadsheet) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3813-smallest-palindromic-rearrangement-ii) |
+| [3827-implement-router](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3827-implement-router) |
 | [3837-grid-teleportation-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3837-grid-teleportation-traversal) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 | [3863-power-grid-maintenance](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3863-power-grid-maintenance) |
@@ -620,6 +622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
 | [3791-fruits-into-baskets-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3791-fruits-into-baskets-iii) |
+| [3827-implement-router](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3827-implement-router) |
 | [3881-minimize-maximum-component-cost](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3881-minimize-maximum-component-cost) |
 | [3908-minimum-time-for-k-connected-components](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3908-minimum-time-for-k-connected-components) |
 ## Design
@@ -640,6 +643,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2620-find-consecutive-integers-from-a-data-stream](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2620-find-consecutive-integers-from-a-data-stream) |
 | [3678-design-task-manager](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3797-design-spreadsheet) |
+| [3827-implement-router](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3827-implement-router) |
 ## Segment Tree
 |  |
 | ------- |
@@ -658,6 +662,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2868-continuous-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2868-continuous-subarrays) |
 | [3678-design-task-manager](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3678-design-task-manager) |
 | [3791-fruits-into-baskets-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3791-fruits-into-baskets-iii) |
+| [3827-implement-router](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3827-implement-router) |
 | [3863-power-grid-maintenance](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3863-power-grid-maintenance) |
 ## Linked List
 |  |
@@ -678,6 +683,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2620-find-consecutive-integers-from-a-data-stream](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2620-find-consecutive-integers-from-a-data-stream) |
 | [2868-continuous-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2868-continuous-subarrays) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3827-implement-router](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3827-implement-router) |
 ## Stack
 |  |
 | ------- |
