@@ -19,7 +19,7 @@ public:
         queue<vector<int>> q;
         
         q.push(nums1);
-        int level =1; 
+        int level = 0; 
         while (!q.empty()) 
         {
             int sz = q.size();
@@ -50,7 +50,7 @@ public:
                             {
                                 vis[nxt] = true;
                                 if (nxt == nums2) 
-                                    return level;
+                                    return level+1;
                                 q.push(nxt);
                             }
                         }
