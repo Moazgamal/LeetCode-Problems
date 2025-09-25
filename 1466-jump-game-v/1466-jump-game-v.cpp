@@ -1,11 +1,13 @@
 class Solution {
-    void fn(int idx, vector<int>&arr, int &d, unordered_map<int,bool>&mp
-    , int moves, int &ans)
+    int  fn(int idx, vector<int>&arr, int &d, vector<int>&dp)
     {
-        ans = max(ans, moves); 
+        auto &ret = dp[idx];
+        if(ret != -1)
+            return ret; 
         int start = max(0,  idx-d);
         int end = min((int)arr.size()-1, idx+d);
         int maxsofar = -1; 
+        ret = 0; 
         for(int i = idx-1; i>=start; i--)
         {
             if(arr[idx]<= arr[i])
@@ -13,7 +15,7 @@ class Solution {
             if(arr[idx]>arr[i] && arr[i]>=maxsofar)
             {
                 maxsofar = arr[i];
-                fn(i, arr, d, mp, moves+1, ans);
+                ret = max(ret, 1+fn(i, arr, d, dp));
             }
         }
         maxsofar = -1;
@@ -24,21 +26,18 @@ class Solution {
             if(arr[idx]>arr[i]  && arr[i]>=maxsofar)
             {
                 maxsofar = arr[i];
-                fn(i, arr, d, mp, moves+1, ans);
+                ret = max(ret, 1+fn(i, arr, d, dp));
             }
         }
-        mp[idx]= false; 
+        return ret; 
     }
 public:
     int maxJumps(vector<int>& arr, int d) {
 
         int ans = 0; 
+        vector<int>dp(arr.size(), -1);
         for(int i = 0; i< arr.size(); i++)
-        {
-            int moves = 1; 
-            unordered_map<int,bool>mp;
-            fn(i, arr, d, mp, moves, ans);
-        }
+            ans = max(ans, 1+fn(i, arr, d, dp));
         return ans; 
         
     }
