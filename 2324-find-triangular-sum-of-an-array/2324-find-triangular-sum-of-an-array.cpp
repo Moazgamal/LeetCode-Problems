@@ -8,11 +8,10 @@ public:
         vector<int>newNum;
         while(i<sz)
         {
-            int j = i; 
-            while(j< sz)
+            while(i< sz)
             {
-                newNum.push_back((nums[j]+ nums[j+1])%10);
-                j++;
+                newNum.push_back((nums[i]+ nums[i+1])%10);
+                i++;
             }
             sz = newNum.size()-1;
             i = 0; 
