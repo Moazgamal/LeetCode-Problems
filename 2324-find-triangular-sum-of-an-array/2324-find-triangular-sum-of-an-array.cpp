@@ -5,9 +5,9 @@ public:
         int sz = nums.size()-1;
         if(sz == 0)
             return nums[0];
+        vector<int>newNum;
         while(i<sz)
         {
-            vector<int>newNum;
             int j = i; 
             while(j< sz)
             {
@@ -19,6 +19,7 @@ public:
             if(sz == 0)
                 return newNum[0];
             nums= newNum;
+            newNum.clear(); 
         }
         return 1;
         
