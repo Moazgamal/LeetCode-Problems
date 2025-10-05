@@ -3,10 +3,8 @@ class Solution {
     {
         int last = price[0];
         k--;
-        for(int i =1; i< price.size(); i++)
+        for(int i =1; i< price.size() && k>0; i++)
         {
-            if(k == 0)
-                return true; 
             if(price[i] - last >= mid)
             {
                 k--; last = price[i];
