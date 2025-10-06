@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0731-my-calendar-ii) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0787-sliding-puzzle) |
+| [0794-swim-in-rising-water](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0794-swim-in-rising-water) |
 | [0797-rabbits-in-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0797-rabbits-in-forest) |
 | [0859-design-circular-deque](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0859-design-circular-deque) |
 | [0876-hand-of-straights](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0876-hand-of-straights) |
@@ -603,6 +604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0729-my-calendar-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0731-my-calendar-ii) |
+| [0794-swim-in-rising-water](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0794-swim-in-rising-water) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -870,6 +872,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0692-top-k-frequent-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0692-top-k-frequent-words) |
+| [0794-swim-in-rising-water](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0794-swim-in-rising-water) |
 | [1014-k-closest-points-to-origin](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1014-k-closest-points-to-origin) |
 | [1304-longest-happy-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1304-longest-happy-string) |
 | [1389-minimum-moves-to-move-a-box-to-their-target-location](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1389-minimum-moves-to-move-a-box-to-their-target-location) |
@@ -1062,6 +1065,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0417-pacific-atlantic-water-flow) |
 | [0498-diagonal-traverse](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0498-diagonal-traverse) |
 | [0787-sliding-puzzle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0787-sliding-puzzle) |
+| [0794-swim-in-rising-water](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0794-swim-in-rising-water) |
 | [1117-as-far-from-land-as-possible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1117-as-far-from-land-as-possible) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1389-minimum-moves-to-move-a-box-to-their-target-location](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1389-minimum-moves-to-move-a-box-to-their-target-location) |
@@ -1338,6 +1342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
 | [0787-sliding-puzzle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0787-sliding-puzzle) |
+| [0794-swim-in-rising-water](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0794-swim-in-rising-water) |
 | [0820-find-eventual-safe-states](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0820-find-eventual-safe-states) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -1496,6 +1501,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0652-find-duplicate-subtrees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0652-find-duplicate-subtrees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
+| [0794-swim-in-rising-water](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0794-swim-in-rising-water) |
 | [0820-find-eventual-safe-states](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0820-find-eventual-safe-states) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0988-flip-equivalent-binary-trees) |
 | [1008-binary-tree-cameras](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1008-binary-tree-cameras) |
@@ -1594,6 +1600,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0794-swim-in-rising-water](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0794-swim-in-rising-water) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1396-count-servers-that-communicate](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1396-count-servers-that-communicate) |
 | [2793-count-the-number-of-complete-components](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2793-count-the-number-of-complete-components) |
