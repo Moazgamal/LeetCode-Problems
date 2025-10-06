@@ -1,21 +1,27 @@
 class Solution {
+    int total = 0;
+    vector<vector<int>> dp; // memo table
+
+    int fn(vector<int>& stones, int i, int currSum) {
+        if (i == stones.size()) {
+            int other = total - currSum;
+            return abs(currSum - other); // الفرق النهائي
+        }
+
+        if (dp[i][currSum] != -1) return dp[i][currSum];
+
+        // نحط الحجر في المجموعة الأولى
+        int take = fn(stones, i + 1, currSum + stones[i]);
+        // أو نحطه في المجموعة التانية (يعني مش نضيفه)
+        int skip = fn(stones, i + 1, currSum);
+
+        return dp[i][currSum] = min(take, skip);
+    }
+
 public:
     int lastStoneWeightII(vector<int>& stones) {
-        int sum = accumulate(stones.begin(), stones.end(), 0);
-        int target = sum / 2;
-        vector<bool> dp(target + 1, false);
-        dp[0] = true;
-
-        for (int stone : stones) {
-            for (int j = target; j >= stone; --j) {
-                dp[j] = dp[j] || dp[j - stone];
-            }
-        }
-
-        for (int j = target; j >= 0; --j) {
-            if (dp[j])
-                return sum - 2 * j;
-        }
-        return 0;
+        total = accumulate(stones.begin(), stones.end(), 0);
+        dp.assign(stones.size() + 1, vector<int>(total + 1, -1));
+        return fn(stones, 0, 0);
     }
 };
