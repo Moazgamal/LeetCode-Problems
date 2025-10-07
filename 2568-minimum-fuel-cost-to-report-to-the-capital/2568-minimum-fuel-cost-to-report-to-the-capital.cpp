@@ -1,5 +1,5 @@
 class Solution {
-    pair<long long, int> fn(int node, int parent, unordered_map<int,long long>&mp, int acc,
+    pair<long long, int>fn(int node, int parent, unordered_map<int,int>&mp, int acc,
     vector<vector<int>>&g, int &seats)
     {
         int cars = 1; int pass = 1; 
@@ -17,14 +17,14 @@ class Solution {
         }
         if(node == 0)
             return {cost, 0};
-        long long fullCars = pass/seats;
-        long long rem = pass%seats;
         if(cars  == 1)
         {
             if(seats == 1)
                 return {cost+mp[node], 1};
             return {cost+1, 1};
         }
+        int fullCars = pass/seats;
+        int rem = pass%seats;
         if(fullCars > 0)
             cost += (fullCars*mp[node]);
         if(rem > 0)
@@ -34,7 +34,7 @@ class Solution {
 public:
     long long minimumFuelCost(vector<vector<int>>& roads, int seats) {
 
-        unordered_map<int,long long>mp;
+        unordered_map<int,int>mp;
         int acc = 1;
         vector<vector<int>>g(roads.size()+2);
         for(int i = 0; i< roads.size(); i++)
