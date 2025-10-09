@@ -38,7 +38,7 @@ class Solution {
     }
 public:
     int maxTurbulenceSize(vector<int>& arr) {
-        int ans = 0;  int i = 0;
+        int ans = 0;
         if(arr.size()==1)
             return 1; 
         fn(arr, ans, true);
