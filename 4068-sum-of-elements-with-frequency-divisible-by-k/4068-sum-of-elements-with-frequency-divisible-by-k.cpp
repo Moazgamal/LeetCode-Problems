@@ -6,8 +6,8 @@ public:
         int i = 0; 
         while(i < nums.size())
             mp[nums[i++]]++;
-            
-        for(auto x: mp)
+
+        for(auto &x: mp)
             if(x.second%k == 0)
                 ans+= x.first*x.second;
         return ans; 
