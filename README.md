@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1343-dice-roll-simulation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1343-dice-roll-simulation) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1364-tuple-with-same-product](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1364-tuple-with-same-product) |
 | [1389-minimum-moves-to-move-a-box-to-their-target-location](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1389-minimum-moves-to-move-a-box-to-their-target-location) |
 | [1393-maximum-value-of-k-coins-from-piles](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1393-maximum-value-of-k-coins-from-piles) |
@@ -319,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1302-delete-characters-to-make-fancy-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1304-longest-happy-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1304-longest-happy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1508-longest-happy-prefix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1508-longest-happy-prefix) |
@@ -489,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1256-rank-transform-of-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1256-rank-transform-of-an-array) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1319-unique-number-of-occurrences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1319-unique-number-of-occurrences) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1364-tuple-with-same-product](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix) |
@@ -834,6 +837,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1014-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1256-rank-transform-of-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1256-rank-transform-of-an-array) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1466-jump-game-v](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1466-jump-game-v) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1503-reducing-dishes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1503-reducing-dishes) |
