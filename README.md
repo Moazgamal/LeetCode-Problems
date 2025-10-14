@@ -238,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3591-shift-distance-between-two-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3591-shift-distance-between-two-strings) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3603-check-if-dfs-strings-are-palindromes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3603-check-if-dfs-strings-are-palindromes) |
+| [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
