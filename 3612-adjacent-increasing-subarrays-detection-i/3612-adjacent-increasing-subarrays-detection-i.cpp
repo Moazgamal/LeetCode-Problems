@@ -19,7 +19,6 @@ public:
                 l1=j-i;
             v = max(v, l1/2);
             v = max(v, l2/2);
-            cout<<v<<" \n";
             if(v>=k)
                 return true;
             l1=l2;
