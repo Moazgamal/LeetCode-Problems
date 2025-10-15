@@ -400,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3905-partition-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3905-partition-string) |
 | [3931-process-string-with-special-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3931-process-string-with-special-operations-i) |
 | [3934-coupon-code-validator](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3934-coupon-code-validator) |
+| [4055-longest-balanced-substring-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4055-longest-balanced-substring-i) |
 ## Trie
 |  |
 | ------- |
@@ -450,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3813-smallest-palindromic-rearrangement-ii) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3872-find-most-frequent-vowel-and-consonant) |
+| [4055-longest-balanced-substring-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4055-longest-balanced-substring-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -575,6 +577,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [3905-partition-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3905-partition-string) |
 | [3934-coupon-code-validator](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3934-coupon-code-validator) |
+| [4055-longest-balanced-substring-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4055-longest-balanced-substring-i) |
 ## Sliding Window
 |  |
 | ------- |
@@ -1362,6 +1365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3843-partition-array-into-two-equal-product-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3843-partition-array-into-two-equal-product-subsets) |
 | [3849-equal-sum-grid-partition-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3849-equal-sum-grid-partition-i) |
 | [3868-find-maximum-area-of-a-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3868-find-maximum-area-of-a-triangle) |
+| [4055-longest-balanced-substring-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4055-longest-balanced-substring-i) |
 ## Breadth-First Search
 |  |
 | ------- |
