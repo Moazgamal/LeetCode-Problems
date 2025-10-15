@@ -14,9 +14,7 @@ public:
                 else
                     break;
             }
-           
-           int l2 = j-i;
-           
+            int l2 = j-i;
             int v = l1!=-1?min(l1,l2):0;
             if(l1 ==-1)
             {
@@ -24,14 +22,10 @@ public:
             }
             v = max(v, l1/2);
             v = max(v, l2/2);
-            cout<<l1<<" "<<l2<<"\n";
             ans=max(ans, v);
             i=j-1;
             l1=l2;
-            
         }
-        
         return ans;
-        
     }
 };
