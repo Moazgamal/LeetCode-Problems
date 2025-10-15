@@ -36,6 +36,8 @@ public:
             unified = -1; 
             for(int i = 1; i<j; i++)
             {
+                if(j-i+1 <= ans)
+                    break;
                 vector<int>v2 = v[i-1];
                 for(int u = 0; u< 26; u++)
                 {
@@ -58,6 +60,7 @@ public:
                 if(unified != -1)
                 {
                     ans = max(ans, j-i+1);
+                    break;
                 }
                 unified = -1; 
             }
