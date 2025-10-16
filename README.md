@@ -178,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2648-number-of-ways-to-earn-points](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2648-number-of-ways-to-earn-points) |
+| [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2690-house-robber-iv) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -533,6 +534,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2620-find-consecutive-integers-from-a-data-stream](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2620-find-consecutive-integers-from-a-data-stream) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
@@ -793,6 +795,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2491-smallest-even-multiple](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2491-smallest-even-multiple) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2649-count-total-number-of-colored-cells) |
+| [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2716-prime-subtraction-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2716-prime-subtraction-operation) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2802-find-the-punishment-number-of-an-integer) |
@@ -1258,6 +1261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2716-prime-subtraction-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2716-prime-subtraction-operation) |
 | [2850-construct-the-longest-new-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2850-construct-the-longest-new-string) |
