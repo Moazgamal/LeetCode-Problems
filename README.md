@@ -1462,6 +1462,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0094-binary-tree-inorder-traversal) |
+| [0099-recover-binary-search-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0099-recover-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0101-symmetric-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -1504,6 +1505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0094-binary-tree-inorder-traversal) |
+| [0099-recover-binary-search-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0099-recover-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0101-symmetric-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -1538,6 +1540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0094-binary-tree-inorder-traversal) |
+| [0099-recover-binary-search-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0099-recover-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0112-path-sum) |
@@ -1631,6 +1634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0099-recover-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0449-serialize-and-deserialize-bst) |
