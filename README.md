@@ -160,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2429-design-a-food-rating-system](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2429-design-a-food-rating-system) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2465-shifting-letters-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2465-shifting-letters-ii) |
+| [2472-build-a-matrix-with-conditions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2472-build-a-matrix-with-conditions) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2478-longest-nice-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2478-longest-nice-subarray) |
 | [2479-meeting-rooms-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2479-meeting-rooms-iii) |
@@ -1131,6 +1132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2193-count-fertile-pyramids-in-a-land](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2193-count-fertile-pyramids-in-a-land) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2472-build-a-matrix-with-conditions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2472-build-a-matrix-with-conditions) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3227-find-missing-and-repeated-values) |
 | [3404-minimum-number-of-operations-to-satisfy-conditions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3404-minimum-number-of-operations-to-satisfy-conditions) |
@@ -1445,6 +1447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2438-find-closest-node-to-given-two-nodes) |
+| [2472-build-a-matrix-with-conditions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2472-build-a-matrix-with-conditions) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 | [2793-count-the-number-of-complete-components](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2793-count-the-number-of-complete-components) |
@@ -1688,6 +1691,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0820-find-eventual-safe-states) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2472-build-a-matrix-with-conditions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2472-build-a-matrix-with-conditions) |
 ## Data Stream
 |  |
 | ------- |
