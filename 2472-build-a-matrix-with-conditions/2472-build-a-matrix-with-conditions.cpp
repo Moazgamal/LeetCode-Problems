@@ -13,7 +13,6 @@ public:
                 indegree[to]++;
         }
 
-        // ✅ نضيف كل الأرقام من 1..k
         for (int i = 1; i <= k; i++) {
             if (!mp.count(i)) mp[i] = {};
             if (!indegree.count(i)) indegree[i] = 0;
@@ -23,9 +22,6 @@ public:
         for (int i = 1; i <= k; i++)
             if (indegree[i] == 0)
                 q.push(i);
-
-        unordered_map<int, int> rows;
-        int r = 0;
 
         vector<int> topoRow;
         while (!q.empty()) {
@@ -37,12 +33,10 @@ public:
             }
         }
 
-        // ✅ cycle check الصحيح
-        if ((int)topoRow.size() != k)
-            return {};
+        if ((int)topoRow.size() != k) return {}; // cycle
 
-        for (int i = 0; i < k; i++)
-            rows[topoRow[i]] = i;
+        unordered_map<int,int> rows;
+        for (int i = 0; i < k; i++) rows[topoRow[i]] = i; // unique row per number
 
         // ******************** أعمدة ********************
         unordered_map<int, unordered_set<int>> mpp;
@@ -64,7 +58,6 @@ public:
             if (indegree2[i] == 0)
                 q1.push(i);
 
-        unordered_map<int, int> cols;
         vector<int> topoCol;
         while (!q1.empty()) {
             int cur = q1.front(); q1.pop();
@@ -75,11 +68,10 @@ public:
             }
         }
 
-        if ((int)topoCol.size() != k)
-            return {};
+        if ((int)topoCol.size() != k) return {}; // cycle
 
-        for (int i = 0; i < k; i++)
-            cols[topoCol[i]] = i;
+        unordered_map<int,int> cols;
+        for (int i = 0; i < k; i++) cols[topoCol[i]] = i; // unique col per number
 
         // ******************** بناء المصفوفة ********************
         for (int i = 1; i <= k; i++) {
@@ -91,3 +83,4 @@ public:
         return ans;
     }
 };
+
