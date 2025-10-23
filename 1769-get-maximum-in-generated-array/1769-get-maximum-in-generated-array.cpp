@@ -41,20 +41,18 @@ public:
             }
             else
             {
-                if(nums[i]!=-1)
+               
+                int x = 2*i;
+                int y = i*2+1;
+                if(x<=n)
                 {
-                    int x = 2*i;
-                    int y = i*2+1;
-                    if(x<=n)
-                    {
-                        nums[x]=max(nums[x],nums[i]);
-                        ans= max(ans, nums[x]);
-                    }
-                    if(y<=n && i+1<=n)
-                    {
-                        nums[y] = max(nums[y],nums[i]+nums[i+1]);
-                        ans= max(ans, nums[y]);
-                    }
+                    nums[x]=max(nums[x],nums[i]);
+                    ans= max(ans, nums[x]);
+                }
+                if(y<=n && i+1<=n)
+                {
+                    nums[y] = max(nums[y],nums[i]+nums[i+1]);
+                    ans= max(ans, nums[y]);
                 }
             }
         }
