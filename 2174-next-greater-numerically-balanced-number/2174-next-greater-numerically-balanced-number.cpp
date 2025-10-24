@@ -37,12 +37,13 @@ class Solution {
     }
     void permGen(string &str, long long &ans,int &n, int idx = 0)
     {
-        // cout<<str<<" str\n";
         long long h = stoll(str);
         if(h>n)
             ans = min(ans, h);
         for(int i = idx; i<str.size(); i++)
         {
+            if(idx != i && str[idx] == str[i])
+                continue;
             swap(str[idx], str[i]);
             permGen(str, ans, n, idx+1);
             swap(str[idx], str[i]);
@@ -50,7 +51,6 @@ class Solution {
     }
 public:
     int nextBeautifulNumber(int n) {
-
         long long ans = INT_MAX;
         string str = "";
         unordered_map<int,bool>mp;
