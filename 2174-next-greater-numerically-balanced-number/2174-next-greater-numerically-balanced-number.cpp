@@ -7,7 +7,8 @@ class Solution {
             if(mp[i] == true)
                 continue;
             int j = i;
-            if(j+str.size()>7)
+            int sz = (int)str.size();
+            if(j+sz>7)
                 continue;
             while(j--)
             {
@@ -40,18 +41,15 @@ class Solution {
     }
 public:
     int nextBeautifulNumber(int n) {
-        if(n == 0)
-            return 1; 
+        // if(n == 0)
+        //     return 1; 
         long long ans = INT_MAX;
         string str = "";
         unordered_map<int,bool>mp;
         vector<string>v;
         fn(str, ans, n,mp,v);
-        cout<<v.size()<<"\n";
         for(int i = 0; i< v.size(); i++)
         {
-            if(v[i].size() == 1)
-                continue;
             permGen(v[i],ans, n);
         }
         return ans; 
