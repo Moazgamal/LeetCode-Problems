@@ -441,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2140-longest-subsequence-repeated-k-times) |
+| [2174-next-greater-numerically-balanced-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2300-construct-string-with-repeat-limit) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2308-divide-array-into-equal-pairs) |
@@ -525,6 +526,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2107-find-unique-binary-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2107-find-unique-binary-string) |
+| [2174-next-greater-numerically-balanced-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2300-construct-string-with-repeat-limit) |
@@ -797,6 +799,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2174-next-greater-numerically-balanced-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2279-maximum-split-of-positive-even-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2279-maximum-split-of-positive-even-integers) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2324-find-triangular-sum-of-an-array) |
@@ -1359,6 +1362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2107-find-unique-binary-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2107-find-unique-binary-string) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2174-next-greater-numerically-balanced-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2279-maximum-split-of-positive-even-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2279-maximum-split-of-positive-even-integers) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2802-find-the-punishment-number-of-an-integer) |
@@ -1373,6 +1377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2174-next-greater-numerically-balanced-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2998-count-symmetric-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2998-count-symmetric-integers) |
 | [3201-distribute-candies-among-children-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3201-distribute-candies-among-children-ii) |
