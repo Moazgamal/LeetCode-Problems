@@ -1,0 +1,69 @@
+class Solution {
+    void fn(string &str, long long &ans, int &n, unordered_map<int,bool>&mp,
+    vector<string>&v)
+    {
+        if(str.size()>=7)
+            return;
+        for(int i = 1; i<=9; i++)
+        {
+            if(mp[i] == true)
+                continue;
+            int j = i;
+            if(j+str.size()>7)
+                continue;
+            while(j--)
+            {
+                str.push_back(i+'0');
+            }
+            v.push_back(str);
+            if(str.size() <= 7)
+            {
+                long long x = stoll(str);
+                cout<<x<<" x\n";
+                if(x>n)
+                    ans = min(ans, x);
+            }
+            
+            mp[i]=true;
+            if(str.size() <= 6)
+                fn(str,ans,n,mp,v);
+            mp[i] = false;
+            j=i;
+            while(j--)
+            {
+                str.pop_back();
+            }
+        }
+    }
+    void permGen(string &str, long long &ans,int &n, int idx = 0)
+    {
+        // cout<<str<<" str\n";
+        long long h = stoll(str);
+        if(h>n)
+            ans = min(ans, h);
+        for(int i = idx; i<str.size(); i++)
+        {
+            swap(str[idx], str[i]);
+            permGen(str, ans, n, idx+1);
+            swap(str[idx], str[i]);
+        }
+    }
+public:
+    int nextBeautifulNumber(int n) {
+
+        long long ans = INT_MAX;
+        string str = "";
+        unordered_map<int,bool>mp;
+        vector<string>v;
+        fn(str, ans, n,mp,v);
+        cout<<v.size()<<"\n";
+        for(int i = 0; i< v.size(); i++)
+        {
+            if(v[i].size() == 1)
+                continue;
+            permGen(v[i],ans, n);
+        }
+        return ans; 
+        
+    }
+};
