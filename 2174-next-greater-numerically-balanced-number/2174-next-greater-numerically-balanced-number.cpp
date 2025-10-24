@@ -2,8 +2,6 @@ class Solution {
     void fn(string &str, long long &ans, int &n, unordered_map<int,bool>&mp,
     vector<string>&v)
     {
-        if(str.size()>=7)
-            return;
         for(int i = 1; i<=9; i++)
         {
             if(mp[i] == true)
@@ -16,17 +14,8 @@ class Solution {
                 str.push_back(i+'0');
             }
             v.push_back(str);
-            if(str.size() <= 7)
-            {
-                long long x = stoll(str);
-                cout<<x<<" x\n";
-                if(x>n)
-                    ans = min(ans, x);
-            }
-            
             mp[i]=true;
-            if(str.size() <= 6)
-                fn(str,ans,n,mp,v);
+            fn(str,ans,n,mp,v);
             mp[i] = false;
             j=i;
             while(j--)
@@ -51,6 +40,8 @@ class Solution {
     }
 public:
     int nextBeautifulNumber(int n) {
+        if(n == 0)
+            return 1; 
         long long ans = INT_MAX;
         string str = "";
         unordered_map<int,bool>mp;
