@@ -3,13 +3,20 @@ public:
     int numberOfBeams(vector<string>& bank) {
         int sz = bank.size();
         vector<int>rows(bank.size(), 0);
-        for(int i =0; i< sz; i++)
-            for(int j = 0; j< bank[i].size(); j++)
+        int i = 0; 
+        while(i< sz)
+        {
+            int j = 0; int sz2 = bank[i].size();
+            while(j< sz2)
+            {
                 if(bank[i][j] == '1')
                     rows[i]++;
+                j++;
+            }
+            i++;
+        }
         
-        
-        int ans = 0; int i = 0; 
+        int ans = 0;  i = 0; 
         while(i< sz-1)
         {
             int j = i+1; 
