@@ -290,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 | [3913-partition-array-to-minimize-xor](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3913-partition-array-to-minimize-xor) |
 | [3934-coupon-code-validator](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3934-coupon-code-validator) |
+| [4003-longest-fibonacci-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4003-longest-fibonacci-subarray) |
 ## String
 |  |
 | ------- |
