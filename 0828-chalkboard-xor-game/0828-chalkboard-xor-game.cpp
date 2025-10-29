@@ -101,6 +101,8 @@ public:
                     if(freq[0] >0)
                     {
                         freq[0]--; 
+                        if(freq[0] == 0)
+                            freq.erase(0);
                         Alice = !Alice; continue;
                     }
                     else
@@ -134,6 +136,8 @@ public:
                     if(freq[0] >0)
                     {
                         freq[0]--; 
+                        if(freq[0] == 0)
+                            freq.erase(0);
                         Alice = !Alice; continue;
                     }
                     else
