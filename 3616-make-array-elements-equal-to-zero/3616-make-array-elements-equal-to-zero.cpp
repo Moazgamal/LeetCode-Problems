@@ -1,10 +1,12 @@
 class Solution {
     bool fn(int idx, vector<int>nums, int dir)
     {
+        int cnt = 0; 
         while(idx < nums.size() && idx >=0)
         {
             if(nums[idx] == 0)
             {
+                cnt++;
                 idx += dir;
             }
             else if(nums[idx] > 0)
