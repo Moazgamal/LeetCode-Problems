@@ -119,10 +119,10 @@ public:
                     {
                         Alice = !Alice; continue;
                     }
-                    else if(freq[0]>0)
-                    {
-                        freq[0]--; Alice = !Alice; continue;
-                    }
+                    // else if(freq[0]>0)
+                    // {
+                    //     freq[0]--; Alice = !Alice; continue;
+                    // }
                     else
                         return false; 
                 }
@@ -152,10 +152,10 @@ public:
                     {
                         Alice = !Alice; continue;
                     }
-                    else if(freq[0]>0)
-                    {
-                        freq[0]--; Alice = !Alice; continue;
-                    }
+                    // else if(freq[0]>0)
+                    // {
+                    //     freq[0]--; Alice = !Alice; continue;
+                    // }
                     else
                         return true; 
                 }
