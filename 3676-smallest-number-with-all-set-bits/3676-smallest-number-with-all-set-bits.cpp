@@ -19,7 +19,7 @@ public:
                 leftMostBit = i; 
            }
         }
-        cout<<leftMostBit<<"\n";
+        // cout<<leftMostBit<<"\n";
         int no = (1<<leftMostBit);
         no = no+ (no-1);
         if(no >= n)
