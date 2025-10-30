@@ -302,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0068-text-justification) |
 | [0125-valid-palindrome](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0131-palindrome-partitioning) |
 | [0165-compare-version-numbers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0165-compare-version-numbers) |
 | [0187-repeated-dna-sequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0187-repeated-dna-sequences) |
 | [0208-implement-trie-prefix-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0208-implement-trie-prefix-tree) |
@@ -1056,6 +1057,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0131-palindrome-partitioning](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0131-palindrome-partitioning) |
 | [0174-dungeon-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0174-dungeon-game) |
 | [0312-burst-balloons](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0312-burst-balloons) |
 | [0416-partition-equal-subset-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0416-partition-equal-subset-sum) |
@@ -1369,6 +1371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0037-sudoku-solver) |
+| [0131-palindrome-partitioning](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0131-palindrome-partitioning) |
 | [0301-remove-invalid-parentheses](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0301-remove-invalid-parentheses) |
 | [0494-target-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0494-target-sum) |
 | [0679-24-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0679-24-game) |
