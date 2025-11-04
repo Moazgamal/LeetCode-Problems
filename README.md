@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [2398-check-if-matrix-is-x-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2398-check-if-matrix-is-x-matrix) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 | [2429-design-a-food-rating-system](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2429-design-a-food-rating-system) |
@@ -1169,6 +1170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2398-check-if-matrix-is-x-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2398-check-if-matrix-is-x-matrix) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2472-build-a-matrix-with-conditions) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3227-find-missing-and-repeated-values) |
