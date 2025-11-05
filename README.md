@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1656-count-good-triplets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1656-count-good-triplets) |
 | [1658-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1658-minimum-swaps-to-arrange-a-binary-grid) |
+| [1677-matrix-diagonal-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1677-matrix-diagonal-sum) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1694-make-sum-divisible-by-p](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1694-make-sum-divisible-by-p) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1700-minimum-time-to-make-rope-colorful) |
@@ -1163,6 +1164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1658-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1658-minimum-swaps-to-arrange-a-binary-grid) |
+| [1677-matrix-diagonal-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1677-matrix-diagonal-sum) |
 | [1876-map-of-highest-peak](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1876-map-of-highest-peak) |
 | [1972-rotating-the-box](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1972-rotating-the-box) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
