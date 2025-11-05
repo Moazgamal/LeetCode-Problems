@@ -4,11 +4,11 @@ public:
         int n = matrix.size();
         for(int r = 0; r< n ; r++)
         {
-            unordered_map<int,bool>mp;
+            vector<bool>mp(n+1,false);
             int cnt = 0; 
             for(int c = 0; c< n; c++)
             {
-                if(mp.count(matrix[r][c]) == 0)
+                if(mp[matrix[r][c]]== false)
                 {
                     cnt++;
                     mp[matrix[r][c]]= true;
@@ -19,11 +19,11 @@ public:
         }
         for(int r = 0; r< n ; r++)
         {
-            unordered_map<int,bool>mp;
+            vector<bool>mp(n+1,false);
             int cnt = 0; 
             for(int c = 0; c< n; c++)
             {
-                if(mp.count(matrix[c][r]) == 0)
+                if(mp[matrix[c][r]]== false)
                 {
                     cnt++;
                     mp[matrix[c][r]]= true;
