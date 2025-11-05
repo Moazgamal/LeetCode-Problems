@@ -18,7 +18,6 @@ public:
         string ans = "";
         vector<bool>vis(26, false);
         int lastidx = -1; 
-        int rest = sz;
         while((int)ans.size() < sz)
         {
             for(int i = 0; i< 26; i++)
