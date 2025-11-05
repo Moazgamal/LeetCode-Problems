@@ -7,11 +7,11 @@ public:
         {
             if(nums[i] <=k)
                 mp[nums[i]]=true;
-                
+
             if(mp.size() == k)
                 return cnt+1; 
         }
-        return cnt;
+        return 0;
         
     }
 };
