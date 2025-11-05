@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1503-reducing-dishes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1503-reducing-dishes) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1524-string-matching-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1524-string-matching-in-an-array) |
+| [1552-build-an-array-with-stack-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1552-build-an-array-with-stack-operations) |
 | [1569-max-dot-product-of-two-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1569-max-dot-product-of-two-subsequences) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1583-paint-house-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1583-paint-house-iii) |
@@ -779,6 +780,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1197-parsing-a-boolean-expression](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1197-parsing-a-boolean-expression) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1552-build-an-array-with-stack-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1552-build-an-array-with-stack-operations) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
@@ -1201,6 +1203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0068-text-justification](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0068-text-justification) |
 | [0289-game-of-life](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0289-game-of-life) |
 | [0498-diagonal-traverse](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0498-diagonal-traverse) |
+| [1552-build-an-array-with-stack-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1552-build-an-array-with-stack-operations) |
 | [1642-water-bottles](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1642-water-bottles) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1769-get-maximum-in-generated-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1769-get-maximum-in-generated-array) |
