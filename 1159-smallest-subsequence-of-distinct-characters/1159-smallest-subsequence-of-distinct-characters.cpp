@@ -1,27 +1,29 @@
 class Solution {
-    bool fn(map<char,vector<int>>&mp, unordered_map<char,bool>&vis,string &ans,
-    int lastidx)
+    bool fn(vector<vector<int>>&mp, vector<bool>&vis,string &ans,
+    int lastidx, int &sz)
     {
-        if(ans.size() == mp.size())
+        if(ans.size() == sz)
         {
             return true; 
         }
-        for(auto &x: mp)
+        for(int i = 0; i< mp.size(); i++)
         {
-            if(vis[x.first] == false)
+            if(mp[i].size() == 0)
+                continue;
+            if(vis[i] == false)
             {
-                auto u = upper_bound(mp[x.first].begin(), mp[x.first].end(),
+                auto u = upper_bound(mp[i].begin(), mp[i].end(),
                 lastidx);
-                if(u == x.second.end())
+                if(u == mp[i].end())
                 {
                     return false;
                 }
-                vis[x.first] = true; 
-                ans.push_back(x.first);
-                bool n = fn(mp, vis, ans, *u);
+                vis[i] = true; 
+                ans.push_back(i+'a');
+                bool n = fn(mp, vis, ans, *u, sz);
                 if(n == true)
                     return true; 
-                vis[x.first] = false;
+                vis[i] = false;
                 ans.pop_back();
             }
         }
@@ -30,14 +32,19 @@ class Solution {
 public:
     string smallestSubsequence(string s) {
         
-        unordered_map<char,bool>vis;
-        map<char,vector<int>>mp;
+        vector<bool>vis(26, false);
+        vector<vector<int>>mp(26);
+        int sz = 0; 
         for(int i = 0; i< s.size(); i++)
         {
-            mp[s[i]].push_back(i);
+            if(mp[s[i]-'a'].size()==0)
+            {
+                sz++;
+            } 
+            mp[s[i]-'a'].push_back(i);
         }
         string ans = "";
-        fn(mp, vis, ans, -1);
+        fn(mp, vis, ans, -1, sz);
         return ans; 
     }
 };
