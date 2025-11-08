@@ -25,7 +25,7 @@ class Solution {
         reverse(ans.begin(), ans.end());
         return ans; 
     }
-    string sum(string ans, string &s)
+    string sum(string &ans, string &s)
     {
         string res = "";
         int carry = 0; 
