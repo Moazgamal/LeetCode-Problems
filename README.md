@@ -309,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0038-count-and-say](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0038-count-and-say) |
+| [0043-multiply-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0043-multiply-strings) |
 | [0049-group-anagrams](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0068-text-justification) |
@@ -802,6 +803,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0043-multiply-strings) |
 | [0067-add-binary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0067-add-binary) |
 | [0204-count-primes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0231-power-of-two) |
@@ -1206,6 +1208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0043-multiply-strings) |
 | [0067-add-binary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0068-text-justification) |
 | [0289-game-of-life](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0289-game-of-life) |
