@@ -108,7 +108,8 @@ public:
             return "0";
         string ans = "";
         int cnt= 0; 
-        for(int i = num1.size()-1; i>=0; i--, cnt++)
+        int i = num1.size()-1;
+        while(i>=0)
         {
             string s = mul(num1[i]-'0', num2);
             if(ans.size() == 0)
@@ -120,6 +121,7 @@ public:
                     s.push_back('0');
                 ans = sum(ans, s);
             }
+            i--; cnt++;
         }
         return ans; 
     }
