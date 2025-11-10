@@ -304,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3913-partition-array-to-minimize-xor](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3913-partition-array-to-minimize-xor) |
 | [3934-coupon-code-validator](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3934-coupon-code-validator) |
 | [4003-longest-fibonacci-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4003-longest-fibonacci-subarray) |
+| [4010-maximize-alternating-sum-using-swaps](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4010-maximize-alternating-sum-using-swaps) |
 ## String
 |  |
 | ------- |
@@ -958,6 +959,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3884-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3884-minimum-absolute-difference-in-sliding-submatrix) |
 | [3908-minimum-time-for-k-connected-components](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3908-minimum-time-for-k-connected-components) |
 | [3934-coupon-code-validator](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3934-coupon-code-validator) |
+| [4010-maximize-alternating-sum-using-swaps](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4010-maximize-alternating-sum-using-swaps) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -1367,6 +1369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3868-find-maximum-area-of-a-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3868-find-maximum-area-of-a-triangle) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 | [3904-minimum-adjacent-swaps-to-alternate-parity](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3904-minimum-adjacent-swaps-to-alternate-parity) |
+| [4010-maximize-alternating-sum-using-swaps](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4010-maximize-alternating-sum-using-swaps) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -1767,6 +1770,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3863-power-grid-maintenance](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3863-power-grid-maintenance) |
 | [3881-minimize-maximum-component-cost](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3881-minimize-maximum-component-cost) |
 | [3908-minimum-time-for-k-connected-components](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3908-minimum-time-for-k-connected-components) |
+| [4010-maximize-alternating-sum-using-swaps](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4010-maximize-alternating-sum-using-swaps) |
 ## Topological Sort
 |  |
 | ------- |
