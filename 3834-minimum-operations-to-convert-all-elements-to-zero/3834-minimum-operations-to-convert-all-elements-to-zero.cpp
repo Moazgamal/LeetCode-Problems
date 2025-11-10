@@ -3,12 +3,14 @@ public:
     int minOperations(vector<int>& nums) {
         int ans = 0; 
         stack<int>st;
-        vector<int>nextSmaller(nums.size(), -1);
-        for(int i = 0; i< nums.size(); i++)
+        int sz = (int)nums.size();
+        vector<int>nextSmaller(sz, -1);
+        int i = 0; 
+        while(i< sz)
         {
             if(st.empty())
             {
-                st.push(i); continue;
+                st.push(i); i++; continue;
             }
             while(!st.empty() && nums[st.top()] >= nums[i])
             {
@@ -16,11 +18,14 @@ public:
                 st.pop();
             }
             st.push(i);
+            i++;
         }
-        for(int i = 0; i< nums.size(); i++)
+        i = 0; 
+        while(i < sz)
         {
             if(nums[i] == 0)
             {
+                i++;
                 continue;
             }
             ans++;
@@ -30,6 +35,7 @@ public:
                 nums[nextSmaller[curr]] = 0; 
                 curr = nextSmaller[curr];
             }
+            i++;
         }
         return ans; 
         
