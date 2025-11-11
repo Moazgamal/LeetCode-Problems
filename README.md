@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0417-pacific-atlantic-water-flow) |
 | [0447-number-of-boomerangs](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0447-number-of-boomerangs) |
+| [0474-ones-and-zeroes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0496-next-greater-element-i) |
 | [0498-diagonal-traverse](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0498-diagonal-traverse) |
@@ -329,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0415-add-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0415-add-strings) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0449-serialize-and-deserialize-bst) |
 | [0459-repeated-substring-pattern](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0459-repeated-substring-pattern) |
+| [0474-ones-and-zeroes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0474-ones-and-zeroes) |
 | [0567-permutation-in-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0567-permutation-in-string) |
 | [0664-strange-printer](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0664-strange-printer) |
 | [0686-repeated-string-match](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0686-repeated-string-match) |
@@ -1098,6 +1100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0174-dungeon-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0174-dungeon-game) |
 | [0312-burst-balloons](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0312-burst-balloons) |
 | [0416-partition-equal-subset-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0416-partition-equal-subset-sum) |
+| [0474-ones-and-zeroes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0494-target-sum) |
 | [0546-remove-boxes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0546-remove-boxes) |
 | [0664-strange-printer](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0664-strange-printer) |
