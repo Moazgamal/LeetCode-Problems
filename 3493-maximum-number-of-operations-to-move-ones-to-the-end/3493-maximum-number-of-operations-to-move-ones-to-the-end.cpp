@@ -1,12 +1,12 @@
 class Solution {
 public:
     int maxOperations(string s) {
-        int prevOnes = 0; int ans = 0; 
-        for(int i = 0; i< s.size(); )
+        int prevOnes = 0; int ans = 0; int i = 0; int sz = (int)s.size();
+        while(i < sz)
         {
             if(s[i] == '0')
             {
-                while(i< s.size() && s[i] == '0')
+                while(i< sz && s[i] == '0')
                 {
                     i++;
                 }
