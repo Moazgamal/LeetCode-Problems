@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1503-reducing-dishes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1503-reducing-dishes) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1524-string-matching-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1524-string-matching-in-an-array) |
+| [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1552-build-an-array-with-stack-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1552-build-an-array-with-stack-operations) |
 | [1569-max-dot-product-of-two-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1569-max-dot-product-of-two-subsequences) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
