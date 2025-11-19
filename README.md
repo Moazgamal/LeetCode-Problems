@@ -447,6 +447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3931-process-string-with-special-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3931-process-string-with-special-operations-i) |
 | [3934-coupon-code-validator](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3934-coupon-code-validator) |
 | [4055-longest-balanced-substring-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4055-longest-balanced-substring-i) |
+| [4090-minimum-string-length-after-balanced-removals](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4090-minimum-string-length-after-balanced-removals) |
 ## Trie
 |  |
 | ------- |
@@ -500,6 +501,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [4055-longest-balanced-substring-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4055-longest-balanced-substring-i) |
+| [4090-minimum-string-length-after-balanced-removals](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4090-minimum-string-length-after-balanced-removals) |
 ## Hash Table
 |  |
 | ------- |
@@ -815,6 +817,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3634-find-mirror-score-of-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3634-find-mirror-score-of-a-string) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
+| [4090-minimum-string-length-after-balanced-removals](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4090-minimum-string-length-after-balanced-removals) |
 ## Math
 |  |
 | ------- |
