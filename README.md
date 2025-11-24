@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1466-jump-game-v](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1466-jump-game-v) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1470-shuffle-the-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1470-shuffle-the-array) |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1497-design-a-stack-with-increment-operation) |
@@ -818,6 +819,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1197-parsing-a-boolean-expression](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1197-parsing-a-boolean-expression) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [1441-build-an-array-with-stack-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1441-build-an-array-with-stack-operations) |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1552-build-an-array-with-stack-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1552-build-an-array-with-stack-operations) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -1464,6 +1466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1002-maximum-width-ramp](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1002-maximum-width-ramp) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1305-number-of-visible-people-in-a-queue) |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
