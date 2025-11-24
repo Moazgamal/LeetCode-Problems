@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0628-maximum-product-of-three-numbers) |
 | [0630-course-schedule-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0630-course-schedule-iii) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0636-exclusive-time-of-functions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0636-exclusive-time-of-functions) |
 | [0645-set-mismatch](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0645-set-mismatch) |
 | [0679-24-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0679-24-game) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
@@ -809,6 +810,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0316-remove-duplicate-letters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0316-remove-duplicate-letters) |
 | [0496-next-greater-element-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0496-next-greater-element-i) |
+| [0636-exclusive-time-of-functions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0636-exclusive-time-of-functions) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0780-max-chunks-to-make-sorted) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1002-maximum-width-ramp](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1002-maximum-width-ramp) |
