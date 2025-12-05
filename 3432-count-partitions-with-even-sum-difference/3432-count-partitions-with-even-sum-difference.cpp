@@ -6,14 +6,11 @@ public:
             sum+=it;
         int ans = 0; 
         int cur = 0; int i = 0; 
-        for(auto it: nums)
+        for(int i = 0; i< nums.size()-1; i++)
         {
-            cur+=it;
+            cur+=nums[i];
             if(abs(cur-(sum-cur))%2 ==0)
                 ans++;
-           i++;
-           if(i == nums.size()-1)
-            break;
         }return ans; 
         
     }
