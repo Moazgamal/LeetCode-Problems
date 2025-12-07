@@ -1,6 +1,7 @@
 public class Solution {
-    private  int fn(int num)
-        {
+    
+    public int[] SortByReflection(int[] nums) {
+        Func<int,int> fun = (num => {
             string str = "";
             while(num >0)
             {
@@ -15,14 +16,13 @@ public class Solution {
                 newNum += (1<<j);
             }
             return newNum;
-        }
-    public int[] SortByReflection(int[] nums) {
+        });
         
 
         List<Tuple<int,int>>v = new List<Tuple<int,int>>();
         for(int i = 0; i< nums.Length; i++)
         {
-            var t = new Tuple<int,int>(fn(nums[i]), nums[i]);
+            var t = new Tuple<int,int>(fun(nums[i]), nums[i]);
             v.Add(t);
         }
         v.Sort((a, b) =>
