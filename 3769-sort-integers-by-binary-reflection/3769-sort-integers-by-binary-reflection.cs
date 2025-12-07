@@ -2,10 +2,10 @@ public class Solution {
     
     public int[] SortByReflection(int[] nums) {
         Func<int,int> fun = (num => {
-            string str = "";
+            StringBuilder str = new StringBuilder();
             while(num >0)
             {
-                str+=((num%2).ToString());
+                str.Append((num%2).ToString());
                 num /=2;
             }
             int j = 0; int newNum = 0; 
