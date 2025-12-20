@@ -1,13 +1,13 @@
 function minDeletionSize(strs: string[]): number {
 
-    let deletedColumns = 0; 
-        let szCol = strs[0].length;
-        let szRow = strs.length;
-        let i  = 0; 
+    var deletedColumns = 0; 
+        var szCol = strs[0].length;
+        var szRow = strs.length;
+        var i  = 0; 
         while(i< szCol)
         {
-            let last = strs[0][i];
-            let j = 1; 
+            var last = strs[0][i];
+            var j = 1; 
             while(j< szRow)
             {
                 if(strs[j][i] < last)
