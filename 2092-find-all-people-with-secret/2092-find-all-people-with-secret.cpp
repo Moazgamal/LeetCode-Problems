@@ -18,7 +18,7 @@ class Solution {
             int time = it->first;
             // if(time < t)
             //     break;
-            for(auto j: it->second)
+            for(auto &j: it->second)
             {
                 int newNode = j; 
                 if(!vis[newNode] && mp2.count(newNode)==0
