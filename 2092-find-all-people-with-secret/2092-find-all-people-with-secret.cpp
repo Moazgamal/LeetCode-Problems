@@ -4,6 +4,7 @@ class Solution {
     {
         vis[node] = true;
         mp2[node]=t;
+        auto it = mp[node].lower_bound(t);
         for(auto i: mp[node])
         {
             int time = i.first;
