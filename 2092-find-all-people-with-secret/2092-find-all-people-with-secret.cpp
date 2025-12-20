@@ -4,13 +4,21 @@ class Solution {
     {
         vis[node] = true;
         mp2[node]=t;
-        auto it = mp[node].lower_bound(t);
-        for(auto i: mp[node])
+        auto& innerMap = mp[node];
+        auto it = innerMap.lower_bound(t);
+        if (it != mp[node].end()) 
         {
-            int time = i.first;
-            if(time < t)
-                continue;
-            for(auto j: i.second)
+            int key = it->first;                 
+            vector<int>& vec = it->second;       
+        }
+        else
+            return ; 
+        for(; it!=mp[node].end(); it++)
+        {
+            int time = it->first;
+            // if(time < t)
+            //     break;
+            for(auto j: it->second)
             {
                 int newNode = j; 
                 if(!vis[newNode] && mp2.count(newNode)==0
@@ -39,17 +47,12 @@ public:
         mp2[firstPerson]=0;
         mp[0][0].push_back(firstPerson);
         mp[firstPerson][0].push_back(0);
-        vector<bool>vis(n+1,false);
+        vector<bool>vis(n, false);
         dfs(0, 0, mp, mp2, vis);
         for(int i = 0; i< vis.size(); i++)
-        {
             if(vis[i] == true)
-            {
                 ans.push_back(i);
-            }
-        }
-        return ans; 
 
-        
+        return ans;
     }
 };
