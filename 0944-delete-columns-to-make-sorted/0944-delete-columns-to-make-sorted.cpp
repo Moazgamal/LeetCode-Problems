@@ -3,10 +3,14 @@ public:
     int minDeletionSize(vector<string>& strs) {
 
         int deletedColumns = 0; 
-        for(int i = 0; i< strs[0].size(); i++)
+        int szCol = (int)strs[0].size();
+        int szRow = (int)strs.size();
+        int i  =0; 
+        while(i< szCol)
         {
             char last = strs[0][i];
-            for(int j = 1; j< strs.size(); j++)
+            int j = 1; 
+            while(j< szRow)
             {
                 if(strs[j][i] < last)
                 {
@@ -14,7 +18,9 @@ public:
                     break;
                 }
                 last = strs[j][i];
+                j++;
             }
+            i++;
         }return deletedColumns;
         
     }
