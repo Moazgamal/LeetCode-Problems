@@ -5,7 +5,7 @@ public:
         int deletedColumns = 0; 
         int szCol = (int)strs[0].size();
         int szRow = (int)strs.size();
-        int i  =0; 
+        int i  = 0; 
         while(i< szCol)
         {
             char last = strs[0][i];
@@ -21,7 +21,7 @@ public:
                 j++;
             }
             i++;
-        }return deletedColumns;
-        
+        }
+        return deletedColumns;
     }
 };
