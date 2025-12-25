@@ -1,15 +1,7 @@
 class Solution {
 public:
     vector<vector<int>> diagonalSort(vector<vector<int>>& mat) {
-        for(int r = 0; r< mat.size(); r++)
-        {
-            for(int c = 0; c< mat[0].size(); c++)
-            {
-                cout<<mat[r][c]<<" ";
-            }
-            cout<<"\n";
-        }
-        cout<<"\n";
+        
         for(int c = 0; c< mat[0].size(); c++)
         {
             vector<int>collect;
@@ -46,14 +38,7 @@ public:
                 row++; c++;
             }
         }
-        for(int r = 0; r< mat.size(); r++)
-        {
-            for(int c = 0; c< mat[0].size(); c++)
-            {
-                cout<<mat[r][c]<<" ";
-            }
-            cout<<"\n";
-        }
+        
         return mat;
 
         
