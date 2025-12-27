@@ -1,54 +1,68 @@
 class Solution {
 public:
     vector<vector<int>> rotateGrid(vector<vector<int>>& grid, int k) {
-        int m = grid.size();
-        int n = grid[0].size();
 
-        int top = 0, left = 0;
-        int bottom = m - 1, right = n - 1;
+        int rows = grid.size();
+        int cols = grid[0].size();
 
-        while (top < bottom && left < right) {
+        int cnt1 = rows, cnt2 = cols;
+        int r = 0, c = 0;
+
+        while (cnt1 > 1 && cnt2 > 1) {
+            int y = 2 * (cnt1 + cnt2) - 4;
+            int _k = k % y;
+
+            int curRow = r;
+            int curCol = c;
+            int maxr = curRow + cnt1;
+            int maxc = curCol + cnt2;
+
             vector<int> v;
 
+            // ===== READ (Clockwise) =====
+
             // top row
-            for (int j = left; j <= right; j++)
-                v.push_back(grid[top][j]);
+            for (int col = curCol; col < maxc; col++)
+                v.push_back(grid[curRow][col]);
 
             // right column
-            for (int i = top + 1; i <= bottom; i++)
-                v.push_back(grid[i][right]);
+            for (int row = curRow + 1; row < maxr; row++)
+                v.push_back(grid[row][maxc - 1]);
 
             // bottom row
-            for (int j = right - 1; j >= left; j--)
-                v.push_back(grid[bottom][j]);
+            for (int col = maxc - 2; col >= curCol; col--)
+                v.push_back(grid[maxr - 1][col]);
 
             // left column
-            for (int i = bottom - 1; i > top; i--)
-                v.push_back(grid[i][left]);
+            for (int row = maxr - 2; row > curRow; row--)
+                v.push_back(grid[row][curCol]);
 
-            int len = v.size();
-            int rot = k % len;
+            // ===== ROTATE (Counter-Clockwise) =====
+            rotate(v.begin(), v.begin() + _k, v.end());
 
-            // Counter-Clockwise
-            rotate(v.begin(), v.begin() + rot, v.end());
+            int i = 0;
 
-            int idx = 0;
+            // ===== WRITE BACK (Clockwise) =====
 
-            // write back
-            for (int j = left; j <= right; j++)
-                grid[top][j] = v[idx++];
+            // top row
+            for (int col = curCol; col < maxc; col++)
+                grid[curRow][col] = v[i++];
 
-            for (int i = top + 1; i <= bottom; i++)
-                grid[i][right] = v[idx++];
+            // right column
+            for (int row = curRow + 1; row < maxr; row++)
+                grid[row][maxc - 1] = v[i++];
 
-            for (int j = right - 1; j >= left; j--)
-                grid[bottom][j] = v[idx++];
+            // bottom row
+            for (int col = maxc - 2; col >= curCol; col--)
+                grid[maxr - 1][col] = v[i++];
 
-            for (int i = bottom - 1; i > top; i--)
-                grid[i][left] = v[idx++];
+            // left column
+            for (int row = maxr - 2; row > curRow; row--)
+                grid[row][curCol] = v[i++];
 
-            top++; left++;
-            bottom--; right--;
+            r++; c++;
+            cnt1 -= 2;
+            cnt2 -= 2;
         }
 
         return grid;
