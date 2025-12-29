@@ -1,5 +1,5 @@
 class Solution {
-    bool backtracking(string cur, int idx, unordered_map<char, unordered_map<char, unordered_set<char> >> &mp, string acc , int level, int levels)
+    bool backtracking(string &cur, int idx, unordered_map<char, unordered_map<char, unordered_set<char> >> &mp, string acc , int level, int levels)
     {
         if(level == levels)
         {
