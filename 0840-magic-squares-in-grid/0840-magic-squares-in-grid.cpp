@@ -1,5 +1,5 @@
 class Solution {
-    bool isvalid(int &r, int &c, int &rows, int &cols)
+    bool isvalid(int r, int c, int &rows, int &cols)
     {
         if(r<0 || r>=rows || c<0 || c>=cols)
             return false; 
