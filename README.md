@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0049-group-anagrams) |
+| [0066-plus-one](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0066-plus-one) |
 | [0068-text-justification](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0075-sort-colors) |
@@ -881,6 +882,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0043-multiply-strings) |
+| [0066-plus-one](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0067-add-binary) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0204-count-primes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0204-count-primes) |
