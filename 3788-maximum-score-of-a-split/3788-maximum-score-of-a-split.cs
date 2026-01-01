@@ -5,7 +5,11 @@ public class Solution {
          long coll = 0; 
         // multiset<int>mt;
         int[] suffix = new int[nums.Length];
-        Array.Fill(suffix, int.MaxValue);
+        for(int i = 0; i< suffix.Length; i++)
+        {
+            suffix[i] = int.MaxValue;
+        }
+        // Array.Fill(suffix, int.MaxValue);
         suffix[suffix.Length-1]= nums[nums.Length-1];
         for(int i = nums.Length-2; i>=0; i--)
         {
