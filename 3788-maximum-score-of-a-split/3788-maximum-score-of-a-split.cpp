@@ -4,17 +4,18 @@ public:
         
         long long ans = INT_MIN;
         long long coll = 0; 
-        multiset<int>mt;
-
-        for(int i = 0; i< nums.size(); i++)
+        // multiset<int>mt;
+        vector<int>suffix(nums.size(), INT_MAX);
+        suffix[suffix.size()-1]= nums[nums.size()-1];
+        for(int i = nums.size()-2; i>=0; i--)
         {
-            mt.insert(nums[i]);
+            suffix[i] = min(nums[i], suffix[i+1]);
         }
         for(int i = 0; i< nums.size()-1; i++)
         {
-            mt.erase(mt.find(nums[i]));
+            // mt.erase(mt.find(nums[i]));
             coll += nums[i];
-            ans = max(ans, coll-*mt.begin());
+            ans = max(ans, coll-suffix[i+1]);
         }return ans; 
     }
 };
