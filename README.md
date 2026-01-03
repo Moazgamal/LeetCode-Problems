@@ -1219,6 +1219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1343-dice-roll-simulation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1343-dice-roll-simulation) |
 | [1393-maximum-value-of-k-coins-from-piles](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1393-maximum-value-of-k-coins-from-piles) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1411-number-of-ways-to-paint-n-3-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1466-jump-game-v](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1466-jump-game-v) |
 | [1503-reducing-dishes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1503-reducing-dishes) |
