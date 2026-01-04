@@ -2,7 +2,7 @@ class Solution {
     void getPrimes(int num, int &sum)
     {
         int p = 0; 
-        set<int>v;
+        unordered_set<int>v;
         int sum2 = 0; 
         int org = num;
         for(int i = 2; num>1 && i<=num; i++)
