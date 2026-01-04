@@ -11,7 +11,7 @@ class Solution {
             while((num>1)&& (num%i == 0) )
             {
                 v.insert(i*f);
-                if(v.size()==4)
+                if(v.size()==3 && i*f != org)
                     return; 
                 f=i*f;
                 num /= i; 
