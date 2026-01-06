@@ -37,9 +37,7 @@ public:
                     continue;
                 auto newNode = cur->children[i];
                 q.push(newNode);
-                cout<<newNode->val<<" ";
             }
-            cout<<"\n";
 
         }return ans; 
         
