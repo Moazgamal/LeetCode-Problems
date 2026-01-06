@@ -21,6 +21,8 @@ public:
 class Solution {
 public:
     vector<int> postorder(Node* root) {
+        if(!root)
+            return {};
         unordered_map<Node*,bool>vis;
         stack<Node*>q;
         q.push(root);
