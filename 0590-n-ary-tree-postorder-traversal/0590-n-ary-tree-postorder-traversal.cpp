@@ -34,12 +34,12 @@ public:
             q.pop();
             if(!cur)
                 continue;
-            if(vis[cur])
+            if(cur->children.size()==0)
             {
                 ans.push_back(cur->val);
                 continue;
             }
-            if(cur->children.size()==0)
+            if(vis[cur])
             {
                 ans.push_back(cur->val);
                 continue;
