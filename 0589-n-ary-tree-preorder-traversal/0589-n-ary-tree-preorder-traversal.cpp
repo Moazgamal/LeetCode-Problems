@@ -21,15 +21,14 @@ public:
 class Solution {
 public:
     vector<int> preorder(Node* root) {
-
+        if(!root)
+            return {};
         stack<Node*>q;
         q.push(root);
         vector<int>ans;
         while(!q.empty())
         {
             auto cur = q.top(); q.pop();
-            if(!cur)
-                continue;
             ans.push_back(cur->val);
             for(int i = cur->children.size()-1; i>=0 ; i--)
             {
