@@ -11,29 +11,41 @@
  */
 class Solution {
     int MOD = 1e9+7;
-    int dfs(TreeNode* &root, unordered_map<TreeNode*, long long>&mp)
+    long long ans = 1; 
+    int totalSum=0;
+    int dfs(TreeNode* &root)
     {
         if(!root)
             return 0; 
         if(!root->right && !root->left)
         {
-            return  mp[root]= root->val;
+            return  root->val;
         }
-        int r = dfs(root->right, mp);
-        int l = dfs(root->left, mp);
-        return mp[root]= root->val + r + l;
+        int r = dfs(root->right);
+        int l = dfs(root->left);
+        root->val += r + l;
+        return root->val;
+    }
+    void dfs2(TreeNode* &root)
+    {
+        if(!root)
+            return ; 
+        if(!root->right && !root->left)
+        {
+            ans = max(ans, (long long)root->val*(totalSum-root->val));
+            return ;
+        }
+        dfs2(root->right);
+        dfs2(root->left);
+        ans = max(ans, (long long)root->val*(totalSum-root->val));
     }
 public:
     int maxProduct(TreeNode* root) {
-        unordered_map<TreeNode*,long long>mp;
-        int totalSum = dfs(root, mp);
-        long long ans = 1; 
-        for(auto &x: mp)
-        {
-            if(x.first == root)
-                continue;
-            ans = max(ans, x.second*(totalSum-x.second));
-        }return ans%MOD; 
+       
+        totalSum = dfs(root);
+        dfs2(root->right);
+        dfs2(root->left);
+        return ans%MOD; 
 
         
     }
