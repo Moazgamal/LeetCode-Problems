@@ -32,7 +32,7 @@ public:
         {
             if(x.first == root)
                 continue;
-            ans = max(ans, mp[x.first]*(totalSum-mp[x.first]));
+            ans = max(ans, x.second*(totalSum-x.second));
         }return ans%MOD; 
 
         
