@@ -23,29 +23,20 @@ public:
         vector<int>v(parents.size());
         int totalNodes = dfs(0, g, v);
         vector<long long>scores(parents.size());
-        for(int i = 0; i< g.size(); i++)
+         if(g[0].size() == 0)
+            scores[0] = 0;
+        else if(g[0].size() == 1)
+            scores[0] = v[g[0][0]];
+        else
+            scores[0] = (long long)v[g[0][0]]*v[g[0][1]];
+        for(int node = 1; node< g.size(); node++)
         {
-            int node = i; 
-            scores[i] = 0;
-            if(i == 0)
-            {
-                if(g[node].size() == 0)
-                    scores[i] = 0;
-                else if(g[node].size() == 1)
-                    scores[i] = v[g[node][0]];
-                else
-                    scores[i] = (long long)v[g[node][0]]*v[g[node][1]];
-            }
+            if(g[node].size() == 0)
+                scores[node] = totalNodes-1;
+            else if(g[node].size() == 1)
+                scores[node] = (long long)v[g[node][0]]*(totalNodes-1-v[g[node][0]]);
             else
-            {
-                
-                if(g[node].size() == 0)
-                    scores[i] = totalNodes-1;
-                else if(g[node].size() == 1)
-                    scores[i] = (long long)v[g[node][0]]*(totalNodes-1-v[g[node][0]]);
-                else
-                    scores[i] = (long long)v[g[node][0]]*v[g[node][1]]*(totalNodes-1-v[g[node][0]]-v[g[node][1]]);
-            }
+                scores[node] = (long long)v[g[node][0]]*v[g[node][1]]*(totalNodes-1-v[g[node][0]]-v[g[node][1]]);
         }
         sort(scores.rbegin(), scores.rend());
         int ans = 1; 
