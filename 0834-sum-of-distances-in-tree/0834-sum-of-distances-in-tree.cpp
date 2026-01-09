@@ -2,8 +2,6 @@ class Solution {
     int dfs(int node, vector<vector<int>>&g, vector<int>&count, vector<int>&ans, vector<bool>&vis)
     {
         vis[node] = true; 
-        
-
         count[node] = 1; 
         for(int i = 0; i< g[node].size(); i++)
         {
@@ -13,7 +11,6 @@ class Solution {
                 ans[node] += (count[g[node][i]] + ans[g[node][i]]);
             }
         }
-        
         return count[node];
     }
     void dfs2(int node, vector<vector<int>>&g, vector<int>&count, vector<int>&ans, vector<bool>&vis)
