@@ -593,6 +593,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1038-number-of-squareful-arrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1038-number-of-squareful-arrays) |
 | [1110-delete-nodes-and-return-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1110-delete-nodes-and-return-forest) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1160-letter-tile-possibilities](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -1647,6 +1648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1117-as-far-from-land-as-possible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1117-as-far-from-land-as-possible) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
@@ -1748,6 +1750,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1110-delete-nodes-and-return-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1110-delete-nodes-and-return-forest) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1145-binary-tree-coloring-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1145-binary-tree-coloring-game) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -1797,6 +1800,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1110-delete-nodes-and-return-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1110-delete-nodes-and-return-forest) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1145-binary-tree-coloring-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1145-binary-tree-coloring-game) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -1844,6 +1848,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1110-delete-nodes-and-return-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1110-delete-nodes-and-return-forest) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1145-binary-tree-coloring-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1145-binary-tree-coloring-game) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
