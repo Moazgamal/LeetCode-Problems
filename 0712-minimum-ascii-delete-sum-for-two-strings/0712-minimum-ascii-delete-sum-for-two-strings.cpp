@@ -26,12 +26,12 @@ class Solution {
             return ret = acc;
         }
 
-        ret = (int)s1[idx1]+fn(idx1+1, idx2, s1, s2);
-        ret = min(ret, (int)s2[idx2]+fn(idx1, idx2+1, s1, s2));
         if(s1[idx1] == s2[idx2])
         {
-            ret = min(ret, fn(idx1+1, idx2+1, s1, s2));
+            return ret = min(ret, fn(idx1+1, idx2+1, s1, s2));
         }
+        ret = (int)s1[idx1]+fn(idx1+1, idx2, s1, s2);
+        ret = min(ret, (int)s2[idx2]+fn(idx1, idx2+1, s1, s2));
         return ret;
     }
 public:
