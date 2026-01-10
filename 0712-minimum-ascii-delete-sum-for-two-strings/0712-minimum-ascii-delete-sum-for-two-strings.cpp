@@ -14,7 +14,7 @@ class Solution {
             {
                 acc += ((int)s2[i]);
             }
-            return acc;
+            return ret = acc;
         }
         if(idx2 == s2.size())
         {
@@ -23,7 +23,7 @@ class Solution {
             {
                 acc += ((int)s1[i]);
             }
-            return acc;
+            return ret = acc;
         }
 
         ret = (int)s1[idx1]+fn(idx1+1, idx2, s1, s2);
