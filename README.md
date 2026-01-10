@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1063-best-sightseeing-pair](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1063-best-sightseeing-pair) |
 | [1080-camelcase-matching](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1080-camelcase-matching) |
+| [1110-delete-nodes-and-return-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1110-delete-nodes-and-return-forest) |
 | [1117-as-far-from-land-as-possible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1117-as-far-from-land-as-possible) |
 | [1130-last-stone-weight-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1130-last-stone-weight-ii) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -590,6 +591,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1010-powerful-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1010-powerful-integers) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1038-number-of-squareful-arrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1038-number-of-squareful-arrays) |
+| [1110-delete-nodes-and-return-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1110-delete-nodes-and-return-forest) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1160-letter-tile-possibilities](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1160-letter-tile-possibilities) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -1743,6 +1745,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1008-binary-tree-cameras](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1008-binary-tree-cameras) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1110-delete-nodes-and-return-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1110-delete-nodes-and-return-forest) |
 | [1145-binary-tree-coloring-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1145-binary-tree-coloring-game) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -1791,6 +1794,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1008-binary-tree-cameras](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1008-binary-tree-cameras) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1110-delete-nodes-and-return-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1110-delete-nodes-and-return-forest) |
 | [1145-binary-tree-coloring-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1145-binary-tree-coloring-game) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -1837,6 +1841,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1008-binary-tree-cameras](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1008-binary-tree-cameras) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1110-delete-nodes-and-return-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1110-delete-nodes-and-return-forest) |
 | [1145-binary-tree-coloring-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1145-binary-tree-coloring-game) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
