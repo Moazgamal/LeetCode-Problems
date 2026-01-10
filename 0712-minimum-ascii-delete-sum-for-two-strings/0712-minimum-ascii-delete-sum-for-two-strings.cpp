@@ -5,7 +5,7 @@ class Solution {
         if(idx1 == s1.size() && idx2 == s2.size())
             return 0 ;
         auto &ret = arr[idx1][idx2];
-        if(ret != -1)
+        if(ret != INT_MAX)
             return ret; 
         if(idx1 == s1.size())
         {
@@ -37,8 +37,7 @@ class Solution {
 public:
     int minimumDeleteSum(string s1, string s2) {
         
-        memset(arr,INT_MAX,sizeof(arr));
-        
+        fill(&arr[0][0], &arr[0][0] + 1001*1001, INT_MAX);
         return fn(0,0,s1,s2);
     }
 };
