@@ -580,6 +580,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0797-rabbits-in-forest) |
 | [0840-magic-squares-in-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0840-magic-squares-in-grid) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0876-hand-of-straights](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0876-hand-of-straights) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0952-word-subsets) |
@@ -1638,6 +1639,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-sliding-puzzle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0787-sliding-puzzle) |
 | [0794-swim-in-rising-water](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0794-swim-in-rising-water) |
 | [0820-find-eventual-safe-states](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0820-find-eventual-safe-states) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1117-as-far-from-land-as-possible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1117-as-far-from-land-as-possible) |
@@ -1734,6 +1736,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0652-find-duplicate-subtrees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0652-find-duplicate-subtrees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
 | [0834-sum-of-distances-in-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0834-sum-of-distances-in-tree) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0988-flip-equivalent-binary-trees) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -1781,6 +1784,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0543-diameter-of-binary-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0652-find-duplicate-subtrees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0988-flip-equivalent-binary-trees) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -1828,6 +1832,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0794-swim-in-rising-water) |
 | [0820-find-eventual-safe-states](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0820-find-eventual-safe-states) |
 | [0834-sum-of-distances-in-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0834-sum-of-distances-in-tree) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0988-flip-equivalent-binary-trees) |
 | [1008-binary-tree-cameras](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1008-binary-tree-cameras) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
