@@ -10,7 +10,7 @@
  * };
  */
 class Solution {
-    void dfs(TreeNode* &root, unordered_map<int,bool>&mp,vector<TreeNode*>&ans, int parent)
+    void dfs(TreeNode* &root, unordered_map<int,bool>&mp,vector<TreeNode*>&ans, bool parent)
     {
         if(!root)
             return ;
