@@ -1,11 +1,6 @@
 class Solution {
     int calcDest(int sourceX, int sourceY, int destX, int destY)
     {
-        if(sourceX == destX)
-            return abs(destY-sourceY);
-        if(sourceY == destY)
-            return abs(destX-sourceX);
-
         int diffX = abs(sourceX-destX);
         int diffY = abs(sourceY-destY);
         if(diffX== diffY)
