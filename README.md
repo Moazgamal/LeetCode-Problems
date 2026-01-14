@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1206-corporate-flight-bookings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1206-corporate-flight-bookings) |
 | [1256-rank-transform-of-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1256-rank-transform-of-an-array) |
+| [1266-minimum-time-visiting-all-points](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1266-minimum-time-visiting-all-points) |
 | [1293-three-consecutive-odds](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1293-three-consecutive-odds) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [1319-unique-number-of-occurrences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1319-unique-number-of-occurrences) |
@@ -917,6 +918,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1038-number-of-squareful-arrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1038-number-of-squareful-arrays) |
 | [1103-moving-stones-until-consecutive](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1103-moving-stones-until-consecutive) |
 | [1260-day-of-the-year](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1260-day-of-the-year) |
+| [1266-minimum-time-visiting-all-points](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1266-minimum-time-visiting-all-points) |
 | [1274-number-of-days-between-two-dates](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1274-number-of-days-between-two-dates) |
 | [1390-four-divisors](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1390-four-divisors) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
@@ -1911,6 +1913,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1014-k-closest-points-to-origin) |
+| [1266-minimum-time-visiting-all-points](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1266-minimum-time-visiting-all-points) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
