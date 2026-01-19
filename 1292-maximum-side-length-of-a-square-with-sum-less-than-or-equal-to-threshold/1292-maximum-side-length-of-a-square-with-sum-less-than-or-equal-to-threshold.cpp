@@ -29,6 +29,9 @@ public:
             {
                 int r = i; int c = j; 
                 int sum = 0;
+                int mini = min(mat.size()-r, mat[0].size()-c);
+                if(mini <= ans)
+                    continue;
                 while(c<mat[0].size() && r< mat.size())
                 {
                     int sumRow = 0; int sumCol = 0; 
@@ -44,7 +47,7 @@ public:
                     
                     sum += (sumRow+sumCol);
                     sum -= mat[r][c];
-                    if(sum <=threshold )
+                    if(sum <=threshold)
                         ans = max(ans, (r-i)+1);
                     else
                         break;
