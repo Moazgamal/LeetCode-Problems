@@ -271,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3291-find-if-array-can-be-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3291-find-if-array-can-be-sorted) |
 | [3308-apply-operations-to-make-string-empty](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3308-apply-operations-to-make-string-empty) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [3315-construct-the-minimum-bitwise-array-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 | [3321-type-of-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3321-type-of-triangle) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
@@ -1434,6 +1435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3044-minimum-operations-to-collect-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3044-minimum-operations-to-collect-elements) |
 | [3249-minimum-number-of-operations-to-make-array-xor-equal-to-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k) |
 | [3291-find-if-array-can-be-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3291-find-if-array-can-be-sorted) |
+| [3315-construct-the-minimum-bitwise-array-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3394-minimum-array-end](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3394-minimum-array-end) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
