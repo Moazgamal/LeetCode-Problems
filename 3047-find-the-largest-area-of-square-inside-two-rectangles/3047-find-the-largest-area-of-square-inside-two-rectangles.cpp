@@ -21,6 +21,8 @@ public:
                 int xend1 = topRight[v[i].second][0];
                 int yend2 = topRight[v[j].second][1];
                 int xend2 = topRight[v[j].second][0];
+                if(x2>=xend1)
+                    break;
                 if(y2<yend1 && yend2 > y1 && x2<xend1)
                 {
                     int dim1 = min(xend1,xend2)-x2;
