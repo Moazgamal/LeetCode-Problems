@@ -9,7 +9,6 @@ public:
             v.push_back({{bottomLeft[i][0],bottomLeft[i][1]},i});
         }
         sort(v.begin(), v.end());
-        
         for(int i = 0; i<v.size(); i++)
         {
             for(int j = i+1; j< v.size(); j++)
