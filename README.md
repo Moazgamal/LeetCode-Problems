@@ -918,6 +918,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0679-24-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0679-24-game) |
 | [0797-rabbits-in-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0797-rabbits-in-forest) |
 | [0828-chalkboard-xor-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0828-chalkboard-xor-game) |
+| [0836-rectangle-overlap](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0836-rectangle-overlap) |
 | [0840-magic-squares-in-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0840-magic-squares-in-grid) |
 | [0897-prime-palindrome](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0897-prime-palindrome) |
 | [1010-powerful-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1010-powerful-integers) |
@@ -1927,6 +1928,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0223-rectangle-area](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0223-rectangle-area) |
+| [0836-rectangle-overlap](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0836-rectangle-overlap) |
 | [1014-k-closest-points-to-origin](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1014-k-closest-points-to-origin) |
 | [1266-minimum-time-visiting-all-points](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1266-minimum-time-visiting-all-points) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
