@@ -247,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2868-continuous-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2868-continuous-subarrays) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [2943-maximize-area-of-square-hole-in-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3044-minimum-operations-to-collect-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3044-minimum-operations-to-collect-elements) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3074-apple-redistribution-into-boxes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3074-apple-redistribution-into-boxes) |
@@ -1056,6 +1057,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2887-sort-vowels-in-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2887-sort-vowels-in-a-string) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [2943-maximize-area-of-square-hole-in-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3074-apple-redistribution-into-boxes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3241-divide-array-into-arrays-with-max-difference) |
