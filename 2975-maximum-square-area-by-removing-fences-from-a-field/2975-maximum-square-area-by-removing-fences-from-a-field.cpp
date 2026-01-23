@@ -24,7 +24,7 @@ public:
             for(int i = j+1; i< vFences.size(); i++)
                 mp2[vFences[i]-vFences[j]]=true;
 
-        for(auto u: mp1)
+        for(auto &u: mp1)
             if(mp2.count(u.first) >0)
                 ans = max(ans, (u.first*u.first));
 
