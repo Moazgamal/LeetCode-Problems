@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1876-map-of-highest-peak](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1876-map-of-highest-peak) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -1032,6 +1033,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1468-check-if-n-and-its-double-exist](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1503-reducing-dishes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1503-reducing-dishes) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2092-find-all-people-with-secret](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2092-find-all-people-with-secret) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2164-two-best-non-overlapping-events](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2164-two-best-non-overlapping-events) |
@@ -1203,6 +1205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1468-check-if-n-and-its-double-exist](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1972-rotating-the-box](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1972-rotating-the-box) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2232-adding-spaces-to-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2232-adding-spaces-to-a-string) |
@@ -1497,6 +1500,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1834-minimum-number-of-people-to-teach) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1917-maximum-average-pass-ratio](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1917-maximum-average-pass-ratio) |
 | [1975-maximum-matrix-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1975-maximum-matrix-sum) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
