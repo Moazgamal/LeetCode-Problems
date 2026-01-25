@@ -38,8 +38,8 @@ public:
         int cnt = 0; 
         while(!indicesOfSum.empty() && !mp.empty())
         {
-            auto it = indicesOfSum.begin(); // أقل sum
-            int j = *(it->second.begin());   // leftmost index
+            auto it = indicesOfSum.begin(); 
+            int j = *(it->second.begin());   
             long long curSum = it->first;
             
             node* curPtr = nodeOfIndex[j];
