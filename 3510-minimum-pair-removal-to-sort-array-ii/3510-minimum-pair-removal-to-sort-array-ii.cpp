@@ -39,7 +39,7 @@ public:
         while(!indicesOfSum.empty() && !mp.empty())
         {
             auto it = indicesOfSum.begin(); // أقل sum
-            int j = *it->second.begin();   // leftmost index
+            int j = *(it->second.begin());   // leftmost index
             long long curSum = it->first;
             
             node* curPtr = nodeOfIndex[j];
