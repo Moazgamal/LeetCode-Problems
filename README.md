@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1940-maximum-xor-for-each-query](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1940-maximum-xor-for-each-query) |
 | [1972-rotating-the-box](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1972-rotating-the-box) |
 | [1975-maximum-matrix-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1975-maximum-matrix-sum) |
+| [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2023-design-movie-rental-system](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2023-design-movie-rental-system) |
 | [2049-count-nodes-with-the-highest-score](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2049-count-nodes-with-the-highest-score) |
@@ -728,6 +729,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1755-defuse-the-bomb](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1755-defuse-the-bomb) |
+| [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -1038,6 +1040,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1503-reducing-dishes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1503-reducing-dishes) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2092-find-all-people-with-secret](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2092-find-all-people-with-secret) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2164-two-best-non-overlapping-events](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2164-two-best-non-overlapping-events) |
