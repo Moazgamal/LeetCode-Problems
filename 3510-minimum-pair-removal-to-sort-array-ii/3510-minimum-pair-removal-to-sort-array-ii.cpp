@@ -43,15 +43,9 @@ public:
             long long curSum = it->first;
             
             node* curPtr = nodeOfIndex[j];
-            if(!curPtr)
-            {
-                it->second.erase(j);
-                if(it->second.empty())
-                    indicesOfSum.erase(it);
-                continue;
-            }
-            
+
             curSum = sumOfindex[j];
+
             indicesOfSum[curSum].erase(j);
             if(indicesOfSum[curSum].empty())
                 indicesOfSum.erase(curSum);
@@ -75,13 +69,12 @@ public:
                 sumOfindex[prevIdx] = newSum;
             }
             node* nextNode = curPtr->next;
-            if(!curPtr->next)
-                break;
+           
             node* nextNext = nextNode->next;
             long long nextSum = sumOfindex[nextNode->idx];
             if(mp.count(nextNode->idx)>0)
                 mp.erase(nextNode->idx);
-            nodeOfIndex[nextNode->idx] = nullptr;
+
             indicesOfSum[nextSum].erase(nextNode->idx);
             if(indicesOfSum[nextSum].empty())
                 indicesOfSum.erase(nextSum);
@@ -97,7 +90,7 @@ public:
                     if(mp.count(curPtr->idx)>0)
                         mp.erase(curPtr->idx);
                 }
-                // indicesOfSum[curSum].erase(curPtr->idx);
+                
                 indicesOfSum[curSum+curPtr->next->val].insert(curPtr->idx);
                 sumOfindex[curPtr->idx] = curSum+curPtr->next->val;
                 curPtr->next->prev = curPtr;
@@ -107,7 +100,6 @@ public:
                 if(mp.count(curPtr->idx) > 0)
                     mp.erase(curPtr->idx);
                 
-                // indicesOfSum[curSum].erase(curPtr->idx);
                 sumOfindex[curPtr->idx] = curSum;
             }
             cnt++;
