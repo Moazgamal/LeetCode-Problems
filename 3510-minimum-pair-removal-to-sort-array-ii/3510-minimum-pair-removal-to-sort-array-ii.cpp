@@ -27,7 +27,7 @@ public:
                 mp[i]=true;
         }
         node* cur = new node();
-        cur->idx = nums.size()-1;
+        cur->idx = (int)nums.size()-1;
         cur->prev = prev;
         cur->val = nums[nums.size()-1];
         if(prev)
