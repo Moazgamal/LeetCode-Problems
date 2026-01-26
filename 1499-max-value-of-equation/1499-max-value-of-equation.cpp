@@ -9,7 +9,6 @@ class Solution {
             // smaller second comes later → lower priority
             return y1 < y2;
         }
-
         // case 2: custom formula
         return (x2 - x1) + y1 <= y2;
     }
@@ -32,9 +31,7 @@ public:
                     break;
                 }
                 else
-                {
                     pq.pop();
-                }
             }
             pq.push({points[i][0], points[i][1]});
         }
