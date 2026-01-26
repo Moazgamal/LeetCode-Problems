@@ -37,6 +37,8 @@ public:
                 curEnd = mp[curEnd+1];
             }
         }
+        // i will optimize it later
+        // by using vector and make it o(n) time comp
         return ans; 
     }
 };
