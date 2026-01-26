@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1499-max-value-of-equation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1499-max-value-of-equation) |
 | [1503-reducing-dishes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1503-reducing-dishes) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1524-string-matching-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1524-string-matching-in-an-array) |
@@ -728,6 +729,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1020-longest-turbulent-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1020-longest-turbulent-subarray) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1499-max-value-of-equation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1499-max-value-of-equation) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1755-defuse-the-bomb](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1755-defuse-the-bomb) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
@@ -864,6 +866,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0859-design-circular-deque](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0859-design-circular-deque) |
+| [1499-max-value-of-equation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1499-max-value-of-equation) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2620-find-consecutive-integers-from-a-data-stream](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2620-find-consecutive-integers-from-a-data-stream) |
@@ -1112,6 +1115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1304-longest-happy-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1304-longest-happy-string) |
 | [1389-minimum-moves-to-move-a-box-to-their-target-location](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1389-minimum-moves-to-move-a-box-to-their-target-location) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1499-max-value-of-equation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1499-max-value-of-equation) |
 | [1612-avoid-flood-in-the-city](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1612-avoid-flood-in-the-city) |
 | [1917-maximum-average-pass-ratio](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1917-maximum-average-pass-ratio) |
 | [2023-design-movie-rental-system](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2023-design-movie-rental-system) |
@@ -1983,6 +1987,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Queue
 |  |
 | ------- |
+| [1499-max-value-of-equation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1499-max-value-of-equation) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2868-continuous-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2868-continuous-subarrays) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
