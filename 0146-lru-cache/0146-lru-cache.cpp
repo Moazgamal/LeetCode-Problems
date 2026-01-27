@@ -34,6 +34,7 @@ int _capacity = 0;
             v.push_back(key);
             mp3[key] = v.size()-1;
             sz++;
+            return; 
         }
         else
         {
