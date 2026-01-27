@@ -5,13 +5,11 @@ unordered_map<int,int> mp3;
 map<int, set<pair<int,int>> > mp;
 unordered_map<int,int>count;
 vector<int>v;
-int i = 0; 
 int sz = 0; 
 int _capacity = 0;
     LFUCache(int capacity) {
         _capacity = capacity;
     }
-    
     int get(int key) {
         if(mp2.count(key) > 0 && mp2[key]!=-1 )
         {
@@ -26,7 +24,6 @@ int _capacity = 0;
             return mp2[key];
         }
         return -1; 
-        
     }
     
     void put(int key, int value) {
@@ -56,9 +53,6 @@ int _capacity = 0;
         else
         {
             auto it = mp.begin();
-            int freq = it->first;
-            int si = it->second.size();
-            
             auto _k = *(it->second.begin());
             int k = _k.second;
             mp2[k]=-1;
