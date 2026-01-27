@@ -49,17 +49,17 @@ int _capacity = 0;
                 int j = i; 
                 for(; j< v.size(); j++)
                 {
-                    if(mp3[v[j]] == j && mp2.count(v[j])>0)
+                    if(mp3.count(v[j])>0&& mp3[v[j]] == j)
                     {
                         mp2.erase(v[j]);
-                        // mp3.erase(v[j]);
+                        mp3.erase(v[j]);
                         v.push_back(key);
                         mp3[key]=v.size()-1;
                         mp2[key]=value;
                         break;
                     }
                 }
-                i= j;
+                i= j+1;
             }
         }
     }
