@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-swim-in-rising-water](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0778-swim-in-rising-water) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0787-sliding-puzzle) |
+| [0792-number-of-matching-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0792-number-of-matching-subsequences) |
 | [0794-swim-in-rising-water](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0794-swim-in-rising-water) |
 | [0797-rabbits-in-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0797-rabbits-in-forest) |
 | [0828-chalkboard-xor-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0828-chalkboard-xor-game) |
@@ -396,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0756-pyramid-transition-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0756-pyramid-transition-matrix) |
 | [0768-partition-labels](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0768-partition-labels) |
+| [0792-number-of-matching-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0792-number-of-matching-subsequences) |
 | [0812-rotate-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0812-rotate-string) |
 | [0868-push-dominoes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0868-push-dominoes) |
 | [0944-delete-columns-to-make-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0944-delete-columns-to-make-sorted) |
@@ -514,6 +516,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0692-top-k-frequent-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0692-top-k-frequent-words) |
+| [0792-number-of-matching-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0792-number-of-matching-subsequences) |
 | [1080-camelcase-matching](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1080-camelcase-matching) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2494-sum-of-prefix-scores-of-strings) |
@@ -594,6 +597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0692-top-k-frequent-words) |
 | [0756-pyramid-transition-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0756-pyramid-transition-matrix) |
 | [0768-partition-labels](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0768-partition-labels) |
+| [0792-number-of-matching-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0792-number-of-matching-subsequences) |
 | [0797-rabbits-in-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0797-rabbits-in-forest) |
 | [0840-magic-squares-in-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0840-magic-squares-in-grid) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
@@ -767,6 +771,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0731-my-calendar-ii) |
 | [0778-swim-in-rising-water](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0778-swim-in-rising-water) |
+| [0792-number-of-matching-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0792-number-of-matching-subsequences) |
 | [0794-swim-in-rising-water](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0794-swim-in-rising-water) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
@@ -1033,6 +1038,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0645-set-mismatch) |
 | [0692-top-k-frequent-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0692-top-k-frequent-words) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0780-max-chunks-to-make-sorted) |
+| [0792-number-of-matching-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0792-number-of-matching-subsequences) |
 | [0876-hand-of-straights](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0876-hand-of-straights) |
 | [0959-3sum-with-multiplicity](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0959-3sum-with-multiplicity) |
 | [1014-k-closest-points-to-origin](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1014-k-closest-points-to-origin) |
@@ -1257,6 +1263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [0792-number-of-matching-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0792-number-of-matching-subsequences) |
 | [0834-sum-of-distances-in-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0834-sum-of-distances-in-tree) |
 | [0868-push-dominoes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0868-push-dominoes) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0934-bitwise-ors-of-subarrays) |
