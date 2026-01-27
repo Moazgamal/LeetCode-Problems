@@ -7,7 +7,6 @@ int i = 0;
 int _capacity = 0; 
     LRUCache(int capacity) {
         _capacity = capacity;
-        i=0;
     }
     
     int get(int key) {
@@ -21,45 +20,28 @@ int _capacity = 0;
     }
     
     void put(int key, int value) {
-        if(mp2.size() < _capacity)
+        if(mp2.size() < _capacity || 
+        (mp2.size() == _capacity && mp2.count(key) >0))
         {
-            if(mp2.count(key) > 0)
-            {
-                mp2[key]=value;
-                v.push_back(key);
-                mp3[key] = v.size()-1;
-            }
-            else
-            {
-                mp2[key]=value;
-                v.push_back(key);
-                mp3[key] = v.size()-1;
-            }
+            mp2[key]=value;
+            v.push_back(key);
+            mp3[key] = v.size()-1;
         }
         else
         {
-            if(mp2.count(key) > 0)
+            int j = i; 
+            for(; j< v.size(); j++)
             {
-                mp2[key]=value;
-                v.push_back(key);
-                mp3[key]=v.size()-1;
-            }
-            else
-            {
-                int j = i; 
-                for(; j< v.size(); j++)
+                if(mp2.count(v[j])>0&& mp3[v[j]] == j)
                 {
-                    if(mp2.count(v[j])>0&& mp3[v[j]] == j)
-                    {
-                        mp2.erase(v[j]);
-                        v.push_back(key);
-                        mp3[key]=v.size()-1;
-                        mp2[key]=value;
-                        break;
-                    }
+                    mp2.erase(v[j]);
+                    v.push_back(key);
+                    mp3[key]=v.size()-1;
+                    mp2[key]=value;
+                    break;
                 }
-                i= j+1;
             }
+            i= j+1;
         }
     }
 };
