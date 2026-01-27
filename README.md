@@ -590,6 +590,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0432-all-oone-data-structure](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0432-all-oone-data-structure) |
 | [0447-number-of-boomerangs](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0447-number-of-boomerangs) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0460-lfu-cache](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0496-next-greater-element-i) |
 | [0567-permutation-in-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0594-longest-harmonious-subsequence) |
@@ -824,6 +825,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0432-all-oone-data-structure](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0432-all-oone-data-structure) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0449-serialize-and-deserialize-bst) |
+| [0460-lfu-cache](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0460-lfu-cache) |
 | [0729-my-calendar-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0731-my-calendar-ii) |
 | [0859-design-circular-deque](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0859-design-circular-deque) |
@@ -868,6 +870,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0432-all-oone-data-structure](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0432-all-oone-data-structure) |
+| [0460-lfu-cache](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0460-lfu-cache) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0859-design-circular-deque](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0859-design-circular-deque) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
@@ -1936,6 +1939,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0146-lru-cache) |
 | [0432-all-oone-data-structure](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0432-all-oone-data-structure) |
+| [0460-lfu-cache](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0460-lfu-cache) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 ## Combinatorics
