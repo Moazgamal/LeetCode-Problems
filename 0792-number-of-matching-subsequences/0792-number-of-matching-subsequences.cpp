@@ -19,10 +19,8 @@ public:
             v[s[i]-'a'].push_back(i);
         int ans = 0; 
         for(int i = 0; i< words.size(); i++)
-        {
             if(dfs(0,words[i], v, -1))
                 ans++;
-        }
         return ans;
     }
 };
