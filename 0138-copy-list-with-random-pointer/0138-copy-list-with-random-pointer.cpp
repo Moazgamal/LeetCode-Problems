@@ -43,9 +43,7 @@ public:
         while(headCpy)
         {
             if(headCpy->random)
-            {
                 mp3[idx] = mp[headCpy->random];
-            }
             else
                 mp3[idx] = -1; 
             headCpy = headCpy->next;
