@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0229-majority-element-ii) |
+| [0238-product-of-array-except-self](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0289-game-of-life](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0289-game-of-life) |
@@ -1190,6 +1191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0238-product-of-array-except-self) |
 | [0304-range-sum-query-2d-immutable](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0304-range-sum-query-2d-immutable) |
 | [0731-my-calendar-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0731-my-calendar-ii) |
 | [1206-corporate-flight-bookings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1206-corporate-flight-bookings) |
