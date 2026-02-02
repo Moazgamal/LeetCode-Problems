@@ -5,7 +5,7 @@ public:
         vector<int>st;
         for(int i = 0; i< asteroids.size(); i++)
         {
-            if(st.empty())
+            if(st.empty() || asteroids[i]>0)
                 st.push_back(asteroids[i]);
             else if(asteroids[i]<0)
             {
@@ -13,15 +13,11 @@ public:
                 abs(asteroids[i])>st[st.size()-1])
                     st.pop_back();
 
-                if(st.size()>0 && st[st.size()-1]>0 && 
-                abs(asteroids[i]) == st[st.size()-1])
-                    st.pop_back();
-                else if(st.size()==0 || st[st.size()-1]<0)
+                if(st.size() == 0 || st[st.size()-1] < 0)
                     st.push_back(asteroids[i]);
+                else if(st[st.size()-1] == abs(asteroids[i]))
+                    st.pop_back();
             }
-            else
-                st.push_back(asteroids[i]);
-            
         }
         return st; 
     }
