@@ -1,20 +1,18 @@
 class UndergroundSystem {
 public:
 unordered_map<string, unordered_map<string, pair<double,int>>>mp;
-unordered_map<int, unordered_map<string,int>>mp2;
-unordered_map<int, string>mp3;
+unordered_map<int, pair<string,int>>mp3;
     UndergroundSystem() {
         
     }
     
     void checkIn(int id, string stationName, int t) {
-        mp2[id][stationName] = t;
-        mp3[id] = stationName;
+        mp3[id] = {stationName,t};
     }
     
     void checkOut(int id, string stationName, int t) {
-        string sta = mp3[id];
-        int ti = mp2[id][sta];
+        string sta = mp3[id].first;
+        int ti = mp3[id].second;
         mp[sta][stationName].first += (t-ti);
         mp[sta][stationName].second++;
     }
