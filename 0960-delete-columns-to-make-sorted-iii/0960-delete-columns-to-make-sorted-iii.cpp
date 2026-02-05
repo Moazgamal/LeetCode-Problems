@@ -16,10 +16,9 @@ class Solution {
 
         ret = 1; 
         for(int i = curIdx+1; i< v.size(); i++)
-        {
             if(compareStrings(v[curIdx], v[i]))
                 ret = max(ret, 1+fn(i, v, dp));
-        }
+                
         return ret;
     }
 public:
