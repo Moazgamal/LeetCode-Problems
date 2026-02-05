@@ -6,19 +6,21 @@ class Solution {
                 return false; 
         return true; 
     }
-    int fn(int curIdx, int prev, vector<string>&v, vector<vector<int>>&dp)
+    int fn(int curIdx, vector<string> &v, vector<int> &dp)
     {
         if(curIdx >= v.size())
             return 0; 
-        auto &ret = dp[curIdx][prev];
+        auto &ret = dp[curIdx];
         if(ret != -1)
             return ret; 
-        int c1 = 0; 
-        if(prev == v.size() || compareStrings(v[prev], v[curIdx]))
-            c1 = 1+ fn(curIdx+1, curIdx, v, dp);
-        int c2 = fn(curIdx+1, prev, v, dp);
 
-        return ret = max(c1, c2);
+        ret = 1; 
+        for(int i = curIdx+1; i< v.size(); i++)
+        {
+            if(compareStrings(v[curIdx], v[i]))
+                ret = max(ret, 1+fn(i, v, dp));
+        }
+        return ret;
     }
 public:
     int minDeletionSize(vector<string>& strs) {
@@ -30,9 +32,15 @@ public:
                 str.push_back(strs[j][i]);
             v.push_back(str);
         }
-        vector<vector<int>>dp(v.size()+1, vector<int>(v.size()+1, -1));
-        int jj = fn(0, v.size(),v,dp);
-        return (int)v.size()-fn(0, v.size(),v,dp);
+        vector<int>dp(v.size()+1, -1);
+        int maxi = 0; 
+        for(int i = 0; i< v.size(); i++)
+        {
+            if(dp[i] != -1)
+                continue;
+            maxi = max(maxi, fn(i, v, dp));
+        }
+        return (int)v.size()-maxi;
         
     }
 };
