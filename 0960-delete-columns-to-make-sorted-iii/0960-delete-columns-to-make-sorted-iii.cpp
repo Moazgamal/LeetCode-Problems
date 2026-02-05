@@ -28,12 +28,10 @@ public:
             string str = "";
             for(int j = 0; j< strs.size(); j++)
                 str.push_back(strs[j][i]);
-            cout<<str<<" str\n";
             v.push_back(str);
         }
         vector<vector<int>>dp(v.size()+1, vector<int>(v.size()+1, -1));
         int jj = fn(0, v.size(),v,dp);
-        cout<<jj<<"\n";
         return (int)v.size()-fn(0, v.size(),v,dp);
         
     }
