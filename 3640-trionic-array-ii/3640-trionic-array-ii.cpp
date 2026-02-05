@@ -80,8 +80,6 @@ public:
                 else
                     end = v[i+1].first;
                 fn(start, end, nums, g, prefixVector);
-                cout<<i<<" "<<g[start].first<<" "<<g[start].second<<
-                " "<<end<<" ggg\n";
             }
         }
         for(int i = 0; i< v.size(); i++)
@@ -95,7 +93,6 @@ public:
                     int start2 = v[i+2].first;
                     int s = g[start1].first;
                     int e = g[start2].second;
-                    cout<<s<<" "<<e<<" \n";
                     if(s == 0)
                         ans = max(ans, prefixVector[e]);
                     else
