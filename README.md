@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0944-delete-columns-to-make-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0944-delete-columns-to-make-sorted) |
 | [0952-word-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0952-word-subsets) |
 | [0959-3sum-with-multiplicity](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0959-3sum-with-multiplicity) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [0990-verifying-an-alien-dictionary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0990-verifying-an-alien-dictionary) |
 | [1002-maximum-width-ramp](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1002-maximum-width-ramp) |
@@ -412,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0944-delete-columns-to-make-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0944-delete-columns-to-make-sorted) |
 | [0952-word-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [0990-verifying-an-alien-dictionary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0990-verifying-an-alien-dictionary) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1080-camelcase-matching](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1080-camelcase-matching) |
@@ -1300,6 +1302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0834-sum-of-distances-in-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0834-sum-of-distances-in-tree) |
 | [0868-push-dominoes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0868-push-dominoes) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0934-bitwise-ors-of-subarrays) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1008-binary-tree-cameras](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1008-binary-tree-cameras) |
 | [1020-longest-turbulent-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1020-longest-turbulent-subarray) |
 | [1025-minimum-cost-for-tickets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1025-minimum-cost-for-tickets) |
