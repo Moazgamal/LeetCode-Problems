@@ -31,22 +31,13 @@ public:
         unordered_map<int,int>mp;
         for(int i = 0; i< v.size(); i++)
             mp[v[i]]++;
-        vector<pair<int,int>>v2;
+        int maxi = INT_MIN;
         for(auto &x:mp)
-            v2.push_back({x.second, x.first});
-        sort(v2.rbegin(), v2.rend());
+            maxi = max(x.second,maxi);
         vector<int>ans;
-        for(int i = 0; i< v2.size(); )
-        {
-            int freq = v2[i].first;
-            int j = i; 
-            while(j<v2.size() && v2[j].first == freq)
-            {
-                ans.push_back(v2[j].second);
-                j++;
-            }
-            break;
-        }
+        for(auto &w: mp)
+            if(w.second == maxi)
+                ans.push_back(w.first);
         return ans; 
     }
 };
