@@ -17,20 +17,14 @@ public:
                         ans = "1" + ans; carry = 0; 
                     }
                     else
-                    {
                         ans = "0"+ans;
-                    }
                 }
                 else
                 {
                     if(carry == 1)
-                    {
                         ans = "0"+ans; 
-                    }
                     else
-                    {
                         ans = "1"+ans;
-                    }
                 }
             }
             else
@@ -38,20 +32,14 @@ public:
                 if(b[j] == '0')
                 {
                     if(carry == 1)
-                    {
                         ans = "0" + ans; 
-                    }
                     else
-                    {
                         ans = "1"+ans;
-                    }
                 }
                 else
                 {
                     if(carry == 1)
-                    {
                         ans = "1"+ans; 
-                    }
                     else
                     {
                         ans = "0"+ans; carry = 1; 
@@ -69,20 +57,14 @@ public:
                     ans = "1"+ans; carry = 0; 
                 }
                 else
-                {
                     ans = "0"+ans; 
-                }
             }
             else
             {
                 if(a[i] == '0')
-                {
                     ans = "0"+ans; 
-                }
                 else
-                {
                     ans = "1"+ans;
-                }
             }
             i--;
         }
@@ -95,27 +77,17 @@ public:
                     ans = "1"+ans; carry = 0; 
                 }
                 else
-                {
                     ans = "0"+ans; 
-                }
             }
             else
-            {
                 if(b[j] == '0')
-                {
                     ans = "0"+ans; 
-                }
                 else
-                {
                     ans = "1"+ans;
-                }
-            }
             j--;
         }
         if(carry == 1)
-        {
             ans = "1"+ans;
-        }
         return ans; 
         
     }
