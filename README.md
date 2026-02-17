@@ -1496,6 +1496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0287-find-the-duplicate-number) |
 | [0318-maximum-product-of-word-lengths](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0318-maximum-product-of-word-lengths) |
 | [0342-power-of-four](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0342-power-of-four) |
+| [0401-binary-watch](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0401-binary-watch) |
 | [0645-set-mismatch](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0645-set-mismatch) |
 | [0756-pyramid-transition-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0756-pyramid-transition-matrix) |
 | [0828-chalkboard-xor-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0828-chalkboard-xor-game) |
@@ -1678,6 +1679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0037-sudoku-solver) |
 | [0131-palindrome-partitioning](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0131-palindrome-partitioning) |
 | [0301-remove-invalid-parentheses](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0301-remove-invalid-parentheses) |
+| [0401-binary-watch](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0401-binary-watch) |
 | [0494-target-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0494-target-sum) |
 | [0679-24-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0679-24-game) |
 | [0756-pyramid-transition-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0756-pyramid-transition-matrix) |
