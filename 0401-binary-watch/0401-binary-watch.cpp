@@ -45,7 +45,7 @@ class Solution {
         }
         else if(sz2 == 3)
         {
-            for(int i = 0; i<=4; i++)
+            for(int i = 0; i<=3; i++)
             {
                 int num1 = (1<<i);
                 for(int j = i+1; j<= 4; j++)
@@ -156,7 +156,6 @@ public:
                     fn("7:", sz2, ans);
                     fn("11:", sz2, ans);
                 }
-                
             }
             i++;
         }
