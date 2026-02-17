@@ -7,7 +7,7 @@ public:
         v[0].push_back({poured,0});
         for(int r = 0; r <= query_row; r++)
         {
-            for(int j = 0; j < v[r].size(); j++)
+            for(int j = 0; j < min((int)v[r].size(),query_glass+1); j++)
             {
                 double po = v[r][j].first;
                 if(po >1)
