@@ -1,7 +1,6 @@
 class Solution {
     void fn(int &n, int &ans)
     {
-        int lastPos = -1; 
         int cnt = -1; 
         while(n >0)
         {
