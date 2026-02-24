@@ -1,38 +1,29 @@
 class Solution {
-    void fn(string &str, unordered_map<string, bool>&mp, int &k, bool &ans)
+    bool fn(int idx, string &str, unordered_map<string, bool>&mp)
     {
-        if(str.size()== k)
+        if(idx > str.size())
         {
-            cout<<str<<" ";
             if(mp.count(str) == 0)
-                ans = false;
-            return ;
+                return false;
+            return true;
         }
-        if(ans == false)
-            return; 
-        str.push_back('0');
-        fn(str, mp,k,ans);
-        cout<<str<<" s";
-        if(ans == false)
-            return;
-        str.pop_back();
-        str.push_back('1');
-        fn(str, mp,k,ans);
-        str.pop_back();
-        if(ans == false)
-            return; 
+        str[idx] = '0';
+        bool firstChoice = fn(idx+1, str, mp);
+        if(firstChoice == false)
+            return false;
+        str[idx] = '1';
+        bool secondChoice = fn(idx+1, str, mp);
+        return secondChoice;
     }
 public:
     bool hasAllCodes(string s, int k) {
         if(s.size() < k)
-            return false; 
+            return false;
         unordered_map<string,bool>mp;
         for(int i = 0; i <= s.size()-k; i++)
             mp[s.substr(i,k)]=true;
 
-        string str = "";
-        bool ans = true; 
-        fn(str,mp,k,ans);
-        return ans; 
+        string str(k, '0');
+        return fn(0,str,mp);
     }
 };
