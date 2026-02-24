@@ -434,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1396-design-underground-system](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1396-design-underground-system) |
 | [1410-html-entity-parser](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1410-html-entity-parser) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1502-construct-k-palindrome-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1508-longest-happy-prefix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1508-longest-happy-prefix) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
@@ -646,6 +647,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix) |
 | [1410-html-entity-parser](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1410-html-entity-parser) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1500-count-largest-group](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1500-count-largest-group) |
 | [1502-construct-k-palindrome-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1502-construct-k-palindrome-strings) |
@@ -1508,6 +1510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-binary-prefix-divisible-by-5](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1038-number-of-squareful-arrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1038-number-of-squareful-arrays) |
 | [1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1940-maximum-xor-for-each-query](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1940-maximum-xor-for-each-query) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -1629,6 +1632,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0187-repeated-dna-sequences) |
 | [0214-shortest-palindrome](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0214-shortest-palindrome) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1508-longest-happy-prefix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1508-longest-happy-prefix) |
 | [3290-number-of-subarrays-that-match-a-pattern-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3290-number-of-subarrays-that-match-a-pattern-ii) |
 | [3303-find-beautiful-indices-in-the-given-array-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3303-find-beautiful-indices-in-the-given-array-ii) |
@@ -1655,6 +1659,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0187-repeated-dna-sequences) |
 | [0214-shortest-palindrome](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0214-shortest-palindrome) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1508-longest-happy-prefix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1508-longest-happy-prefix) |
 | [3290-number-of-subarrays-that-match-a-pattern-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3290-number-of-subarrays-that-match-a-pattern-ii) |
 | [3303-find-beautiful-indices-in-the-given-array-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3303-find-beautiful-indices-in-the-given-array-ii) |
