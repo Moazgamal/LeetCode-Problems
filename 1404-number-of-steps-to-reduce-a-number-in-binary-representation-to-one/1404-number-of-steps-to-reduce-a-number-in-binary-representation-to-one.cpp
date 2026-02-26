@@ -1,6 +1,8 @@
 class Solution {
     void fn(string &str, int &ans)
     {
+        if(str.size() == 2)
+            return ; 
         string m(str.size()-1, '0');
         if(m == str.substr(0, str.size()-1))
             return; 
