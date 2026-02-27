@@ -1009,6 +1009,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible) |
 | [2037-count-square-sum-triples](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2037-count-square-sum-triples) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
+| [2139-minimum-moves-to-reach-target-score](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2139-minimum-moves-to-reach-target-score) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2202-sum-of-k-mirror-numbers) |
@@ -1596,6 +1597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1917-maximum-average-pass-ratio](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1917-maximum-average-pass-ratio) |
 | [1975-maximum-matrix-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1975-maximum-matrix-sum) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2139-minimum-moves-to-reach-target-score](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2139-minimum-moves-to-reach-target-score) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2257-earliest-possible-day-of-full-bloom](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2257-earliest-possible-day-of-full-bloom) |
