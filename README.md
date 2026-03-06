@@ -458,6 +458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 | [1764-maximum-repeating-substring](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1764-maximum-repeating-substring) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
+| [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1885-count-number-of-homogenous-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1885-count-number-of-homogenous-substrings) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
