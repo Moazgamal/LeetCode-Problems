@@ -261,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2868-continuous-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2868-continuous-subarrays) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [2906-construct-product-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2906-construct-product-matrix) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
@@ -1250,6 +1251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2625-increment-submatrices-by-one](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2625-increment-submatrices-by-one) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2691-count-vowel-strings-in-ranges) |
+| [2906-construct-product-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2906-construct-product-matrix) |
 | [3265-maximum-good-subarray-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3265-maximum-good-subarray-sum) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3427-special-array-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3427-special-array-ii) |
@@ -1443,6 +1445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2625-increment-submatrices-by-one](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2625-increment-submatrices-by-one) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2685-first-completely-painted-row-or-column) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [2906-construct-product-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2906-construct-product-matrix) |
 | [3197-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3197-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3227-find-missing-and-repeated-values](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3227-find-missing-and-repeated-values) |
 | [3404-minimum-number-of-operations-to-satisfy-conditions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3404-minimum-number-of-operations-to-satisfy-conditions) |
