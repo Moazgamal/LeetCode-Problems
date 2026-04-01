@@ -15,7 +15,7 @@ public:
                 st.push(v[i].second);
                 continue;
             }
-            char dir1 = directions[st.top()];
+            
             char curDir = directions[v[i].second];
             
             if(curDir == directions[st.top()]  || curDir=='R' && directions[st.top()] == 'L')
