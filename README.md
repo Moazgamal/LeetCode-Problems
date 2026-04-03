@@ -284,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3249-minimum-number-of-operations-to-make-array-xor-equal-to-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3249-minimum-number-of-operations-to-make-array-xor-equal-to-k) |
+| [3250-find-the-count-of-monotonic-pairs-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3250-find-the-count-of-monotonic-pairs-i) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3265-maximum-good-subarray-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3265-maximum-good-subarray-sum) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
@@ -1048,6 +1049,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3201-distribute-candies-among-children-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3201-distribute-candies-among-children-ii) |
 | [3227-find-missing-and-repeated-values](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3227-find-missing-and-repeated-values) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3250-find-the-count-of-monotonic-pairs-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3250-find-the-count-of-monotonic-pairs-i) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3279-alice-and-bob-playing-flower-game) |
@@ -1257,6 +1259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2625-increment-submatrices-by-one](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2625-increment-submatrices-by-one) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2906-construct-product-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2906-construct-product-matrix) |
+| [3250-find-the-count-of-monotonic-pairs-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3250-find-the-count-of-monotonic-pairs-i) |
 | [3265-maximum-good-subarray-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3265-maximum-good-subarray-sum) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3427-special-array-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3427-special-array-ii) |
@@ -1386,6 +1389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3106-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3106-length-of-the-longest-subsequence-that-sums-to-target) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3250-find-the-count-of-monotonic-pairs-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3250-find-the-count-of-monotonic-pairs-i) |
 | [3404-minimum-number-of-operations-to-satisfy-conditions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3404-minimum-number-of-operations-to-satisfy-conditions) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
@@ -2057,6 +2061,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3201-distribute-candies-among-children-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3201-distribute-candies-among-children-ii) |
+| [3250-find-the-count-of-monotonic-pairs-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3250-find-the-count-of-monotonic-pairs-i) |
 | [3548-find-the-count-of-good-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3548-find-the-count-of-good-integers) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3631-count-k-reducible-numbers-less-than-n](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3631-count-k-reducible-numbers-less-than-n) |
