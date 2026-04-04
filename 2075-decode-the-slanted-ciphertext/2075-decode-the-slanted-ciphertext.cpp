@@ -7,12 +7,10 @@ public:
         vector<vector<char>>v(rows, vector<char>(cols,' '));
         int i = 0; 
         for(int r = 0; r< rows; r++)
-        {
             for(int c = 0; c< cols; c++)
-            {
                 v[r][c] = encodedText[i++];
-            }
-        }
+
+                
         string ans ="";
         for(int c = 0; c< cols; c++)
         {
@@ -29,7 +27,7 @@ public:
         int j = ans.size()-1;
         while(j>=0 && ans[j] == ' ')
             j--;
-            
+
         return ans.substr(0, j+1); 
     }
 };
