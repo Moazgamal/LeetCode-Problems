@@ -471,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2075-decode-the-slanted-ciphertext](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2107-find-unique-binary-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2107-find-unique-binary-string) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -1491,6 +1492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1914-cyclically-rotating-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1914-cyclically-rotating-a-grid) |
 | [1929-concatenation-of-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1929-concatenation-of-array) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2075-decode-the-slanted-ciphertext](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2232-adding-spaces-to-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2232-adding-spaces-to-a-string) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2260-divide-a-string-into-groups-of-size-k) |
