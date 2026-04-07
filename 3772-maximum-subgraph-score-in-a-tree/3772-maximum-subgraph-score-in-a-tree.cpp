@@ -59,12 +59,11 @@ class Solution {
                         continue;
                     dfs2(g[node][i], g, good, ans, node);
                 }
-                cout<<"fff\n";;
             }
             else
             {
                 if(ans[node]< ans[p])
-                    ans[node] += (abs(ans[p]-ans[node]));
+                    ans[node] += (ans[p]-ans[node]);
                 for(int i = 0; i< g[node].size(); i++)
                 {
                     if(g[node][i] == p)
@@ -88,9 +87,8 @@ public:
         }
         dfs(0, g, good, ans, -1);
         for(int i = 0; i< g[0].size(); i++)
-        {
             dfs2(g[0][i], g, good, ans, 0);
-        }
+
         return ans; 
     }
 };
