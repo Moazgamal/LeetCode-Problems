@@ -51,25 +51,13 @@ class Solution {
         }
         else 
         {
-            if(ans[p] <0)
+            if(ans[node]< ans[p])
+                ans[node] += (ans[p]-ans[node]);
+            for(int i = 0; i< g[node].size(); i++)
             {
-                for(int i = 0; i< g[node].size(); i++)
-                {
-                    if(g[node][i] == p)
-                        continue;
-                    dfs2(g[node][i], g, good, ans, node);
-                }
-            }
-            else
-            {
-                if(ans[node]< ans[p])
-                    ans[node] += (ans[p]-ans[node]);
-                for(int i = 0; i< g[node].size(); i++)
-                {
-                    if(g[node][i] == p)
-                        continue;
-                    dfs2(g[node][i], g, good, ans, node);
-                }
+                if(g[node][i] == p)
+                    continue;
+                dfs2(g[node][i], g, good, ans, node);
             }
         }
     }
