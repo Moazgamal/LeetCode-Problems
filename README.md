@@ -360,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3760-assign-elements-to-groups-with-constraints](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3760-assign-elements-to-groups-with-constraints) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3764-maximum-sum-with-at-most-k-elements) |
+| [3772-maximum-subgraph-score-in-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3772-maximum-subgraph-score-in-a-tree) |
 | [3779-eat-pizzas](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3779-eat-pizzas) |
 | [3791-fruits-into-baskets-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3791-fruits-into-baskets-iii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
@@ -1405,6 +1406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3649-minimum-time-to-break-locks-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3649-minimum-time-to-break-locks-i) |
 | [3686-count-beautiful-splits-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3686-count-beautiful-splits-in-an-array) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3772-maximum-subgraph-score-in-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3772-maximum-subgraph-score-in-a-tree) |
 | [3795-zero-array-transformation-iv](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3795-zero-array-transformation-iv) |
 | [3810-count-numbers-with-non-decreasing-digits](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3810-count-numbers-with-non-decreasing-digits) |
 | [3833-merge-operations-for-minimum-travel-time](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3833-merge-operations-for-minimum-travel-time) |
@@ -1938,6 +1940,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3603-check-if-dfs-strings-are-palindromes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3603-check-if-dfs-strings-are-palindromes) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
+| [3772-maximum-subgraph-score-in-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3772-maximum-subgraph-score-in-a-tree) |
 | [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 ## Binary Tree
 |  |
@@ -2049,6 +2052,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
+| [3772-maximum-subgraph-score-in-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3772-maximum-subgraph-score-in-a-tree) |
 | [3863-power-grid-maintenance](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3863-power-grid-maintenance) |
 | [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 ## Doubly-Linked List
