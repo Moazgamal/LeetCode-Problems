@@ -14,25 +14,17 @@ public:
     int minMirrorPairDistance(vector<int>& nums) {
 
         int ans = INT_MAX;
-        unordered_map<string, vector<int>>mp;
-        for(int i = 0; i< nums.size(); i++)
-        {
-            string str  = to_string(nums[i]);
-            mp[str].push_back(i);
-        }
+        unordered_map<string, int>mp;
         for(int i = 0; i< nums.size(); i++)
         {
             string str  = to_string(nums[i]);
             string rev = reverseString(str);
-            int newInt = stoi(rev);
-            string newrev = to_string(newInt);
-            if(mp.count(newrev) != 0)
-            {
-                auto firstG= upper_bound(mp[newrev].begin(), mp[newrev].end(), i);
-                if(firstG != mp[newrev].end())
-                    ans = min(ans, abs(*firstG-i));
-            }
+            if(mp.count(str) != 0)
+                ans = min(ans, i-mp[str]);
+            mp[rev]= i ; 
+
         }
+        
         if(ans == INT_MAX)
             return -1;
         return ans; 
