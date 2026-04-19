@@ -22,9 +22,7 @@ public:
             if(mp.count(str) != 0)
                 ans = min(ans, i-mp[str]);
             mp[rev]= i ; 
-
         }
-        
         if(ans == INT_MAX)
             return -1;
         return ans; 
