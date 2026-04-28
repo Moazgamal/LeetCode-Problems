@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0417-pacific-atlantic-water-flow) |
 | [0447-number-of-boomerangs](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0447-number-of-boomerangs) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0474-ones-and-zeroes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0474-ones-and-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0494-target-sum) |
@@ -999,6 +1000,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0342-power-of-four) |
 | [0415-add-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0415-add-strings) |
 | [0447-number-of-boomerangs](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0447-number-of-boomerangs) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0628-maximum-product-of-three-numbers) |
 | [0670-maximum-swap](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0670-maximum-swap) |
 | [0679-24-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0679-24-game) |
@@ -1101,6 +1103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0347-top-k-frequent-elements) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0594-longest-harmonious-subsequence](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0594-longest-harmonious-subsequence) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0628-maximum-product-of-three-numbers) |
 | [0630-course-schedule-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0630-course-schedule-iii) |
