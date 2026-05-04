@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0011-container-with-most-water) |
 | [0036-valid-sudoku](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0066-plus-one) |
 | [0068-text-justification](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0068-text-justification) |
@@ -991,6 +992,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0002-add-two-numbers) |
 | [0043-multiply-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0043-multiply-strings) |
+| [0048-rotate-image](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0067-add-binary) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -1433,6 +1435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0174-dungeon-game](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0174-dungeon-game) |
 | [0289-game-of-life](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0289-game-of-life) |
