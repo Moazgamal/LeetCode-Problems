@@ -1,7 +1,6 @@
 class Solution {
 public:
     int shortestSequence(vector<int>& rolls, int k) {
-
         unordered_map<int,int>freq;
         unordered_map<int,int>ans;
         int last = 0; 
