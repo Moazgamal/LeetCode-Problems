@@ -211,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2350-shortest-impossible-sequence-of-rolls](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2350-shortest-impossible-sequence-of-rolls) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2358-number-of-ways-to-split-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2358-number-of-ways-to-split-array) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
@@ -698,6 +699,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2300-construct-string-with-repeat-limit) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2308-divide-array-into-equal-pairs) |
+| [2350-shortest-impossible-sequence-of-rolls](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2350-shortest-impossible-sequence-of-rolls) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2402-meeting-rooms-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2402-meeting-rooms-iii) |
 | [2427-first-letter-to-appear-twice](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2427-first-letter-to-appear-twice) |
@@ -1664,6 +1666,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2257-earliest-possible-day-of-full-bloom](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2257-earliest-possible-day-of-full-bloom) |
 | [2279-maximum-split-of-positive-even-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2279-maximum-split-of-positive-even-integers) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2300-construct-string-with-repeat-limit) |
+| [2350-shortest-impossible-sequence-of-rolls](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2350-shortest-impossible-sequence-of-rolls) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
