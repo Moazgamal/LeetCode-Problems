@@ -6,7 +6,6 @@ class Solution {
         auto &ret = dp[idx];
         if(ret != INT_MAX)
             return ret; 
-        int cost = 0; 
         unordered_map<int,int>mp;
         int len=0;
         for(int i = idx; i< nums.size(); i++)
@@ -31,14 +30,8 @@ class Solution {
     }
 public:
     int minCost(vector<int>& nums, int k) {
-
         vector<int>dp(nums.size(),INT_MAX);
-         fn(0, nums, k, dp);
-        for(int i = 0; i < nums.size(); i++)
-        {
-            cout<<dp[i]<<"\n";
-        }
+        fn(0, nums, k, dp);
         return dp[0];
-
     }
 };
