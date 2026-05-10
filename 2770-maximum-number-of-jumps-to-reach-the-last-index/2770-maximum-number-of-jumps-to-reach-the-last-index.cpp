@@ -3,17 +3,17 @@ class Solution {
     {
         if(idx == nums.size()-1)
             return 0;
+            
         auto &ret = dp[idx];
         
         if(ret != INT_MIN/2)
-            return ret ; 
+            return ret; 
+
         for(int i = idx+1; i < nums.size(); i++)
-        {
             if(nums[i]-nums[idx] >= (target*-1) && nums[i]-nums[idx]<=target)
-            {
                 ret = max(ret, 1+fn(i, nums, target, dp));
-            }
-        }
+
+
         return ret; 
     }
 public:
@@ -23,6 +23,5 @@ public:
         if(dp[0] < INT_MIN/4)
             return -1;
         return dp[0];
-        
     }
 };
