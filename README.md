@@ -261,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2716-prime-subtraction-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2716-prime-subtraction-operation) |
 | [2751-robot-collisions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2751-robot-collisions) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2792-neighboring-bitwise-xor](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2792-neighboring-bitwise-xor) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2808-painting-the-walls](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2808-painting-the-walls) |
@@ -1410,6 +1411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2562-count-ways-to-build-good-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2562-count-ways-to-build-good-strings) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2586-longest-square-streak-in-an-array) |
 | [2648-number-of-ways-to-earn-points](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2648-number-of-ways-to-earn-points) |
+| [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2808-painting-the-walls](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2808-painting-the-walls) |
 | [2850-construct-the-longest-new-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2850-construct-the-longest-new-string) |
