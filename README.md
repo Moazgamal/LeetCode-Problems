@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1329-sort-the-matrix-diagonally](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1329-sort-the-matrix-diagonally) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1343-dice-roll-simulation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1343-dice-roll-simulation) |
+| [1345-jump-game-iv](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1345-jump-game-iv) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
@@ -670,6 +671,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1256-rank-transform-of-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1256-rank-transform-of-an-array) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1319-unique-number-of-occurrences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1319-unique-number-of-occurrences) |
+| [1345-jump-game-iv](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1345-jump-game-iv) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1364-tuple-with-same-product](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1364-tuple-with-same-product) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
@@ -1848,6 +1850,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
+| [1345-jump-game-iv](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1345-jump-game-iv) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1389-minimum-moves-to-move-a-box-to-their-target-location](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1389-minimum-moves-to-move-a-box-to-their-target-location) |
 | [1396-count-servers-that-communicate](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1396-count-servers-that-communicate) |
