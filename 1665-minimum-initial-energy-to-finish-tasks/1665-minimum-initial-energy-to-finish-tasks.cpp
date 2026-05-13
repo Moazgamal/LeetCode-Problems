@@ -26,7 +26,6 @@ public:
             else
                 cur-= (start-duration);
         }
-        
         return collect;
     }
 };
