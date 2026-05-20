@@ -131,7 +131,7 @@ public:
 
         int ans = INT_MAX;
 
-        vector<int>sums;
+    
 
         for(int i = 2; i<=2*limit; i++)
         {
