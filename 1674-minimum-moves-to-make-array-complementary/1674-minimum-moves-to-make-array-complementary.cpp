@@ -19,32 +19,22 @@ class Solution {
         {
             if(i < limit)
             {
-                auto it = minis1.find({x, CountMinis1[x]});
-                if (it != minis1.end())
-                    minis1.erase(it);
+                minis1.erase({x, CountMinis1[x]});
                 CountMinis1[x]--;
             }
             else if(i == limit)
             {
-                auto it = minis2.find({x, CountMinis2[x]});
-                if (it != minis2.end())
-                    minis2.erase(it);
+                minis2.erase({x, CountMinis2[x]});
                 CountMinis2[x]--;
             }
             else if(i > limit && i != 2*limit)
             {
-                auto it = minis3.find({x, CountMinis3[x]});
-                if (it != minis3.end())
-                {
-                    minis3.erase(it);
-                }
+                minis3.erase({x, CountMinis3[x]});
                 CountMinis3[x]--;
             }
             else
             {
-                auto it = minis4.find({x, CountMinis4[x]});
-                if (it != minis4.end())
-                    minis4.erase(it);
+                minis4.erase({x, CountMinis4[x]});
                 CountMinis4[x]--;
             }
         }
