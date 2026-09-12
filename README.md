@@ -442,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0796-rotate-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0796-rotate-string) |
 | [0812-rotate-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0812-rotate-string) |
 | [0868-push-dominoes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0868-push-dominoes) |
+| [0940-distinct-subsequences-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0940-distinct-subsequences-ii) |
 | [0944-delete-columns-to-make-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0944-delete-columns-to-make-sorted) |
 | [0952-word-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -1386,6 +1387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0834-sum-of-distances-in-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0834-sum-of-distances-in-tree) |
 | [0868-push-dominoes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0868-push-dominoes) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0934-bitwise-ors-of-subarrays) |
+| [0940-distinct-subsequences-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0940-distinct-subsequences-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1008-binary-tree-cameras](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1008-binary-tree-cameras) |
 | [1020-longest-turbulent-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1020-longest-turbulent-subarray) |
