@@ -320,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3404-minimum-number-of-operations-to-satisfy-conditions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3404-minimum-number-of-operations-to-satisfy-conditions) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3427-special-array-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3427-special-array-ii) |
 | [3428-find-the-xor-of-numbers-which-appear-twice](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3428-find-the-xor-of-numbers-which-appear-twice) |
 | [3429-special-array-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3429-special-array-i) |
@@ -878,6 +879,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3303-find-beautiful-indices-in-the-given-array-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3303-find-beautiful-indices-in-the-given-array-ii) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3427-special-array-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3427-special-array-ii) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3485-maximize-score-of-numbers-in-ranges) |
@@ -1196,6 +1198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3308-apply-operations-to-make-string-empty](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3308-apply-operations-to-make-string-empty) |
 | [3321-type-of-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3321-type-of-triangle) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3360-minimum-deletions-to-make-string-k-special) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3430-count-days-without-meetings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3430-count-days-without-meetings) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3485-maximize-score-of-numbers-in-ranges) |
@@ -1443,6 +1446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3250-find-the-count-of-monotonic-pairs-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3250-find-the-count-of-monotonic-pairs-i) |
 | [3404-minimum-number-of-operations-to-satisfy-conditions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3404-minimum-number-of-operations-to-satisfy-conditions) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
