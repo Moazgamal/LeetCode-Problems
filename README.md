@@ -1054,6 +1054,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1500-count-largest-group](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1500-count-largest-group) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1642-water-bottles) |
@@ -1290,6 +1291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1590-make-sum-divisible-by-p](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1590-make-sum-divisible-by-p) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1694-make-sum-divisible-by-p](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1694-make-sum-divisible-by-p) |
@@ -1412,6 +1414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1569-max-dot-product-of-two-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1569-max-dot-product-of-two-subsequences) |
 | [1583-paint-house-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1583-paint-house-iii) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1700-minimum-time-to-make-rope-colorful) |
@@ -2128,6 +2131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Combinatorics
 |  |
 | ------- |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2324-find-triangular-sum-of-an-array) |
