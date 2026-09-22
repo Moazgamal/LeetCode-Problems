@@ -472,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1502-construct-k-palindrome-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1508-longest-happy-prefix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1508-longest-happy-prefix) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1524-string-matching-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1524-string-matching-in-an-array) |
 | [1532-reformat-the-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1532-reformat-the-string) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1537-maximum-score-after-splitting-a-string) |
@@ -695,6 +696,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1500-count-largest-group](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1500-count-largest-group) |
 | [1502-construct-k-palindrome-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1510-find-lucky-integer-in-an-array) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1590-make-sum-divisible-by-p](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1590-make-sum-divisible-by-p) |
 | [1612-avoid-flood-in-the-city](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1612-avoid-flood-in-the-city) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -1156,6 +1158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1466-jump-game-v](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1466-jump-game-v) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1503-reducing-dishes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1503-reducing-dishes) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
@@ -1684,6 +1687,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1382-balance-a-binary-search-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1382-balance-a-binary-search-tree) |
 | [1502-construct-k-palindrome-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1502-construct-k-palindrome-strings) |
 | [1503-reducing-dishes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1503-reducing-dishes) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1612-avoid-flood-in-the-city](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1612-avoid-flood-in-the-city) |
