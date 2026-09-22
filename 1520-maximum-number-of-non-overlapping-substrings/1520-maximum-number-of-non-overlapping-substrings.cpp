@@ -3,37 +3,72 @@ class Solution {
     pair<pair<int,int>, vector<int>> fn(
         int IDX,
         vector<pair<int,int>>& v,
-        vector<pair<pair<int,int>, vector<int>>>& Dp,
-        vector<int>& nxt
+        vector<vector<pair<pair<int,int>, vector<int>>>>& Dp,
+        vector<int>& IND,
+        int lastEnD,
+        unordered_map<int,int>& mp,
+        vector<int>& IND2
     )
     {
         if(IDX >= v.size())
-            return {{0,0}, {}};
+        {
+            return {{0,0},{}};
+        }
 
-        auto &ret = Dp[IDX];
+        auto &ret = Dp[IDX][lastEnD];
 
         if(ret.first.first != -1)
             return ret;
 
-        // leave
-        auto leave = fn(IDX + 1, v, Dp, nxt);
-
         // pick
-        auto pickNext = fn(nxt[IDX], v, Dp, nxt);
+        pair<pair<int,int>, vector<int>> pick = {{0,0},{}};
 
-        pair<pair<int,int>, vector<int>> pick = pickNext;
+        int newIDX = IND[IDX];
+
+        if(newIDX != -1)
+        {
+            pick = fn(
+                newIDX,
+                v,
+                Dp,
+                IND,
+                v[IDX].second,
+                mp,
+                IND2
+            );
+        }
 
         pick.first.first++;
-        pick.first.second += v[IDX].second - v[IDX].first + 1;
+        pick.first.second +=
+            v[IDX].second - v[IDX].first + 1;
+
         pick.second.push_back(v[IDX].first);
 
-        if(pick.first.first > leave.first.first)
+        // leave
+        pair<pair<int,int>, vector<int>> leave = {{0,0},{}};
+
+        if(IDX + 1 < v.size())
+        {
+            leave = fn(
+                IDX + 1,
+                v,
+                Dp,
+                IND,
+                lastEnD,
+                mp,
+                IND2
+            );
+        }
+
+        // more substrings
+        if(leave.first.first < pick.first.first)
             return ret = pick;
 
-        if(pick.first.first < leave.first.first)
+        if(leave.first.first > pick.first.first)
             return ret = leave;
 
-        // same number -> minimum total length
+        // same number of substrings
+        // choose minimum total length
         if(pick.first.second < leave.first.second)
             return ret = pick;
 
@@ -41,114 +76,139 @@ class Solution {
     }
 
 
+    int BS(
+        vector<pair<int,int>>& v,
+        int start,
+        int enD,
+        int target
+    )
+    {
+        int pos = -1;
+
+        while(start <= enD)
+        {
+            int miD = start + (enD - start) / 2;
+
+            if(v[miD].first > target)
+            {
+                pos = miD;
+                enD = miD - 1;
+            }
+            else
+            {
+                start = miD + 1;
+            }
+        }
+
+        return pos;
+    }
+
+
 public:
 
     vector<string> maxNumOfSubstrings(string s)
     {
-        int n = s.size();
+        vector<int> starts(26,-1);
+        vector<int> enDs(26,-1);
 
-        vector<int> first(26, n);
-        vector<int> last(26, -1);
-
-        for(int i = 0; i < n; i++)
+        for(int i = 0; i < s.size(); i++)
         {
-            int c = s[i] - 'a';
+            if(starts[s[i] - 'a'] == -1)
+                starts[s[i] - 'a'] = i;
 
-            first[c] = min(first[c], i);
-            last[c] = i;
+            enDs[s[i] - 'a'] = i;
         }
 
-        /*
-            valid intervals
-
-            For every character, start with [first[c], last[c]]
-            and expand it if it contains another character.
-        */
 
         vector<pair<int,int>> v;
 
-        for(int c = 0; c < 26; c++)
+        unordered_map<int,int> mp;
+
+
+        // build valid intervals
+        for(int i = 0; i < 26; i++)
         {
-            if(last[c] == -1)
+            if(starts[i] == -1)
                 continue;
 
-            int l = first[c];
-            int r = last[c];
+            int start = starts[i];
+            int enD = enDs[i];
 
             bool valid = true;
 
-            for(int i = l; i <= r; i++)
+            for(int j = start; j <= enD; j++)
             {
-                int x = s[i] - 'a';
+                int c = s[j] - 'a';
 
-                if(first[x] < l)
+                if(starts[c] < start)
                 {
                     valid = false;
                     break;
                 }
 
-                r = max(r, last[x]);
+                enD = max(enD, enDs[c]);
             }
 
             if(valid)
-                v.push_back({l,r});
+            {
+                v.push_back({start,enD});
+                mp[start] = enD;
+            }
         }
 
-        sort(v.begin(), v.end());
 
-        /*
-            nxt[i] = first interval whose start is
-            strictly after v[i].second
-        */
+        sort(v.begin(),v.end());
 
-        vector<int> nxt(v.size());
+
+        vector<int> IND(v.size() + 1);
+        vector<int> IND2(s.size() + 1);
+
 
         for(int i = 0; i < v.size(); i++)
         {
-            int pos = v.size();
+            IND[i] = BS(
+                v,
+                i + 1,
+                (int)v.size() - 1,
+                v[i].second
+            );
 
-            for(int j = i + 1; j < v.size(); j++)
-            {
-                if(v[j].first > v[i].second)
-                {
-                    pos = j;
-                    break;
-                }
-            }
-
-            nxt[i] = pos;
+            IND2[v[i].first] = IND[i];
         }
 
-        vector<pair<pair<int,int>, vector<int>>> Dp(
+
+        vector<vector<pair<pair<int,int>, vector<int>>>> Dp(
             v.size() + 1,
-            {{-1,-1}, {}}
+            vector<pair<pair<int,int>, vector<int>>>(
+                s.size() + 1,
+                {{-1,-1},{}}
+            )
         );
+
 
         vector<int> ans = fn(
             0,
             v,
             Dp,
-            nxt
+            IND,
+            v.size(),
+            mp,
+            IND2
         ).second;
+
 
         vector<string> answer;
 
-        for(int start : ans)
+        for(int i = 0; i < ans.size(); i++)
         {
-            for(auto &p : v)
-            {
-                if(p.first == start)
-                {
-                    answer.push_back(
-                        s.substr(
-                            p.first,
-                            p.second - p.first + 1
-                        )
-                    );
+            int E = mp[ans[i]];
 
-                    break;
-                }
-            }
+            answer.push_back(
+                s.substr(
+                    ans[i],
+                    E - ans[i] + 1
+                )
+            );
         }
 
         return answer;
