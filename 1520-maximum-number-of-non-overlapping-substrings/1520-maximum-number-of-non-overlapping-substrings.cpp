@@ -3,11 +3,8 @@ class Solution {
     pair<pair<int,int>, vector<int>> fn(
         int IDX,
         vector<pair<int,int>>& v,
-        vector<vector<pair<pair<int,int>, vector<int>>>>& Dp,
-        vector<int>& IND,
-        int lastEnD,
-        unordered_map<int,int>& mp,
-        vector<int>& IND2
+        vector<pair<pair<int,int>, vector<int>>>& Dp,
+        vector<int>& nxt
     )
     {
         if(IDX >= v.size())
@@ -15,60 +12,47 @@ class Solution {
             return {{0,0},{}};
         }
 
-        auto &ret = Dp[IDX][lastEnD];
+        auto &ret = Dp[IDX];
 
         if(ret.first.first != -1)
             return ret;
 
         // pick
-        pair<pair<int,int>, vector<int>> pick = {{0,0},{}};
-
-        int newIDX = IND[IDX];
-
-        if(newIDX != -1)
-        {
-            pick = fn(
-                newIDX,
-                v,
-                Dp,
-                IND,
-                v[IDX].second,
-                mp,
-                IND2
-            );
-        }
+        pair<pair<int,int>, vector<int>> pick = fn(
+            nxt[IDX],
+            v,
+            Dp,
+            nxt
+        );
 
         pick.first.first++;
+
         pick.first.second +=
             v[IDX].second - v[IDX].first + 1;
 
         pick.second.push_back(v[IDX].first);
 
-        // leave
-        pair<pair<int,int>, vector<int>> leave = {{0,0},{}};
 
-        if(IDX + 1 < v.size())
-        {
-            leave = fn(
+        // leave
+        pair<pair<int,int>, vector<int>> leave =
+            fn(
                 IDX + 1,
                 v,
                 Dp,
-                IND,
-                lastEnD,
-                mp,
-                IND2
+                nxt
             );
-        }
+
 
         // more substrings
-        if(leave.first.first < pick.first.first)
+        if(pick.first.first > leave.first.first)
             return ret = pick;
 
-        if(leave.first.first > pick.first.first)
+        if(pick.first.first < leave.first.first)
             return ret = leave;
 
+
         // same number of substrings
-        // choose minimum total length
+        // minimum total length
         if(pick.first.second < leave.first.second)
             return ret = pick;
 
@@ -111,6 +95,8 @@ public:
         vector<int> starts(26,-1);
         vector<int> enDs(26,-1);
 
+
+        // first / last occurrence
         for(int i = 0; i < s.size(); i++)
         {
             if(starts[s[i] - 'a'] == -1)
@@ -152,6 +138,7 @@ public:
             if(valid)
             {
                 v.push_back({start,enD});
+
                 mp[start] = enD;
             }
         }
@@ -160,29 +147,27 @@ public:
         sort(v.begin(),v.end());
 
 
-        vector<int> IND(v.size() + 1);
-        vector<int> IND2(s.size() + 1);
-
+        // next interval
+        vector<int> nxt(v.size());
 
         for(int i = 0; i < v.size(); i++)
         {
-            IND[i] = BS(
+            nxt[i] = BS(
                 v,
                 i + 1,
                 (int)v.size() - 1,
                 v[i].second
             );
 
-            IND2[v[i].first] = IND[i];
+            if(nxt[i] == -1)
+                nxt[i] = v.size();
         }
 
 
-        vector<vector<pair<pair<int,int>, vector<int>>>> Dp(
-            v.size() + 1,
-            vector<pair<pair<int,int>, vector<int>>>(
-                s.size() + 1,
-                {{-1,-1},{}}
-            )
+        // DP only depends on IDX
+        vector<pair<pair<int,int>, vector<int>>> Dp(
+            v.size(),
+            {{-1,-1},{}}
         );
 
 
@@ -190,23 +175,20 @@ public:
             0,
             v,
             Dp,
-            IND,
-            v.size(),
-            mp,
-            IND2
+            nxt
         ).second;
 
 
         vector<string> answer;
 
-        for(int i = 0; i < ans.size(); i++)
+        for(int start : ans)
         {
-            int E = mp[ans[i]];
+            int E = mp[start];
 
             answer.push_back(
                 s.substr(
-                    ans[i],
-                    E - ans[i] + 1
+                    start,
+                    E - start + 1
                 )
             );
         }
