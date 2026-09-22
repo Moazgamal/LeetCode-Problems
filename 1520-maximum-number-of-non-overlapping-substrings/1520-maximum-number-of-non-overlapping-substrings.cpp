@@ -3,8 +3,14 @@ class Solution {
     pair<pair<int,int>, vector<int>> fn(
         int IDX,
         vector<pair<int,int>>& v,
-        vector<pair<pair<int,int>, vector<int>>>& Dp,
-        vector<int>& nxt
+        vector<vector<pair<pair<int,int>, vector<int>>>>& Dp,
+        vector<int>& IND,
+        int lastEnD,
+        unordered_map<int,int>& mp,
+        vector<int>& IND2,
+        string& s,
+        vector<int>& starts,
+        vector<int>& enDs
     )
     {
         if(IDX >= v.size())
@@ -12,38 +18,117 @@ class Solution {
             return {{0,0},{}};
         }
 
-        auto &ret = Dp[IDX];
+        auto &ret = Dp[IDX][lastEnD];
 
         if(ret.first.first != -1)
             return ret;
 
+
+        // =========================
         // pick
-        pair<pair<int,int>, vector<int>> pick = fn(
-            nxt[IDX],
-            v,
-            Dp,
-            nxt
-        );
+        // =========================
 
-        pick.first.first++;
+        int start = v[IDX].first;
+        int enD = v[IDX].second;
 
-        pick.first.second +=
-            v[IDX].second - v[IDX].first + 1;
-
-        pick.second.push_back(v[IDX].first);
+        bool canTake = true;
 
 
-        // leave
-        pair<pair<int,int>, vector<int>> leave =
-            fn(
-                IDX + 1,
+        // =========================
+        // validate / expand
+        // =========================
+
+        for(int i = start; i <= enD; i++)
+        {
+            int c = s[i] - 'a';
+
+            // this character appeared before start
+            // so current substring cannot contain it
+            if(starts[c] < start)
+            {
+                canTake = false;
+                break;
+            }
+
+            // expand interval
+            enD = max(enD, enDs[c]);
+        }
+
+
+        pair<pair<int,int>, vector<int>> pick = {{0,0},{}};
+
+
+        if(canTake)
+        {
+            int newIDX = BS(
                 v,
-                Dp,
-                nxt
+                IDX + 1,
+                (int)v.size() - 1,
+                enD
             );
 
 
-        // more substrings
+            if(newIDX == -1)
+            {
+                pick = {{1,0},{}};
+            }
+            else
+            {
+                pick = fn(
+                    newIDX,
+                    v,
+                    Dp,
+                    IND,
+                    enD,
+                    mp,
+                    IND2,
+                    s,
+                    starts,
+                    enDs
+                );
+
+                pick.first.first++;
+            }
+
+
+            pick.first.second += enD - start + 1;
+
+            pick.second.push_back(start);
+        }
+
+
+        // =========================
+        // leave
+        // =========================
+
+        pair<pair<int,int>, vector<int>> leave = {{0,0},{}};
+
+
+        if(IDX + 1 < v.size())
+        {
+            leave = fn(
+                IDX + 1,
+                v,
+                Dp,
+                IND,
+                lastEnD,
+                mp,
+                IND2,
+                s,
+                starts,
+                enDs
+            );
+        }
+
+
+        if(!canTake)
+            return ret = leave;
+
+
+        // =========================
+        // compare
+        // =========================
+
         if(pick.first.first > leave.first.first)
             return ret = pick;
 
@@ -52,9 +137,10 @@ class Solution {
 
 
         // same number of substrings
-        // minimum total length
+        // choose smaller total length
         if(pick.first.second < leave.first.second)
             return ret = pick;
+
 
         return ret = leave;
     }
@@ -69,9 +155,11 @@ class Solution {
     {
         int pos = -1;
 
+
         while(start <= enD)
         {
             int miD = start + (enD - start) / 2;
+
 
             if(v[miD].first > target)
             {
@@ -83,6 +171,7 @@ class Solution {
                 start = miD + 1;
             }
         }
+
 
         return pos;
     }
@@ -96,7 +185,10 @@ public:
         vector<int> enDs(26,-1);
 
 
+        // =========================
         // first / last occurrence
+        // =========================
+
         for(int i = 0; i < s.size(); i++)
         {
             if(starts[s[i] - 'a'] == -1)
@@ -111,63 +203,57 @@ public:
         unordered_map<int,int> mp;
 
 
-        // build valid intervals
+        // =========================
+        // initial intervals
+        // =========================
+
         for(int i = 0; i < 26; i++)
         {
             if(starts[i] == -1)
                 continue;
 
+
             int start = starts[i];
             int enD = enDs[i];
 
-            bool valid = true;
 
-            for(int j = start; j <= enD; j++)
-            {
-                int c = s[j] - 'a';
+            v.push_back({start,enD});
 
-                if(starts[c] < start)
-                {
-                    valid = false;
-                    break;
-                }
-
-                enD = max(enD, enDs[c]);
-            }
-
-            if(valid)
-            {
-                v.push_back({start,enD});
-
-                mp[start] = enD;
-            }
+            mp[start] = enD;
         }
 
 
         sort(v.begin(),v.end());
 
 
-        // next interval
-        vector<int> nxt(v.size());
+        vector<int> IND(v.size()+1);
+        vector<int> IND2(s.size()+1);
+
 
         for(int i = 0; i < v.size(); i++)
         {
-            nxt[i] = BS(
+            IND[i] = BS(
                 v,
                 i + 1,
                 (int)v.size() - 1,
                 v[i].second
             );
 
-            if(nxt[i] == -1)
-                nxt[i] = v.size();
+
+            IND2[v[i].first] = IND[i];
         }
 
 
-        // DP only depends on IDX
-        vector<pair<pair<int,int>, vector<int>>> Dp(
-            v.size(),
-            {{-1,-1},{}}
+        // =========================
+        // DP
+        // =========================
+
+        vector<vector<pair<pair<int,int>, vector<int>>>> Dp(
+            v.size()+1,
+            vector<pair<pair<int,int>, vector<int>>>(
+                s.size()+1,
+                {{-1,-1},{}}
+            )
         );
 
 
@@ -175,23 +261,46 @@ public:
             0,
             v,
             Dp,
-            nxt
+            IND,
+            v.size(),
+            mp,
+            IND2,
+            s,
+            starts,
+            enDs
         ).second;
 
 
+        // =========================
+        // build answer
+        // =========================
+
         vector<string> answer;
 
-        for(int start : ans)
+
+        for(int i = 0; i < ans.size(); i++)
         {
-            int E = mp[start];
+            int start = ans[i];
+
+            int enD = mp[start];
+
+
+            for(int j = start; j <= enD; j++)
+            {
+                int c = s[j] - 'a';
+
+                enD = max(enD, enDs[c]);
+            }
+
 
             answer.push_back(
                 s.substr(
                     start,
-                    E - start + 1
+                    enD - start + 1
                 )
             );
         }
+
 
         return answer;
     }
