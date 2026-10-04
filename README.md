@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0739-daily-temperatures) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0744-find-smallest-letter-greater-than-target) |
+| [0768-max-chunks-to-make-sorted-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0768-max-chunks-to-make-sorted-ii) |
 | [0778-swim-in-rising-water](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0778-swim-in-rising-water) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0787-sliding-puzzle) |
@@ -989,6 +990,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0636-exclusive-time-of-functions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0636-exclusive-time-of-functions) |
 | [0735-asteroid-collision](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0739-daily-temperatures) |
+| [0768-max-chunks-to-make-sorted-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0768-max-chunks-to-make-sorted-ii) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0780-max-chunks-to-make-sorted) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1002-maximum-width-ramp](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1002-maximum-width-ramp) |
@@ -1143,6 +1145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0645-set-mismatch](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0645-set-mismatch) |
 | [0692-top-k-frequent-words](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0692-top-k-frequent-words) |
+| [0768-max-chunks-to-make-sorted-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0768-max-chunks-to-make-sorted-ii) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0780-max-chunks-to-make-sorted) |
 | [0792-number-of-matching-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0792-number-of-matching-subsequences) |
 | [0876-hand-of-straights](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0876-hand-of-straights) |
@@ -1678,6 +1681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0670-maximum-swap](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0670-maximum-swap) |
 | [0768-partition-labels](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0768-partition-labels) |
+| [0768-max-chunks-to-make-sorted-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0768-max-chunks-to-make-sorted-ii) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0780-max-chunks-to-make-sorted) |
 | [0797-rabbits-in-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0797-rabbits-in-forest) |
 | [0876-hand-of-straights](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0876-hand-of-straights) |
@@ -1791,6 +1795,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0316-remove-duplicate-letters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0316-remove-duplicate-letters) |
 | [0496-next-greater-element-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0739-daily-temperatures) |
+| [0768-max-chunks-to-make-sorted-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0768-max-chunks-to-make-sorted-ii) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0780-max-chunks-to-make-sorted) |
 | [1002-maximum-width-ramp](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1002-maximum-width-ramp) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1159-smallest-subsequence-of-distinct-characters) |
