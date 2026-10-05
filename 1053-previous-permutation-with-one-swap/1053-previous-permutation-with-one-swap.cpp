@@ -9,16 +9,11 @@ public:
             if(pq.empty())
             {
                 pq.push(arr[i]);
-                if(mp.count(arr[i]) == 0)
-                    mp[arr[i]]=i;
-                else
-                    mp[arr[i]]= i;
-                continue;
+                mp[arr[i]]= i;
             }
             else
             {
-                cout<<pq.top()<<"\n";
-                if(!pq.empty() && pq.top() < arr[i])
+                if(pq.top() < arr[i])
                 {
                     int last = 0;
                     while(!pq.empty() && pq.top() < arr[i])
