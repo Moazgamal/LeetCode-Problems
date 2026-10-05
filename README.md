@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-longest-turbulent-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1020-longest-turbulent-subarray) |
 | [1025-minimum-cost-for-tickets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1025-minimum-cost-for-tickets) |
 | [1038-number-of-squareful-arrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1038-number-of-squareful-arrays) |
+| [1053-previous-permutation-with-one-swap](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1053-previous-permutation-with-one-swap) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1063-best-sightseeing-pair](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1063-best-sightseeing-pair) |
 | [1080-camelcase-matching](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1080-camelcase-matching) |
@@ -1686,6 +1687,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-rabbits-in-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0797-rabbits-in-forest) |
 | [0876-hand-of-straights](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0876-hand-of-straights) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1053-previous-permutation-with-one-swap](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1053-previous-permutation-with-one-swap) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1304-longest-happy-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1304-longest-happy-string) |
 | [1382-balance-a-binary-search-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1382-balance-a-binary-search-tree) |
