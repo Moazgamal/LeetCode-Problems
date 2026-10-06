@@ -234,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 | [2429-design-a-food-rating-system](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2429-design-a-food-rating-system) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2432-number-of-zero-filled-subarrays) |
+| [2449-minimum-number-of-operations-to-make-arrays-similar](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2449-minimum-number-of-operations-to-make-arrays-similar) |
 | [2465-shifting-letters-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2465-shifting-letters-ii) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2472-build-a-matrix-with-conditions) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -1180,6 +1181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2402-meeting-rooms-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2402-meeting-rooms-iii) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2423-minimum-deletions-to-make-array-divisible) |
+| [2449-minimum-number-of-operations-to-make-arrays-similar](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2449-minimum-number-of-operations-to-make-arrays-similar) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2479-meeting-rooms-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2479-meeting-rooms-iii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -1719,6 +1721,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2300-construct-string-with-repeat-limit](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2300-construct-string-with-repeat-limit) |
 | [2350-shortest-impossible-sequence-of-rolls](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2350-shortest-impossible-sequence-of-rolls) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
+| [2449-minimum-number-of-operations-to-make-arrays-similar](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2449-minimum-number-of-operations-to-make-arrays-similar) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2509-minimize-xor](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2509-minimize-xor) |
