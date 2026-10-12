@@ -4,31 +4,35 @@ public:
 
         long long ans = 0; 
         int _k = k1+k2;
+        int sz = (int)nums1.size();
         unordered_map<int,int>mp;
-        for(int i = 0; i< nums1.size(); i++)
+        int j = 0;
+        while(j< sz)
         {
-            int Diff = abs(nums1[i]-nums2[i]);
+            int Diff = abs(nums1[j]-nums2[j]);
             if(Diff >0)
                 mp[abs(Diff)]++;
+            j++;
         }
         vector<pair<int,int>>v;
         for(auto &x: mp)
             v.push_back({x.first, x.second});
         
         sort(v.rbegin(), v.rend());
+        sz = v.size();
         int i = 0; 
-        for(; i< v.size() && _k >0 ; )
+        while(i< sz && _k >0)
         {
             int Diff = v[i].first;
             int Freq = v[i].second;
             int nextDiff = -1; int nextFreq= 0;
-            if(i+1 < v.size())
+            if(i+1 < sz)
             {
                 nextDiff = v[i+1].first;
                 nextFreq = v[i+1].second;
             }
             int cap = _k/Freq;
-            if(nextDiff != -1 && cap>0 && cap>=(Diff-nextDiff))
+            if(nextDiff != -1 && cap>=(Diff-nextDiff))
             {
                 v[i+1].second += Freq;
                 _k -= (Freq*(Diff-nextDiff));
@@ -48,7 +52,8 @@ public:
                 _k=0;
             }
         }
-        while(i<v.size())
+        sz = (int)v.size();
+        while(i< sz)
         {
             ans += ((long long)v[i].first*v[i].first*v[i].second);
             i++;
