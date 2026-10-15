@@ -5,7 +5,7 @@ public:
     long long j = 1;
     int temp = j;
     long long curVal = 0;
-    while(j <= 1e9 && curVal <n)
+    while(curVal <n)
     {
         j = i+j;
         curVal = j+i+temp;
