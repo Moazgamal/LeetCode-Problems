@@ -164,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1755-defuse-the-bomb](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1755-defuse-the-bomb) |
+| [1755-closest-subsequence-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1755-closest-subsequence-sum) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1769-get-maximum-in-generated-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1769-get-maximum-in-generated-array) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
@@ -1171,6 +1172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [1755-closest-subsequence-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1755-closest-subsequence-sum) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
@@ -1368,6 +1370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1468-check-if-n-and-its-double-exist](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
+| [1755-closest-subsequence-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1755-closest-subsequence-sum) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1972-rotating-the-box](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1972-rotating-the-box) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
@@ -1438,6 +1441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
+| [1755-closest-subsequence-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1755-closest-subsequence-sum) |
 | [1764-maximum-repeating-substring](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1764-maximum-repeating-substring) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -1636,6 +1640,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1409-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [1755-closest-subsequence-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1755-closest-subsequence-sum) |
 | [1940-maximum-xor-for-each-query](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1940-maximum-xor-for-each-query) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -2218,6 +2223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1038-number-of-squareful-arrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1038-number-of-squareful-arrays) |
+| [1755-closest-subsequence-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1755-closest-subsequence-sum) |
 | [3649-minimum-time-to-break-locks-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3649-minimum-time-to-break-locks-i) |
 ## Binary Indexed Tree
 |  |
@@ -2292,4 +2298,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1559-detect-cycles-in-2d-grid) |
+## Meet in the Middle
+|  |
+| ------- |
+| [1755-closest-subsequence-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1755-closest-subsequence-sum) |
 <!---LeetCode Topics End-->
