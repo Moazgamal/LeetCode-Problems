@@ -182,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1917-maximum-average-pass-ratio](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1917-maximum-average-pass-ratio) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1929-concatenation-of-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1929-concatenation-of-array) |
+| [1937-maximum-number-of-points-with-cost](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1937-maximum-number-of-points-with-cost) |
 | [1940-maximum-xor-for-each-query](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1940-maximum-xor-for-each-query) |
 | [1972-rotating-the-box](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1972-rotating-the-box) |
 | [1975-maximum-matrix-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1975-maximum-matrix-sum) |
@@ -1448,6 +1449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
+| [1937-maximum-number-of-points-with-cost](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1937-maximum-number-of-points-with-cost) |
 | [1981-minimize-the-difference-between-target-and-chosen-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1981-minimize-the-difference-between-target-and-chosen-elements) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible) |
@@ -1530,6 +1532,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1876-map-of-highest-peak](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1876-map-of-highest-peak) |
 | [1895-largest-magic-square](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1895-largest-magic-square) |
 | [1914-cyclically-rotating-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1914-cyclically-rotating-a-grid) |
+| [1937-maximum-number-of-points-with-cost](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1937-maximum-number-of-points-with-cost) |
 | [1972-rotating-the-box](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1972-rotating-the-box) |
 | [1975-maximum-matrix-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1975-maximum-matrix-sum) |
 | [1981-minimize-the-difference-between-target-and-chosen-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1981-minimize-the-difference-between-target-and-chosen-elements) |
