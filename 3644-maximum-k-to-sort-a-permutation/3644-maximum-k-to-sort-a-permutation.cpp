@@ -5,6 +5,7 @@ public:
         // vector<int>j = nums;
         // sort(j.begin(), j.end());
         vector<int>x;
+       
         for(int i = 0; i< nums.size(); i++)
         {
             if(nums[i] != i)
