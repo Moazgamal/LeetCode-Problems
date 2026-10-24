@@ -2,15 +2,13 @@ class Solution {
 public:
     int sortPermutation(vector<int>& nums) {
 
-        vector<int>j = nums;
-        sort(j.begin(), j.end());
+        // vector<int>j = nums;
+        // sort(j.begin(), j.end());
         vector<int>x;
-        for(int i = 0; i< j.size(); i++)
+        for(int i = 0; i< nums.size(); i++)
         {
-            if(nums[i] != j[i])
-            {
+            if(nums[i] != i)
                 x.push_back(nums[i]);
-            }
         }
         if(x.size() == 0)
             return 0; 
