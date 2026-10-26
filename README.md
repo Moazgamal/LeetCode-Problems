@@ -363,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -1555,6 +1556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3404-minimum-number-of-operations-to-satisfy-conditions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3404-minimum-number-of-operations-to-satisfy-conditions) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3558-find-a-safe-walk-through-a-grid) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3643-flip-square-submatrix-vertically) |
@@ -1943,6 +1945,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3558-find-a-safe-walk-through-a-grid) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
@@ -2155,6 +2158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2793-count-the-number-of-complete-components](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2793-count-the-number-of-complete-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3603-check-if-dfs-strings-are-palindromes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3603-check-if-dfs-strings-are-palindromes) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3720-minimize-the-maximum-edge-weight-of-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3720-minimize-the-maximum-edge-weight-of-graph) |
@@ -2306,6 +2310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1559-detect-cycles-in-2d-grid) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Meet in the Middle
 |  |
 | ------- |
