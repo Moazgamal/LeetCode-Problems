@@ -67,6 +67,10 @@ public:
                     }
                 }
             }
+            if(Anc[x.first].size() == 0 && graph[x.first].size() != st.size()-1)
+                return 0 ;
+
+
         }
         if(flag)
             return 2;
