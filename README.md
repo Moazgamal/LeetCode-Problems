@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1694-make-sum-divisible-by-p](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1694-make-sum-divisible-by-p) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [1719-number-of-ways-to-reconstruct-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1719-number-of-ways-to-reconstruct-a-tree) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1755-defuse-the-bomb](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1755-defuse-the-bomb) |
@@ -714,6 +715,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1694-make-sum-divisible-by-p](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1694-make-sum-divisible-by-p) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
+| [1719-number-of-ways-to-reconstruct-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1719-number-of-ways-to-reconstruct-a-tree) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1986-largest-color-value-in-a-directed-graph) |
@@ -1584,6 +1586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1552-build-an-array-with-stack-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1552-build-an-array-with-stack-operations) |
 | [1642-water-bottles](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1642-water-bottles) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1667-find-kth-bit-in-nth-binary-string) |
+| [1719-number-of-ways-to-reconstruct-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1719-number-of-ways-to-reconstruct-a-tree) |
 | [1769-get-maximum-in-generated-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1769-get-maximum-in-generated-array) |
 | [1914-cyclically-rotating-a-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1914-cyclically-rotating-a-grid) |
 | [1929-concatenation-of-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1929-concatenation-of-array) |
@@ -2036,6 +2039,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1382-balance-a-binary-search-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1719-number-of-ways-to-reconstruct-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1719-number-of-ways-to-reconstruct-a-tree) |
 | [2049-count-nodes-with-the-highest-score](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2049-count-nodes-with-the-highest-score) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -2305,6 +2309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [1719-number-of-ways-to-reconstruct-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/1719-number-of-ways-to-reconstruct-a-tree) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Union-Find
 |  |
