@@ -415,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 | [3913-partition-array-to-minimize-xor](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3913-partition-array-to-minimize-xor) |
 | [3934-coupon-code-validator](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3934-coupon-code-validator) |
+| [3988-create-grid-with-exactly-k-paths-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3988-create-grid-with-exactly-k-paths-i) |
 | [4003-longest-fibonacci-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4003-longest-fibonacci-subarray) |
 | [4010-maximize-alternating-sum-using-swaps](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4010-maximize-alternating-sum-using-swaps) |
 ## String
@@ -1141,6 +1142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3830-find-closest-person](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3830-find-closest-person) |
 | [3868-find-maximum-area-of-a-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3868-find-maximum-area-of-a-triangle) |
 | [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
+| [3988-create-grid-with-exactly-k-paths-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3988-create-grid-with-exactly-k-paths-i) |
 ## Sorting
 |  |
 | ------- |
@@ -1570,6 +1572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3849-equal-sum-grid-partition-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3849-equal-sum-grid-partition-i) |
 | [3870-minimum-moves-to-clean-the-classroom](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3870-minimum-moves-to-clean-the-classroom) |
 | [3884-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3884-minimum-absolute-difference-in-sliding-submatrix) |
+| [3988-create-grid-with-exactly-k-paths-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3988-create-grid-with-exactly-k-paths-i) |
 ## Simulation
 |  |
 | ------- |
@@ -2191,6 +2194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3631-count-k-reducible-numbers-less-than-n](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3631-count-k-reducible-numbers-less-than-n) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3813-smallest-palindromic-rearrangement-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3813-smallest-palindromic-rearrangement-ii) |
+| [3988-create-grid-with-exactly-k-paths-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3988-create-grid-with-exactly-k-paths-i) |
 ## Divide and Conquer
 |  |
 | ------- |
