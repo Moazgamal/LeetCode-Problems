@@ -247,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2478-longest-nice-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2478-longest-nice-subarray) |
 | [2479-meeting-rooms-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2479-meeting-rooms-iii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2488-count-subarrays-with-median-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2488-count-subarrays-with-median-k) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2527-count-subarrays-with-fixed-bounds) |
@@ -740,6 +741,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2434-design-a-number-container-system](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2479-meeting-rooms-iii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2479-meeting-rooms-iii) |
+| [2488-count-subarrays-with-median-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2488-count-subarrays-with-median-k) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2543-most-popular-video-creator](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2543-most-popular-video-creator) |
 | [2547-minimum-cost-to-split-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2547-minimum-cost-to-split-an-array) |
@@ -1338,6 +1340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2465-shifting-letters-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2465-shifting-letters-ii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2488-count-subarrays-with-median-k](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2488-count-subarrays-with-median-k) |
 | [2625-increment-submatrices-by-one](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2625-increment-submatrices-by-one) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2906-construct-product-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2906-construct-product-matrix) |
