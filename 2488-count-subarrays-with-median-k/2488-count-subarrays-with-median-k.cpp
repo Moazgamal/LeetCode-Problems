@@ -3,7 +3,6 @@ public:
     int countSubarrays(vector<int>& nums, int k) {
 
         unordered_map<int,int>mp1;
-        unordered_map<int,int>mp2;
         int i = 0;
         for(int j = 0; j < nums.size(); j++)
         {
