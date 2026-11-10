@@ -386,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3681-maximum-area-rectangle-with-point-constraints-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3681-maximum-area-rectangle-with-point-constraints-i) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3686-count-beautiful-splits-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3686-count-beautiful-splits-in-an-array) |
+| [3693-climbing-stairs-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3693-climbing-stairs-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3719-longest-balanced-subarray-i) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
@@ -1503,6 +1504,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3649-minimum-time-to-break-locks-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3649-minimum-time-to-break-locks-i) |
 | [3686-count-beautiful-splits-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3686-count-beautiful-splits-in-an-array) |
+| [3693-climbing-stairs-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3693-climbing-stairs-ii) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3772-maximum-subgraph-score-in-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3772-maximum-subgraph-score-in-a-tree) |
