@@ -279,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2716-prime-subtraction-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2716-prime-subtraction-operation) |
 | [2751-robot-collisions](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2751-robot-collisions) |
+| [2763-sum-of-imbalance-numbers-of-all-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2763-sum-of-imbalance-numbers-of-all-subarrays) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2778-sum-of-squares-of-special-elements) |
@@ -758,6 +759,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2685-first-completely-painted-row-or-column](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2685-first-completely-painted-row-or-column) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [2763-sum-of-imbalance-numbers-of-all-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2763-sum-of-imbalance-numbers-of-all-subarrays) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2847-find-maximum-number-of-string-pairs](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2847-find-maximum-number-of-string-pairs) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2856-count-complete-subarrays-in-an-array) |
@@ -1888,6 +1890,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2202-sum-of-k-mirror-numbers) |
+| [2763-sum-of-imbalance-numbers-of-all-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2763-sum-of-imbalance-numbers-of-all-subarrays) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2778-sum-of-squares-of-special-elements) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [2998-count-symmetric-integers](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2998-count-symmetric-integers) |
