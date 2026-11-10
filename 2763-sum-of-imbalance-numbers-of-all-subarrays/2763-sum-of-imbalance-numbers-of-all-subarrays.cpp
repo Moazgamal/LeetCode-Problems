@@ -12,7 +12,6 @@ public:
             int maxi = nums[i];
             int neeDeD = 0; 
             int collecteD = 0; 
-            bool once = false;
             while(j< nums.size() && nums[j]==nums[i])
             {
                 len++;
@@ -32,13 +31,12 @@ public:
             {
                 i = i + len; continue;
             } 
-            cout<<i<<" "<<nums[j]<<"\n";
+            
             mp[nums[j]]=true;
             collecteD++;
             mini = min(mini, nums[j]);
             maxi = max(maxi, nums[j]);
             neeDeD = maxi-mini-1;
-            cout<<maxi<<" maxi "<<mini<<" \n";
             if(neeDeD > 0)
                 ans += (collecteD*len); 
 
