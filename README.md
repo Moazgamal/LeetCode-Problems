@@ -330,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3321-type-of-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3321-type-of-triangle) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
+| [3364-minimum-positive-sum-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3364-minimum-positive-sum-subarray) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3379-transformed-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3379-transformed-array) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
@@ -853,6 +854,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3364-minimum-positive-sum-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3364-minimum-positive-sum-subarray) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3483-alternating-groups-ii) |
@@ -1355,6 +1357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2906-construct-product-matrix](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2906-construct-product-matrix) |
 | [3250-find-the-count-of-monotonic-pairs-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3250-find-the-count-of-monotonic-pairs-i) |
 | [3265-maximum-good-subarray-sum](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3265-maximum-good-subarray-sum) |
+| [3364-minimum-positive-sum-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3364-minimum-positive-sum-subarray) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3427-special-array-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3427-special-array-ii) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3432-count-partitions-with-even-sum-difference) |
