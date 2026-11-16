@@ -464,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-number-of-matching-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0792-number-of-matching-subsequences) |
 | [0796-rotate-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0796-rotate-string) |
 | [0812-rotate-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0812-rotate-string) |
+| [0828-count-unique-characters-of-all-substrings-of-a-given-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0828-count-unique-characters-of-all-substrings-of-a-given-string) |
 | [0868-push-dominoes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0868-push-dominoes) |
 | [0940-distinct-subsequences-ii](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0940-distinct-subsequences-ii) |
 | [0944-delete-columns-to-make-sorted](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0944-delete-columns-to-make-sorted) |
@@ -685,6 +686,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0768-partition-labels) |
 | [0792-number-of-matching-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0792-number-of-matching-subsequences) |
 | [0797-rabbits-in-forest](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0797-rabbits-in-forest) |
+| [0828-count-unique-characters-of-all-substrings-of-a-given-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0828-count-unique-characters-of-all-substrings-of-a-given-string) |
 | [0840-magic-squares-in-grid](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0840-magic-squares-in-grid) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0874-walking-robot-simulation](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0874-walking-robot-simulation) |
@@ -1438,6 +1440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0792-number-of-matching-subsequences](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0792-number-of-matching-subsequences) |
 | [0799-champagne-tower](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0799-champagne-tower) |
+| [0828-count-unique-characters-of-all-substrings-of-a-given-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0828-count-unique-characters-of-all-substrings-of-a-given-string) |
 | [0834-sum-of-distances-in-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0834-sum-of-distances-in-tree) |
 | [0868-push-dominoes](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0868-push-dominoes) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Moazgamal/LeetCode-Problems/tree/master/0934-bitwise-ors-of-subarrays) |
