@@ -426,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3988-create-grid-with-exactly-k-paths-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3988-create-grid-with-exactly-k-paths-i) |
 | [4003-longest-fibonacci-subarray](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4003-longest-fibonacci-subarray) |
 | [4010-maximize-alternating-sum-using-swaps](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4010-maximize-alternating-sum-using-swaps) |
+| [4034-minimum-bishop-moves-to-reach-target](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4034-minimum-bishop-moves-to-reach-target) |
 ## String
 |  |
 | ------- |
@@ -1162,6 +1163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3868-find-maximum-area-of-a-triangle](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3868-find-maximum-area-of-a-triangle) |
 | [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
 | [3988-create-grid-with-exactly-k-paths-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/3988-create-grid-with-exactly-k-paths-i) |
+| [4034-minimum-bishop-moves-to-reach-target](https://github.com/Moazgamal/LeetCode-Problems/tree/master/4034-minimum-bishop-moves-to-reach-target) |
 ## Sorting
 |  |
 | ------- |
