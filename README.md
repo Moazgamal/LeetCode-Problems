@@ -261,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2561-rearranging-fruits](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2561-rearranging-fruits) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2566-number-of-unequal-triplets-in-array) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2586-longest-square-streak-in-an-array) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2600-maximum-tastiness-of-candy-basket) |
@@ -1226,6 +1227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2554-minimum-total-distance-traveled](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2554-minimum-total-distance-traveled) |
 | [2561-rearranging-fruits](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2561-rearranging-fruits) |
 | [2566-number-of-unequal-triplets-in-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2566-number-of-unequal-triplets-in-array) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2586-longest-square-streak-in-an-array) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2600-maximum-tastiness-of-candy-basket) |
@@ -1786,6 +1788,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2509-minimize-xor](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2509-minimize-xor) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2561-rearranging-fruits](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2561-rearranging-fruits) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Moazgamal/LeetCode-Problems/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
